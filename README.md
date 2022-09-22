@@ -23,3 +23,7 @@ Plus:
 16. [my own old neovim config](https://github.com/Ziqi-Yang/.nvim)
 
 **self-notice**: `clash` config not included
+
+## Installation
+
+[Guide](./installation.md)

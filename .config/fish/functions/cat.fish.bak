@@ -1,0 +1,4 @@
+function cat
+    cat_for_fish_script_use $argv
+    xclip -selection clipboard $argv
+end

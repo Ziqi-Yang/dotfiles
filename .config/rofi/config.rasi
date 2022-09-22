@@ -1,0 +1,5 @@
+configuration {
+ modi: "window,drun,ssh,combi";
+ combi-modi: "window,drun,ssh";
+ }
+@theme "rounded-nord-dark"

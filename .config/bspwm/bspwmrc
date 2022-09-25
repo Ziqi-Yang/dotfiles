@@ -19,5 +19,8 @@ feh --bg-center $HOME/Pictures/background/1.jpg
 picom &
 $HOME/.config/polybar/launch.sh
 dunst &
-$HOME/.config/bspwm/autostart.sh
+nm-applet &
 udiskie &
+fcitx5 &
+/home/zarkli/Public/Clash_for_Windows/cfw & 
+# kdeconnect-indicator &

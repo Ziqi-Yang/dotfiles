@@ -3,6 +3,8 @@
 OS: `Arch Linux`  
 Windows Manager: `Bspwm`  
 
+我的[dotfiles](https://github.com/Ziqi-Yang/dotfiles)
+
 本教程还包括安装系统后续问题的修复  
 youtube上有个非常好的视频教程[bspwm: How To "Rice" Your Desktop](https://www.youtube.com/watch?v=HxbhkkfaVuo), 但不是从头开始的  
 
@@ -231,7 +233,7 @@ sudo pacman -S udisks2 udiskie
 echo 'udiskie &' > ~/.config/bspwm/bspwmrc
 ```
 
-### 安装以及ranger(可选)
+### ranger安装以及配置(可选)
 
 ```shell
 sudo pacman -S ranger
@@ -388,6 +390,10 @@ sudo pacman -S qt5ct
 
 (对于高分辨率屏幕可以自己二次修改样式表来放大)
 
+#### dunst 主题
+
+复制我的[配置](https://github.com/Ziqi-Yang/dotfiles/tree/main/.config/dunst)
+
 #### 图标主题
 
 下载[Deepin Icons 2022](https://store.kde.org/p/1678986/)   
@@ -398,11 +404,4 @@ sudo pacman -S qt5ct
 
 安装[GRUB-Theme](https://github.com/13atm01/GRUB-Theme)
 
-### lightdm-theme
-[lightdm-webkit2-theme-glorious](https://github.com/manilarome/lightdm-webkit2-theme-glorious)
-
-### usb automatic mount
-
-[tutorial here](https://wiki.archlinux.org/title/ranger#External_drives)
-(install udisks then install [udiskie](https://github.com/coldfix/udiskie))
 

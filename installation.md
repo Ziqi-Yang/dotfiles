@@ -66,7 +66,7 @@ sudo systemctl enable lxdm
 sudo reboot
 ```
 记得在lxdm的界面将session从default改为bspwm(可选列表内容也就是`/usr/share/xsessions`里的session名称, 而`default`并没有在目录里也会显示)  
-重启机器了后之后可以打开浏览到本页面复制粘贴命令运行  
+重启机器了后之后可以打开浏览器到本页面复制粘贴命令运行  
 使用`xrandr --dpi 192` 来临时设置分辨率(不过这种方法像firefox等一些应用不会改变行为), 之后会有提及永久设置的方法  
 连接wifi：[NetworkManager cli版使用教程](https://huataihuang.gitbooks.io/cloud-atlas/content/os/linux/redhat/system_administration/network/networkmanager_nmcli.html)  
 这里也简单列下命令  
@@ -109,7 +109,6 @@ vim ~/.pam_environment
 echo 'fcitx5 &' >> ~/.config/bspwm/bspwmrc # 添加开机自启
 ```
 
-(仅对我个人)安装[alacritty](https://github.com/alacritty/alacritty)
 
 ### 安装窗口合成器
 
@@ -165,7 +164,14 @@ echo 'dunst &' > ~/.config/bspwm/bspwmrc # 开机自启
 
 ## 安装后续工作
 
-### 安装基础软件
+### 安装fish shell (可选)
+
+```shell
+sudo pacman -S fish
+chsh -s /bin/fish
+```
+
+### 安装基础软件(2)
 
 ```shell
 yay -S google-chrome
@@ -173,13 +179,14 @@ sudo pacman -S xclip mpg123 # (optional)我的fish自定义函数需要
 sudo pacman -S dolphin wget
 sudo pacman -S ark p7-zip gzip # ark can decompress 7z file with the support of p7zip(7z command), gzip is required during alacritty installation
 
-# 安装nodejs 和 npm
+# 安装nodejs 和 npm, 之所以不用nvm是因为nvm对fish不友好，而且我也不用node开发
 sudo pacman -S nodejs npm
 # 解决npm安装package需要root权限问题(安装到本地的~/.npm-global目录)
 mkdir ~/.npm-global 
 npm config set prefix '~/.npm-global'
 # then add ~/.npm-global/bin to path
 ```
+(仅对我个人)安装[alacritty](https://github.com/alacritty/alacritty)
 
 ### polybar 基础配置
 
@@ -231,13 +238,6 @@ sudo pacman -S ranger
 ```
 对于使用我的ranger配置文件，需要参考[README](./.config/ranger/README.md)
 
-
-### 安装fish shell (可选)
-
-```shell
-sudo pacman -S fish
-chsh -s /bin/fish
-```
 
 ### 使用lightdm作为display manager
 

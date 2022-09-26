@@ -1,13 +1,14 @@
-# 从零开始的安装教程
+# 从零开始的Bspwm安装与配置教程
 
-OS: Arch Linux  
-Windows Manager: Bspwm
+OS: `Arch Linux`  
+Windows Manager: `Bspwm`  
+
+本教程还包括安装系统后续问题的修复  
 
 ## 预备
 
 1. Recommand Reading:
   - [BSPWM vs dwm , i3 , awesome](https://zhuanlan.zhihu.com/p/273461212)
-  - 
 
 2. 参照[archlinux简明指南](https://arch.icekylin.online/) （这个教程是基于[Arch Linux 安装使用教程](https://archlinuxstudio.github.io/ArchLinuxTutorial/#/)的，
 如果哪天网站挂了可以直接去看这个地址, 或者到[其github repo里](https://github.com/NakanoMikuOrg/arch-guide)）, 请完成[archlinux 基础安装
@@ -35,6 +36,7 @@ sudo pacman -S rofi qterminal # rofi 应用程序启动器, 先安装qterminal�
 ```
 
 然后修改`~/.config/sxhkd/sxhkdrc`文件里的部分内容(寻找对应内容进行更改)为:
+
 ```plain-text
 super + Return
 	qterminal
@@ -160,10 +162,23 @@ echo 'dunst &' > ~/.config/bspwm/bspwmrc # 开机自启
 ```
 
 
-### 改变
-
-
 ## 安装后续工作
+
+### 安装基础软件
+
+```shell
+yay -S google-chrome
+sudo pacman -S xclip mpg123 # (optional)我的fish自定义函数需要
+sudo pacman -S dolphin wget
+sudo pacman -S ark p7-zip gzip # ark can decompress 7z file with the support of p7zip(7z command), gzip is required during alacritty installation
+
+# 安装nodejs 和 npm
+sudo pacman -S nodejs npm
+# 解决npm安装package需要root权限问题(安装到本地的~/.npm-global目录)
+mkdir ~/.npm-global 
+npm config set prefix '~/.npm-global'
+# then add ~/.npm-global/bin to path
+```
 
 ### 安装gpu驱动
 见[archlinux 显卡驱动](https://arch.icekylin.online/rookie/graphic-driver.html)  
@@ -175,6 +190,21 @@ sudo pacman -S nvidia nvidia-settings
 yay -S optimus-manager optimus-manager-qt # can't open optimus-manager-qt ?
 ```
 
+### u盘自动挂载
+
+```shell
+sudo pacman -S udisks2 udiskie
+echo 'udiskie &' > ~/.config/bspwm/bspwmrc
+```
+
+### 安装以及ranger(可选)
+
+```shell
+sudo pacman -S ranger
+```
+对于使用我的ranger配置文件，需要参考[README](./.config/ranger/README.md)
+
+
 ### 安装fish shell (可选)
 
 ```shell
@@ -185,21 +215,23 @@ chsh -s /bin/fish
 ### 使用lightdm作为display manager
 
 ```shell
-# don't use lightdm-webkit2-greeter, (though beautiful, many error may harsh your life)
+# 不要使用 lightdm-webkit2-greeter
+# 尽管 lightdm-webkit2-greeter 主题很漂亮，但是貌似开发在2018年就停止来, 而且可能会遇到登陆错误（session of (username) is null), 并且速度也是问题
 sudo pacman -S lightdm lightdm-gtk-greeter lightdm-slick-greeter
 sudo systemctl disable lxdm
 sudo systemctl enable lightdm
 # 使用 lightdm-slick-greeter 作为lightdm 的greeter:
 # change line in the part [Seat:*]: 
 # greeter-session=lightdm-slick-greeter
+```
 
-# sudo nvim /etc/lightdm/slick-greeter.conf # 默认不存在这个文件，直接创建
-# file content(just a simple config, please change the background image path):
+#### lightdm-slick-greeter 简单配置
+编辑`/etc/lightdm/slick-greeter.conf`(默认不存在这个文件，直接创建):
+```shell
 # [Greeter]
 # background=/usr/share/backgrounds/1.jpg
-# content end =====
-# * when encounter error, try other greeters, or use another display manager
 ```
+当lightdm遇到错误的时候可以切换lightdm greeter或者切换display manager。（之前已经装了lxdm)
 
 
 ### 系统修复
@@ -211,9 +243,83 @@ sudo systemctl enable lightdm
 echo 'Xft.dpi:192' >> ~/.Xresources 
 ```
 
-4. dual system local time is not consistent: https://sspai.com/post/55983
+#### 亮度设置
+
+```shell
+# brightness control
+sudo pacman -S brightnessctl
+```
+在`sxhkdrc`中配置亮度按键（X环境中可以使用`xev`查看按键)
+
+```plain-text
+# Brightness control
+XF86MonBrightness{Up,Down}
+	brightnessctl s 10%{+,-}
+```
+
+#### 无声音问题
+
+```shell
+sudo pacman -S pulseaudio alsa-utils pulseaudio-alsa
+pulseaudio --start # 然后重启
+
+```
+如果还是没声音(很有可能是硬件较新，参考[Advanced_Linux_Sound_Architecture#ALSA_firmware - Arch Wiki](https://wiki.archlinux.org/title/Advanced_Linux_Sound_Architecture#ALSA_firmware))
+```shell
+sudo pacman -S sof-firmware alsa-ucm-conf 
+```
+在`sxhkdrc`中配置音量键
+```plain-text
+# Audio
+XF86AudioRaiseVolume
+	amixer set Master 5%+
+XF86AudioLowerVolume
+	amixer set Master 5%-
+XF86AudioMute
+	amixer set Master {mute, unmute}
+```
+
+#### 触摸板优化
+
+比如点击只需要轻触即可，不需要按下  
+参考：https://blog.csdn.net/qq_41932665/article/details/120855175
+
+```shell
+sudo pacman -S libinput xf86-input-synaptics
+sudo cp /usr/share/X11/xorg.conf.d/70-synaptics.conf /etc/X11/xorg.conf.d
+```
+然后编辑 `/etc/X11/xorg.conf.d/70-synaptics.conf` 文件
+```plain-text
+Section "InputClass"
+	Identifier "touchpad"
+	Driver "synaptics"
+	MatchIsTouchpad "on"
+	Option "TapButton1" "1"
+	Option "TapButton2" "3"
+	Option "TapButton3" "0"
+	Option "VertEdgeScroll" "on"
+	Option "VertTwoFingerScroll" "on"
+	Option "HorizEdgeScroll" "on"
+	Option "HorizTwoFingerScroll" "on"
+	Option "VertScrollDelta" "-112"
+	Option "HorizScrollDelta" "-114"
+	Option "MaxTapTime" "125"
+EndSection
+```
+
+#### 双系统显示时间不一致问题
+这里说的是windows和linux双系统，其他的双（多）系统原因基本类似
+
+参考：[Linux Windows 双系统时间不一致](https://sspai.com/post/55983)
 
 ### 系统美化
+
+### 安装FiraCode Nerd Font字体
+
+```shell
+yay -S nerd-fonts-fira-code
+```
+github 地址 : [nerd font](https://github.com/ryanoasis/nerd-fonts) 
 
 #### 改变gtk主题
 
@@ -247,32 +353,23 @@ sudo pacman -S qt5ct
 
 #### fcitx 主题
 
+使用[fcitx5-nord](https://github.com/ayamir/fcitx5-nord)
 
+#### rofi 主题美化
 
+安装[rofi themes collections](https://github.com/lr-tech/rofi-themes-collection)
 
-## ranger
-go to [readme](./.config/ranger/README.md)
+(对于高分辨率屏幕可以自己二次修改样式表来放大)
 
-## rofi
+#### 图标主题
 
-please install [rofi themes collections](https://github.com/lr-tech/rofi-themes-collection) first
-(should some changes in the theme css to make the display box bigger)
+下载[Deepin Icons 2022](https://store.kde.org/p/1678986/)   
+解压后将其中的两个主题放到`~/.local/share/icons/`目录下  
+可以使用`lxappearance` 和 `qt5ct`来应用图标  
 
-## Other
+#### GRUB主题
 
-### Fonts
-
-[nerd font](https://github.com/ryanoasis/nerd-fonts) choosing fira code patched(
-can be direcrctly installed from aur)  
-
-### Icons
-
-[Deepin Icons 2022](https://store.kde.org/p/1678986/)
-decompress it and copy them (light and dark themes) into the `~/.local/share/icons/` folder
-
-### GRUB themes
-
-[GRUB-Theme](https://github.com/13atm01/GRUB-Theme)
+安装[GRUB-Theme](https://github.com/13atm01/GRUB-Theme)
 
 ### lightdm-theme
 [lightdm-webkit2-theme-glorious](https://github.com/manilarome/lightdm-webkit2-theme-glorious)

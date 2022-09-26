@@ -4,6 +4,7 @@ OS: `Arch Linux`
 Windows Manager: `Bspwm`  
 
 本教程还包括安装系统后续问题的修复  
+youtube上有个非常好的视频教程[bspwm: How To "Rice" Your Desktop](https://www.youtube.com/watch?v=HxbhkkfaVuo), 但不是从头开始的  
 
 ## 预备
 
@@ -180,11 +181,37 @@ npm config set prefix '~/.npm-global'
 # then add ~/.npm-global/bin to path
 ```
 
+### polybar 基础配置
+
+对于一些符号的支持以及对于中文字体的支持需要更改字体  
+这里我使用了`FiraCode Nerd Font`(不支持中文)
+
+```shell
+font-0 = FiraCode Nerd Font:size=16;0
+```
+
+#### 添加系统托盘
+取消`tray-position = right`的注释  
+
+```ini
+tray-position=right
+```
+
+添加wifi图标
+```shell
+echo `nm-applet &` > ~/.config/bspwm/bspwmrc
+```
+
+#### 其他配置参考
+
+这里说下对于电池电量的显示： [Module:-battery](https://github.com/polybar/polybar/wiki/Module:-battery), 注意使用nerd font  
+
+
 ### 安装gpu驱动
 见[archlinux 显卡驱动](https://arch.icekylin.online/rookie/graphic-driver.html)  
 
 ```shell
-# for me: intel & nvidia (neofetch screenshot) (haven't open 32 bit program support)
+# 对我来说: intel & nvidia 并且我系统并没有开启对32位的支持
 sudo pacman -S mesa vulkan-intel
 sudo pacman -S nvidia nvidia-settings
 yay -S optimus-manager optimus-manager-qt # can't open optimus-manager-qt ?

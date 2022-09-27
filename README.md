@@ -25,3 +25,5 @@ Plus:
 **self-notice**: `clash` config not included
 
 ## [Installation](./installation.md)
+
+## [Additional Installation](./additinoal_installation.md)

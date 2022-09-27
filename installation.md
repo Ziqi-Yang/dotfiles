@@ -177,6 +177,7 @@ chsh -s /bin/fish
 
 ```bash
 yay -S google-chrome
+sudo pacman -S ripgrep htop neofetch
 sudo pacman -S xclip mpg123 # (optional)我的fish自定义函数需要
 sudo pacman -S dolphin wget
 sudo pacman -S ark p7-zip gzip # ark can decompress 7z file with the support of p7zip(7z command), gzip is required during alacritty installation

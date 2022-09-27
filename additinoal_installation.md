@@ -54,3 +54,10 @@ sudo pacman -S kdeconnect
 kdeconnect-app # to pair with your phone first
 echo "kdeconnect-indicator &" >> ~/.config/bspwm/bspwmrc
 ```
+
+## redshift
+
+```bash
+sudo pacman -S redshift
+```
+then copy my config folder into ~/.config

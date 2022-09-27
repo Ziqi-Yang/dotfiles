@@ -23,4 +23,6 @@ nm-applet &
 udiskie &
 fcitx5 &
 /home/zarkli/Public/Clash_for_Windows/cfw & 
-# kdeconnect-indicator &
+kdeconnect-indicator &
+megasync &
+redshift &

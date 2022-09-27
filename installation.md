@@ -22,7 +22,7 @@ youtube上有个非常好的视频教程[bspwm: How To "Rice" Your Desktop](http
 
 ### 基础安装
 
-```shell
+```bash
 sudo pacman -S networkmanager network-manager-applet linux-headers git xdg-user-dirs
 sudo systemctl enable NetworkManager
 
@@ -49,7 +49,7 @@ super + space
 ```
 然后安装几个基本的包, 之后重启系统就可以按 super(win) + return(enter) 打开terminal, super + space 打开rofi程序启动器
 
-```shell
+```bash
 sudo pacman -S ntfs-3g # 使系统可以识别 NTFS 格式的硬盘
 sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei # 安装几个开源中文字体。一般装上文泉驿就能解决大多 wine 应用中文方块的问题
 sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra # 安装谷歌开源字体及表情
@@ -62,7 +62,7 @@ sudo pacman -S gwenview # 图片查看器
 
 用于进入不同的Xsession(可以理解为桌面环境或者wm)  
 
-```shell
+```bash
 sudo pacman -S lxdm # 测试发现lightdm貌似没用，lxdm可以使用? 先安装lxdm, 对后续系统故障也有好处
 sudo systemctl enable lxdm
 sudo reboot
@@ -73,7 +73,7 @@ sudo reboot
 连接wifi：[NetworkManager cli版使用教程](https://huataihuang.gitbooks.io/cloud-atlas/content/os/linux/redhat/system_administration/network/networkmanager_nmcli.html)  
 这里也简单列下命令  
 
-```shell
+```bash
 sudo nmcli device wifi list # 列出(先scan)可选wifi
 sudo nmcli device wifi connect bjut_wifi # 连接没密码的
 sudo nmcli device wifi connect Leonardo password 12345678  # 连接有密码的
@@ -81,7 +81,7 @@ sudo nmcli device wifi connect Leonardo password 12345678  # 连接有密码的
 
 ### 设置壁纸
 
-```shell
+```bash
 sudo pacman -S feh
 # 如 feh --bg-center $HOME/Pictures/background/1.jpg
 # 在bspwm中添加命令来开机自启
@@ -89,7 +89,7 @@ sudo pacman -S feh
 
 ### 安装基础软件(1)
 
-```shell
+```bash
 # 记得根据预备中说的文档配置archlinuxcn源
 sudo pacman -S archlinuxcn-keyring # cn 源中的签名（archlinuxcn-keyring 在 archlinuxcn）
 sudo pacman -S yay # yay 命令可以让用户安装 AUR 中的软件（yay 在 archlinuxcn）
@@ -117,19 +117,19 @@ echo 'fcitx5 &' >> ~/.config/bspwm/bspwmrc # 添加开机自启
 窗口合成器可以使窗口透明，阴影以及添加动效  
 这里安装picom   
 
-```shell
+```bash
 sudo pacman -S picom
 mkdir ~/.config/picom
 cd ~/.config/picom/
 cp /usr/share/doc/picom/picom.conf.example ./picom.conf # 使用默认配置
 # 如果没有nvidia gpu, 你应该关闭配置文件中的`vsync`选项
 # vim ./picom.conf (转到行vsync = true, 改变其值为false)
-echo 'picom &' > ~/.config/bspwm/bspwmrc # 开机自启
+echo 'picom &' >> ~/.config/bspwm/bspwmrc # 开机自启
 ```
 
 ### 安装polybar
 
-```shell
+```bash
 sudo pacman -S polybar
 mkdir /home/zarkli/.config/polybar
 cd /home/zarkli/.config/polybar/
@@ -138,7 +138,7 @@ cp /usr/share/doc/polybar/examples/config.ini ./
 (为polybar)添加启动脚本(参考[Polybar - Arch Wiki](https://wiki.archlinux.org/title/Polybar#Running_with_a_window_manager))  
 编辑(创建)`$HOME/.config/polybar/launch.sh`文件: 
 
-```shell
+```bash
 #!/bin/bash
 
 # Terminate already running bar instances
@@ -157,25 +157,25 @@ echo "Polybar launched..."
 
 ### 安装通知管理器
 
-```shell
+```bash
 sudo pacman -S dunst
 cp /etc/dunst/dunstrc /home/zarkli/.config/dunst/
-echo 'dunst &' > ~/.config/bspwm/bspwmrc # 开机自启
+echo 'dunst &' >> ~/.config/bspwm/bspwmrc # 开机自启
 ```
 
 
 ## 安装后续工作
 
-### 安装fish shell (可选)
+### 安装fish bash (可选)
 
-```shell
+```bash
 sudo pacman -S fish
 chsh -s /bin/fish
 ```
 
 ### 安装基础软件(2)
 
-```shell
+```bash
 yay -S google-chrome
 sudo pacman -S xclip mpg123 # (optional)我的fish自定义函数需要
 sudo pacman -S dolphin wget
@@ -195,7 +195,7 @@ npm config set prefix '~/.npm-global'
 对于一些符号的支持以及对于中文字体的支持需要更改字体  
 这里我使用了`FiraCode Nerd Font`(不支持中文)
 
-```shell
+```bash
 font-0 = FiraCode Nerd Font:size=16;0
 ```
 
@@ -207,8 +207,8 @@ tray-position=right
 ```
 
 添加wifi图标
-```shell
-echo `nm-applet &` > ~/.config/bspwm/bspwmrc
+```bash
+echo `nm-applet &` >> ~/.config/bspwm/bspwmrc
 ```
 
 #### 其他配置参考
@@ -219,7 +219,7 @@ echo `nm-applet &` > ~/.config/bspwm/bspwmrc
 ### 安装gpu驱动
 见[archlinux 显卡驱动](https://arch.icekylin.online/rookie/graphic-driver.html)  
 
-```shell
+```bash
 # 对我来说: intel & nvidia 并且我系统并没有开启对32位的支持
 sudo pacman -S mesa vulkan-intel
 sudo pacman -S nvidia nvidia-settings
@@ -228,14 +228,14 @@ yay -S optimus-manager optimus-manager-qt # can't open optimus-manager-qt ?
 
 ### u盘自动挂载
 
-```shell
+```bash
 sudo pacman -S udisks2 udiskie
-echo 'udiskie &' > ~/.config/bspwm/bspwmrc
+echo 'udiskie &' >> ~/.config/bspwm/bspwmrc
 ```
 
 ### ranger安装以及配置(可选)
 
-```shell
+```bash
 sudo pacman -S ranger
 ```
 对于使用我的ranger配置文件，需要参考[README](./.config/ranger/README.md)
@@ -243,7 +243,7 @@ sudo pacman -S ranger
 
 ### 使用lightdm作为display manager
 
-```shell
+```bash
 # 不要使用 lightdm-webkit2-greeter
 # 尽管 lightdm-webkit2-greeter 主题很漂亮，但是貌似开发在2018年就停止来, 而且可能会遇到登陆错误（session of (username) is null), 并且速度也是问题
 sudo pacman -S lightdm lightdm-gtk-greeter lightdm-slick-greeter
@@ -256,7 +256,7 @@ sudo systemctl enable lightdm
 
 #### lightdm-slick-greeter 简单配置
 编辑`/etc/lightdm/slick-greeter.conf`(默认不存在这个文件，直接创建):
-```shell
+```bash
 # [Greeter]
 # background=/usr/share/backgrounds/1.jpg
 ```
@@ -267,14 +267,14 @@ sudo systemctl enable lightdm
 
 #### 高分辨率屏幕设置
 见[HiDPI - Arch Wiki](https://wiki.archlinux.org/title/HiDPI#Enlightenment) , [Xorg - Arch Wiki](https://wiki.archlinux.org/title/xorg#Setting_DPI_manually) 也有相关部分。
-```shell
+```bash
 # 192是96(默认)的两倍，也就是放大2倍
 echo 'Xft.dpi:192' >> ~/.Xresources 
 ```
 
 #### 亮度设置
 
-```shell
+```bash
 # brightness control
 sudo pacman -S brightnessctl
 ```
@@ -288,13 +288,13 @@ XF86MonBrightness{Up,Down}
 
 #### 无声音问题
 
-```shell
+```bash
 sudo pacman -S pulseaudio alsa-utils pulseaudio-alsa
 pulseaudio --start # 然后重启
 
 ```
 如果还是没声音(很有可能是硬件较新，参考[Advanced_Linux_Sound_Architecture#ALSA_firmware - Arch Wiki](https://wiki.archlinux.org/title/Advanced_Linux_Sound_Architecture#ALSA_firmware))
-```shell
+```bash
 sudo pacman -S sof-firmware alsa-ucm-conf 
 ```
 在`sxhkdrc`中配置音量键
@@ -313,7 +313,7 @@ XF86AudioMute
 比如点击只需要轻触即可，不需要按下  
 参考：https://blog.csdn.net/qq_41932665/article/details/120855175
 
-```shell
+```bash
 sudo pacman -S libinput xf86-input-synaptics
 sudo cp /usr/share/X11/xorg.conf.d/70-synaptics.conf /etc/X11/xorg.conf.d
 ```
@@ -345,7 +345,7 @@ EndSection
 
 ### 安装FiraCode Nerd Font字体
 
-```shell
+```bash
 yay -S nerd-fonts-fira-code
 ```
 github 地址 : [nerd font](https://github.com/ryanoasis/nerd-fonts) 
@@ -354,7 +354,7 @@ github 地址 : [nerd font](https://github.com/ryanoasis/nerd-fonts)
 
 1. 安装主题`Layan-gtk-theme`
 
-```shell
+```bash
 cd ./Downloads/
 git clone https://github.com/vinceliuice/Layan-gtk-theme.git
 cd ./Layan-gtk-theme/
@@ -363,7 +363,7 @@ cd ./Layan-gtk-theme/
 ./install.sh
 ```
 2. 安装GUI般gkt主题设置工具lxappearance
-```shell
+```bash
 sudo pacman -S lxappearance # use GUI apps to change the gtk theme (archwiki link: ...)
 ```
 
@@ -371,7 +371,7 @@ sudo pacman -S lxappearance # use GUI apps to change the gtk theme (archwiki lin
 
 像 `dolphin`, `qterminal` 这些应用就是使用qt的  
 
-```shell
+```bash
 sudo pacman -S qt5ct
 # add QT_QPA_PLATFORMTHEME environment vairable (val: qt5ct)
 # sudo vim /etc/environment

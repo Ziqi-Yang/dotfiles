@@ -39,6 +39,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 
 ```bash
 sudo pacman -S megasync
+echo 'megasync &' >> ~/.config/bspwm/bspwmrc
 ```
 
 ## poweroff without sudo

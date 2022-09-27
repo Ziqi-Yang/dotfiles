@@ -11,7 +11,7 @@ function fish_prompt --description 'Write out the prompt'
     echo -n $USER
     set_color normal
 
-    echo -n ㉿
+    echo -n " "
 
     # Host
     set_color -o red 

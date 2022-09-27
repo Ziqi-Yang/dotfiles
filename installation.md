@@ -187,6 +187,8 @@ sudo pacman -S nodejs npm
 mkdir ~/.npm-global 
 npm config set prefix '~/.npm-global'
 # then add ~/.npm-global/bin to path
+
+npm install -g neovim # only for neovim user
 ```
 (仅对我个人)安装[alacritty](https://github.com/alacritty/alacritty)
 

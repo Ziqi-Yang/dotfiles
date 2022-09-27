@@ -45,3 +45,12 @@ echo 'megasync &' >> ~/.config/bspwm/bspwmrc
 ## poweroff without sudo
 
 https://askubuntu.com/questions/168879/shutdown-from-terminal-without-entering-password  
+
+
+## kdeconnect
+
+```bash
+sudo pacman -S kdeconnect
+kdeconnect-app # to pair with your phone first
+echo "kdeconnect-indicator &" >> ~/.config/bspwm/bspwmrc
+```

@@ -1,6 +1,5 @@
 # Additinoal Installation
 
-
 ## python & plugins
 
 ```bash
@@ -61,3 +60,9 @@ echo "kdeconnect-indicator &" >> ~/.config/bspwm/bspwmrc
 sudo pacman -S redshift
 ```
 then copy my config folder into ~/.config
+
+## flameshot
+
+```bash
+sudo pacman -S flameshot
+```

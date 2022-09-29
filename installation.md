@@ -15,7 +15,16 @@ youtube上有个非常好的视频教程[bspwm: How To "Rice" Your Desktop](http
 
 2. 参照[archlinux简明指南](https://arch.icekylin.online/) （这个教程是基于[Arch Linux 安装使用教程](https://archlinuxstudio.github.io/ArchLinuxTutorial/#/)的，
 如果哪天网站挂了可以直接去看这个地址, 或者到[其github repo里](https://github.com/NakanoMikuOrg/arch-guide)）, 请完成[archlinux 基础安装
-](https://arch.icekylin.online/rookie/basic-install.html)的全部部分以及[桌面环境与常用应用安装](https://arch.icekylin.online/rookie/desktop-env-and-app.html)的非桌面环境部分(请自己判断哪些需要, 后文可能会有部分重复)
+](https://arch.icekylin.online/rookie/basic-install.html)的全部部分以及[桌面环境与常用应用安装](https://arch.icekylin.online/rookie/desktop-env-and-app.html)的非桌面环境部分, 此处列出: 
+  - 确保系统为最新
+  - 配置 root 账户的默认编辑器
+  - 准备非 root 用户
+  - 开启 32 位支持库与 Arch Linux 中文社区仓库（archlinuxcn)
+    > 个人没开启32位支持库
+  - 安装基础功能包(网络设置部分中关闭iwd部分)
+    > 注意此处的`sudo systemctl enable --now NetworkManager` 不要执行
+  - 配置非 root 账户的默认编辑器
+
 
 
 ## 正式安装

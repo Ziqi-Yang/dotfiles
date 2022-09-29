@@ -25,6 +25,7 @@ youtube上有个非常好的视频教程[bspwm: How To "Rice" Your Desktop](http
 ```bash
 sudo pacman -S networkmanager network-manager-applet linux-headers git xdg-user-dirs
 sudo systemctl enable NetworkManager
+# 注意networkmanager启动(下次开机前), 需要关闭dhcpcd服务(之后会提及), 请参考 * 网络连接问题 一章节
 
 sudo pacman -S xorg
 sudo pacman -S bspwm sxhkd
@@ -47,7 +48,7 @@ super + Return
 super + space
 	rofi -show drun
 ```
-然后安装几个基本的包, 之后重启系统就可以按 super(win) + return(enter) 打开terminal, super + space 打开rofi程序启动器
+然后安装几个基本的包, 之后重启系统(请按教程提示说重启再重启)后就可以按 super(win) + return(enter) 打开terminal, super + space 打开rofi程序启动器
 
 ```bash
 sudo pacman -S ntfs-3g # 使系统可以识别 NTFS 格式的硬盘
@@ -65,11 +66,13 @@ sudo pacman -S gwenview # 图片查看器
 ```bash
 sudo pacman -S lxdm # 测试发现lightdm貌似没用，lxdm可以使用? 先安装lxdm, 对后续系统故障也有好处
 sudo systemctl enable lxdm
+sudo systemctl disable dhcpcd # 使用networkmanagr时不能启用dhcpcd的systemd服务
 sudo reboot
 ```
+之所以要关闭`dhcpcd`的systemd服务，请参考**网络连接问题**一章节，也可以到archwiki的NetworkManager中的dhcp client小节中查看  
 记得在lxdm的界面将session从default改为bspwm(可选列表内容也就是`/usr/share/xsessions`里的session名称, 而`default`并没有在目录里也会显示)  
 重启机器了后之后可以打开浏览器到本页面复制粘贴命令运行  
-使用`xrandr --dpi 192` 来临时设置分辨率(不过这种方法像firefox等一些应用不会改变行为), 之后会有提及永久设置的方法  
+使用`xrandr --dpi 192` 来临时设置分辨率(不过这种方法像firefox等一些应用不会改变行为), 之后会有提及永久设置的方法   
 连接wifi：[NetworkManager cli版使用教程](https://huataihuang.gitbooks.io/cloud-atlas/content/os/linux/redhat/system_administration/network/networkmanager_nmcli.html)  
 这里也简单列下命令  
 
@@ -338,6 +341,15 @@ Section "InputClass"
 	Option "MaxTapTime" "125"
 EndSection
 ```
+
+#### 网络连接问题
+
+这里我的网络连接问题是校园网连接了，但是却无法使用（也进不了登陆页面）  
+我使用命令`sudo nmcli device wifi list`输出中可以看到很多校园网（相同名字，但是BSSID不同）  
+参考[NetworkManager - DCHP client](https://wiki.archlinux.org/title/NetworkManager#DHCP_client) 一章节可以看到**需要关闭dhcpcd的systemd服务**,
+前文说的[archlinux简明指南](https://arch.icekylin.online/)并没有提及关闭dhcpcd服务，这里需要格外注意。  
+原因大致就是校园网每隔多少分钟会换个什么东西吧?  
+
 
 #### 双系统显示时间不一致问题
 这里说的是windows和linux双系统，其他的双（多）系统原因基本类似

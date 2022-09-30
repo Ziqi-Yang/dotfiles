@@ -51,7 +51,7 @@ sudo pacman -S rofi qterminal # rofi 应用程序启动器, 先安装qterminal�
 
 然后修改`~/.config/sxhkd/sxhkdrc`文件里的部分内容(寻找对应内容进行更改)为:
 
-```plain-text
+```
 super + Return
 	qterminal
 
@@ -252,6 +252,20 @@ sudo pacman -S udisks2 udiskie
 echo 'udiskie &' >> ~/.config/bspwm/bspwmrc
 ```
 
+### 关机命令sudo不需要输入密码
+
+参考: [Shutdown from terminal without entering password?](https://askubuntu.com/questions/168879/shutdown-from-terminal-without-entering-password)  
+
+```bash
+sudo EDITOR=vim visudo
+```
+然后添加下面语句
+
+```
+<your_username> ALL=(ALL) NOPASSWD: /sbin/poweroff, /sbin/reboot, /sbin/shutdown
+```
+如果做的更绝对一点可以alias一下使得连sudo都可以不用输入
+
 ### ranger安装以及配置(可选)
 
 ```bash
@@ -296,7 +310,7 @@ betterlockscreen -l dimblur # 测试
 
 可以在`~/.config/sxhkd/sxhkdrc`添加  
 
-```plain-text
+```
 # lockscreen
 alt + shift + x
     betterlockscreen -l dimblur
@@ -328,7 +342,7 @@ sudo pacman -S brightnessctl
 ```
 在`sxhkdrc`中配置亮度按键（X环境中可以使用`xev`查看按键)
 
-```plain-text
+```
 # Brightness control
 XF86MonBrightness{Up,Down}
 	brightnessctl s 10%{+,-}
@@ -346,7 +360,7 @@ pulseaudio --start # 然后重启
 sudo pacman -S sof-firmware alsa-ucm-conf 
 ```
 在`sxhkdrc`中配置音量键
-```plain-text
+```
 # Audio
 XF86AudioRaiseVolume
 	amixer set Master 5%+
@@ -366,7 +380,8 @@ sudo pacman -S libinput xf86-input-synaptics
 sudo cp /usr/share/X11/xorg.conf.d/70-synaptics.conf /etc/X11/xorg.conf.d
 ```
 然后编辑 `/etc/X11/xorg.conf.d/70-synaptics.conf` 文件
-```plain-text
+
+```
 Section "InputClass"
 	Identifier "touchpad"
 	Driver "synaptics"

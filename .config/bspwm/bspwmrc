@@ -23,6 +23,7 @@ nm-applet &
 udiskie &
 fcitx5 &
 /home/zarkli/Public/Clash_for_Windows/cfw & 
-kdeconnect-indicator &
-megasync &
+# kdeconnect-indicator &
+# megasync &
 redshift &
+xautolock -time 15 -locker 'betterlockscreen -l dimblur' &

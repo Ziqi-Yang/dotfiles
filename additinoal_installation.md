@@ -32,6 +32,7 @@ sudo pacman -S git
 git config --global user.name [username]
 git config --global user.email [email]
 ssh-keygen -t ed25519 -C "your_email@example.com"
+git config --global core.editor "nvim"
 ```
 
 ## mega
@@ -66,3 +67,28 @@ then copy my config folder into ~/.config
 ```bash
 sudo pacman -S flameshot
 ```
+
+## neovim
+
+1. 
+```bash
+sudo pacman -S neovim
+```
+
+2. 安装[astrovim](https://astronvim.github.io/)  
+
+3.
+```bash
+mkdir ~/.config/nvim/lua/user/
+curl "https://raw.githubusercontent.com/Ziqi-Yang/astronvim_config/main/init.lua" -o ~/.config/nvim/lua/user/init.lua
+```
+
+
+## Intellij
+
+安装插件: `ideavim`, `whichkey`, `acejump`, `github theme`
+
+```shell
+curl "https://raw.githubusercontent.com/Ziqi-Yang/ide_vim_configs/main/ideavimrc" -o ~/.ideavimrc
+```
+

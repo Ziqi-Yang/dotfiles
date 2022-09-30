@@ -146,3 +146,7 @@ XF86AudioMute
 # Brightness control
 XF86MonBrightness{Up,Down}
 	brightnessctl s 10%{+,-}
+
+# lockscreen
+alt + shift + x
+    betterlockscreen -l dimblur

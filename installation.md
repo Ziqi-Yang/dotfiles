@@ -41,6 +41,7 @@ sudo pacman -S bspwm sxhkd
 
 mkdir ~/.config
 cd ~/.config
+mkdir ./bspwm ./sxhkd
 cp /usr/share/doc/bspwm/examples/bspwmrc bspwm/
 cp /usr/share/doc/bspwm/examples/sxhkdrc sxhkd/
 
@@ -109,17 +110,20 @@ sudo pacman -S yay # yay 命令可以让用户安装 AUR 中的软件（yay 在 
 
 
 # 安装输入法, 之后会设置开机自启
+# 安装好后记得fcitx5再打开设置, 添加中文输入法，以及设置快捷键和云拼音
 sudo pacman -S fcitx5-im # 输入法基础包组
 sudo pacman -S fcitx5-chinese-addons # 官方中文输入引擎
 sudo pacman -S fcitx5-anthy # 日文输入引擎
 sudo pacman -S fcitx5-pinyin-moegirl # 萌娘百科词库。二刺猿必备（archlinuxcn）
 sudo pacman -S fcitx5-material-color # 输入法主题
+
 vim ~/.pam_environment
 # INPUT_METHOD DEFAULT=fcitx5
 # GTK_IM_MODULE DEFAULT=fcitx5
 # QT_IM_MODULE DEFAULT=fcitx5
 # XMODIFIERS DEFAULT=\@im=fcitx5
 # SDL_IM_MODULE DEFAULT=fcitx
+
 echo 'fcitx5 &' >> ~/.config/bspwm/bspwmrc # 添加开机自启
 ```
 
@@ -192,7 +196,7 @@ yay -S google-chrome
 sudo pacman -S ripgrep htop neofetch
 sudo pacman -S xclip mpg123 # (optional)我的fish自定义函数需要
 sudo pacman -S dolphin wget
-sudo pacman -S ark p7-zip gzip # ark can decompress 7z file with the support of p7zip(7z command), gzip is required during alacritty installation
+sudo pacman -S ark p7zip gzip # ark can decompress 7z file with the support of p7zip(7z command), gzip is required during alacritty installation
 
 # 安装nodejs 和 npm, 之所以不用nvm是因为nvm对fish不友好，而且我也不用node开发
 sudo pacman -S nodejs npm
@@ -264,9 +268,11 @@ sudo pacman -S ranger
 sudo pacman -S lightdm lightdm-gtk-greeter lightdm-slick-greeter
 sudo systemctl disable lxdm
 sudo systemctl enable lightdm
+
 # 使用 lightdm-slick-greeter 作为lightdm 的greeter:
-# change line in the part [Seat:*]: 
+# 更改文件/etc/lightdm/lightdm.conf中的 [Seat:*] 部分的部分内容: 
 # greeter-session=lightdm-slick-greeter
+# user-session=bspwm  
 ```
 
 #### lightdm-slick-greeter 简单配置
@@ -276,6 +282,33 @@ sudo systemctl enable lightdm
 # background=/usr/share/backgrounds/1.jpg
 ```
 当lightdm遇到错误的时候可以切换lightdm greeter或者切换display manager。（之前已经装了lxdm)
+
+
+#### 安装lock screen
+
+**在阅读本小节前请先完成 系统修复-> 电源按键以及笔记本合盖行为控制**  
+
+```bash
+sudo pacman -S betterlockscreen # https://github.com/betterlockscreen/betterlockscreen
+betterlockscreen -u ~/Pictures/background/ # 使用这条命令更新图片缓存
+betterlockscreen -l dimblur # 测试
+```
+
+可以在`~/.config/sxhkd/sxhkdrc`添加  
+
+```plain-text
+# lockscreen
+alt + shift + x
+    betterlockscreen -l dimblur
+```
+之后可以手动锁屏了  
+如果要定时锁屏（没有鼠标键盘操作), 可以使用
+```bash
+sudo pacman -S xautolock
+xautolock -time 1 -locker 'betterlockscreen -l dimblur' # 进行1分钟测试
+# echo "xautolock -time 15 -locker 'betterlockscreen -l dimblur' &" >> ~/.config/bspwm/bspwmrc
+```
+由于我系统`suspend`会出现错误，我就没设置对`suspend`和`sleep`事件的锁屏了  
 
 
 ### 系统修复
@@ -365,9 +398,26 @@ EndSection
 
 参考：[Linux Windows 双系统时间不一致](https://sspai.com/post/55983)
 
+
+#### 电源按键以及笔记本合盖行为控制
+
+修改文件`/etc/systemd/logind.conf`文件中的下面条目  
+我这里直接忽视合盖行为了, 因为默认的suspend行为(也就是`systemctl suspend`会使我电脑出问题，暂时没解决。但是盖子合到最下面不会熄屏，有点难受😣。  
+```ini
+HandlePowerKey=ignore
+HandlePowerKeyLongPress=poweroff
+HandleLidSwitch=ignore
+HandleLidSwitchExternalPower=ignore
+```
+然后执行以下命令来应用选项  
+```bash
+sudo systemctl restart systemd-logind.service
+```
+
+
 ### 系统美化
 
-### 安装FiraCode Nerd Font字体
+#### 安装FiraCode Nerd Font字体
 
 ```bash
 yay -S nerd-fonts-fira-code

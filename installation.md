@@ -313,4 +313,14 @@ nvim +PackerSync
 #### tips
 
 通过`lxappearance` 和 `qt5ct` 设置外观。
-
+desktop 文件格式:
+```ini
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/path/to/executable
+Name=Name of Application
+Icon=/path/to/icon
+```

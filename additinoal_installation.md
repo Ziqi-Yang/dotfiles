@@ -42,11 +42,6 @@ sudo pacman -S megasync
 echo 'megasync &' >> ~/.config/bspwm/bspwmrc
 ```
 
-## poweroff without sudo
-
-https://askubuntu.com/questions/168879/shutdown-from-terminal-without-entering-password  
-
-
 ## kdeconnect
 
 ```bash

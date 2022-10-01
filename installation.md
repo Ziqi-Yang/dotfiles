@@ -20,7 +20,7 @@
 ## 安装
 
 ### 图形化之前
-
+可以把这段粘贴到pastebin.com中, curl下载下来执行  
 ```bash
 sudo pacman -S networkmanager network-manager-applet linux-headers git xdg-user-dirs xorg bspwm sxhkd firefox rofi qterminal ntfs-3g adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra gwenview lxdm
 

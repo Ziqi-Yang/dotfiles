@@ -32,3 +32,9 @@ Plus:
 ### [从零开始的Bspwm安装与配置教程](./detailed_installation_guide.md)
 
 ### [额外安装](./additinoal_installation.md)
+
+## Awesome dotfiles
+
+1. [BSPWM | Polybar themes collection - Rice selector](https://github.com/gh0stzk/dotfiles)
+2. [dotfiles](https://github.com/tam-carre/dotfiles)
+3. [polywins](https://github.com/tam-carre/polywins)

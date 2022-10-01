@@ -193,6 +193,7 @@ chsh -s /bin/fish
 
 ```bash
 yay -S google-chrome
+# 刚开始可以使用goolge-chrome-stable --proxy-server=127.0.0.1:7890 来使用代理
 sudo pacman -S ripgrep htop neofetch
 sudo pacman -S xclip mpg123 # (optional)我的fish自定义函数需要
 sudo pacman -S dolphin wget
@@ -290,11 +291,14 @@ sudo systemctl enable lightdm
 ```
 
 #### lightdm-slick-greeter 简单配置
-编辑`/etc/lightdm/slick-greeter.conf`(默认不存在这个文件，直接创建):
-```bash
-# [Greeter]
-# background=/usr/share/backgrounds/1.jpg
+编辑`/etc/lightdm/slick-greeter.conf`(默认不存在这个文件，直接创建)  
+注意修改下面的图片路径  
+
 ```
+[Greeter]
+background=/usr/share/backgrounds/1.jpg
+```
+
 当lightdm遇到错误的时候可以切换lightdm greeter或者切换display manager。（之前已经装了lxdm)
 
 

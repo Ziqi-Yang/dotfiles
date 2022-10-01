@@ -265,6 +265,9 @@ echo SDL_IM_MODULE DEFAULT=fcitx >> ~/.pam_environment
 # npm
 mkdir ~/.npm-global 
 npm config set prefix '~/.npm-global'
+
+# ideavimrc
+curl "https://raw.githubusercontent.com/Ziqi-Yang/ide_vim_configs/main/ideavimrc" -o ~/.ideavimrc
 ```
 
 ```bash
@@ -306,3 +309,8 @@ mkdir ~/.config/nvim/lua/user/
 curl "https://raw.githubusercontent.com/Ziqi-Yang/astronvim_config/main/init.lua" -o ~/.config/nvim/lua/user/init.lua
 nvim +PackerSync
 ```
+
+#### tips
+
+通过`lxappearance` 和 `qt5ct` 设置外观。
+

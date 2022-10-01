@@ -498,3 +498,11 @@ sudo pacman -S qt5ct
 安装[GRUB-Theme](https://github.com/13atm01/GRUB-Theme)
 
 
+#### 字体
+
+```bash
+mkdir ~/.local/share/fonts
+cp -r ./assets/fonts/* ~/.local/share/fonts/
+fc-cache -rv # update cache
+# fc-list | grep -i zpix
+```

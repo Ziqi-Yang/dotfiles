@@ -63,8 +63,9 @@ cd ~/Downloads/dotfiles/.config
 # 下面命令用来删除原来就存在~/.config目录中的配置文件夹
 find * -maxdepth 1 -type d | xargs -i rm -rf "$HOME/.config/{}"
 cd -rf ./* ~/.config/
-
 cd ../
+
+cp ./myBin ~/
 
 # assets文件夹下
 mkdir -p ~/.local/share/fonts

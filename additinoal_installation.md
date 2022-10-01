@@ -4,7 +4,7 @@
 
 ```bash
 sudo pacman -S python python-pip
-pip --install pynvim
+pip install pynvim
 ```
 
 ## go

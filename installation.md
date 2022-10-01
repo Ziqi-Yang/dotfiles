@@ -96,7 +96,7 @@ cp ./.local/share/rofi/themes/* ~/.local/share/rofi/themes/
 sudo pacman -S archlinuxcn-keyring
 pacman -Syyu
 
-sudo pacman -S yay feh neovim fcitx5-im fcitx5-chinese-addons fcitx5-anthy fcitx5-pinyin-moegirl fcitx5-material-color picom polybar dunst fish udisks2 udiskie ripgrep htop neofetch xclip mpg123 wget ark p7zip gzip nodejs npm lxappearance qt5ct redshift 
+sudo pacman -S yay feh neovim fcitx5-im fcitx5-chinese-addons fcitx5-anthy fcitx5-pinyin-moegirl fcitx5-material-color picom polybar dunst fish udisks2 udiskie ripgrep htop neofetch xclip mpg123 wget ark p7zip gzip nodejs npm lxappearance qt5ct redshift downgrade
 yay -S nerd-fonts-fira-code
 sudo pacman -S lightdm lightdm-gtk-greeter lightdm-slick-greeter betterlockscreen xautolock
 sudo pacman -S brightnessctl pulseaudio alsa-utils pulseaudio-alsa sof-firmware alsa-ucm-conf
@@ -160,6 +160,7 @@ chmod +x ./install.sh
 chsh -s /bin/fish
 ```
 
+
 lightdm设置
 ```bash
 sudo sed -i "s/^#greeter-session=.*\$/greeter-session=lightdm-slick-greeter/" /etc/lightdm/lightdm.conf
@@ -182,7 +183,7 @@ sudo pacman -S mesa vulkan-intel # 只安装intel核显驱动, 不装navida
 **重启**  
   
 #### alacritty
-
+这里使用的是自己编译  
 注意分开粘贴,若出错请看官方页面(详细)
 ```bash
 cd ~/Download
@@ -297,5 +298,11 @@ git config --global core.editor "nvim"
 
 ```bash
 yay -S google-chrome
+
 npm install -g neovim
+
+git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+mkdir ~/.config/nvim/lua/user/
+curl "https://raw.githubusercontent.com/Ziqi-Yang/astronvim_config/main/init.lua" -o ~/.config/nvim/lua/user/init.lua
+nvim +PackerSync
 ```

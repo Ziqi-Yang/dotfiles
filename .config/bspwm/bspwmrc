@@ -12,9 +12,21 @@ bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
+# ============================================================
+# Mice bindings ( pointer_modeifier + mouse actoin)
+bspc config pointer_modifier mod4 # win key
+bspc config pointer_action1 move # left
+bspc config pointer_action2 resize_side # center (press)
+bspc config pointer_action3 resize_corner # right
+
+# ============================================================
+# rules
 # use 'xprop | grep WM_CLASS' to see program class
 bspc rule -a floating state=floating sticky=on rectangle=1600x1000+800+500
 
+
+# ============================================================
+# auto start
 feh --bg-center $HOME/Pictures/background/1.jpg
 picom &
 $HOME/.config/polybar/launch.sh
@@ -24,6 +36,6 @@ udiskie &
 fcitx5 &
 /home/zarkli/Public/Clash_for_Windows/cfw & 
 # kdeconnect-indicator &
-# megasync &
+megasync &
 redshift &
 xautolock -time 15 -locker 'betterlockscreen -l dimblur' &

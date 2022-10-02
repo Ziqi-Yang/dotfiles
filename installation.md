@@ -97,7 +97,7 @@ cp ./.local/share/rofi/themes/* ~/.local/share/rofi/themes/
 sudo pacman -S archlinuxcn-keyring
 pacman -Syyu
 
-sudo pacman -S yay feh neovim fcitx5-im fcitx5-chinese-addons fcitx5-anthy fcitx5-pinyin-moegirl fcitx5-material-color picom polybar dunst fish udisks2 udiskie ripgrep htop neofetch xclip mpg123 wget ark p7zip gzip nodejs npm lxappearance qt5ct redshift downgrade
+sudo pacman -S yay feh neovim fcitx5-im fcitx5-chinese-addons fcitx5-anthy fcitx5-pinyin-moegirl fcitx5-material-color polybar dunst fish udisks2 udiskie ripgrep htop neofetch xclip mpg123 wget ark p7zip gzip nodejs npm lxappearance qt5ct redshift downgrade
 yay -S nerd-fonts-fira-code
 sudo pacman -S lightdm lightdm-gtk-greeter lightdm-slick-greeter betterlockscreen xautolock
 sudo pacman -S brightnessctl pulseaudio alsa-utils pulseaudio-alsa sof-firmware alsa-ucm-conf

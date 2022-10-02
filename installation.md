@@ -227,6 +227,9 @@ echo "source ~/.bash_completion/alacritty" >> ~/.bashrc
 
 mkdir -p $fish_complete_path[1]
 cp extra/completions/alacritty.fish $fish_complete_path[1]/alacritty.fish
+
+# 更改默认终端
+echo 'export TERMINAL="alacritty"' >> ~/.profile
 ```
 
 #### ranger

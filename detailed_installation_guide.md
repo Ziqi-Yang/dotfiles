@@ -434,6 +434,15 @@ HandleLidSwitchExternalPower=ignore
 sudo systemctl restart systemd-logind.service
 ```
 
+#### 更改默认应用
+
+```bash
+# 更改默认终端，这样在rofi中打开ranger使用的终端就是alacritty
+echo 'export TERMINAL="alacritty"' >> ~/.profile
+```
+
+
+
 
 ### 系统美化
 

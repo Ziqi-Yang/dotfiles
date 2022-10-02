@@ -295,10 +295,13 @@ git config --global user.name "Zarkli Leonardo"
 git config --global user.email "mr.ziqiyang@gmail.com"
 ssh-keygen -t ed25519 -C "mr.ziqiyang@gmail.com"
 git config --global core.editor "nvim"
+git config --global https.proxy http://127.0.0.1:7890
+git config --global https.proxy https://127.0.0.1:7890
 ```
 
 
-#### 可能需要翻墙的安装
+#### 其他安装
+也包括可能需要翻墙的安装
 
 ```bash
 yay -S google-chrome
@@ -310,10 +313,11 @@ mkdir ~/.config/nvim/lua/user/
 curl "https://raw.githubusercontent.com/Ziqi-Yang/astronvim_config/main/init.lua" -o ~/.config/nvim/lua/user/init.lua
 nvim +PackerSync
 ```
+**关于emacs**见[我的doom emacs配置](https://github.com/Ziqi-Yang/.doom.d)   
 
 #### tips
 
-通过`lxappearance` 和 `qt5ct` 设置外观。
+通过`lxappearance` 和 `qt5ct` 设置外观。  
 desktop 文件格式:
 ```ini
 [Desktop Entry]

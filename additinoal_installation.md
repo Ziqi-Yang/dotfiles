@@ -33,6 +33,8 @@ git config --global user.name [username]
 git config --global user.email [email]
 ssh-keygen -t ed25519 -C "your_email@example.com"
 git config --global core.editor "nvim"
+git config --global https.proxy http://127.0.0.1:7890
+git config --global https.proxy https://127.0.0.1:7890
 ```
 
 ## mega
@@ -77,6 +79,10 @@ sudo pacman -S neovim
 mkdir ~/.config/nvim/lua/user/
 curl "https://raw.githubusercontent.com/Ziqi-Yang/astronvim_config/main/init.lua" -o ~/.config/nvim/lua/user/init.lua
 ```
+
+## emacs
+doom emacs  
+见[我的配置文件](https://github.com/Ziqi-Yang/.doom.d)  
 
 
 ## Intellij

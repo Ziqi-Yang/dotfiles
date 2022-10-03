@@ -40,3 +40,4 @@ fcitx5 &
 megasync &
 redshift &
 xautolock -time 15 -locker 'betterlockscreen -l dimblur' &
+blueman-applet &

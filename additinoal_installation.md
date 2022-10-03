@@ -22,6 +22,8 @@ echo 'export PATH="$PATH:$HOME/go/bin"' > ~/.bashrc
 
 ```bash
 sudo pacman -S jdk-openjdk
+# 解决awt swing只显示灰色窗口，不显示内容问题
+echo "export _JAVA_AWT_WM_NONREPARENTING=1" >> ~/.profile
 ```
 
 

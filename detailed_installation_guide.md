@@ -412,6 +412,24 @@ EndSection
 前文说的[archlinux简明指南](https://arch.icekylin.online/)并没有提及关闭dhcpcd服务，这里需要格外注意。  
 原因大致就是校园网每隔多少分钟会换个什么东西吧?  
 
+#### 蓝牙连接问题
+参考[在archlinux中使用蓝牙耳机](http://blog.lujun9972.win/blog/2017/07/18/%E5%9C%A8archlinux%E4%B8%AD%E4%BD%BF%E7%94%A8%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA/)
+
+```bash
+sudo pacman -S bluez bluez-utils pulseaudio-bluetooth pulseaudio-alsa blueman
+# bluez-utils 提供bluetoothctl工具
+# pavucontrol则提供了pulseaudio的图形化控制界面 (这里我省略了)
+# blueman 提供bluetooth GUI工具
+sudo systemctl start --now bluetooth # 启动蓝牙服务
+# pulseaudio --start # 之前应该已经有过，不然系统声音都没
+sudo usermod -a -G lp $USER # 安装bluz后就应该会自动创建lp用户组了, 这里把用户加到组中 
+# 可能需要重启下
+# sudo reboot
+```
+使用`blueman-manager`命令打开图形化配置窗口  
+```bash
+# echo `blueman-applet &` >> ~/.config/bspwm/bspwmrc # 开机自启
+```
 
 #### 双系统显示时间不一致问题
 这里说的是windows和linux双系统，其他的双（多）系统原因基本类似

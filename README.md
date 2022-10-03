@@ -38,3 +38,7 @@ Plus:
 1. [BSPWM | Polybar themes collection - Rice selector](https://github.com/gh0stzk/dotfiles)
 2. [dotfiles](https://github.com/tam-carre/dotfiles)
 3. [polywins](https://github.com/tam-carre/polywins)
+
+## Useful Links
+
+1. [HiDPI - Arch Wiki](https://wiki.archlinux.org/title/HiDPI)

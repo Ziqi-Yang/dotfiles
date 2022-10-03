@@ -18,9 +18,10 @@ archlinux using bwpwn as windows mamager
 13. picom
 14. [Code - Oss (i.e. vscode)](https://github.com/Ziqi-Yang/ide_vim_configs)
 15. [ideavimrc (intellij editors' ideavim plugin)](https://github.com/Ziqi-Yang/ide_vim_configs)
+16. [vim](https://gist.github.com/Ziqi-Yang/2fd25c93254382c9e5b376568a0e9611) for algorithm competition
 
 Plus:
-16. [my own old neovim config](https://github.com/Ziqi-Yang/.nvim)
+1. [my own old neovim config](https://github.com/Ziqi-Yang/.nvim)
 
 **self-notice**: `clash` config not included
 
@@ -42,3 +43,4 @@ Plus:
 ## Useful Links
 
 1. [HiDPI - Arch Wiki](https://wiki.archlinux.org/title/HiDPI)
+2. [Environment variables](https://wiki.archlinux.org/title/environment_variables)

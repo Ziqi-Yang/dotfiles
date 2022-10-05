@@ -1,3 +1,3 @@
 function fish_greeting
-bash ~/myBin/space_invaders_welcome
+  /home/zarkli/.config/fish/myScript/greetings/crunchbang-mini 
 end

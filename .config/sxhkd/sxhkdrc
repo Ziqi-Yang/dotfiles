@@ -16,10 +16,11 @@ super + x
 super + space
 	rofi -show combi -show-icons
 
+alt + Tab
+	bspc node --focus next.local
+
 super + a
 	rofi -no-lazy-grab -show drun -theme ~/.local/share/rofi/themes/launchpad.rasi -show-icons
-
-
 
 Print
 	flameshot full

@@ -17,7 +17,7 @@ super + space
 	rofi -show combi -show-icons
 
 alt + Tab
-	bspc node --focus next.local
+	bspc node --focus next.local.window
 
 super + a
 	rofi -no-lazy-grab -show drun -theme ~/.local/share/rofi/themes/launchpad.rasi -show-icons

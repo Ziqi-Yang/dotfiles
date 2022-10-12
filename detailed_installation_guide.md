@@ -534,3 +534,21 @@ cp -r ./assets/fonts/* ~/.local/share/fonts/
 fc-cache -rv # update cache
 # fc-list | grep -i zpix
 ```
+
+#### 鼠标主题配置
+1. 推荐[GoogleDot-Blue](https://www.pling.com/p/1215613)  
+```bash
+mv GoogleDot-Blue ~/.icons
+```
+2. 在`.bspwmrc`里添加
+```
+xsetroot -cursor_name left_ptr &
+```
+3. 修改`~/.config/gtk-3.0/settings.ini`文件里的鼠标主题
+4. (可能要) 设置一下`lxappearance`  
+5. (可能要) 修改 `~/.Xresources`， 添加行`Xcursor.theme: GoogleDot-Blue`
+
+**参考**:  
+1. [bspwm#Cursor themes do not apply to the desktop](https://wiki.archlinux.org/title/bspwm#Cursor_themes_do_not_apply_to_the_desktop)
+2. [Cursor themes#LXAppearance](https://wiki.archlinux.org/title/Cursor_themes#LXAppearance)
+3. [I3WM | BSPWM - Cursor theme.md](https://gist.github.com/abairo/5e2ed2faeadcc7abf43cda37826b2fbc#start-by-getting-the-correct-theme-name-to-use-in-the-next-steps)

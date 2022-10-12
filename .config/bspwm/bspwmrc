@@ -28,6 +28,10 @@ bspc rule -a Logseq state=tiled desktop=^6
 
 
 # ============================================================
+# configuration
+xsetroot -cursor_name left_ptr &
+
+# ============================================================
 # auto start
 feh --bg-center $HOME/Pictures/background/1.jpg
 picom &

@@ -42,8 +42,10 @@ udiskie &
 fcitx5 &
 /home/zarkli/Public/Clash_for_Windows/cfw & 
 # kdeconnect-indicator &
-megasync &
 redshift &
 xautolock -time 15 -locker 'betterlockscreen -l dimblur' &
 blueman-applet &
+
+megasync &
 $HOME/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox --minimize &
+/usr/bin/telegram-desktop -workdir /home/zarkli/.local/share/TelegramDesktop/ -autostart &

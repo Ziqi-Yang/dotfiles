@@ -22,6 +22,9 @@ alt + Tab
 super + a
 	rofi -no-lazy-grab -show drun -theme ~/.local/share/rofi/themes/launchpad.rasi -show-icons
 
+alt + s
+	copyq menu
+
 Print
 	flameshot full
 

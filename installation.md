@@ -262,11 +262,9 @@ vim /etc/polkit-1/rules.d/10-udisks2.rules
 
 ```bash
 # fcitx5
-echo INPUT_METHOD DEFAULT=fcitx5 >> ~/.pam_environment
-echo GTK_IM_MODULE DEFAULT=fcitx5 >> ~/.pam_environment
-echo QT_IM_MODULE DEFAULT=fcitx5 >> ~/.pam_environment
-echo XMODIFIERS DEFAULT=\@im=fcitx5 >> ~/.pam_environment
-echo SDL_IM_MODULE DEFAULT=fcitx >> ~/.pam_environment
+sudo echo GTK_IM_MODULE=fcitx >> /etc/environment
+sudo echo QT_IM_MODULE=fcitx >> /etc/environment
+sudo echo XMODIFIERS=@im=fcitx >> /etc/environment
 
 # npm
 mkdir ~/.npm-global 

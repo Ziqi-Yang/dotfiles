@@ -23,7 +23,7 @@ bspc config pointer_action3 resize_corner # right
 # use 'xprop | grep WM_CLASS' to see program class
 bspc rule -a floating state=floating sticky=on rectangle=1600x1000+800+500
 bspc rule -a fullscreen state=fullscreen
-bspc rule -a Emacs state=tiled desktop=^7
+bspc rule -a Emacs state=tiled
 bspc rule -a Logseq state=tiled desktop=^6
 
 
@@ -39,7 +39,7 @@ $HOME/.config/polybar/launch.sh
 dunst &
 nm-applet &
 udiskie &
-fcitx5 &
+fcitx5 -d &
 /home/zarkli/Public/Clash_for_Windows/cfw & 
 # kdeconnect-indicator &
 redshift &
@@ -49,5 +49,5 @@ blueman-applet &
 megasync &
 $HOME/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox --minimize &
 /usr/bin/telegram-desktop -workdir /home/zarkli/.local/share/TelegramDesktop/ -autostart &
-/usr/bin/copyq &
+copyq &
 

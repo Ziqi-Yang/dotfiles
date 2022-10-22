@@ -28,13 +28,15 @@ Plus:
 
 ## [废话不多说的教程](installation.md)
 没有理解里面的命令的不要使用本教程, 请看下面的教程
-(鼠标主题配置, rofi addons未更新)
+(鼠标主题配置, rofi addons未更新, fcitx pam_environment 文件弃用)
 
 ## 新手教程文档
 
 ### [从零开始的Bspwm安装与配置教程](./detailed_installation_guide.md)
 
-### [额外安装](./additinoal_installation.md)
+### [额外安装](./additional_installation.md)
+
+### []
 
 ## Awesome dotfiles
 

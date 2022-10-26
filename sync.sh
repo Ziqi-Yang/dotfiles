@@ -10,12 +10,13 @@ local_repo="$HOME/Documents/dotfiles"
 folder_vars=("config_folders" "single_folders")
 # ~/.config
 config_folders=("alacritty" "bspwm" "dunst" "fish" "neofetch" 
-  "picom" "polybar" "ranger" "redshift" "rofi" "sxhkd" "nvim")
+  "picom" "polybar" "ranger" "redshift" "rofi" "sxhkd")
 # single folders are based on $HOME
-single_folders=(".local/share/rofi/themes" ".doom.d")
+single_folders=(".local/share/rofi/themes")
 
 # ----- files(root: home)
-files=(".xsession" ".config/rofimoji.rc" ".Xresources" ".ideavimrc" ".todos.json" ".vimrc" ".gitconfig")
+files=(".xsession" ".Xresources" ".ideavimrc" ".todos.json" ".vimrc" ".gitconfig"
+  ".config/rofimoji.rc" ".config/nvim/lua/user/init.lua")
 
 
 # ============== sync ========================

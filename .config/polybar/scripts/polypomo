@@ -359,7 +359,7 @@ def parse_args():
     parser.add_argument(
         "--worktime",
         type=int,
-        default=25 * 60,
+        default=60 * 60,
         help="Default work timer time in seconds",
     )
     parser.add_argument(

@@ -6,13 +6,13 @@ local_repo="$HOME/Documents/dotfiles"
 
 # ============= configuration ================
 # ----- folder
-#link to other variables of folder
-folder_vars=("config_folders" "rofi_themes")
-# folders in the ~/.config directory
+# link to other variables of folder
+folder_vars=("config_folders" "single_folders")
+# ~/.config
 config_folders=("alacritty" "bspwm" "dunst" "fish" "neofetch" 
-  "picom" "polybar" "ranger" "redshift" "rofi" "sxhkd")
-# themes folder in the ~/.local/share/rofi directory (single folder)
-rofi_themes=("themes")
+  "picom" "polybar" "ranger" "redshift" "rofi" "sxhkd" "nvim")
+# single folders are based on $HOME
+single_folders=(".local/share/rofi/themes" ".doom.d")
 
 # ----- files(root: home)
 files=(".xsession" ".config/rofimoji.rc" ".Xresources" ".ideavimrc" ".todos.json" ".vimrc" ".gitconfig")
@@ -25,23 +25,36 @@ echo
 echo "[*] folders"
 for var in ${folder_vars[@]}; do 
   folders=$var[@]
+
   if [[ $var == "config_folders" ]]; then
+
     prefix="$HOME/.config"
     local_path="$local_repo/.config"
-  elif [[ $var == "rofi_themes" ]]; then
-    prefix="$HOME/.local/share/rofi"
-    local_path="$local_repo/.local/share/rofi"
+
+    for f2 in ${!folders}; do
+      mkdir -p $local_path
+      fullpath="$prefix/$f2"
+      cp $fullpath $local_path -rf
+      echo "$fullpath --- done"
+    done
+
+  elif [[ $var == "single_folders" ]]; then
+
+    for f2 in ${!folders}; do
+      fullpath="$HOME/$f2"
+      local_path="$local_repo/$(dirname $f2)"
+      mkdir -p $local_path
+      cp $fullpath $local_path -rf
+      echo "$fullpath --- done"
+    done
+
   else
+
     echo "error!"
     exit -1
+
   fi
 
-  for f2 in ${!folders}; do
-    mkdir -p $local_path
-    fullpath="$prefix/$f2"
-    cp $fullpath $local_path -rf
-    echo "$fullpath --- done"
-  done
 done
 
 echo

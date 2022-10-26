@@ -1,0 +1,7 @@
+[user]
+	name = Zarkli Leonardo
+	email = mr.ziqiyang@gmail.com
+[core]
+	editor = nvim
+[https]
+	proxy = https://127.0.0.1:7890

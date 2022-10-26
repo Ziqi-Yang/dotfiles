@@ -1,0 +1,101 @@
+set which-key " 需要安装which-key插件
+set commentary
+set ideajoin
+
+
+set showmode
+" set nu
+set notimeout
+" set timeoutlen=1000
+set scrolloff=5
+set incsearch " 递进搜索-边输入，边匹配
+set ignorecase " 搜索不区分大小写
+
+let mapleader = "\<Space>"
+
+" AceJump 快捷键是C-;
+" Alt-Enter 显示可用的action(通常会有quick-fix,或可以create method等等)
+" Alt + insert 创建 Generator , method 等等
+" Shift-Shift 搜搜（可用于跳转文件）
+
+" =========== NORMAL ============
+" K is a buildin key that maps QuickJavaDoc
+map s :action AceAction<CR>
+map <leader>d <Action>(QuickJavaDoc)
+map <leader>g <Action>(GotoDeclaration)
+
+" map <leader>yy V"+y
+" 使用ide的action是因为像pycharm 内部 jupyter notebook
+" 这样的无法支持ideavim的复制操作
+" map <leader>yy <Action>($Copy)
+map <leader>yw :%y+<CR>
+
+" map <leader>pp "+p
+map <leader>pp <Action>($Paste)
+
+map <leader>zca <Action>(Run)
+map <leader>cc <Action>(ChooseRunConfiguration)
+map <leader>cd <Action>(Debug)
+map <leader>cs <Action>(Stop)
+
+
+map <leader>ee <Action>(ShowErrorDescription)
+nmap <leader>em <Action>(ExtractMethod)
+if &ide =~? 'android studio'
+    nmap <leader>ew <Action>(Flutter.ExtractWidget)
+endif
+
+
+map <leader>rf <Action>(ReformatCode)
+map <leader>re <Action>(RenameElement)
+map <leader>rr <Action>(Replace)
+
+map <leader>ff <Action>(Find)
+map <leader>fu <Action>(FindUsages)
+
+
+
+map <leader>tz <Action>(ToggleZenMode)
+map <leader>tf <Action>(ToggleFullScreen)
+map <leader>tp <Action>(TogglePresentationMode)
+map <leader>tr <Action>(ToggleReadOnlyAttribute)
+map <leader>ts <Action>(ActivateStructureToolWindow)
+" 安装tranlsation插件
+map <leader>tt <Action>($ShowTranslationDialogAction)
+map <leader>tw <Action>($EditorTranslateAction)
+
+
+map <leader>zbe :%d<CR>
+map <leader>zcc <Action>(CloseContent)
+map <leader>zct <Action>(CloseActiveTab)
+map <leader>zz <Action>(CollapseRegion)
+map <leader>ze <Action>(ExpandRegion)
+
+" =========== VISUAL ============
+" vmap <leader>yy "+y
+vmap <leader>yy <Action>($Copy)
+
+" =========== INSERT ============
+imap kk <Esc>
+
+" =========== WHICH-KEY ============
+let g:WhichKeyDesc_copy = "<leader>y Copy"
+let g:WhichKeyDesc_paste = "<leader>p Paste"
+let g:WhichKeyDesc_code = "<leader>c Code"
+let g:WhichKeyDesc_code = "<leader>e Error and Extract"
+let g:WhichKeyDesc_refactor = "<leader>r Refactor"
+let g:WhichKeyDesc_extra = "<leader>z Extra"
+let g:WhichKeyDesc_toggle = "<leader>t Toggle"
+let g:WhichKeyDesc_find = "<leader>f Find"
+
+let g:WhichKeyDesc_close = "<leader>zc close"
+let g:WhichKeyDesc_paste_paste = "<leader>pp paste"
+let g:WhichKeyDesc_copy_line = "<leader>yy line"
+let g:WhichKeyDesc_copy_line = "<leader>yy file"
+let g:WhichKeyDesc_code_run = "<leader>cr run"
+let g:WhichKeyDesc_code_debug = "<leader>cd debug"
+let g:WhichKeyDesc_code_stop = "<leader>cd stop"
+let g:WhichKeyDesc_delete_all = "<leader>zbe delte all"
+let g:WhichKeyDesc_trans_word = "<leader>tw translate word"
+let g:WhichKeyDesc_trans_window = "<leader>tt translation window"
+

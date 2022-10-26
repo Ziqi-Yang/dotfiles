@@ -22,8 +22,11 @@ alt + Tab
 super + a
 	rofi -no-lazy-grab -show drun -theme ~/.local/share/rofi/themes/launchpad.rasi -show-icons
 
-alt + s
+alt + v
 	copyq menu
+
+alt + t
+	birdtray -t
 
 Print
 	flameshot full

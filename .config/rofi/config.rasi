@@ -1,5 +1,6 @@
 configuration {
- combi-modi: "window,drun";
- modi: "combi,emoji:/usr/bin/rofimoji,calc";
- }
+  dpi: 192;
+  combi-modi: "window,drun";
+  modi: "combi,emoji:/usr/bin/rofimoji,calc";
+}
 @theme "rounded-nord-dark"

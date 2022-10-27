@@ -5,7 +5,7 @@
  *******************************************************************************/
 
 * {
-    font:   "zpix 22";
+    font:   "zpix 12";
 
     background-color:   transparent;
     text-color:         @fg0;
@@ -17,7 +17,7 @@
 
 window {
     location:       center;
-    width:          1200;
+    width:          1500;
     y-offset:       -200;
     border-radius:  24px;
     

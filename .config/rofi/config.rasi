@@ -1,6 +1,19 @@
+/* use rofi -dump-config > config.rasi to get all default configurations */
+
 configuration {
   dpi: 192;
   combi-modi: "window,drun";
   modi: "combi,emoji:/usr/bin/rofimoji,calc";
+
+	kb-row-up: "Up,Control+p,Control+k";
+	kb-row-down: "Down,Control+n,Control+j";
+	kb-page-prev: "Page_Up,Control+h";
+	kb-page-next: "Page_Down,Control+l";
+
+  /* solve keybinding conflicts(C-h,j,k,l) */
+	kb-remove-to-eol: "";
+	kb-accept-entry: "Control+m,Return,KP_Enter";
+	kb-remove-char-back: "BackSpace,Shift+BackSpace";
+	kb-mode-complete: "";
 }
 @theme "rounded-nord-dark"

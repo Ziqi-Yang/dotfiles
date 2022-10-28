@@ -42,7 +42,9 @@ local config = {
     init = {
       { "easymotion/vim-easymotion", }, -- I map s in the normal mode
       { "tpope/vim-surround" }, -- default S in the visual mode
-      { "dag/vim-fish" }
+      { "dag/vim-fish" },
+      { "wakatime/vim-wakatime" },
+      { "elkowar/yuck.vim" }
     }
   },
 

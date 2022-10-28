@@ -3,5 +3,7 @@
 	email = mr.ziqiyang@gmail.com
 [core]
 	editor = nvim
+[http]
+	proxy = http://127.0.0.1:7890
 [https]
-	proxy = https://127.0.0.1:7890
+	proxy = http://127.0.0.1:7890

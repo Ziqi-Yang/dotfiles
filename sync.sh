@@ -10,7 +10,7 @@ local_repo="$HOME/Documents/dotfiles"
 folder_vars=("config_folders" "single_folders")
 # ~/.config
 config_folders=("alacritty" "bspwm" "dunst" "fish" "neofetch" 
-  "picom" "polybar" "ranger" "redshift" "rofi" "sxhkd")
+  "picom" "polybar" "ranger" "redshift" "rofi" "sxhkd" "eww")
 # single folders are based on $HOME
 single_folders=(".local/share/rofi/themes")
 

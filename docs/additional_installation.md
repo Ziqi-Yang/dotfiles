@@ -95,15 +95,11 @@ doom emacs
 curl "https://raw.githubusercontent.com/Ziqi-Yang/ide_vim_configs/main/ideavimrc" -o ~/.ideavimrc
 ```
 
-## copyq
-
-剪切板管理工具
-
-```shell
-sudo pacman -S copyq
-```
-
 ## rofi addons
 
-1. [rofi-calc](https://github.com/svenstaro/rofi-calc)
-2. [rofimoji](https://github.com/fdw/rofimoji)
+1. [rofi-calc](https://github.com/svenstaro/rofi-calc) 计算器
+2. [rofimoji](https://github.com/fdw/rofimoji) 表情包选择
+3. [greenclip](https://github.com/erebe/greenclip) 剪切板管理
+```bash
+sudo pacman -S greenclip
+```

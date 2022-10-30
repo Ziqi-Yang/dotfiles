@@ -33,6 +33,8 @@ bspc rule -a Emacs state=tiled
 bspc rule -a Logseq state=tiled desktop=^6
 bspc rule -a thunderbird state=fullscreen
 bspc rule -a yesplaymusic state=fullscreen
+bspc rule -a discord state=fullscreen
+bspc rule -a TelegramDesktop state=fullscreen
 
 
 # ============================================================
@@ -58,5 +60,4 @@ megasync &
 $HOME/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox --minimize &
 /usr/bin/telegram-desktop -workdir /home/zarkli/.local/share/TelegramDesktop/ -autostart &
 greenclip daemon &
-birdtray &
 emacs --daemon &

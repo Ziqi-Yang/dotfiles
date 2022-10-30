@@ -103,3 +103,11 @@ curl "https://raw.githubusercontent.com/Ziqi-Yang/ide_vim_configs/main/ideavimrc
 ```bash
 sudo pacman -S greenclip
 ```
+
+## colorscripts
+
+[shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts)
+
+```bash
+yay -S shell-color-scripts
+```

@@ -30,6 +30,11 @@ alt + v
 alt + c
   rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '\{result\}' | xclip -sel clip; xdotool type --clearmodifiers '\{result\}'"
 
+# desktop right click
+~button3
+	bspc query -D -d 'focused.!occupied' \
+	    && alacritty
+
 alt + t
 	birdtray -t
 

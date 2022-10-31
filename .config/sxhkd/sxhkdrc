@@ -22,8 +22,13 @@ alt + Tab
 super + a
 	rofi -no-lazy-grab -show drun -theme ~/.local/share/rofi/themes/launchpad.rasi -show-icons
 
+# clipboard
 alt + v
-	rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+	rofi -modi "clipboard:greenclip print" -show clipboard
+
+# calc
+alt + c
+  rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '\{result\}' | xclip -sel clip; xdotool type --clearmodifiers '\{result\}'"
 
 alt + t
 	birdtray -t

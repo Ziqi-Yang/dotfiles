@@ -44,7 +44,8 @@ local config = {
       { "tpope/vim-surround" }, -- default S in the visual mode
       { "dag/vim-fish" },
       { "wakatime/vim-wakatime" },
-      { "elkowar/yuck.vim" }
+      { "elkowar/yuck.vim" },
+      { "baskerville/vim-sxhkdrc" }
     }
   },
 

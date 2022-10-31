@@ -104,6 +104,13 @@ curl "https://raw.githubusercontent.com/Ziqi-Yang/ide_vim_configs/main/ideavimrc
 sudo pacman -S greenclip
 ```
 
+## manage default application
+use [Select Default Application](https://github.com/sandsmark/selectdefaultapplication), its aur address [selectdefaultapplication-git](https://aur.archlinux.org/packages/selectdefaultapplication-git)
+
+theory:
+1. [XDG MIME Applications](https://wiki.archlinux.org/title/XDG_MIME_Applications)
+2. [xdg-utils](https://wiki.archlinux.org/title/Xdg-utils)
+
 ## colorscripts
 
 [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts)

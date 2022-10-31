@@ -133,12 +133,15 @@ echo 'fcitx5 &' >> ~/.config/bspwm/bspwmrc # 添加开机自启
 
 窗口合成器可以使窗口透明，阴影以及添加动效  
 这里安装picom   
+推荐使用[dccsillag/picom](https://github.com/dccsillag/picom/tree/implement-window-animations) 有动画
 
 ```bash
-sudo pacman -S picom
+yay -S picom-animations-git # 也就是 dccsillag fork 的 picom
 mkdir ~/.config/picom
 cd ~/.config/picom/
-cp /usr/share/doc/picom/picom.conf.example ./picom.conf # 使用默认配置
+# 然后copy本仓库的picom到 ./picom.conf
+# (如果使用原始的picom):
+# cp /usr/share/doc/picom/picom.conf.example ./picom.conf # 使用默认配置
 # 如果没有nvidia gpu, 你应该关闭配置文件中的`vsync`选项
 # vim ./picom.conf (转到行vsync = true, 改变其值为false)
 echo 'picom &' >> ~/.config/bspwm/bspwmrc # 开机自启

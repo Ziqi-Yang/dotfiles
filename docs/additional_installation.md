@@ -104,6 +104,14 @@ curl "https://raw.githubusercontent.com/Ziqi-Yang/ide_vim_configs/main/ideavimrc
 sudo pacman -S greenclip
 ```
 
+## jgmenu
+
+提供了折叠菜单的功能，以及可以配制成鼠标处显示，桌面右键菜单等等
+
+```
+sudo pacman -S jgmenu
+```
+
 ## manage default application
 use [Select Default Application](https://github.com/sandsmark/selectdefaultapplication), its aur address [selectdefaultapplication-git](https://aur.archlinux.org/packages/selectdefaultapplication-git)
 

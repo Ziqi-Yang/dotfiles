@@ -61,3 +61,4 @@ $HOME/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox --minimize &
 /usr/bin/telegram-desktop -workdir /home/zarkli/.local/share/TelegramDesktop/ -autostart &
 greenclip daemon &
 emacs --daemon &
+jgmenu --hide-on-startup &

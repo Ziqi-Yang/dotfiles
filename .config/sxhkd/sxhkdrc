@@ -33,7 +33,7 @@ alt + c
 # desktop right click
 ~button3
 	bspc query -D -d 'focused.!occupied' \
-	    && alacritty
+	    && jgmenu_run >/dev/null 2>&1 &
 
 alt + t
 	birdtray -t

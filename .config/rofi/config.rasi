@@ -3,7 +3,7 @@
 configuration {
   dpi: 192;
   combi-modi: [window,drun];
-  modi: "combi,emoji:/usr/bin/rofimoji,calc";
+  modi: "combi,emoji:/usr/bin/rofimoji";
 
 	kb-row-up: "Up,Control+p,Control+k";
 	kb-row-down: "Down,Control+n,Control+j";

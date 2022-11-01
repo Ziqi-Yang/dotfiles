@@ -23,7 +23,6 @@ archlinux using bwpwn as windows mamager
 Plus:
 1. [my own old neovim config](https://github.com/Ziqi-Yang/.nvim)
 
-
 **self-notice**: `clash` config not included
 
 ## [废话不多说的教程](./docs/installation.md)
@@ -39,9 +38,11 @@ Plus:
 
 ## Awesome dotfiles
 
-1. [BSPWM | Polybar themes collection - Rice selector](https://github.com/gh0stzk/dotfiles)
-2. [dotfiles](https://github.com/tam-carre/dotfiles)
-3. [polywins](https://github.com/tam-carre/polywins)
+- [BSPWM | Polybar themes collection - Rice selector](https://github.com/gh0stzk/dotfiles)
+- [tam-carre/dotfiles](https://github.com/tam-carre/dotfiles)
+- [HynDuf7/dotfiles](https://github.com/HynDuf7/dotfiles)
+- [polywins](https://github.com/tam-carre/polywins)
+- [Syndrizzle/hotfiles](https://github.com/Syndrizzle/hotfiles)
 
 ## Useful Links
 

@@ -119,10 +119,32 @@ theory:
 1. [XDG MIME Applications](https://wiki.archlinux.org/title/XDG_MIME_Applications)
 2. [xdg-utils](https://wiki.archlinux.org/title/Xdg-utils)
 
-## colorscripts
+## Terminal Beautiful Program
+
+### colorscripts
 
 [shell-color-scripts](https://gitlab.com/dwt1/shell-color-scripts)
 
 ```bash
 yay -S shell-color-scripts
 ```
+
+### pipes.sh
+
+[pipes.sh](https://github.com/pipeseroni/pipes.sh)
+
+```bash
+yay -S pipes-sh
+```
+
+## zathura
+
+pdf-reader
+
+[zathura archwiki](https://wiki.archlinux.org/title/zathura)  
+themes: [catppuccin/zathura](https://github.com/catppuccin/zathura)  
+
+```bash
+sudo pacman -S zathura zathura-cb zathura-djvu zathura-pdf-mupdf
+```
+

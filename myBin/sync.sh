@@ -18,7 +18,7 @@ single_folders=("myBin" ".local/share/rofi/themes")
 
 # ----- files(root: home)
 files=(".xsession" ".Xresources" ".ideavimrc" ".todos.json" ".vimrc" ".gitconfig"
-  ".config/rofimoji.rc" ".config/nvim/lua/user/init.lua")
+  ".config/rofimoji.rc" ".config/nvim/lua/user/init.lua" ".config/mimeapps.list")
 
 
 # ============== sync ========================

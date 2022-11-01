@@ -21,40 +21,29 @@ let mapleader = "\<Space>"
 " =========== NORMAL ============
 " K is a buildin key that maps QuickJavaDoc
 map s :action AceAction<CR>
-map <leader>d <Action>(QuickJavaDoc)
-map <leader>g <Action>(GotoDeclaration)
 
-" map <leader>yy V"+y
-" 使用ide的action是因为像pycharm 内部 jupyter notebook
-" 这样的无法支持ideavim的复制操作
-" map <leader>yy <Action>($Copy)
-map <leader>yw :%y+<CR>
-
-" map <leader>pp "+p
-map <leader>pp <Action>($Paste)
-
-map <leader>zca <Action>(Run)
+" code
+" run: <leader>zca in "other" section
+map <leader>ce <Action>(debug)
 map <leader>cc <Action>(ChooseRunConfiguration)
-map <leader>cd <Action>(Debug)
+map <leader>cd <Action>(GotoDeclaration)
 map <leader>cs <Action>(Stop)
+map <leader>cf <Action>(ReformatCode)
+map <leader>cx <Action>(ShowErrorDescription)
+map <leader>cr <Action>(RenameElement)
 
-
-map <leader>ee <Action>(ShowErrorDescription)
+" extract
 nmap <leader>em <Action>(ExtractMethod)
 if &ide =~? 'android studio'
-    nmap <leader>ew <Action>(Flutter.ExtractWidget)
+    nmap <leader>ee <Action>(Flutter.ExtractWidget)
 endif
 
+" search
+map <leader>ss <Action>(Find)
+map <leader>su <Action>(FindUsages)
+map <leader>sr <Action>(Replace)
 
-map <leader>rf <Action>(ReformatCode)
-map <leader>re <Action>(RenameElement)
-map <leader>rr <Action>(Replace)
-
-map <leader>ff <Action>(Find)
-map <leader>fu <Action>(FindUsages)
-
-
-
+" toggle
 map <leader>tz <Action>(ToggleZenMode)
 map <leader>tf <Action>(ToggleFullScreen)
 map <leader>tp <Action>(TogglePresentationMode)
@@ -64,7 +53,8 @@ map <leader>ts <Action>(ActivateStructureToolWindow)
 map <leader>tt <Action>($ShowTranslationDialogAction)
 map <leader>tw <Action>($EditorTranslateAction)
 
-
+" other
+map <leader>zca <Action>(Run)
 map <leader>zbe :%d<CR>
 map <leader>zcc <Action>(CloseContent)
 map <leader>zct <Action>(CloseActiveTab)
@@ -72,29 +62,20 @@ map <leader>zz <Action>(CollapseRegion)
 map <leader>ze <Action>(ExpandRegion)
 
 " =========== VISUAL ============
-" vmap <leader>yy "+y
-vmap <leader>yy <Action>($Copy)
 
 " =========== INSERT ============
 imap kk <Esc>
 
 " =========== WHICH-KEY ============
-let g:WhichKeyDesc_copy = "<leader>y Copy"
-let g:WhichKeyDesc_paste = "<leader>p Paste"
 let g:WhichKeyDesc_code = "<leader>c Code"
-let g:WhichKeyDesc_code = "<leader>e Error and Extract"
-let g:WhichKeyDesc_refactor = "<leader>r Refactor"
-let g:WhichKeyDesc_extra = "<leader>z Extra"
+let g:WhichKeyDesc_extra = "<leader>s Search"
 let g:WhichKeyDesc_toggle = "<leader>t Toggle"
-let g:WhichKeyDesc_find = "<leader>f Find"
+let g:WhichKeyDesc_extra = "<leader>e Extract"
+let g:WhichKeyDesc_extra = "<leader>z Extra"
 
-let g:WhichKeyDesc_close = "<leader>zc close"
-let g:WhichKeyDesc_paste_paste = "<leader>pp paste"
-let g:WhichKeyDesc_copy_line = "<leader>yy line"
-let g:WhichKeyDesc_copy_line = "<leader>yy file"
-let g:WhichKeyDesc_code_run = "<leader>cr run"
+let g:WhichKeyDesc_code_run = "<leader>zca run"
 let g:WhichKeyDesc_code_debug = "<leader>cd debug"
-let g:WhichKeyDesc_code_stop = "<leader>cd stop"
+let g:WhichKeyDesc_code_stop = "<leader>cs stop"
 let g:WhichKeyDesc_delete_all = "<leader>zbe delte all"
 let g:WhichKeyDesc_trans_word = "<leader>tw translate word"
 let g:WhichKeyDesc_trans_window = "<leader>tt translation window"

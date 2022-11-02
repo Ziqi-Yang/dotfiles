@@ -86,7 +86,8 @@ local config = {
 
     -- -- normal mode
     -- code
-    map("n", "<leader>cf", "<cmd>Format<cr>", { desc = "Foramt" })
+    map("n", "<leader>cf", "<leader>lf", { desc = "Foramt" })
+    map("n", "<leader>cr", "<leader>lr", { desc = "rename" })
     map("n", "<leader>cs", "<leader>ls", { desc = "symbols" })
     map("n", "<A-CR>", "<leader>la", { desc = "actions" })
     map("n", "<leader>cx", "<leader>ld", { desc = "diagnostics" })

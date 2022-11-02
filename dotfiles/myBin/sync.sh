@@ -13,6 +13,7 @@ config_folders=("alacritty" "bspwm" "dunst" "fish" "neofetch"
   "picom" "polybar" "ranger" "redshift" "rofi" "sxhkd" "eww" "jgmenu"
   "zathura"
 )
+
 # single folders are based on $HOME
 single_folders=("myBin" ".local/share/rofi/themes")
 

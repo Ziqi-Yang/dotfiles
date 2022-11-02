@@ -1,7 +1,7 @@
 function dtupdate
   # use and to exit when error occurs
   cd ~/Documents/dotfiles
-  and ~/myBin/sync.sh
+  and ./dotdrop.sh update
   and read -P "[press ENTER to continue]"
   and git add -A
   and git commit

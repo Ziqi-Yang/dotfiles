@@ -8,7 +8,7 @@ local_repo="$HOME/Documents/dotfiles"
 # ----- folder
 # link to other variables of folder
 folder_vars=("config_folders" "single_folders")
-# ~/.config
+# ~/.config; no subfolder allowed (e.x. polybar/scripts)
 config_folders=("alacritty" "bspwm" "dunst" "fish" "neofetch" 
   "picom" "polybar" "ranger" "redshift" "rofi" "sxhkd" "eww" "jgmenu"
   "zathura"
@@ -18,7 +18,9 @@ single_folders=("myBin" ".local/share/rofi/themes")
 
 # ----- files(root: home)
 files=(".xsession" ".Xresources" ".ideavimrc" ".todos.json" ".vimrc" ".gitconfig"
-  ".config/rofimoji.rc" ".config/nvim/lua/user/init.lua" ".config/mimeapps.list")
+  ".config/rofimoji.rc" ".config/nvim/lua/user/init.lua" ".config/mimeapps.list"
+  ".config/Code - OSS/User/settings.json"
+)
 
 
 # ============== sync ========================
@@ -26,7 +28,7 @@ echo "[#] sync start"
 echo
 # ----- folders
 echo "[*] folders"
-for var in ${folder_vars[@]}; do 
+for var in "${folder_vars[@]}"; do 
   folders=$var[@]
 
   if [[ $var == "config_folders" ]]; then
@@ -34,20 +36,20 @@ for var in ${folder_vars[@]}; do
     prefix="$HOME/.config"
     local_path="$local_repo/.config"
 
-    for f2 in ${!folders}; do
-      mkdir -p $local_path
+    for f2 in "${!folders}"; do
+      mkdir -p "$local_path"
       fullpath="$prefix/$f2"
-      cp $fullpath $local_path -rf
+      cp "$fullpath" "$local_path" -rf
       echo "$fullpath --- done"
     done
 
   elif [[ $var == "single_folders" ]]; then
-
-    for f2 in ${!folders}; do
+    for f2 in "${!folders}"; do
       fullpath="$HOME/$f2"
-      local_path="$local_repo/$(dirname $f2)"
-      mkdir -p $local_path
-      cp $fullpath $local_path -rf
+      local_full_path="$local_repo/$f2"
+      local_parent_path=$(dirname "$local_full_path")
+      mkdir -p "$local_parent_path"
+      cp "$fullpath" "$local_parent_path" -rf
       echo "$fullpath --- done"
     done
 
@@ -65,12 +67,12 @@ echo "--------------------------"
 echo
 # ----- files
 echo "[*] files"
-for f in ${files[@]}; do
+for f in "${files[@]}"; do
   fullpath="$HOME/$f"
-  local_folder="$local_repo/$(dirname $f)"
   local_full_path="$local_repo/$f"
-  mkdir -p $local_folder
-  cp $fullpath $local_full_path -f
+  local_folder=$(dirname "$local_full_path")
+  mkdir -p "$local_folder"
+  cp "$fullpath" "$local_full_path" -f
   echo "$fullpath --- done"
 done
 

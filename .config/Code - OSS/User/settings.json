@@ -1,0 +1,255 @@
+{
+    "workbench.colorTheme": "GitHub Light Default",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'FiraCode Nerd Font',Consolas,'Courier New', monospace",
+    "editor.fontSize": 16,
+
+    // tips: (more to see at the offical github repo)
+    // gd - go to definitin
+    // gh - show types info. and errors
+    "vim.leader": "<space>",
+    "vim.hlsearch": true,
+    "vim.easymotion": true, // <leader><leader> s or 2s
+    "vim.surround": true, // visual mode key: S
+    "vim.sneak": true, // normal mode key: s (forward) or S (backward)
+    "vim.sneakUseIgnorecaseAndSmartcase": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": false,
+    "vim.useCtrlKeys": true,
+    "vim.handleKeys": {
+        "<C-a>": false
+    },
+    // "vim.enableNeovim": true, // linux
+    // "vim.neovimUseConfigFile": true,
+    // "vim.neovimConfigPath": "/home/zarkli/.config/nvim/init.lua",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["k", "k"],
+            "after": ["<Esc>"]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "c","e"],
+            "commands": [   
+                "workbench.action.debug.start"
+            ]
+        },
+      ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+    ],
+
+    "todo-tree.general.tags": [
+        "BUG",
+        "NOTICE",
+        "FIXME",
+        "TODO",
+        "DONE",
+        "[]",
+        "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "todo-tree.highlights.defaultHighlight": {
+        "foreground": "white",
+        "background": "yellow",
+        "icon": "check",
+        "rulerColour": "yellow",
+        "type": "tag",
+        "iconColour": "yellow"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO":{
+            "background": "#c04851",
+            "rulerColour": "#c04851",
+            "iconColour": "#c04851",
+            "gutterIcon": "quote",
+            "icon": "quote",
+        },
+        "NOTICE":{
+            "background": "#fba414",
+            "iconColour": "#fba414",
+            "gutterIcon": "stop",
+            "icon": "stop",
+        },
+        "BUG": {
+            "icon": "bug",
+            "background": "#cc163a",
+            "iconColour": "#cc163a",
+        },
+        "FIXME": {
+            "icon": "flame",
+            "background": "#ebb10d",
+            "iconColour": "#ebb10d",
+            // "icon": "beaker"
+        },
+        "DONE": {
+            "icon": "check-circle-fill",
+            "background": "#207f4c",
+            "iconColour": "#207f4c",
+        }
+    },
+    "todo-tree.highlights.useColourScheme": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.wordWrap": "on",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+
+    // Latex workshop
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.showContextMenu": true,
+    "latex-workshop.intellisense.package.enabled": true,
+    "latex-workshop.message.error.show": false,
+    "latex-workshop.message.warning.show": false,
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-shell-escape",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=%OUTDIR%",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "XeLaTeX",
+            "tools": [
+                "xelatex"
+            ]
+        },
+        {
+            "name": "PDFLaTeX",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "BibTeX",
+            "tools": [
+                "bibtex"
+            ]
+        },
+        {
+            "name": "LaTeXmk",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "xelatex -> bibtex -> xelatex*2",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex"
+            ]
+        },
+        {
+            "name": "pdflatex -> bibtex -> pdflatex*2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+    ],
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk"
+    ],
+    "latex-workshop.latex.autoClean.run": "onFailed",
+    "latex-workshop.latex.recipe.default": "lastUsed",
+    "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.confirmSync": false,
+    "notebook.markup.fontSize": 16,
+    "remote.SSH.remotePlatform": {
+        "region-11.autodl.com": "linux"
+    },
+    "glassit.alpha": 255,
+    "terminal.integrated.inheritEnv": false,
+    "editor.linkedEditing": true,
+    "go.toolsManagement.autoUpdate": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.guides.bracketPairs": true,
+    "http.proxy": "http://127.0.0.1:7890"
+
+}

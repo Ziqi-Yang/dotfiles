@@ -1,21 +1,19 @@
-# Dotfiles
+# Unlimited Blade Works
 
-archlinux using bwpwn as windows mamager
+## Overview
 
-## Components
-链接的为单独的配置文件地址  
-1. bspwm
-2. sxhkd 
-3. ranger
-5. dunst
-6. rofi
-7. [neovim(astrovim)](https://github.com/Ziqi-Yang/astronvim_config)
+1. Pannel: `polybar`
+2. Terminal: `alacritty`
+3. Shell: `fish`
+4. Menu(Application Launcher, etc.): `jgmenu` and `rofi`
+5. Screen Lock: `BetterScreenLock`
+6. Notification Manager: `dunst` 
+7. Editors(and IDE):
+  - `emacs`: doom emacs [configuration](https://github.com/Ziqi-Yang/.doom.d)
+  - `neovim`: astrovim [configuration](./.config/nvim/lua/user/init.lua) is in this repo
+  - `Jetbrains IDE`: [.ideavimrc](./.ideavimrc) is in this repo
+
 8. [emacs(doom emacs)](https://github.com/Ziqi-Yang/.doom.d)
-9. polybar
-10. redshift
-11. fish
-12. alacritty
-13. picom
 14. [Code - Oss (i.e. vscode)](https://github.com/Ziqi-Yang/ide_vim_configs)
 15. [ideavimrc (intellij editors' ideavim plugin)](https://github.com/Ziqi-Yang/ide_vim_configs)
 16. [vim](https://gist.github.com/Ziqi-Yang/2fd25c93254382c9e5b376568a0e9611) for algorithm competition

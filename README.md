@@ -20,7 +20,7 @@
 9. Windows Manager: `bspwm` (with X hotkey daemon `sxhkd`)
 10. Compositor: `picom`([pijulius/picom](https://github.com/pijulius/picom))
 11. Pdf Reader: `zathura`
-12. Dotfile Syncer: initially `[dotfiles/myBin/sync.sh](dotfiles/myBin/sync.sh)` -> afterward `[dotdrop](https://github.com/deadc0de6/dotdrop)`
+12. Dotfile Syncer: initially [`dotfiles/myBin/sync.sh`](dotfiles/myBin/sync.sh) -> afterward [`dotdrop`](https://github.com/deadc0de6/dotdrop)
 
 **Themes**: 
 1. icon: `Deepin Icons 2022` [kde store](https://store.kde.org/p/1678986/) [github](https://github.com/zayronxio/Deepin-icons-2022)

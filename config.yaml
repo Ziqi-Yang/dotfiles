@@ -1,0 +1,109 @@
+config:
+  backup: true
+  create: true
+  dotpath: dotfiles
+dotfiles:
+  d_alacritty:
+    src: config/alacritty
+    dst: ~/.config/alacritty
+  d_bspwm:
+    src: config/bspwm
+    dst: ~/.config/bspwm
+  d_dunst:
+    src: config/dunst
+    dst: ~/.config/dunst
+  d_fish:
+    src: config/fish
+    dst: ~/.config/fish
+  d_neofetch:
+    src: config/neofetch
+    dst: ~/.config/neofetch
+  d_picom:
+    src: config/picom
+    dst: ~/.config/picom
+  d_polybar:
+    src: config/polybar
+    dst: ~/.config/polybar
+  d_ranger:
+    src: config/ranger
+    dst: ~/.config/ranger
+  d_redshift:
+    src: config/redshift
+    dst: ~/.config/redshift
+  d_rofi:
+    src: config/rofi
+    dst: ~/.config/rofi
+  d_sxhkd:
+    src: config/sxhkd
+    dst: ~/.config/sxhkd
+  d_eww:
+    src: config/eww
+    dst: ~/.config/eww
+  d_jgmenu:
+    src: config/jgmenu
+    dst: ~/.config/jgmenu
+  d_zathura:
+    src: config/zathura
+    dst: ~/.config/zathura
+  d_mybin:
+    src: myBin
+    dst: ~/myBin
+  f_xsession:
+    src: xsession
+    dst: ~/.xsession
+    chmod: '755'
+  f_xresources:
+    src: Xresources
+    dst: ~/.Xresources
+  f_ideavimrc:
+    src: ideavimrc
+    dst: ~/.ideavimrc
+  f_todos.json:
+    src: todos.json
+    dst: ~/.todos.json
+  f_vimrc:
+    src: vimrc
+    dst: ~/.vimrc
+  f_rofimoji.rc:
+    src: config/rofimoji.rc
+    dst: ~/.config/rofimoji.rc
+  f_init.lua:
+    src: config/nvim/lua/user/init.lua
+    dst: ~/.config/nvim/lua/user/init.lua
+  f_mimeapps.list:
+    src: config/mimeapps.list
+    dst: ~/.config/mimeapps.list
+  f_settings.json:
+    src: config/Code - OSS/User/settings.json
+    dst: ~/.config/Code - OSS/User/settings.json
+  d_share_rofi:
+    src: local/share/rofi
+    dst: ~/.local/share/rofi
+profiles:
+  myArch:
+    dotfiles:
+    - d_alacritty
+    - d_bspwm
+    - d_dunst
+    - d_fish
+    - d_neofetch
+    - d_picom
+    - d_polybar
+    - d_ranger
+    - d_redshift
+    - d_rofi
+    - d_sxhkd
+    - d_eww
+    - d_jgmenu
+    - d_zathura
+    - d_mybin
+    - f_xsession
+    - f_xresources
+    - f_ideavimrc
+    - f_todos.json
+    - f_vimrc
+    - f_rofimoji.rc
+    - f_init.lua
+    - f_mimeapps.list
+    - f_settings.json
+    - d_share_rofi

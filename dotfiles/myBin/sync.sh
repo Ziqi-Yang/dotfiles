@@ -1,5 +1,5 @@
 #!/bin/bash
-#sync all config files
+#sync all config files into local_repo
 set -e
 
 local_repo="$HOME/Documents/dotfiles"

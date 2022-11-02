@@ -49,22 +49,29 @@ local config = {
     }
   },
 
+  mappings = {
+    -- cannot map key to key here
+    -- to make things consistent, use map in `polish` function(end of the configuration)
+    n = {
+      ["<leader>c"] = false,
+      ["<leader>d"] = false,
+      ["<leader>h"] = false;
+    },
+  },
+
   -- Modify which-key registration
   ["which-key"] = {
-    -- Add bindings
-    register_mappings = {
+    register = {
       n = {
         ["<leader>"] = {
-          z = {
-            name = "mine",
-            c = {
-              "code",
-              -- can't map here when autocmd has the same map
-              -- a = "run code in vs window"
-            },
-            p = "paste",
-            y = "yank"
-          }
+          ["z"] = {
+            name = "extra",
+            ["c"] = {
+              name = "code",
+              ["a"] = "run"
+            }
+          },
+          ["c"] = { name = "code" },
         },
       },
     },
@@ -75,75 +82,69 @@ local config = {
   -- good place to configure mappings and vim options
   polish = function()
     -- Set key bindings
-    vim.keymap.set("n", "<C-s>", ":w!<CR>")
-    vim.cmd("nmap s <Plug>(easymotion-overwin-f2)") -- vim-easymotion
-    vim.cmd("nmap f <Plug>(easymotion-overwin-f)") -- vim-easymotion
-    vim.keymap.set("n", "zp", '"+p')
+    local map = vim.api.nvim_set_keymap
 
-    vim.keymap.set("i", "kk", "<Esc>")
+    -- -- normal mode
+    -- code
+    map("n", "<leader>cf", "<cmd>Format<cr>", { desc = "Foramt" })
+    map("n", "<leader>cs", "<leader>ls", { desc = "symbols" })
+    map("n", "<A-CR>", "<leader>la", { desc = "actions" })
+    map("n", "<leader>cx", "<leader>ld", { desc = "diagnostics" })
+    map("n", "<leader>cX", "<leader>lD", { desc = "All Diagnostics" })
+    map("n", "<leader>cd", "<leader>lR", { desc = "jump to definition" }) -- definition & reference
+    map("n", "<leader>cD", "<leader>lR", { desc = "jump to reference" }) -- definition & reference(same)
+    map("n", "<leader>cS", "<leader>lS", { desc = "outline" })
+    map("n", "<leader>cG", "<leader>lG", { desc = "workspace symbols" })
+
+    --
+    map("n", "s", "<Plug>(easymotion-overwin-f2)", { desc = "vim-easymotion-s" })
+    map("n", "f", "<Plug>(easymotion-overwin-f)", { desc = "vim-easymotion-f" })
+
+    -- files
+    map("n", "<leader>fr", "<leader>fo", { desc = "recent files" })
+
+    -- help
+    map("n", "<leader>hk", "<leader>sk", { desc = "keys" })
+    map("n", "<leader>hh", "<leader>sk", { desc = "help" })
+    map("n", "<leader>hc", "<leader>sc", { desc = "commands" })
+    map("n", "<leader>hm", "<leader>sm", { desc = "man" })
+
+    -- insert mode
+    map("i", "kk", "<Esc>", { desc = "escape" })
+
 
     -- ensure <C-BS> works in termianl nvim
     vim.cmd([[
     noremap! <C-BS> <C-w>
     noremap! <C-h> <C-w> 
     ]])
-    vim.keymap.set("i", "<C-BS>", "<C-w>")
+    map("i", "<C-BS>", "<C-w>", { desc = "back-detele a word" })
 
-    vim.keymap.set("v", "zy", '"+y')
 
-    -- Set autocommands
-    vim.api.nvim_create_augroup("packer_conf", { clear = true })
-    vim.api.nvim_create_autocmd("BufWritePost", {
-      desc = "Sync packer after modifying plugins.lua",
-      group = "packer_conf",
-      pattern = "plugins.lua",
-      command = "source <afile> | PackerSync",
-    })
-
+    -- autocommands
     vim.api.nvim_create_augroup("code_run", { clear = true })
-    vim.api.nvim_create_autocmd("BufWinEnter", {
-      desc = "run python in split terminal",
-      group = "code_run",
-      pattern = "*.py",
-      command = "nnoremap <silent> <leader>zca :w<CR>:vs term://time python %<CR>i"
-    })
-    vim.api.nvim_create_autocmd("BufWinEnter", {
-      desc = "run go in split terminal",
-      group = "code_run",
-      pattern = "*.go",
-      command = "nnoremap <silent> <leader>zca :w<CR>:vs term://time go run %<CR>i"
-    })
-    vim.api.nvim_create_autocmd("BufWinEnter", {
-      desc = "run cpp in split terminal",
-      group = "code_run",
-      pattern = "*.cpp",
-      command = "nnoremap <silent> <leader>zca :w<CR>:vs term://clang++ % -fsanitize=undefined -o .nvim_run.out && time ./.nvim_run.out && rm ./.nvim_run.out <CR>i"
-    })
+    vim.api.nvim_create_autocmd("BufWinEnter",
+      { desc = "run python in split terminal", group = "code_run", pattern = "*.py",
+        command = "nnoremap <silent> <leader>zca :w<CR>:vs term://time python %<CR>i" })
+    vim.api.nvim_create_autocmd("BufWinEnter",
+      { desc = "run go in split terminal", group = "code_run", pattern = "*.go",
+        command = "nnoremap <silent> <leader>zca :w<CR>:vs term://time go run %<CR>i" })
+    vim.api.nvim_create_autocmd("BufWinEnter",
+      { desc = "run cpp in split terminal", group = "code_run", pattern = "*.cpp",
+        command = "nnoremap <silent> <leader>zca :w<CR>:vs term://clang++ % -fsanitize=undefined -o .nvim_run.out && time ./.nvim_run.out && rm ./.nvim_run.out <CR>i" })
+    vim.api.nvim_create_autocmd("BufWinEnter",
+      { desc = "run c in split terminal", group = "code_run", pattern = "*.c",
+        command = "nnoremap <silent> <leader>zca :w<CR>:vs term://clang % -fsanitize=undefined -o .nvim_run.out && time ./.nvim_run.out && rm ./.nvim_run.out <CR>i" })
+    vim.api.nvim_create_autocmd("BufWinEnter",
+      { desc = "run c in split terminal", group = "code_run", pattern = "*.java",
+        command = "nnoremap <silent> <leader>zca :w<CR>:vs term://javac % && java %:r" })
+    vim.api.nvim_create_autocmd("BufWinEnter",
+      { desc = "run c in split terminal", group = "code_run", pattern = "*.sh",
+        command = "nnoremap <silent> <leader>zca :w<CR>:vs term://bash %" })
 
-    vim.api.nvim_create_autocmd("BufWinEnter", {
-      desc = "run c in split terminal",
-      group = "code_run",
-      pattern = "*.c",
-      command = "nnoremap <silent> <leader>zca :w<CR>:vs term://clang % -fsanitize=undefined -o .nvim_run.out && time ./.nvim_run.out && rm ./.nvim_run.out <CR>i"
-    })
-
-    vim.api.nvim_create_autocmd("BufWinEnter", {
-      desc = "run c in split terminal",
-      group = "code_run",
-      pattern = "*.java",
-      command = "nnoremap <silent> <leader>zca :w<CR>:vs term://javac % && java %:r"
-    })
-
-    vim.api.nvim_create_autocmd("BufWinEnter", {
-      desc = "run c in split terminal",
-      group = "code_run",
-      pattern = "*.sh",
-      command = "nnoremap <silent> <leader>zca :w<CR>:vs term://bash %"
-    })
 
     -- transparent background
     vim.cmd('autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE " transparent bg " transparent background')
-
     -- restore cursor postion to the last editing position
     vim.cmd([[autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif]])
   end

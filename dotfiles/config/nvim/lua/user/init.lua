@@ -104,9 +104,18 @@ local config = {
     -- files
     map("n", "<leader>fr", "<leader>fo", { desc = "recent files" })
 
+    -- search
+    map("n", "<leader>ss", "<leader>fc", { desc = "search(fuzzy)" })
+    map("n", "<leader>sS", "<leader>fw", { desc = "search(exact)" })
+    map("n", "<leader>sm", "<leader>fm", { desc = "marks" })
+
+    -- buffer
+    map("n", "<leader>bb", "<leader>fb", { desc = "buffer" })
+
+
     -- help
     map("n", "<leader>hk", "<leader>sk", { desc = "keys" })
-    map("n", "<leader>hh", "<leader>sk", { desc = "help" })
+    map("n", "<leader>hh", "<leader>sh", { desc = "help" })
     map("n", "<leader>hc", "<leader>sc", { desc = "commands" })
     map("n", "<leader>hm", "<leader>sm", { desc = "man" })
 

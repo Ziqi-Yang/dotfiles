@@ -39,7 +39,8 @@ if &ide =~? 'android studio'
 endif
 
 " search
-map <leader>ss <Action>(Find)
+map <leader>ss <Action>(SearchEverywhere)
+map <leader>sf <Action>(Find)
 map <leader>su <Action>(FindUsages)
 map <leader>sr <Action>(Replace)
 
@@ -74,7 +75,7 @@ let g:WhichKeyDesc_extra = "<leader>e Extract"
 let g:WhichKeyDesc_extra = "<leader>z Extra"
 
 let g:WhichKeyDesc_code_run = "<leader>zca run"
-let g:WhichKeyDesc_code_debug = "<leader>cd debug"
+let g:WhichKeyDesc_code_debug = "<leader>cd GotoDeclaration"
 let g:WhichKeyDesc_code_stop = "<leader>cs stop"
 let g:WhichKeyDesc_delete_all = "<leader>zbe delte all"
 let g:WhichKeyDesc_trans_word = "<leader>tw translate word"

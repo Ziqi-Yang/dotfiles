@@ -22,6 +22,20 @@ sudo usermod -a -G libvirt $(whoami)
 sudo systemctl restart libvirtd
 ```
 
+# Error Fixing
+
+**Requested operation is not valid: network 'default' is not active**:
+
+```bash
+# start it whenever libvirtd is started
+virsh net-autostart default
+```
+or
+```bash
+sudo virsh net-start default
+```
+[detail](https://wiki.libvirt.org/page/Networking)
+
 # use
 
 start `virtual machine manager` application

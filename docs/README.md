@@ -14,7 +14,7 @@
     - `emacs`: doom emacs [configuration](https://github.com/Ziqi-Yang/.doom.d)(in another repo)
     - `neovim`: astrovim [configuration](./dotfiles/config/nvim/lua/user/init.lua)
     - `Jetbrains IDE`: [.ideavimrc](./dotfiles/config/ideavimrc)
-    - `vscode`(`code - oss`): [settings.json](<./dotfiles/config/Code - OSS/User/settings.json>)
+    - `vscode`(`code - oss`): [settings.json](./dotfiles/config/Code - OSS/User/settings.json)
     - `vim`: [extramely basic config for icpc](https://gist.github.com/Ziqi-Yang/2fd25c93254382c9e5b376568a0e9611) for algorithm competition
 8. File Manager: `rofi`
 9. Windows Manager: `bspwm` (with X hotkey daemon `sxhkd`)

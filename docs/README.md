@@ -37,7 +37,7 @@
 
 ## Docs
 
-On progress
+On progress  
 Previous docs can be found in the `docs_bak` folder
 
 ## Other Awesome Dotfiles

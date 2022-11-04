@@ -15,9 +15,22 @@
       name: 'Hacking to the Arch',
       repo: 'https://github.com/Ziqi-Yang/dotfiles',
       loadSidebar: true,
+      search: 'auto',
+      search: {
+      maxAge: 86400000, // Expiration time, the default one day
+      paths: 'auto',
+      placeholder: 'Type to search',
+      noData: 'No Results!',
+      depth: 2,
+      hideOtherSidebarContent: false,
+      namespace: 'Hacking_to_the_Arch'
+      },
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
 </body>
 </html>

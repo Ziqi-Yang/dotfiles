@@ -1,0 +1,50 @@
+ls
+rename test2
+search .todo
+search 8
+search .confi
+rename eww.scss
+rename eww.yuck
+search nvim
+search nvm
+rename Essay-Plan-Zack-21207440.docx
+rename rofimenu.config
+rename sidemenu2.rasi
+mkdir COMP_2010J
+rename COMP_2010J_algo
+rename COMP2010J_week8.pdf
+rename main.tex
+rename week-11-Virtualization.pdf
+search mine
+search min
+rename README.pdf
+search expan
+rename .git
+cd 
+search local
+search rofi
+mount
+mkdir ./static
+shell
+rename docs_back
+rename docs_bak
+search .android
+search Downl
+rename adbkey.bak
+rename adbkey.pub
+search .conl
+search kden
+mkdir sample
+mkdir ./temp_project
+search .local
+search ranger
+search .con
+search node
+search go
+search 
+search .np,
+
+search npm
+l
+search .npm
+cd /home/zarkli/.config/dunst/

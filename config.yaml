@@ -79,6 +79,22 @@ dotfiles:
   d_share_rofi:
     src: local/share/rofi
     dst: ~/.local/share/rofi
+  d_share_ranger:
+    src: local/share/ranger
+    dst: ~/.local/share/ranger
+  f_gitconfig:
+    src: gitconfig
+    dst: ~/.gitconfig
+  d_blender:
+    src: config/blender
+    dst: ~/.config/blender
+  f_npmrc:
+    src: npmrc
+    dst: ~/.npmrc
+    chmod: '600'
+  f_yarnrc:
+    src: yarnrc
+    dst: ~/.yarnrc
 profiles:
   myArch:
     dotfiles:
@@ -107,3 +123,8 @@ profiles:
     - f_mimeapps.list
     - f_settings.json
     - d_share_rofi
+    - d_share_ranger
+    - f_gitconfig
+    - d_blender
+    - f_npmrc
+    - f_yarnrc

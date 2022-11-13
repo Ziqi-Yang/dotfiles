@@ -32,11 +32,14 @@ bspc rule -a floating state=floating sticky=on rectangle=1600x1000+800+500
 bspc rule -a Emacs state=tiled
 bspc rule -a Zathura state=tiled
 bspc rule -a Logseq state=tiled
+
+bspc rule -a fullscreen state=fullscreen
 bspc rule -a thunderbird state=fullscreen
 bspc rule -a yesplaymusic state=fullscreen
 bspc rule -a discord state=fullscreen
 bspc rule -a TelegramDesktop state=fullscreen
-bspc rule -a fullscreen state=fullscreen
+bspc rule -a electronic-wechat state=fullscreen
+
 
 
 # ============================================================

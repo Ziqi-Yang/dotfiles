@@ -67,3 +67,7 @@ application/zip=org.pwmt.zathura.desktop
 application/x-tar=org.pwmt.zathura.desktop
 application/x-7z-compressed=org.pwmt.zathura.desktop
 application/x-fictionbook+xml=org.pwmt.zathura.desktop
+font/ttf=org.gnome.font-viewer.desktop
+font/woff=org.gnome.font-viewer.desktop
+font/otf=org.gnome.font-viewer.desktop
+x-scheme-handler/baiduyunguanjia=baidunetdisk.desktop

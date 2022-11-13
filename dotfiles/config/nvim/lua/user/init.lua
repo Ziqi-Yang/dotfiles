@@ -5,7 +5,7 @@ local config = {
     opt = {
       clipboard = "",
       splitright = false, -- vsplit behaviour
-      autochdir = true, -- auto change path to current folder
+      -- autochdir = true, -- auto change path to current folder
     },
     g = {
       -- neovide
@@ -103,10 +103,15 @@ local config = {
 
     -- files
     map("n", "<leader>fr", "<leader>fo", { desc = "recent files" })
+    map("n", "<leader>fi", ":e ~/.config/nvim/lua/user/init.lua<CR>", { desc = "edit init.lua" })
+
+    -- lsp
+    map("n", "<leader>lm", ":Mason<CR>", { desc = "manage lsp" })
 
     -- search
-    map("n", "<leader>ss", "<leader>fc", { desc = "search(fuzzy)" })
-    map("n", "<leader>sS", "<leader>fw", { desc = "search(exact)" })
+    map("n", "<leader>ss", "<leader>fw", { desc = "search(fuzzy)" })
+    map("n", "<leader>sS", "<leader>fc", { desc = "search(exact)" })
+    map("n", "<leader>sA", "<leader>fW", { desc = "search words in all files" })
     map("n", "<leader>sm", "<leader>fm", { desc = "marks" })
 
     -- buffer
@@ -149,8 +154,9 @@ local config = {
       { desc = "run c in split terminal", group = "code_run", pattern = "*.java",
         command = "nnoremap <silent> <leader>zca :w<CR>:vs term://javac % && java %:r" })
     vim.api.nvim_create_autocmd("BufWinEnter",
-      { desc = "run c in split terminal", group = "code_run", pattern = "*.sh",
+      { desc = "run bash script", group = "code_run", pattern = "*.sh",
         command = "nnoremap <silent> <leader>zca :w<CR>:vs term://bash %" })
+
 
 
     -- transparent background

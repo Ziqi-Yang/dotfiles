@@ -1,50 +1,50 @@
-ls
-rename test2
-search .todo
-search 8
-search .confi
-rename eww.scss
-rename eww.yuck
-search nvim
-search nvm
-rename Essay-Plan-Zack-21207440.docx
-rename rofimenu.config
-rename sidemenu2.rasi
-mkdir COMP_2010J
-rename COMP_2010J_algo
-rename COMP2010J_week8.pdf
-rename main.tex
-rename week-11-Virtualization.pdf
-search mine
-search min
-rename README.pdf
-search expan
-rename .git
-cd 
-search local
-search rofi
-mount
-mkdir ./static
-shell
-rename docs_back
-rename docs_bak
-search .android
-search Downl
-rename adbkey.bak
-rename adbkey.pub
-search .conl
-search kden
-mkdir sample
-mkdir ./temp_project
-search .local
-search ranger
-search .con
-search node
-search go
-search 
-search .np,
+cd /home/zarkli/.config/zathura/
+mkdir ./scripts
+rename rofi_history_file
+cd ~
+rename zathura_history_file
+cd /home/zarkli/.config/alacritty/
+mkdir ./colorschemes
+search make
+cd ./.doom.d/
+mkdir templates
+rename java
+mkdir ./Makefile
+rename code_templates
+cd /home/zarkli/.config/fish/
+mkdir ./java
+rename project_templates
+mkdir src
+e .gitignore
+touch ./.gitignore
 
-search npm
-l
-search .npm
-cd /home/zarkli/.config/dunst/
+touch README.md
+open_with 
+open_with 3
+search dire
+mkdir man
+c
+rename COMP2012J_file_system_
+cd /home/zarkli/.local/share/zathura/
+cd /home/zarkli/.emacs.d/
+search emacs
+search doom
+search .local
+search ja
+rename libs
+cd /home/zarkli/.emacs.d/.local/cache/
+mkdir class
+rename PacMan_bak
+rename targetq
+rename lib
+mkdir 
+mkdir emacs_lsp-java_project_setting
+rename emacs
+rename Makefile_bak
+rename Makefile
+cd /home/zarkli/.config/fish/project_templates/java/
+mkdir libs
+cd /home/zarkli/.config/eww/
+rename eww_bak
+mkdir eww
+rename eww_test

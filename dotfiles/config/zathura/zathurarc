@@ -51,6 +51,5 @@ set highlight-active-color	  "#EA76CB"
 #
 set adjust-open width
 set recolor true
-set smooth-scroll true # only work with touchpad
 set scroll-step 150
 

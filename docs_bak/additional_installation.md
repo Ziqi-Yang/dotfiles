@@ -148,3 +148,6 @@ themes: [catppuccin/zathura](https://github.com/catppuccin/zathura)
 sudo pacman -S zathura zathura-cb zathura-djvu zathura-pdf-mupdf
 ```
 
+## other
+
+paru and bat

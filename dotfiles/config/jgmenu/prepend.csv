@@ -1,0 +1,29 @@
+@icon,,28,17,16,16,0,left,top,#cdd6f4,#cdd6f4,/home/zarkli/.config/jgmenu/MenuIcons/search.png
+@search,,50,16,150,20,2,left,top,#cdd6f4,#1e1e2e,Search
+Terminal,alacritty,/home/zarkli/.config/jgmenu/MenuIcons/terminal.png
+Web Browser,google-chrome-stable,/home/zarkli/.config/jgmenu/MenuIcons/web-browser.png
+File manager,dolphin,/home/zarkli/.config/jgmenu/MenuIcons/file-manager.png
+Text Editor,emacsclient -nc,/home/zarkli/.config/jgmenu/MenuIcons/edit-note.png
+Music Player,/opt/YesPlayMusic/yesplaymusic,/home/zarkli/.config/jgmenu/MenuIcons/music.png
+
+^sep()
+Applications,^checkout(lx-apps),/home/zarkli/.config/jgmenu/MenuIcons/applications.png
+^sep()
+Me,^checkout(me),/home/zarkli/.config/jgmenu/MenuIcons/bspwm.png
+Bspwm,^checkout(bspwm),/home/zarkli/.config/jgmenu/MenuIcons/system-menu.png
+Other,^checkout(other)
+
+
+^tag(me)
+Github,xdg-open https://github.com/Ziqi-Yang,/home/zarkli/.config/jgmenu/MenuIcons/github.png
+Blog,xdg-open https://ziqi-yang.github.io/blog/,/home/zarkli/.config/jgmenu/MenuIcons/bspwm.png
+Dotfiles,xdg-open https://github.com/Ziqi-Yang/dotfiles,/home/zarkli/.config/jgmenu/MenuIcons/edit-note.png
+
+^tag(bspwm)
+Exit,bspc quit,/home/zarkli/.config/jgmenu/MenuIcons/exit.png
+Restart,bspc wm -r,/home/zarkli/.config/jgmenu/MenuIcons/restart.png
+
+^tag(other)
+zathura history,bash /home/zarkli/myBin/zathura_history_file
+
+^tag(lx-apps)

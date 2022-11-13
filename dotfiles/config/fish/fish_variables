@@ -21,6 +21,7 @@ SETUVAR _fish_abbr_gbsg:git\x20bisect\x20good
 SETUVAR _fish_abbr_gbsr:git\x20bisect\x20reset
 SETUVAR _fish_abbr_gbss:git\x20bisect\x20start
 SETUVAR _fish_abbr_gc:git\x20commit\x20\x2dv
+SETUVAR _fish_abbr_gc1:\x2da\x20\x2dg\x20git\x20clone\x20\x2d\x2ddepth\x3d1
 SETUVAR _fish_abbr_gc_21_:git\x20commit\x20\x2dv\x20\x2d\x2damend
 SETUVAR _fish_abbr_gca:git\x20commit\x20\x2dv\x20\x2da
 SETUVAR _fish_abbr_gca_21_:git\x20commit\x20\x2dv\x20\x2da\x20\x2d\x2damend

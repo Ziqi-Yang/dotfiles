@@ -1,50 +1,50 @@
-cd /home/zarkli/.config/zathura/
-mkdir ./scripts
-rename rofi_history_file
-cd ~
-rename zathura_history_file
-cd /home/zarkli/.config/alacritty/
-mkdir ./colorschemes
-search make
-cd ./.doom.d/
-mkdir templates
-rename java
-mkdir ./Makefile
-rename code_templates
-cd /home/zarkli/.config/fish/
-mkdir ./java
-rename project_templates
-mkdir src
-e .gitignore
-touch ./.gitignore
+search we
+search wei
+rename COMP2012_assignment_fs_tutorial.pdf
+bak
+mkdir bak
+rename PacMan
+rename Assignemtn_PacMan
+rename Assignement_PacMan
+rename Assignment_PacMan
+rename 21372225.zip
+rename 21207440.pdf
+rename 21207440.zip
+search mp4
+rename 21372225.mp4
+mkdir PacMan
+rename main_bak.pdf
+search .emacs
+search programm
+cd ./.cargo/
+search nyan
+mkdir ./bak
+cd /home/zarkli/programme/test/nyan-mode/img/
+mkdir COMP2011J_OOP
+search .loca
+mkdir kvantum
+mkdir ./theme
+beautify.md
+e ./beautify.md
+mkdir ./概率论与数理统计
+moount
+mount
+mkdir ./homework
+rename homework2.pdf
+rename homework6.pdf
+rename homework 第二周.pdf
+rename homework 第2周.pdf
+rename P&S第11讲.ppt
+rename P&S第9讲.ppt
+rename P22.ppt
+rename P&S第17讲.ppt
+rename P&S第18讲.ppt
+rename P&S第19讲.ppt
+rename P&S第20讲.ppt
+rename P&S第21讲.ppt
+rename P&S第22讲.ppt.ppt
+rename Clash_for_Windows_back
+rename Clash_for_Windows_bak
+rename Clash_for_Windows
 
-touch README.md
-open_with 
-open_with 3
-search dire
-mkdir man
-c
-rename COMP2012J_file_system_
-cd /home/zarkli/.local/share/zathura/
-cd /home/zarkli/.emacs.d/
 search emacs
-search doom
-search .local
-search ja
-rename libs
-cd /home/zarkli/.emacs.d/.local/cache/
-mkdir class
-rename PacMan_bak
-rename targetq
-rename lib
-mkdir 
-mkdir emacs_lsp-java_project_setting
-rename emacs
-rename Makefile_bak
-rename Makefile
-cd /home/zarkli/.config/fish/project_templates/java/
-mkdir libs
-cd /home/zarkli/.config/eww/
-rename eww_bak
-mkdir eww
-rename eww_test

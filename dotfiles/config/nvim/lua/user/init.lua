@@ -5,7 +5,7 @@ local config = {
     opt = {
       clipboard = "",
       splitright = false, -- vsplit behaviour
-      -- autochdir = true, -- auto change path to current folder
+      autochdir = true, -- auto change path to current folder
     },
     g = {
       -- neovide
@@ -115,7 +115,8 @@ local config = {
     map("n", "<leader>sm", "<leader>fm", { desc = "marks" })
 
     -- buffer
-    map("n", "<leader>bb", "<leader>fb", { desc = "buffer" })
+    map("n", "<leader>bb", "<leader>fb", { desc = "change" })
+    map("n", "<leader>bk", "<leader>C", { desc = "kill" })
 
 
     -- help

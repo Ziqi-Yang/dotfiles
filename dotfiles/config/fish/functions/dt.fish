@@ -1,4 +1,4 @@
 function dt
-  cd ~/Documents/dotfiles
+  cd ~/Documents/dotfiles/docs
 end
 

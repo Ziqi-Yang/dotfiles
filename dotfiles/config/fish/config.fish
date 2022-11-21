@@ -3,7 +3,7 @@ if status is-interactive
 # environment variables
 
 ## other
-set EDITOR "nvim"
+set EDITOR "emacsclient -t"
 set ANDROID_SDK_ROOT /opt/android-sdk
 
 ## path

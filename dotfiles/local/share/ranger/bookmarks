@@ -1,4 +1,4 @@
-':/home/zarkli/.config
+':/home/zarkli/.emacs.d/templates
 d:/home/zarkli/Documents/dotfiles
 c:/home/zarkli/.config
 m:/home/zarkli/programme/temp_project
@@ -6,6 +6,8 @@ w:/home/zarkli/programme/web
 p:/home/zarkli/Pictures
 b:/home/zarkli/Documents/blog/content/post
 t:/home/zarkli/programme/test
-T:/home/zarkli/programme/temp_project
+T:/home/zarkli/projects/temp_project
 k:/home/zarkli/.config/alacritty
 v:/home/zarkli/programme/temp_project/pacman
+j:/home/zarkli/javaProjects
+l:/home/zarkli/Documents/latex

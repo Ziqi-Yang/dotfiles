@@ -95,6 +95,9 @@ dotfiles:
   f_yarnrc:
     src: yarnrc
     dst: ~/.yarnrc
+  f_config.toml:
+    src: cargo/config.toml
+    dst: ~/.cargo/config.toml
 profiles:
   myArch:
     dotfiles:
@@ -128,3 +131,4 @@ profiles:
     - d_blender
     - f_npmrc
     - f_yarnrc
+    - f_config.toml

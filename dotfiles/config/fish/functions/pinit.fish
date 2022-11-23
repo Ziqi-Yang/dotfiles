@@ -12,8 +12,12 @@ function pinit -a 'language' -a 'packageName'
 
         case "c" "cpp" "c++"
 
+        case "rust"
+          source $function_path
+          pinit_rust $packageName
         case "*"
             echo "Language not support"
+            return -1
       end
 
       cd "$packageName"

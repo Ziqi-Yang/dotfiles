@@ -33,7 +33,7 @@
     - [Material Design Icons Desktop TTF](https://github.com/Templarian/MaterialDesign-Font) icon
     - [MesloLGS\_NF](https://github.com/romkatv/powerlevel10k-media/)
 - cursor: [Google\_Cursor](https://github.com/ful1e5/Google_Cursor) (google-dot-blue)
-- qt5: airy
+- qt5: kvantum
 - gtk: [Layan-gtk-theme](https://github.com/vinceliuice/Layan-gtk-theme)
 
 ## [Docs](https://ziqi-yang.github.io/dotfiles/#/)

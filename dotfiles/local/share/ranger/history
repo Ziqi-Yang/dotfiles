@@ -1,7 +1,3 @@
-beautify.md
-e ./beautify.md
-mkdir ./概率论与数理统计
-moount
 mount
 mkdir ./homework
 rename homework2.pdf
@@ -25,7 +21,6 @@ search .emacs
 search fish
 cd /home/zarkli/MEGAsync/icpc_code_templates/
 cd 
-
 cd /home/zarkli/Pictures/
 rename screenshot.png
 r2w
@@ -48,3 +43,8 @@ cd ~/
 rename manual
 c
 search c
+rename 3.jpg
+rename week-14-Distributed-OS.pdf
+
+rename 1E338E945ED009A195E87947575_B41A4FF7_E7160.zip
+rename hyx-2021.06.09.tar.xz

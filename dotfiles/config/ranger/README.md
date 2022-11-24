@@ -3,7 +3,7 @@
 ### preview & basic functinos (e.g. trash)
 
 ```shell
-sudo pacman -S highlight atool w3m poppler mediainfo catdoc docx2txt ueberzug trash-cli
+sudo pacman -S highlight atool w3m poppler mediainfo catdoc docx2txt ueberzug trash-cli unarchiver
 ```
 
 ### plugin

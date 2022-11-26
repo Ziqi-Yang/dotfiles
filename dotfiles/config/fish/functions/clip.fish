@@ -1,4 +1,4 @@
 function clip
-    xclip -sel clip
+    xclip -r -sel clip
 end
 

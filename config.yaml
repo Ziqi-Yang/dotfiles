@@ -98,6 +98,9 @@ dotfiles:
   f_config.toml:
     src: cargo/config.toml
     dst: ~/.cargo/config.toml
+  d_matter:
+    src: Public/matter
+    dst: ~/Public/matter
 profiles:
   myArch:
     dotfiles:
@@ -132,3 +135,4 @@ profiles:
     - f_npmrc
     - f_yarnrc
     - f_config.toml
+    - d_matter

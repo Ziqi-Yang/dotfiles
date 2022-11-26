@@ -24,7 +24,7 @@
 
 **Themes**: 
 1. icon: `Deepin Icons 2022` [kde store](https://store.kde.org/p/1678986/) [github](https://github.com/zayronxio/Deepin-icons-2022)
-2. grub: [GRUB-Theme](https://github.com/13atm01/GRUB-Theme)
+2. grub: ~~[GRUB-Theme](https://github.com/13atm01/GRUB-Theme)~~ [`matter`](https://github.com/mateosss/matter)
 3. font: (the last 4 fonts is already included in this repo)
     - FiraCode Nerd Font: [aur](https://aur.archlinux.org/packages/nerd-fonts-fira-code) used for programming
     - [zpix](https://github.com/SolidZORO/zpix-pixel-font) pixel font

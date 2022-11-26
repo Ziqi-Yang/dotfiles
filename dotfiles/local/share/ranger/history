@@ -1,23 +1,9 @@
-mount
-mkdir ./homework
-rename homework2.pdf
-rename homework6.pdf
-rename homework 第二周.pdf
-rename homework 第2周.pdf
-rename P&S第11讲.ppt
-rename P&S第9讲.ppt
-rename P22.ppt
-rename P&S第17讲.ppt
-rename P&S第18讲.ppt
-rename P&S第19讲.ppt
 rename P&S第20讲.ppt
 rename P&S第21讲.ppt
 rename P&S第22讲.ppt.ppt
 rename Clash_for_Windows_back
 rename Clash_for_Windows_bak
 rename Clash_for_Windows
-search emacs
-search .emacs
 search fish
 cd /home/zarkli/MEGAsync/icpc_code_templates/
 cd 
@@ -45,6 +31,20 @@ c
 search c
 rename 3.jpg
 rename week-14-Distributed-OS.pdf
-
 rename 1E338E945ED009A195E87947575_B41A4FF7_E7160.zip
 rename hyx-2021.06.09.tar.xz
+rename Zack-21207440-r2w-practice.docx
+rename Ziqi Yang 21207440 SE2-1.docx
+mkdir archive
+mkdir ./星火
+rename 附件2：北京工业大学“星火基金”项目申报书.doc
+heko
+help
+shell 
+search .dooml
+search .emacs
+search emacs
+
+rename .emacs.d
+rename .emacs.d.bak
+rename 北京工业大学“星火基金”项目申报书-杨子祺-21372225.doc

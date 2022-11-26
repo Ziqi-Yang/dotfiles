@@ -2,7 +2,7 @@
 	name = Zarkli Leonardo
 	email = mr.ziqiyang@gmail.com
 [core]
-	editor = emacsclient -t
+	editor = vim
 	autocrlf = input
 [http]
 	proxy = http://127.0.0.1:7890

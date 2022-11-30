@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+picom_config="$HOME/.config/picom/picom.conf"
+
+sed -i "s/animations = true/animations = false/;t;\
+    s/animations = false/animations = true/" "$picom_config"

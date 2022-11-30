@@ -4,17 +4,22 @@ function pinit -a 'language' -a 'packageName'
 
       set function_path "$HOME/.config/fish/functions/pinit/$language.fish"
 
+      if test -e $function_path
+          source $function_path
+      else
+          echo "Language not support"
+          return -1
+      end
+
       switch "$language"
         case "java"
-          source $function_path
-          pinit_java $packageName
+            pinit_java $packageName
         case "python"
 
-        case "c" "cpp" "c++"
-
+        case "cc"
+            pinit_cc $packageName
         case "rust"
-          source $function_path
-          pinit_rust $packageName
+            pinit_rust $packageName
         case "*"
             echo "Language not support"
             return -1

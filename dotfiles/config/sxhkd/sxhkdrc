@@ -26,6 +26,9 @@ super + a
 alt + v
 	rofi -modi "clipboard:greenclip print" -show clipboard
 
+super + r
+	/home/zarkli/myBin/window_sizer
+
 # calc
 alt + c
   rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '\{result\}' | xclip -sel clip; xdotool type --clearmodifiers '\{result\}'"
@@ -52,9 +55,9 @@ super + shift + s
 alt + shift + x
     betterlockscreen -l dimblur
 
-# turn off screen immediately
-alt + shift + c
-    xset dpms force off 
+# use super + mouse right click to show jgmenu
+super + shift + button3
+		jgmenu_run >/dev/null 2>&1 &
 
 
 # make sxhkd reload its configuration files:

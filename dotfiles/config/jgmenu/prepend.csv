@@ -10,7 +10,7 @@ Music Player,/opt/YesPlayMusic/yesplaymusic,/home/zarkli/.config/jgmenu/MenuIcon
 Applications,^checkout(lx-apps),/home/zarkli/.config/jgmenu/MenuIcons/applications.png
 ^sep()
 Me,^checkout(me),/home/zarkli/.config/jgmenu/MenuIcons/bspwm.png
-Bspwm,^checkout(bspwm),/home/zarkli/.config/jgmenu/MenuIcons/system-menu.png
+System,^checkout(system),/home/zarkli/.config/jgmenu/MenuIcons/system-menu.png
 Other,^checkout(other)
 
 
@@ -19,15 +19,16 @@ Github,xdg-open https://github.com/Ziqi-Yang,/home/zarkli/.config/jgmenu/MenuIco
 Blog,xdg-open https://ziqi-yang.github.io/blog/,/home/zarkli/.config/jgmenu/MenuIcons/bspwm.png
 Dotfiles,xdg-open https://github.com/Ziqi-Yang/dotfiles,/home/zarkli/.config/jgmenu/MenuIcons/edit-note.png
 
-^tag(bspwm)
-Exit,bspc quit,/home/zarkli/.config/jgmenu/MenuIcons/exit.png
-Restart,bspc wm -r,/home/zarkli/.config/jgmenu/MenuIcons/restart.png
+^tag(system)
+Bspwm Exit,bspc quit,/home/zarkli/.config/jgmenu/MenuIcons/exit.png
+Bspwm Restart,bspc wm -r,/home/zarkli/.config/jgmenu/MenuIcons/restart.png
+Sxhkd Reload,pkill -USR1 -x sxhkd,/home/zarkli/.config/jgmenu/MenuIcons/restart.png
 Lock Screen,betterlockscreen -l dimblur
 Turn Off Screen,xset dpms force off
-Reload Key Shortcut,pkill -USR1 -x sxhkd
 
 ^tag(other)
-Zathura History,bash /home/zarkli/myBin/zathura_history_file
 Get Window Class,notify-send $(xprop | grep WM_CLASS)
+Toggle Picom Animation,/home/zarkli/myBin/toggle_picom_animation
+Display Clipboard Image,/home/zarkli/myBin/display_clipboard_image
 
 ^tag(lx-apps)

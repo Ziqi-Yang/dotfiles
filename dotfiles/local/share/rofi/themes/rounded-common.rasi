@@ -19,7 +19,7 @@ window {
     location:       center;
     width:          1500;
     y-offset:       -200;
-    border-radius:  25px;
+    border-radius:  0px;
     
     background-color:   @bg0;
 }

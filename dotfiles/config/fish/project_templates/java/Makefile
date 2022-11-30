@@ -10,12 +10,13 @@
 all: compile run
 
 compile:
-	mvn package
+	mvn -q package
 
 run: 
 	# java -cp "target/PacMan-1.0-SNAPSHOT.jar:libs/COMP2011J.Game.Engine.jar" PacMan.GameStart
 	java -cp "target/#{packageName}#-1.0-SNAPSHOT.jar" #{packageName}#.App
 
+.PHONY: clean
 clean:
 	mvn clean
 

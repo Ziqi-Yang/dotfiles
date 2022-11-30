@@ -1,50 +1,50 @@
-rename P&S第20讲.ppt
-rename P&S第21讲.ppt
-rename P&S第22讲.ppt.ppt
-rename Clash_for_Windows_back
-rename Clash_for_Windows_bak
-rename Clash_for_Windows
-search fish
-cd /home/zarkli/MEGAsync/icpc_code_templates/
-cd 
-cd /home/zarkli/Pictures/
-rename screenshot.png
-r2w
-mkdir r2w
-mkdir ./books
-rename progit.epub
-mkdir ./lab
-rename COMP2010J_week_3.pdf
-rename COMP2010J_week_6.pdf
-rename COMP2010J_week3.pdf
-rename COMP2010J_week6.pdf
-rename COMP2010J_week1.pdf
-rename COMP2010J_week0.pdf
-rename COMP2010J-week2.pdf
-rename COMP2010J_week4.pdf
-rename COMP2010J_week2.pdf
-mkdir ./project
-rename COMP2010J_week10.pdf
-cd ~/
-rename manual
-c
-search c
-rename 3.jpg
-rename week-14-Distributed-OS.pdf
-rename 1E338E945ED009A195E87947575_B41A4FF7_E7160.zip
-rename hyx-2021.06.09.tar.xz
-rename Zack-21207440-r2w-practice.docx
 rename Ziqi Yang 21207440 SE2-1.docx
 mkdir archive
 mkdir ./星火
 rename 附件2：北京工业大学“星火基金”项目申报书.doc
 heko
-help
-shell 
 search .dooml
 search .emacs
 search emacs
-
 rename .emacs.d
 rename .emacs.d.bak
 rename 北京工业大学“星火基金”项目申报书-杨子祺-21372225.doc
+search cat
+search nyan
+mkdir
+mkdir ./bak
+mkdir 1
+rename bak
+rename 21207440.mkv
+rename 2.mkv
+rename 团直科技实践部干事资历证明.jpeg
+rename 马克思主义者培养工程班第五期新生英才计划结业证书.jpeg
+rename 大一疫情特别奖学金-学习综合奖.jpeg
+rename 互联网+获奖证书.jpeg
+rename 互联网+-3等奖-雪趣-AI滑雪学习系统.pdf
+rename ignore1.txt
+rename .gitignore
+
+mkdir crubs
+search .loca
+search appli
+search sky
+search skype
+shell S
+open_with sioyek
+search 
+search help
+shell 
+help
+search tag
+rename 50projects50days
+search video
+rename zathura_history_file
+rename sed_if_else
+rename shell
+open_with 0
+open_with 1
+rename Ziqi_Yang_21207440_essay_draft.docx
+cd 
+cd /tmp/
+cd /home/zarkli/.local/share/applications/

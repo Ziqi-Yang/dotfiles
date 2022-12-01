@@ -1,16 +1,3 @@
-rename Ziqi Yang 21207440 SE2-1.docx
-mkdir archive
-mkdir ./星火
-rename 附件2：北京工业大学“星火基金”项目申报书.doc
-heko
-search .dooml
-search .emacs
-search emacs
-rename .emacs.d
-rename .emacs.d.bak
-rename 北京工业大学“星火基金”项目申报书-杨子祺-21372225.doc
-search cat
-search nyan
 mkdir
 mkdir ./bak
 mkdir 1
@@ -24,7 +11,6 @@ rename 互联网+获奖证书.jpeg
 rename 互联网+-3等奖-雪趣-AI滑雪学习系统.pdf
 rename ignore1.txt
 rename .gitignore
-
 mkdir crubs
 search .loca
 search appli
@@ -45,6 +31,20 @@ rename shell
 open_with 0
 open_with 1
 rename Ziqi_Yang_21207440_essay_draft.docx
-cd 
 cd /tmp/
 cd /home/zarkli/.local/share/applications/
+open_with akkj
+open_with a
+rename Ziqi Yang 21207440 SE2-.docx_
+rename Ziqi Yang 21207440 SE2-1.docx
+q
+
+j pro
+rename matte
+open_with 
+cd 
+j asiign
+j assign
+open_with 7
+j class
+open_with 9

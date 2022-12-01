@@ -22,9 +22,13 @@ set _JAVA_OPTIONS
 set FLUTTER_STORAGE_BASE_URL "https://mirrors.tuna.tsinghua.edu.cn/flutter"
 set PUB_HOSTED_URL "https://mirrors.tuna.tsinghua.edu.cn/dart-pub"
 
-
+## autojump
+# remove unexist path everytime start a new interactve instance
+autojump --purge > /dev/null
 
 end
 
+## for both interactive and non-interactive environment (like alacritty -e "/usr/bin/fish" ...)
 
-
+## autojump
+[ -f /usr/share/autojump/autojump.fish ]; and source /usr/share/autojump/autojump.fish

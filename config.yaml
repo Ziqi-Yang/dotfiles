@@ -101,6 +101,10 @@ dotfiles:
   d_matter:
     src: Public/matter
     dst: ~/Public/matter
+  f_autojump.txt:
+    src: local/share/autojump/autojump.txt
+    dst: ~/.local/share/autojump/autojump.txt
+    chmod: '600'
 profiles:
   myArch:
     dotfiles:
@@ -136,3 +140,4 @@ profiles:
     - f_yarnrc
     - f_config.toml
     - d_matter
+    - f_autojump.txt

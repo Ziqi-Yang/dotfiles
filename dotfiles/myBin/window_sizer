@@ -2,7 +2,7 @@
 #
 # @author: Zarkli Leonardo
 # @Date: 2022.12.01 01:42 GMT+8
-# use slop and xdotool to visually change focused window size
+# use slop and xdotool to visually change the focused window size
 IFS='x+' read -ra rect < <(slop -b 5 -l -c 0.3,0.4,0.6,0.4)
-bspc node -t floating # when use bspwm
+bspc node -t floating # when using bspwm
 xdotool getwindowfocus windowsize "${rect[0]}" "${rect[1]}" windowmove "${rect[2]}" "${rect[3]}"

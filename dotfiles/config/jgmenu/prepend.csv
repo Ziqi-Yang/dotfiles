@@ -11,7 +11,7 @@ Applications,^checkout(lx-apps),/home/zarkli/.config/jgmenu/MenuIcons/applicatio
 ^sep()
 Me,^checkout(me),/home/zarkli/.config/jgmenu/MenuIcons/bspwm.png
 System,^checkout(system),/home/zarkli/.config/jgmenu/MenuIcons/system-menu.png
-Other,^checkout(other)
+Other,^checkout(tools),/home/zarkli/.config/jgmenu/MenuIcons/system-menu.png
 
 
 ^tag(me)
@@ -26,9 +26,11 @@ Sxhkd Reload,pkill -USR1 -x sxhkd,/home/zarkli/.config/jgmenu/MenuIcons/restart.
 Lock Screen,betterlockscreen -l dimblur
 Turn Off Screen,xset dpms force off
 
-^tag(other)
-Get Window Class,notify-send $(xprop | grep WM_CLASS)
+^tag(tools)
+Get Window Class,notify-send $(xprop | grep WM_CLASS) --app-name "Get Window Class"
+Get Window Geometry,notify-send "$(xdotool selectwindow getwindowgeometry)" --app-name "Get Window Geometry"
 Toggle Picom Animation,/home/zarkli/myBin/toggle_picom_animation
 Display Clipboard Image,/home/zarkli/myBin/display_clipboard_image
+Simple Ocr,/home/zarkli/myBin/simple_ocr
 
 ^tag(lx-apps)

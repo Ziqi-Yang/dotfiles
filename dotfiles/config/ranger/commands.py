@@ -19,93 +19,46 @@ from ranger.api.commands import Command
 from plugins.ranger_udisk_menu.mounter import mount
 
 
-# Any class that is a subclass of "Command" will be integrated into ranger as a
-# command.  Try typing ":my_edit<ENTER>" in ranger!
-class my_edit(Command):
-    # The so-called doc-string of the class will be visible in the built-in
-    # help that is accessible by typing "?c" inside ranger.
-    """:my_edit <filename>
 
-    A sample command for demonstration purposes that opens a file in an editor.
+import os
+import subprocess
+from ranger.api.commands import Command
+from ranger.container.file import File
+from ranger.ext.get_executables import get_executables
+
+class YankContent(Command):
+    """
+    Copy the content of image file and text file with xclip
     """
 
-    # The execute method is called when you run this command in ranger.
     def execute(self):
-        # self.arg(1) is the first (space-separated) argument to the function.
-        # This way you can write ":my_edit somefilename<ENTER>".
-        if self.arg(1):
-            # self.rest(1) contains self.arg(1) and everything that follows
-            target_filename = self.rest(1)
-        else:
-            # self.fm is a ranger.core.filemanager.FileManager object and gives
-            # you access to internals of ranger.
-            # self.fm.thisfile is a ranger.container.file.File object and is a
-            # reference to the currently selected file.
-            target_filename = self.fm.thisfile.path
-
-        # This is a generic function to print text in ranger.
-        self.fm.notify("Let's edit the file " + target_filename + "!")
-
-        # Using bad=True in fm.notify allows you to print error messages:
-        if not os.path.exists(target_filename):
-            self.fm.notify("The given file does not exist!", bad=True)
+        if 'xclip' not in get_executables():
+            self.fm.notify('xclip is not found.', bad=True)
             return
 
-        # This executes a function from ranger.core.acitons, a module with a
-        # variety of subroutines that can help you construct commands.
-        # Check out the source, or run "pydoc ranger.core.actions" for a list.
-        self.fm.edit_file(target_filename)
+        arg = self.rest(1)
+        if arg:
+            if not os.path.isfile(arg):
+                self.fm.notify('{} is not a file.'.format(arg))
+                return
+            file = File(arg)
+        else:
+            file = self.fm.thisfile
+            if not file.is_file:
+                self.fm.notify('{} is not a file.'.format(file.relative_path))
+                return
 
-    # The tab method is called when you press tab, and should return a list of
-    # suggestions that the user will tab through.
-    # tabnum is 1 for <TAB> and -1 for <S-TAB> by default
+        relative_path = file.relative_path
+        cmd = ['xclip', '-selection', 'clipboard']
+        if not file.is_binary():
+            with open(file.path, 'rb') as fd:
+                subprocess.check_call(cmd, stdin=fd)
+        elif file.image:
+            cmd += ['-t', file.mimetype, file.path]
+            subprocess.check_call(cmd)
+            self.fm.notify('Content of {} is copied to x clipboard'.format(relative_path))
+        else:
+            self.fm.notify('{} is not an image file or a text file.'.format(relative_path))
+
     def tab(self, tabnum):
-        # This is a generic tab-completion function that iterates through the
-        # content of the current directory.
         return self._tab_directory_content()
-
-
-class extract(Command):
-    """:extract <paths>
-    Extract archives
-    """
-    def execute(self):
-        import os
-        # fail=[]
-        # for i in self.fm.thistab.get_selection():
-        #     ExtractProg='7z x'
-        #     if i.path.endswith('.zip'):
-        #         # zip encoding issue
-        #         ExtractProg='unzip -O gbk'
-        #     elif i.path.endswith('.tar.gz'):
-        #         ExtractProg='tar xvf'
-        #     elif i.path.endswith('.tar.xz'):
-        #         ExtractProg='tar xJvf'
-        #     elif i.path.endswith('.tar.bz2'):
-        #         ExtractProg='tar xjvf'
-        #     if os.system('{0} "{1}"'.format(ExtractProg, i.path)):
-        #         fail.append(i.path)
-        # if len(fail) > 0:
-        #     self.fm.notify("Fail to extract: {0}".format(' '.join(fail)), duration=10, bad=True)
-        # self.fm.redraw_window()
-        for i in self.fm.thistab.get_selection():
-            os.system("ark " + i.path)
-        self.fm.redraw_window()
-
-class note(Command):
-    """:note
-    auto upload mynote to coding(zarkli account)
-    """
-    def execute(self):
-        import os
-        os.chdir("/home/zarkli/Documents/notes/mynotes") 
-        os.system("git add * && git commit -m 'normal' && git push")
-        self.fm.redraw_window()
-
-
-class gomain(Command):
-    """:note
-    nvim main.go
-    """
-    def execute(self):
-        self.fm.run("go mod init && nvim main.go")

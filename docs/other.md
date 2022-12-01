@@ -20,3 +20,15 @@
 - `cht.sh`
 - `tokei`
 - [`pdf-bookmark`](https://github.com/xianghuzhao/pdf-bookmark)
+- [`autojump`](https://github.com/wting/autojump)
+
+
+### OCR
+
+use [tesseract](https://github.com/tesseract-ocr/tessdoc)
+
+```bash
+paru -S tesseract gimagereader-qt tesseract-data-chi_sim tesseract-data-eng
+```
+
+use `gimagereader-qt` as the front end(`gimagereader-gtk` also works, and seems more morden, but will sometimes go into idle)

@@ -44,10 +44,6 @@ alt + t
 Print
 	flameshot full
 
-# get the window class
-alt + shift + g:
-	notify-send $(xprop | grep WM_CLASS)
-
 super + shift + s
 	flameshot gui
 

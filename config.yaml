@@ -105,6 +105,12 @@ dotfiles:
     src: local/share/autojump/autojump.txt
     dst: ~/.local/share/autojump/autojump.txt
     chmod: '600'
+  f_ranger.desktop:
+    src: local/share/applications/ranger.desktop
+    dst: ~/.local/share/applications/ranger.desktop
+  f_discord.desktop:
+    src: local/share/applications/discord.desktop
+    dst: ~/.local/share/applications/discord.desktop
 profiles:
   myArch:
     dotfiles:
@@ -141,3 +147,5 @@ profiles:
     - f_config.toml
     - d_matter
     - f_autojump.txt
+    - f_ranger.desktop
+    - f_discord.desktop

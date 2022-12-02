@@ -6,7 +6,7 @@ if [[ $? -eq 0 ]]; then
     artist="$(playerctl metadata artist)"
     title="$(playerctl metadata title)"
     if [[ -n "$artist" ]]; then
-        metadata="$artist - $title"
+        metadata="$title - $artist"
     else
         metadata="$title"
     fi

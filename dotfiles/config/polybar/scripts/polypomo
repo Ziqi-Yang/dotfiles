@@ -16,9 +16,9 @@ import pathlib
 
 SOCKDIR = os.environ.get("XDG_RUNTIME_DIR", "/var/tmp")
 SOCKFILE = os.path.join(SOCKDIR, "polypomo.sock")
-TOMATO = '%{F#ff5770}%{F#f2f2f2}'
+TOMATO = '%{F#ff5770}%{F#f2f2f2}'
 BREAK = '%{F#815b5b}%{F#f2f2f2}'
-PAUSE_TOMATO = '%{F#DEA057}%{F#f2f2f2}'
+PAUSE_TOMATO = '%{F#7f8c8d}%{F#f2f2f2}'
 PAUSE_BREAK = '%{F#9E7676}%{F#f2f2f2}'
 
 

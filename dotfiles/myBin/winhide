@@ -1,6 +1,6 @@
 #!/bin/env bash
 # hide/show window
-# max one window in one desktop
+# max one window in one desktop(toggle)
 
 hidden=$(bspc query -N -n .hidden -d focused)
 

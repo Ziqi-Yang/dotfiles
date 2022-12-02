@@ -1,10 +1,10 @@
 #!/usr/bin/env fish
+# in ranger use Q to exit and cd into the exit directory
 
 function ranger
 	set tempfile (mktemp -t tmp.XXXXXX)
-	command ranger --choosedir=$tempfile $argv
-	set return_value $status
-
+	set command_argument "map Q chain shell echo %d > $tempfile; quitall"
+	command ranger --cmd="$command_argument" $argv
 	if test -s $tempfile
 		set ranger_pwd (cat $tempfile)
 		if test -n $ranger_pwd -a -d $ranger_pwd
@@ -13,5 +13,4 @@ function ranger
 	end
 
 	command rm -f -- $tempfile
-	return $return_value
 end

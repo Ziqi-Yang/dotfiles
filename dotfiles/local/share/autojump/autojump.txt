@@ -1,4 +1,4 @@
-44.7213595499958	/home/zarkli/Documents
+46.904157598234306	/home/zarkli/Documents
 17.320508075688775	/home/zarkli/Documents/blog
 17.320508075688775	/home/zarkli/projects
 20.0	/home/zarkli/projects/temp_project
@@ -6,11 +6,11 @@
 10.0	/home/zarkli/projects/temp_project/ranger-autojump
 14.142135623730951	/home/zarkli/.config/ranger/plugins
 20.0	/home/zarkli/.config/fish/functions
-43.588989435406745	/home/zarkli/Downloads
+50.990195135927856	/home/zarkli/Downloads
 14.142135623730951	/home/zarkli/Documents/latex
 24.49489742783178	/home/zarkli/Documents/latex/templates/assignment
 10.0	/home/zarkli/myBin
-54.772255750516614	/home/zarkli/Documents/class
+57.44562646538029	/home/zarkli/Documents/class
 17.320508075688775	/home/zarkli/Documents/class/COMP2011J_OOP
 17.320508075688775	/home/zarkli/Documents/class/COMP2011J_OOP/exam
 10.0	/home/zarkli/javaProjects
@@ -22,10 +22,10 @@
 10.0	/home/zarkli/javaProjects/class/COMP2010J-p2
 14.142135623730951	/home/zarkli/javaProjects/class/COMP2010J-p2/meterials
 17.320508075688775	/home/zarkli/Documents/dotfiles/docs
-41.231056256176615	/home/zarkli/Documents/dotfiles
+42.42640687119286	/home/zarkli/Documents/dotfiles
 22.360679774997898	/home/zarkli/Documents/class/大学物理2(1)
 17.320508075688775	/home/zarkli/Documents/class/大学物理2(1)/Physics-2-1
-20.0	/home/zarkli/Documents/class/概率论与数理统计
+22.360679774997898	/home/zarkli/Documents/class/概率论与数理统计
 17.320508075688775	/home/zarkli/Documents/class/crubs
 46.904157598234306	/home/zarkli/Documents/class/马克思主义基本原理
 20.0	/home/zarkli/Pictures
@@ -33,12 +33,15 @@
 10.0	/home/zarkli/.local/share/applications
 10.0	/home/zarkli/.config/polybar
 10.0	/home/zarkli/.config/polybar/scripts
-17.320508075688775	/home/zarkli/Documents/class/BDIC2015J-English
+20.0	/home/zarkli/Documents/class/BDIC2015J-English
 14.142135623730951	/home/zarkli/Pictures/screenshots
 10.0	/home/zarkli/Videos
 10.0	/home/zarkli/Videos/record
 10.0	/home/zarkli/Documents/class/概率论与数理统计/homework
 14.142135623730951	/home/zarkli/Documents/class/exams
-17.320508075688775	/home/zarkli/Downloads/查教授 第6讲预习材料包
-10.0	/home/zarkli/Downloads/查教授 第6讲预习材料包/查教授 第6讲预习材料包
-28.284271247461902	/home/zarkli/Documents/class/新青年
+22.360679774997898	/home/zarkli/Downloads/查教授 第6讲预习材料包
+30.000000000000004	/home/zarkli/Documents/class/新青年
+14.142135623730951	/home/zarkli/asepriteProjects
+17.320508075688775	/home/zarkli/Documents/class/BDIC2015J-English/r2w
+14.142135623730951	/home/zarkli/Documents/class/新青年/查教授 第6讲预习材料包
+14.142135623730951	/home/zarkli/Desktop

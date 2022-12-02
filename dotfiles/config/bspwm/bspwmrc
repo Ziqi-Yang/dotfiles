@@ -30,7 +30,7 @@ bspc config pointer_action3 resize_corner # right
 # rules
 # use 'xprop | grep WM_CLASS' to see program class
 bspc rule -a floating state=floating sticky=on rectangle=1600x1000+800+500
-bspc rule -a ranger state=floating rectangle=1433x928+1739+67
+bspc rule -a ranger sticky=on state=floating rectangle=1433x928+1739+67
 
 bspc rule -a Emacs state=tiled
 bspc rule -a Zathura state=tiled
@@ -42,6 +42,7 @@ bspc rule -a yesplaymusic state=fullscreen
 bspc rule -a discord state=fullscreen
 bspc rule -a TelegramDesktop state=fullscreen
 bspc rule -a electronic-wechat state=fullscreen
+bspc rule -a MEGAsync state=floating rectangle=600x600+2200+100
 
 
 

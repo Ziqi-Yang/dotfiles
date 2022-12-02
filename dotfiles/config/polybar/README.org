@@ -1,0 +1,23 @@
+#+title: Readme
+
+* Requirements
+
+** fonts
+all in the =assets= folder in my =dotfile=
+
+** =popup-calendar= module
+needs =yad= and =xdotool=
+   #+begin_src bash
+paru -S yas xdotool
+   #+end_src
+
+** =music= module
+   #+begin_src bash
+paru -S playerctl
+   #+end_src
+
+   | action             | behavior   |
+   |--------------------+------------|
+   | left click         | play-pause |
+   | left double click  | previous   |
+   | right double click | next       |

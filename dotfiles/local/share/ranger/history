@@ -1,12 +1,3 @@
-rename 马克思主义者培养工程班第五期新生英才计划结业证书.jpeg
-rename 大一疫情特别奖学金-学习综合奖.jpeg
-rename 互联网+获奖证书.jpeg
-rename 互联网+-3等奖-雪趣-AI滑雪学习系统.pdf
-rename ignore1.txt
-rename .gitignore
-mkdir crubs
-search .loca
-search appli
 search sky
 search skype
 shell S
@@ -44,7 +35,16 @@ rename physics_2_2018_2019.pdf
 rename physics_2_2019-2020.pdf
 rename physics_2_2017-2018.pdf
 rename probability_2018_2019.pdf
-
 mkdir exams
 search 
 search
+j down
+mkdir ./Font Awesome 6
+j font
+j 
+cd -
+j share
+
+j  local
+search font
+j dot

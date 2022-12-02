@@ -29,6 +29,7 @@ Turn Off Screen,xset dpms force off
 ^tag(tools)
 Get Window Class,notify-send $(xprop | grep WM_CLASS) --app-name "Get Window Class"
 Get Window Geometry,notify-send "$(xdotool selectwindow getwindowgeometry)" --app-name "Get Window Geometry"
+Change Focused Window Size,/home/zarkli/myBin/window_sizer
 Toggle Picom Animation,/home/zarkli/myBin/toggle_picom_animation
 Display Clipboard Image,/home/zarkli/myBin/display_clipboard_image
 Simple Ocr,/home/zarkli/myBin/simple_ocr

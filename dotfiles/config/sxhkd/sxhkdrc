@@ -22,28 +22,32 @@ alt + Tab
 super + a
 	rofi -no-lazy-grab -show drun -theme ~/.local/share/rofi/themes/launchpad.rasi -show-icons
 
+# hide/show window
+super + h
+	/home/zarkli/myBin/winhide
+
+# resize window by using mouse to draw a rectangle
+super + r
+	/home/zarkli/myBin/window_sizer
+
+# rofi calc
+alt + c
+  rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '\{result\}' | xclip -sel clip; xdotool type --clearmodifiers '\{result\}'"
+
 # clipboard
 alt + v
 	rofi -modi "clipboard:greenclip print" -show clipboard
 
-super + r
-	/home/zarkli/myBin/window_sizer
-
-# calc
-alt + c
-  rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '\{result\}' | xclip -sel clip; xdotool type --clearmodifiers '\{result\}'"
-
-# desktop right click
+# desktop(i.e. bottom stack) right click -> show jgmenu
 ~button3
 	bspc query -D -d 'focused.!occupied' \
 	    && jgmenu_run >/dev/null 2>&1 &
 
-alt + t
-	birdtray -t
-
+# screen shot full screen
 Print
 	flameshot full
 
+# screenshot selection
 super + shift + s
 	flameshot gui
 
@@ -54,7 +58,6 @@ alt + shift + x
 # use super + mouse right click to show jgmenu
 super + shift + button3
 		jgmenu_run >/dev/null 2>&1 &
-
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -132,6 +135,8 @@ super + ctrl + space
 # cancel the preselection for the focused desktop
 super + ctrl + shift + space
 	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
+
 
 
 # Audio

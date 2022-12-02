@@ -1,4 +1,4 @@
-46.904157598234306	/home/zarkli/Documents
+47.9583152331272	/home/zarkli/Documents
 17.320508075688775	/home/zarkli/Documents/blog
 17.320508075688775	/home/zarkli/projects
 20.0	/home/zarkli/projects/temp_project
@@ -21,8 +21,8 @@
 17.320508075688775	/home/zarkli/programme/test
 10.0	/home/zarkli/javaProjects/class/COMP2010J-p2
 14.142135623730951	/home/zarkli/javaProjects/class/COMP2010J-p2/meterials
-17.320508075688775	/home/zarkli/Documents/dotfiles/docs
-42.42640687119286	/home/zarkli/Documents/dotfiles
+20.0	/home/zarkli/Documents/dotfiles/docs
+48.98979485566357	/home/zarkli/Documents/dotfiles
 22.360679774997898	/home/zarkli/Documents/class/大学物理2(1)
 17.320508075688775	/home/zarkli/Documents/class/大学物理2(1)/Physics-2-1
 22.360679774997898	/home/zarkli/Documents/class/概率论与数理统计
@@ -45,3 +45,4 @@
 17.320508075688775	/home/zarkli/Documents/class/BDIC2015J-English/r2w
 14.142135623730951	/home/zarkli/Documents/class/新青年/查教授 第6讲预习材料包
 14.142135623730951	/home/zarkli/Desktop
+14.142135623730951	/home/zarkli/Documents/dotfiles/docs_bak

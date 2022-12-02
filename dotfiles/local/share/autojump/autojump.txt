@@ -22,7 +22,7 @@
 10.0	/home/zarkli/javaProjects/class/COMP2010J-p2
 14.142135623730951	/home/zarkli/javaProjects/class/COMP2010J-p2/meterials
 17.320508075688775	/home/zarkli/Documents/dotfiles/docs
-37.41657386773942	/home/zarkli/Documents/dotfiles
+38.729833462074176	/home/zarkli/Documents/dotfiles
 22.360679774997898	/home/zarkli/Documents/class/大学物理2(1)
 17.320508075688775	/home/zarkli/Documents/class/大学物理2(1)/Physics-2-1
 20.0	/home/zarkli/Documents/class/概率论与数理统计
@@ -41,4 +41,4 @@
 14.142135623730951	/home/zarkli/Documents/class/exams
 17.320508075688775	/home/zarkli/Downloads/查教授 第6讲预习材料包
 10.0	/home/zarkli/Downloads/查教授 第6讲预习材料包/查教授 第6讲预习材料包
-14.142135623730951	/home/zarkli/Documents/class/新青年
+17.320508075688775	/home/zarkli/Documents/class/新青年

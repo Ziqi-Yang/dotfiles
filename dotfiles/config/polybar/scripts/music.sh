@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-max_metadat_length=22
+max_metadata_length=15
 is_live=$(playerctl --all-players status 2>/dev/null | grep -v "Stopped")
 if [[ $? -eq 0 ]]; then
     artist="$(playerctl metadata artist)"
@@ -11,7 +11,7 @@ if [[ $? -eq 0 ]]; then
         metadata="$title"
     fi
 
-    metadata="$(echo ${metadata} | sed 's/\(.\{'${max_metadat_length}'\}\).*/\1.../')"
+    metadata="$(echo ${metadata} | sed 's/\(.\{'${max_metadata_length}'\}\).*/\1.../')"
     is_playing=$(playerctl --all-players status 2>/dev/null | grep "Playing")
 fi
 

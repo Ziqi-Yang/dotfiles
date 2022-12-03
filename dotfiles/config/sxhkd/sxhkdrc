@@ -32,7 +32,8 @@ super + e
 	doom +everywhere
 
 super + shift + x
-	emacsclient -c -e "(doom/switch-to-scratch-buffer)" --frame-parameters='(quote (name . "scratchemacs-frame"))'
+	emacsclient -c -e "((lambda ()  (doom/switch-to-scratch-buffer) (chunyang-toggle-frame-transparency)  ))" \
+	--frame-parameters='(quote (name . "scratchemacs-frame"))'
 # emacs ====== end
 
 

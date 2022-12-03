@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+curl -d $1 ntfy.sh/zarkli_leonardo

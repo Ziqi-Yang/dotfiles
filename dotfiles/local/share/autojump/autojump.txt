@@ -10,7 +10,7 @@
 14.142135623730951	/home/zarkli/Documents/latex
 24.49489742783178	/home/zarkli/Documents/latex/templates/assignment
 10.0	/home/zarkli/myBin
-57.44562646538029	/home/zarkli/Documents/class
+58.30951894845301	/home/zarkli/Documents/class
 17.320508075688775	/home/zarkli/Documents/class/COMP2011J_OOP
 17.320508075688775	/home/zarkli/Documents/class/COMP2011J_OOP/exam
 10.0	/home/zarkli/javaProjects
@@ -22,10 +22,10 @@
 10.0	/home/zarkli/javaProjects/class/COMP2010J-p2
 14.142135623730951	/home/zarkli/javaProjects/class/COMP2010J-p2/meterials
 22.360679774997898	/home/zarkli/Documents/dotfiles/docs
-53.851648071345046	/home/zarkli/Documents/dotfiles
+54.772255750516614	/home/zarkli/Documents/dotfiles
 22.360679774997898	/home/zarkli/Documents/class/大学物理2(1)
 17.320508075688775	/home/zarkli/Documents/class/大学物理2(1)/Physics-2-1
-22.360679774997898	/home/zarkli/Documents/class/概率论与数理统计
+24.49489742783178	/home/zarkli/Documents/class/概率论与数理统计
 17.320508075688775	/home/zarkli/Documents/class/crubs
 46.904157598234306	/home/zarkli/Documents/class/马克思主义基本原理
 20.0	/home/zarkli/Pictures
@@ -47,7 +47,7 @@
 14.142135623730951	/home/zarkli/Desktop
 14.142135623730951	/home/zarkli/Documents/dotfiles/docs_bak
 31.622776601683796	/home/zarkli/Documents/dotfiles/assets
-42.42640687119286	/home/zarkli/Documents/dotfiles/assets/fonts
+43.588989435406745	/home/zarkli/Documents/dotfiles/assets/fonts
 17.320508075688775	/home/zarkli/Downloads/fontawesome-free-6.2.1-desktop
 28.284271247461902	/home/zarkli/Downloads/fontawesome-free-6.2.1-desktop/fontawesome-free-6.2.1-desktop
 22.360679774997898	/home/zarkli/Downloads/fontawesome-free-6.2.1-desktop/fontawesome-free-6.2.1-desktop/otfs

@@ -25,6 +25,8 @@ Bspwm Restart,bspc wm -r,/home/zarkli/.config/jgmenu/MenuIcons/restart.png
 Sxhkd Reload,pkill -USR1 -x sxhkd,/home/zarkli/.config/jgmenu/MenuIcons/restart.png
 Lock Screen,betterlockscreen -l dimblur
 Turn Off Screen,xset dpms force off
+Show Hidden Window,/home/zarkli/myBin/winshow
+
 
 ^tag(tools)
 Get Window Class,notify-send $(xprop | grep WM_CLASS) --app-name "Get Window Class"

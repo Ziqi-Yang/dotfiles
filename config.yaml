@@ -111,6 +111,9 @@ dotfiles:
   f_discord.desktop:
     src: local/share/applications/discord.desktop
     dst: ~/.local/share/applications/discord.desktop
+  d_uair:
+    src: config/uair
+    dst: ~/.config/uair
 profiles:
   myArch:
     dotfiles:
@@ -149,3 +152,4 @@ profiles:
     - f_autojump.txt
     - f_ranger.desktop
     - f_discord.desktop
+    - d_uair

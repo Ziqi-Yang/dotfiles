@@ -29,6 +29,8 @@ bspc config pointer_action3 resize_corner # right
 # ============================================================
 # rules
 # use 'xprop | grep WM_CLASS' to see program class
+# (<class_name>|*)[:(<instance_name>|*)[:(<name>|*)]], when the wm_name is changable(like emacs, firefox is opposite),
+#   the rule will be useless. In this case, please consider use external_rules
 bspc rule -a floating state=floating sticky=on rectangle=1600x1000+800+500
 bspc rule -a ranger sticky=on state=floating rectangle=1433x928+1739+67
 
@@ -44,6 +46,8 @@ bspc rule -a TelegramDesktop state=fullscreen
 bspc rule -a electronic-wechat state=fullscreen
 bspc rule -a MEGAsync state=floating rectangle=600x600+2200+100
 
+
+bspc config external_rules_command /home/zarkli/.config/bspwm/external_rules.sh
 
 
 # ============================================================

@@ -51,3 +51,7 @@ polybar|notice:  Loaded font "Font Awesome 6 Free Solid:size=10" (name=Font Awes
 polybar|notice:  Loaded font "Material Design Icons Desktop:size=11" (name=Material Design Icons Desktop, offset=3, file=/home/zarkli/.local/share/fonts/MaterialDesignIconsDesktop.ttf)
 polybar|notice:  Loaded font "IcoFont:size=11" (name=IcoFont, offset=3, file=/home/zarkli/.local/share/fonts/icofont.ttf)
 polybar|notice:  Loaded font "MesloLGS NF:style=Regular:size=15" (name=MesloLGS NF, offset=4, file=/home/zarkli/.local/share/fonts/MesloLGS_NF_Regular.ttf)
+polybar|error: Failed to reconfigure tray client, removing... (XCB_WINDOW (3))
+polybar|error: Failed to query _XEMBED_INFO, removing client... (XCB_WINDOW (3))
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...

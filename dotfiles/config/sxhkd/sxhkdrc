@@ -26,6 +26,10 @@ super + a
 super + h
 	bspc node focused -g hidden=on
 
+super + e
+	doom +everywhere
+
+
 # resize window by using mouse to draw a rectangle
 super + r
 	/home/zarkli/myBin/window_sizer

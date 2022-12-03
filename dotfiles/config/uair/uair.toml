@@ -1,0 +1,13 @@
+[defaults]
+# note: there shouldn't be any space in the variables
+format = "{name} {time}\n"
+
+[[sessions]]
+name = "work"
+duration = "30m"
+command = "notify-send 'Work Done!'; paplay /usr/share/sounds/freedesktop/stereo/complete.oga"
+
+[[sessions]]
+name = "rest"
+duration = "3m"
+command = "notify-send 'Rest Done!'; paplay /usr/share/sounds/freedesktop/stereo/complete.oga"

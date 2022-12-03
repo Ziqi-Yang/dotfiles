@@ -26,8 +26,14 @@ super + a
 super + h
 	bspc node focused -g hidden=on
 
+
+# emacs ====== begin
 super + e
 	doom +everywhere
+
+super + shift + x
+	emacsclient -c -e "(doom/switch-to-scratch-buffer)" --frame-parameters='(quote (name . "scratchemacs-frame"))'
+# emacs ====== end
 
 
 # resize window by using mouse to draw a rectangle

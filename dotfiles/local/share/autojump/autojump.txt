@@ -1,16 +1,16 @@
 47.9583152331272	/home/zarkli/Documents
 17.320508075688775	/home/zarkli/Documents/blog
 17.320508075688775	/home/zarkli/projects
-20.0	/home/zarkli/projects/temp_project
+28.284271247461902	/home/zarkli/projects/temp_project
 10.0	/home/zarkli/projects/temp_project/learn_c
 10.0	/home/zarkli/projects/temp_project/ranger-autojump
 14.142135623730951	/home/zarkli/.config/ranger/plugins
-20.0	/home/zarkli/.config/fish/functions
+31.622776601683796	/home/zarkli/.config/fish/functions
 57.44562646538029	/home/zarkli/Downloads
 14.142135623730951	/home/zarkli/Documents/latex
 24.49489742783178	/home/zarkli/Documents/latex/templates/assignment
 10.0	/home/zarkli/myBin
-64.80740698407861	/home/zarkli/Documents/class
+66.33249580710802	/home/zarkli/Documents/class
 17.320508075688775	/home/zarkli/Documents/class/COMP2011J_OOP
 17.320508075688775	/home/zarkli/Documents/class/COMP2011J_OOP/exam
 10.0	/home/zarkli/javaProjects
@@ -22,7 +22,7 @@
 10.0	/home/zarkli/javaProjects/class/COMP2010J-p2
 14.142135623730951	/home/zarkli/javaProjects/class/COMP2010J-p2/meterials
 22.360679774997898	/home/zarkli/Documents/dotfiles/docs
-61.64414002968977	/home/zarkli/Documents/dotfiles
+63.24555320336759	/home/zarkli/Documents/dotfiles
 22.360679774997898	/home/zarkli/Documents/class/大学物理2(1)
 17.320508075688775	/home/zarkli/Documents/class/大学物理2(1)/Physics-2-1
 24.49489742783178	/home/zarkli/Documents/class/概率论与数理统计
@@ -31,7 +31,7 @@
 20.0	/home/zarkli/Pictures
 24.49489742783178	/home/zarkli/Pictures/background
 20.0	/home/zarkli/.local/share/applications
-14.142135623730951	/home/zarkli/.config/polybar
+34.64101615137755	/home/zarkli/.config/polybar
 17.320508075688775	/home/zarkli/.config/polybar/scripts
 20.0	/home/zarkli/Documents/class/BDIC2015J-English
 14.142135623730951	/home/zarkli/Pictures/screenshots
@@ -52,8 +52,8 @@
 28.284271247461902	/home/zarkli/Downloads/fontawesome-free-6.2.1-desktop/fontawesome-free-6.2.1-desktop
 22.360679774997898	/home/zarkli/Downloads/fontawesome-free-6.2.1-desktop/fontawesome-free-6.2.1-desktop/otfs
 20.0	/home/zarkli/Documents/dotfiles/assets/fonts/Font Awesome 6
-20.0	/home/zarkli/.local/share
-17.320508075688775	/home/zarkli/.local
+22.360679774997898	/home/zarkli/.local/share
+20.0	/home/zarkli/.local
 10.0	/home/zarkli/.local/share/fonts
 10.0	/home/zarkli/Downloads/icofont
 10.0	/home/zarkli/Downloads/icofont/fonts
@@ -61,3 +61,15 @@
 10.0	/home/zarkli/Downloads/FontAwesome-6-PRO/pro
 10.0	/home/zarkli/Downloads/FontAwesome-6-PRO/pro/otfs
 14.142135623730951	/usr/share/sounds/freedesktop/stereo
+22.360679774997898	/home/zarkli/.config
+28.284271247461902	/home/zarkli/.config/fish
+14.142135623730951	/home/zarkli/.local/share/fish
+10.0	/home/zarkli/.local/share/fish/generated_completions
+10.0	/home/zarkli/.config/fish/completions
+22.360679774997898	/home/zarkli/javaProjects/class/PacMan
+38.729833462074176	/home/zarkli/.doom.d
+14.142135623730951	/home/zarkli/.emacs.d
+70.71067811865477	/home/zarkli/projects/temp_project/learngit
+10.0	/home/zarkli/projects/temp_project/learnrust
+10.0	/home/zarkli/projects/git/git
+10.0	/home/zarkli/projects/eww-github-calendar

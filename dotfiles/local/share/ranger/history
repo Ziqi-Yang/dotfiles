@@ -1,7 +1,3 @@
-search skype
-shell S
-open_with sioyek
-search help
 shell 
 help
 search tag
@@ -48,3 +44,7 @@ search font
 j dot
 open_with 
 j polybar
+j local
+cd /home/zarkli/.local/share/fish/
+rename fish_prompt_bak.fish
+search fish

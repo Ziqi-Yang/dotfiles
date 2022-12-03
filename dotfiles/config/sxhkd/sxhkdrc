@@ -23,7 +23,7 @@ super + a
 	rofi -no-lazy-grab -show drun -theme ~/.local/share/rofi/themes/launchpad.rasi -show-icons
 
 # hide/show window
-super + h
+super + shift + h
 	bspc node focused -g hidden=on
 
 

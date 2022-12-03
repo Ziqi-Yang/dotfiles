@@ -32,3 +32,8 @@ end
 
 ## autojump
 [ -f /usr/share/autojump/autojump.fish ]; and source /usr/share/autojump/autojump.fish
+
+# Vi-mode
+# The default mode prompt would be prefixed, which ruins prompt alignment.
+function fish_mode_prompt
+end

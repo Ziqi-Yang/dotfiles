@@ -28,3 +28,10 @@ paru -S playerctl
 #+begin_src bash
 paru -S trash-cli
 #+end_src
+
+** pomodoro =module=
+[uair](https://github.com/metent/uair)
+
+#+begin_src bash
+paru -S uair
+#+end_src

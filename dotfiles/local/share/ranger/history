@@ -1,4 +1,3 @@
-search sky
 search skype
 shell S
 open_with sioyek
@@ -23,7 +22,6 @@ rename Ziqi Yang 21207440 SE2-1.docx
 q
 j pro
 rename matte
-open_with 
 cd 
 j asiign
 j assign
@@ -48,3 +46,5 @@ j share
 j  local
 search font
 j dot
+open_with 
+j polybar

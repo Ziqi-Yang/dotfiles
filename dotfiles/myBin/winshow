@@ -1,0 +1,8 @@
+#!/bin/env bash
+# show all hidden window at one desktop
+# (use `bspc node focused -g hidden=on` to hide focused window)
+
+for hidden in $(bspc query -N -n .hidden -d focused)
+do
+  bspc node "$hidden" -g hidden=off
+done

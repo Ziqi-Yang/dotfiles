@@ -24,7 +24,7 @@ super + a
 
 # hide/show window
 super + h
-	/home/zarkli/myBin/winhide
+	bspc node focused -g hidden=on
 
 # resize window by using mouse to draw a rectangle
 super + r

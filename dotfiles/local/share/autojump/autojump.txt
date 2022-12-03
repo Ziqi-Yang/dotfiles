@@ -22,7 +22,7 @@
 10.0	/home/zarkli/javaProjects/class/COMP2010J-p2
 14.142135623730951	/home/zarkli/javaProjects/class/COMP2010J-p2/meterials
 22.360679774997898	/home/zarkli/Documents/dotfiles/docs
-63.24555320336759	/home/zarkli/Documents/dotfiles
+64.80740698407861	/home/zarkli/Documents/dotfiles
 22.360679774997898	/home/zarkli/Documents/class/大学物理2(1)
 17.320508075688775	/home/zarkli/Documents/class/大学物理2(1)/Physics-2-1
 24.49489742783178	/home/zarkli/Documents/class/概率论与数理统计
@@ -69,7 +69,7 @@
 22.360679774997898	/home/zarkli/javaProjects/class/PacMan
 38.729833462074176	/home/zarkli/.doom.d
 14.142135623730951	/home/zarkli/.emacs.d
-70.71067811865477	/home/zarkli/projects/temp_project/learngit
+72.8010988928052	/home/zarkli/projects/temp_project/learngit
 10.0	/home/zarkli/projects/temp_project/learnrust
 10.0	/home/zarkli/projects/git/git
 10.0	/home/zarkli/projects/eww-github-calendar

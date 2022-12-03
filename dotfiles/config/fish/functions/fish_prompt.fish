@@ -34,7 +34,7 @@ function fish_prompt
     if functions -q fish_is_root_user; and fish_is_root_user
         set_color -o white
     else
-        set_color -o magenta
+        set_color -o blue
     end
 
     echo -n $USER
@@ -42,7 +42,7 @@ function fish_prompt
     echo -n " "
 
     if test -z "$SSH_CLIENT"
-        set_color -o magenta
+        set_color -o blue
     else
         set_color -o white
     end

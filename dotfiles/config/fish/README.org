@@ -1,0 +1,5 @@
+#+title: README
+
+* Requirements
+1. =fish_prompt.fish= and =t.fish=:
+  [[https://github.com/ChestnutHeng/Wudao-dict][wudao-dict]]

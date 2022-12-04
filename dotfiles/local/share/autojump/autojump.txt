@@ -18,11 +18,11 @@
 10.0	/home/zarkli/javaProjects/class/pacman_turorial
 20.0	/home/zarkli/javaProjects/class/ExamStart
 14.142135623730951	/home/zarkli/javaProjects/class/ExamStart/test
-17.320508075688775	/home/zarkli/programme/test
+36.0555127546399	/home/zarkli/programme/test
 10.0	/home/zarkli/javaProjects/class/COMP2010J-p2
 14.142135623730951	/home/zarkli/javaProjects/class/COMP2010J-p2/meterials
 22.360679774997898	/home/zarkli/Documents/dotfiles/docs
-65.57438524302002	/home/zarkli/Documents/dotfiles
+67.08203932499372	/home/zarkli/Documents/dotfiles
 22.360679774997898	/home/zarkli/Documents/class/大学物理2(1)
 17.320508075688775	/home/zarkli/Documents/class/大学物理2(1)/Physics-2-1
 24.49489742783178	/home/zarkli/Documents/class/概率论与数理统计
@@ -52,8 +52,8 @@
 28.284271247461902	/home/zarkli/Downloads/fontawesome-free-6.2.1-desktop/fontawesome-free-6.2.1-desktop
 22.360679774997898	/home/zarkli/Downloads/fontawesome-free-6.2.1-desktop/fontawesome-free-6.2.1-desktop/otfs
 20.0	/home/zarkli/Documents/dotfiles/assets/fonts/Font Awesome 6
-22.360679774997898	/home/zarkli/.local/share
-20.0	/home/zarkli/.local
+30.000000000000004	/home/zarkli/.local/share
+30.000000000000004	/home/zarkli/.local
 10.0	/home/zarkli/.local/share/fonts
 10.0	/home/zarkli/Downloads/icofont
 10.0	/home/zarkli/Downloads/icofont/fonts
@@ -61,7 +61,7 @@
 10.0	/home/zarkli/Downloads/FontAwesome-6-PRO/pro
 10.0	/home/zarkli/Downloads/FontAwesome-6-PRO/pro/otfs
 14.142135623730951	/usr/share/sounds/freedesktop/stereo
-22.360679774997898	/home/zarkli/.config
+30.000000000000004	/home/zarkli/.config
 28.284271247461902	/home/zarkli/.config/fish
 14.142135623730951	/home/zarkli/.local/share/fish
 10.0	/home/zarkli/.local/share/fish/generated_completions
@@ -69,7 +69,17 @@
 22.360679774997898	/home/zarkli/javaProjects/class/PacMan
 38.729833462074176	/home/zarkli/.doom.d
 14.142135623730951	/home/zarkli/.emacs.d
-72.8010988928052	/home/zarkli/projects/temp_project/learngit
+73.48469228349536	/home/zarkli/projects/temp_project/learngit
 10.0	/home/zarkli/projects/temp_project/learnrust
 10.0	/home/zarkli/projects/git/git
 10.0	/home/zarkli/projects/eww-github-calendar
+10.0	/home/zarkli/.cache
+24.49489742783178	/home/zarkli/.ydict
+20.0	/home/zarkli/.ydict/db
+17.320508075688775	/home/zarkli/.ydict/audio
+30.000000000000004	/home/zarkli/.local/share/wudao-dict
+22.360679774997898	/home/zarkli/.local/share/wudao-dict/dict
+14.142135623730951	/home/zarkli/.local/share/wudao-dict/dict/dict_pys
+10.0	/home/zarkli/.local/share/wudao-dict/src
+20.0	/home/zarkli/.local/share/wudao-dict/usr
+10.0	/home

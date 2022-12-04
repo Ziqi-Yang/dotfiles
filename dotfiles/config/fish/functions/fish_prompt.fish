@@ -84,6 +84,18 @@ function fish_prompt
     # New line
     echo
 
+    # recite words
+    set_color $retc
+    set -l word_exp (shuf -n 1 ~/.local/share/wudao-dict/usr/notebook.txt | awk -F " " \
+        '{printf "\033[1;96m"$1"\033[0m"; $1=""; print $0}' | sed "s/\(.\{$(math -s0 \($(tput cols) + 14 - 3\)/2)\}\)\(.*\)/\1\n\2/")
+    for line in $word_exp
+        set_color $retc
+        echo -n '│ '
+        set_color normal
+        echo $line
+    end
+
+
     # Background jobs
     set_color normal
 

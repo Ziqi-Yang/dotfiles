@@ -114,6 +114,9 @@ dotfiles:
   d_uair:
     src: config/uair
     dst: ~/.config/uair
+  d_usr:
+    src: local/share/wudao-dict/usr
+    dst: ~/.local/share/wudao-dict/usr
 profiles:
   myArch:
     dotfiles:
@@ -153,3 +156,4 @@ profiles:
     - f_ranger.desktop
     - f_discord.desktop
     - d_uair
+    - d_usr

@@ -1,12 +1,3 @@
-shell 
-help
-search tag
-rename 50projects50days
-search video
-rename zathura_history_file
-rename sed_if_else
-rename shell
-open_with 0
 open_with 1
 rename Ziqi_Yang_21207440_essay_draft.docx
 cd /tmp/
@@ -30,7 +21,6 @@ rename physics_2_2019-2020.pdf
 rename physics_2_2017-2018.pdf
 rename probability_2018_2019.pdf
 mkdir exams
-search 
 search
 j down
 mkdir ./Font Awesome 6
@@ -44,7 +34,17 @@ search font
 j dot
 open_with 
 j polybar
-j local
 cd /home/zarkli/.local/share/fish/
 rename fish_prompt_bak.fish
 search fish
+cd .
+search .local
+search .cache
+search ydic
+search .loca
+search wudao
+search wd
+search 
+searc
+j local
+j wudao

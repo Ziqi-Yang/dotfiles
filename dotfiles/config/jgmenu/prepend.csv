@@ -24,15 +24,15 @@ Bspwm Exit,bspc quit,/home/zarkli/.config/jgmenu/MenuIcons/exit.png
 Bspwm Restart,bspc wm -r,/home/zarkli/.config/jgmenu/MenuIcons/restart.png
 Sxhkd Reload,pkill -USR1 -x sxhkd,/home/zarkli/.config/jgmenu/MenuIcons/restart.png
 Lock Screen,betterlockscreen -l dimblur
-Turn Off Screen,xset dpms force off
 Show Hidden Window,/home/zarkli/myBin/winshow
+Toggle Picom Animation,/home/zarkli/myBin/toggle_picom_animation
+Turn Off Screen,xset dpms force off
 
 
 ^tag(tools)
 Get Window Class,notify-send $(xprop | grep WM_CLASS) --app-name "Get Window Class"
 Get Window Geometry,notify-send "$(xdotool selectwindow getwindowgeometry)" --app-name "Get Window Geometry"
 Change Focused Window Size,/home/zarkli/myBin/window_sizer
-Toggle Picom Animation,/home/zarkli/myBin/toggle_picom_animation
 Display Clipboard Image,/home/zarkli/myBin/display_clipboard_image
 Simple Ocr,/home/zarkli/myBin/simple_ocr
 

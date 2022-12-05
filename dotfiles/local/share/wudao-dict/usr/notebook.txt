@@ -1,2 +1,24 @@
 eureka               [jʊ'rikə]            int. 有了！；找到了！ n. (Eureka)人名；(西)欧雷卡
 inclusive            [ɪn'klusɪv]          adj. 包括的，包含的
+faculty              ['fæklti]            n. 科，系；能力；全体教员
+netsuke              [ˈnetsʊˌkeɪ]         n. 悬锤；坠子
+tangle               ['tæŋɡl]             n. 纠纷；混乱状态 vt. 使纠缠；处于混乱状态 vi. 缠结；乱作一团
+tange                                     n. （Tange）人名；（德）坦格
+fiddle               ['fɪdl]              n. 小提琴 vi. 瞎搞；拉小提琴 vt. 虚度时光；拉小提琴
+Cyrillic             [si'rilik]           adj. 古代斯拉夫语字母的 n. 斯拉夫字母
+integrate            ['ɪntɪɡret]          vt. 使…完整；使…成整体；求…的积分；表示…的总和 vi. 求积分；取消隔离；成为一体 adj. 整合的；完全的 n. 一体化；集成体
+notch                [nɑtʃ]               n. 刻痕，凹口；等级；峡谷 vt. 赢得；用刻痕计算；在…上刻凹痕
+lean                 [lin]                vi. 倾斜；倚靠；倾向；依赖 adj. 瘦的；贫乏的，歉收的 vt. 使倾斜 n. 瘦肉；倾斜；倾斜度 n. (Lean)人名；(西)莱安；(柬)连；(英)利恩
+voila                [vwɑːˈlɑː]           int. 瞧；可不是 n. （Voila）（罗、俄、美、印、巴）瓦娜（人名）
+automatically                             adv. 自动地；机械地；无意识地 adj. 不经思索的
+rebase                                    v. 重定（税收、价格指数等）的基准
+knot                 [nɑt]                n. （绳等的）结；节瘤，疙瘩；海里/小时（航速单位） vt. 打结 vi. 打结 n. (Knot)人名；(英)诺特
+resume                                    n. 摘要；[管理] 履历，简历 vt. 重新开始，继续；恢复，重新占用 vi. 重新开始，继续
+booklet              ['bʊklət]            n. 小册子
+immune               [ɪ'mjʊn]             adj. 免疫的；免于……的，免除的 n. 免疫者；免除者
+check                [tʃɛk]               vt. 检查，核对；制止，抑制；在…上打勾 vi. 核实，查核；中止；打勾；[象棋]将一军 n. 支票；制止，抑制；检验，核对 n. （英）切克（人名）
+lorem                                     n. 洛雷姆（人名）
+lorem ipsum                               乱数假文
+grave                [ɡrev]               adj. 重大的；严肃的；黯淡的 n. 墓穴，坟墓；死亡 vt. 雕刻；铭记 n. (Grave)人名；(英)格雷夫；(德、瑞典)格拉弗；(法)格拉夫；(俄、葡)格拉韦
+initiative           [ɪ'nɪʃətɪv]          n. 主动权；首创精神 adj. 主动的；自发的；起始的
+tango                ['tæŋɡo]             n. 探戈舞；探戈舞曲 vi. 跳探戈舞 n. (Tango)人名；(日)端午 (名)；(意)坦戈

@@ -11,6 +11,11 @@ needs =yad= and =xdotool=
 paru -S yas xdotool
    #+end_src
 
+| action      | behavior         |
+|-------------+------------------|
+| left click  | toggle date/time |
+| right click | show calendar    |
+
 ** music =module=
    #+begin_src bash
 paru -S playerctl
@@ -35,3 +40,8 @@ paru -S trash-cli
 #+begin_src bash
 paru -S uair
 #+end_src
+
+| action      | behavior     |
+|-------------+--------------|
+| left click  | resume/pause |
+| right click | next         |

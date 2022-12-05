@@ -1,0 +1,60 @@
+%% ----------------------------------------------------------------------------------------------------
+%% ElegantPaper
+%% ----------------------------------------------------------------------------------------------------
+\documentclass[lang=cn,a4paper,bibtex]{elegantpaper}
+
+\title{Title}
+\author{Author A \\ University A \and Author B \\ University B}
+\institute{项目组}
+
+\version{版本号}
+\date{\zhtoday}
+
+% 本文档命令
+\usepackage{array}
+\newcommand{\ccr}[1]{\makecell{{\color{#1}\rule{1cm}{1cm}}}}
+\addbibresource[location=local]{reference.bib} % 参考文献，不要删除
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+abstract
+\keywords{Elegant\LaTeX{}，工作论文，模板}
+\end{abstract}
+
+\nocite{*}
+\printbibliography[heading=bibintoc, title=\ebibname]
+
+\appendix
+%\appendixpage
+\addappheadtotoc
+
+\end{document}
+
+%% ----------------------------------------------------------------------------------------------------
+%% Assignment
+%% ----------------------------------------------------------------------------------------------------
+
+\documentclass{assignment}
+
+\begin{document}
+
+\assignmentTitle{Your Name}{Your Student Id}{assets/logo.png}{Course Name}{Assignment 1}
+
+\lstinputlisting[language=C++]{assets/test.cpp} % notice: doesn't exist
+
+\begin{lstlisting}[language=Java, caption={Showcase.java}]
+class Showcase
+{
+  public static void main(String[] args)
+  {
+    System.out.println("hello world!");
+  }
+}
+\end{lstlisting}
+
+\hword{highlight box} example
+
+\end{document}

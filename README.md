@@ -47,6 +47,7 @@ Previous docs can be found in the `docs_bak` folder
 - [tam-carre/dotfiles](https://github.com/tam-carre/dotfiles)
 - [HynDuf7/dotfiles](https://github.com/HynDuf7/dotfiles)
 - [Syndrizzle/hotfiles](https://github.com/Syndrizzle/hotfiles)
+- [AmadeusWM/dotfiles-hyprland](https://github.com/AmadeusWM/dotfiles-hyprland)
 
 ## Useful Links
 __plan to delete the section__

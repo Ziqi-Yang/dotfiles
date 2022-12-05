@@ -20,6 +20,8 @@ function pinit -a 'language' -a 'packageName'
             pinit_cc $packageName
         case "rust"
             pinit_rust $packageName
+        case "latex"
+            pinit_latex $packageName
         case "*"
             echo "Language not support"
             return -1

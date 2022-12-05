@@ -10,4 +10,4 @@ command = "notify-send 'Work Done!'; paplay /usr/share/sounds/freedesktop/stereo
 [[sessions]]
 name = "rest"
 duration = "3m"
-command = "notify-send 'Rest Done!'; paplay /usr/share/sounds/freedesktop/stereo/complete.oga; phone_notify 继续学习啦！"
+command = "notify-send 'Rest Done!'; paplay /usr/share/sounds/freedesktop/stereo/complete.oga; /home/zarkli/myBin/phone_notify 继续学习啦！> /dev/null 2>&1"

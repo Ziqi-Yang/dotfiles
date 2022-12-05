@@ -4,7 +4,6 @@
 
 ```shell
 sudo pacman -S highlight atool w3m poppler mediainfo catdoc docx2txt ueberzug trash-cli unarchiver autojump
-paru -S dragon-drop
 ```
 
 
@@ -40,3 +39,11 @@ you need install `autojump` first
 press keyshortcut `cj` to use it  
 (just check for update)  
 [ranger-autojump](https://github.com/fdw/ranger-autojump)
+
+4. drag & drop
+
+``` shell
+paru -S dragon-drop
+```
+
+KeyBindings: `r` then choose `dragon`

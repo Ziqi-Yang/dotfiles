@@ -16,11 +16,13 @@
 
 ### command line
 
-- `htop`
+- `htop` 
 - `cht.sh`
-- `tokei`
+- `tokei` code line
 - [`pdf-bookmark`](https://github.com/xianghuzhao/pdf-bookmark)
 - [`autojump`](https://github.com/wting/autojump)
+- `ncdu` show folder and file size 
+- `duf` show disk usage
 
 
 ### OCR
@@ -32,3 +34,15 @@ paru -S tesseract gimagereader-qt tesseract-data-chi_sim tesseract-data-eng
 ```
 
 use `gimagereader-qt` as the front end(`gimagereader-gtk` also works, and seems more morden, but will sometimes go into idle)
+
+
+### change the sudo login time limit (3 try 10 mins lock)
+
+edit `/etc/security/faillock.conf`
+
+### git proxy
+
+refer to https://gist.github.com/coin8086/7228b177221f6db913933021ac33bb92
+
+for http: I hava already set up the proxy address in git configuration file  
+for ssh: need to follow the tutorial to configure !!!

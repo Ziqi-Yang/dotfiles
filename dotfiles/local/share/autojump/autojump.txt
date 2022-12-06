@@ -1,4 +1,4 @@
-56.568542494923804	/home/zarkli/Documents
+64.0312423743285	/home/zarkli/Documents
 22.360679774997898	/home/zarkli/Documents/blog
 20.0	/home/zarkli/projects
 37.41657386773942	/home/zarkli/projects/temp_project
@@ -6,11 +6,11 @@
 10.0	/home/zarkli/projects/temp_project/ranger-autojump
 14.142135623730951	/home/zarkli/.config/ranger/plugins
 31.622776601683796	/home/zarkli/.config/fish/functions
-63.24555320336759	/home/zarkli/Downloads
-48.98979485566357	/home/zarkli/Documents/latex
+69.28203230275511	/home/zarkli/Downloads
+51.96152422706633	/home/zarkli/Documents/latex
 37.41657386773942	/home/zarkli/Documents/latex/templates/assignment
 10.0	/home/zarkli/myBin
-82.46211251235323	/home/zarkli/Documents/class
+88.31760866327848	/home/zarkli/Documents/class
 17.320508075688775	/home/zarkli/Documents/class/COMP2011J_OOP
 17.320508075688775	/home/zarkli/Documents/class/COMP2011J_OOP/exam
 10.0	/home/zarkli/javaProjects
@@ -22,7 +22,7 @@
 10.0	/home/zarkli/javaProjects/class/COMP2010J-p2
 14.142135623730951	/home/zarkli/javaProjects/class/COMP2010J-p2/meterials
 24.49489742783178	/home/zarkli/Documents/dotfiles/docs
-72.1110255092798	/home/zarkli/Documents/dotfiles
+72.8010988928052	/home/zarkli/Documents/dotfiles
 22.360679774997898	/home/zarkli/Documents/class/大学物理2(1)
 17.320508075688775	/home/zarkli/Documents/class/大学物理2(1)/Physics-2-1
 28.284271247461902	/home/zarkli/Documents/class/概率论与数理统计
@@ -40,7 +40,7 @@
 10.0	/home/zarkli/Documents/class/概率论与数理统计/homework
 28.284271247461902	/home/zarkli/Documents/class/exams
 22.360679774997898	/home/zarkli/Downloads/查教授 第6讲预习材料包
-37.41657386773942	/home/zarkli/Documents/class/新青年
+43.588989435406745	/home/zarkli/Documents/class/新青年
 14.142135623730951	/home/zarkli/asepriteProjects
 17.320508075688775	/home/zarkli/Documents/class/BDIC2015J-English/r2w
 17.320508075688775	/home/zarkli/Documents/class/新青年/查教授 第6讲预习材料包
@@ -83,7 +83,7 @@
 10.0	/home/zarkli/.local/share/wudao-dict/src
 20.0	/home/zarkli/.local/share/wudao-dict/usr
 14.142135623730951	/home
-10.0	/home/zarkli/Documents/archive
+28.284271247461902	/home/zarkli/Documents/archive
 17.320508075688775	/home/zarkli/Documents/blog/content
 10.0	/home/zarkli/Documents/blog/content/page
 17.320508075688775	/home/zarkli/Documents/blog/content/post
@@ -107,3 +107,10 @@
 26.457513110645905	/home/zarkli/.config/fish/project_templates/latex/assets
 24.49489742783178	/home/zarkli/projects/temp_project/latex_test
 14.142135623730951	/home/zarkli/Documents/latex/belt_and_road
+26.457513110645905	/home/zarkli/Documents/archive/星火
+22.360679774997898	/home/zarkli/Downloads/6F81651E92EA5B75FD485C94D93_B9327177_97F1A
+20.0	/home/zarkli/Downloads/6F81651E92EA5B75FD485C94D93_B9327177_97F1A/关于启动第二十四届”星火基金“立项工作的通知附件
+10.0	/home/zarkli/data_science
+17.320508075688775	/home/zarkli/Downloads/1E338E945ED009A195E87947575_B41A4FF7_E7160
+10.0	/home/zarkli/Downloads/1E338E945ED009A195E87947575_B41A4FF7_E7160/关于启动2023年”国家级大学生创新创业训练计划“立项工作的通知附件
+10.0	/home/zarkli/Android

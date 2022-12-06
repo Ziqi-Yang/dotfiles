@@ -22,3 +22,4 @@ lorem ipsum                               乱数假文
 grave                [ɡrev]               adj. 重大的；严肃的；黯淡的 n. 墓穴，坟墓；死亡 vt. 雕刻；铭记 n. (Grave)人名；(英)格雷夫；(德、瑞典)格拉弗；(法)格拉夫；(俄、葡)格拉韦
 initiative           [ɪ'nɪʃətɪv]          n. 主动权；首创精神 adj. 主动的；自发的；起始的
 tango                ['tæŋɡo]             n. 探戈舞；探戈舞曲 vi. 跳探戈舞 n. (Tango)人名；(日)端午 (名)；(意)坦戈
+archive              ['ɑrkaɪv]            n. 档案馆；档案文件 vt. 把…存档

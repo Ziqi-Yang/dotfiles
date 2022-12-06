@@ -1,3 +1,5 @@
+loop_on_end=true
+
 [defaults]
 # note: there shouldn't be any space in the variables
 format = "{name} {time}\n"

@@ -23,3 +23,54 @@ grave                [ɡrev]               adj. 重大的；严肃的；黯淡�
 initiative           [ɪ'nɪʃətɪv]          n. 主动权；首创精神 adj. 主动的；自发的；起始的
 tango                ['tæŋɡo]             n. 探戈舞；探戈舞曲 vi. 跳探戈舞 n. (Tango)人名；(日)端午 (名)；(意)坦戈
 archive              ['ɑrkaɪv]            n. 档案馆；档案文件 vt. 把…存档
+hassle               ['hæsl]              vt. 找麻烦，搅扰；与…争辩；使…烦恼 n. 困难，麻烦；激战 vi. 争论，争辩 n. (Hassle)人名；(瑞典)哈斯勒
+transnational        [træns'næʃənəl]      adj. 跨国的；超越国界的
+dispersion           [dɪ'spɝʒn]           n. 散布；[统计][数] 离差；驱散
+substantially        [səb'stænʃəli]       adv. 实质上；大体上；充分地
+practitioners        [præk'tɪʃənɚ]        n. 实践者；开业者；实习者（practitioner的复数）
+rival                ['raɪvl]             n. 对手；竞争者 vt. 与…竞争；比得上某人 vi. 竞争 adj. 竞争的 n. (Rival)人名；(英、法、西)里瓦尔
+concrete             ['kɑŋkrit]           adj. 混凝土的；实在的，具体的；有形的 vi. 凝结 vt. 使凝固；用混凝土修筑 n. 具体物；凝结物
+herein               [,hɪr'ɪn]            adv. 此中，于此；焉；在这方面 n. （捷）赫赖因（人名）
+continents           ['kɑntɪnənts]        n. [地理] 大陆，大洲（continent复数）
+proficient           [prə'fɪʃnt]          adj. 熟练的，精通的 n. 精通；专家，能手
+inundated            ['ɪnəndetɪd]         adj. 洪泛的 v. 淹没（inundate的过去分词）
+anonym               [ˈænəˌnɪm]           n. 匿名者；假名，化名
+bullshit             ['bʊlʃɪt]            vt. 胡说，哄骗 n. 胡说
+wrong                [rɔŋ]                adv. 错误地；邪恶的，不正当地 n. 坏事；不公正 adj. 错误的；失常的；不适当的 vt. 委屈；无理地对待；诽谤 n. (Wrong)人名；(英)朗
+consent              [kən'sɛnt]           vi. 同意；赞成；答应 n. 同意；（意见等的）一致；赞成 n. (Consent)人名；(法)孔桑
+precautions          [pri'kɔ:ʃən]         n. 防范；预防措施；预警（precaution的复数）
+encapsulation        [ɪn,kæpsə'leʃən]     n. 封装；包装
+electromotive        [ɪˌlektrəˈmoʊtɪv]    adj. 电动的；电动势的 n. 电动火车头
+induced              [ɪn'djʊst]           adj. 感应的；诱发型 v. 引诱；说服（induce的过去分词）
+turns                [tɝ​nz]              n. 转弯；匝数；圈数（turn的复数形式）；[机] 手动车床 v. 转弯；转动；倒置（turn的三单形式）
+coplanar             [koʊˈpleɪnər]        adj. [数] 共面的
+concentric           [kən'sɛntrɪk]        adj. 同轴的；同中心的
+copper               ['kɑpɚ]              n. 铜；铜币；警察 adj. 铜制的 vt. 镀铜 n. (Copper)人名；(英)科珀
+stationary           ['steʃənɛri]         adj. 固定的；静止的；定居的；常备军的 n. 不动的人；驻军
+resistor             [rɪ'zɪstɚ]           n. [电] 电阻器
+dielectric           [,daɪɪ'lɛktrɪk]      adj. 非传导性的；诱电性的 n. 电介质；绝缘体
+wound                [wund]               n. 创伤，伤口 vt. 使受伤 vi. 受伤，伤害
+solenoid             ['solə,nɔɪd]         n. [电] 螺线管；螺线形电导管
+revolutionized       [,revə'lju:ʃənaiz]   adj. 革命化的；被彻底改革的 v. 彻底改革（revolutionize的过去式）
+equilibrium          [,ikwɪ'lɪbrɪəm]      n. 均衡；平静；保持平衡的能力
+cavity               ['kævəti]            n. 腔；洞，凹处
+susceptibility       [sə,sɛptə'bɪləti]    n. 敏感性；感情；磁化系数
+permittivity         [ˌpɜːrmɪˈtɪvəti]     n. [电] 介电常数，[电] 电容率
+photon               ['fotɑn]             n. [物] 光子；辐射量子；见光度（等于light quantum）
+packet               ['pækɪt]             n. 数据包，信息包；小包，小捆 vt. 包装，打包
+interference         [,ɪntɚ'fɪrəns]       n. 干扰，冲突；干涉
+oscillating          [asə'letɪŋ]          adj. [物] 振荡的
+coherent             [ko'hɪrənt]          adj. 连贯的，一致的；明了的；清晰的；凝聚性的；互相耦合的；粘在一起的
+constructive         [kən'strʌktɪv]       adj. 建设性的；推定的；构造上的；有助益的
+tournament           [ˈtɝ​nəmənt]         n. 锦标赛，联赛；比赛
+fixture              ['fɪkstʃɚ]           n. 设备；固定装置；固定于某处不大可能移动之物
+knock out            ['nɔkaut]            敲空；击倒；打破；使筋疲力竭
+draw                 [drɔ]                vt. 画；拉；吸引 vi. 拉；拖 n. 平局；抽签 n. (Draw)人名；(英)德劳
+ascending            [ə'sɛndɪŋ]           adj. 上升的 v. 上升；获得（ascend的ing形式）；追溯
+descending           [dɪ'sɛndɪŋ]          adj. 下降的；下行的 n. 递减；下行 v. 下降（descend的ing形式）
+reaching             [ri:tʃ]              v. 到达（reach的现在分词）；伸出
+recherche            [rə'ʃɛrʃe]           adj. 精心设计的；异国风味的；精选的；矫揉造作的
+pledge               [plɛdʒ]              n. 保证，誓言；抵押；抵押品，典当物 vt. 保证，许诺；用……抵押；举杯祝……健康 n. (Pledge)人名；(英)普莱奇
+derived              [dɪ'raɪvd]           adj. 导出的；衍生的，派生的 v. 得到；推断（derive的过去分词）；由…而来
+exempt               [ɪg'zɛmpt]           vt. 免除；豁免 adj. 被免除的；被豁免的 n. 免税者；被免除义务者
+prominent            ['prɑmɪnənt]         adj. 突出的，显著的；杰出的；卓越的

@@ -13,6 +13,7 @@
 ### other
 
 - `screenkey`
+- `pqiv` image show
 
 ### command line
 

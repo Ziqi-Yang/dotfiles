@@ -45,6 +45,7 @@ bspc rule -a discord state=fullscreen
 bspc rule -a TelegramDesktop state=fullscreen
 bspc rule -a electronic-wechat state=fullscreen
 bspc rule -a MEGAsync state=floating rectangle=600x600+2200+100
+bspc rule -a Pqiv border=off state=floating
 
 
 bspc config external_rules_command /home/zarkli/.config/bspwm/external_rules.sh

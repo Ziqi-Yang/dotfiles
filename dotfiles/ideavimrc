@@ -66,6 +66,8 @@ map <leader>ze <Action>(ExpandRegion)
 
 " =========== INSERT ============
 imap kk <Esc>
+imap <C-f> <Right>
+imap <C-b> <Left>
 
 " =========== WHICH-KEY ============
 let g:WhichKeyDesc_code = "<leader>c Code"

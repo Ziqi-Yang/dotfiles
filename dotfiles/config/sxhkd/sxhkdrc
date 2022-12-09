@@ -16,9 +16,11 @@ super + x
 super + space
 	rofi -show combi -show-icons
 
+# change focused window
 alt + Tab
 	bspc node -f next.local.window
 
+# application launcher
 super + a
 	rofi -no-lazy-grab -show drun -theme ~/.local/share/rofi/themes/launchpad.rasi -show-icons
 
@@ -26,6 +28,9 @@ super + a
 super + alt + h
 	bspc node focused -g hidden=on
 
+# show all hiden windows in the current desktop
+super + alt + shift + h
+	~/myBin/winshow
 
 # emacs ====== begin
 super + e

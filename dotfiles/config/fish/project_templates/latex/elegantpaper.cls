@@ -70,7 +70,8 @@
 \RequirePackage{multicol}
 \RequirePackage{multirow}
 % \RequirePackage{linegoal}
-\RequirePackage{xcolor}
+\RequirePackage[dvipsnames]{xcolor}
+\RequirePackage{tcolorbox}
 \RequirePackage{graphicx}
 \RequirePackage{fancyvrb}
 \RequirePackage{abstract}
@@ -339,33 +340,46 @@
   \end{center}%
   \par
 }
-  
 
 \RequirePackage{listings}
 \renewcommand{\ttdefault}{cmtt}
 
-\lstdefinestyle{estyle}{
-  basicstyle=%
-    \ttfamily
-    \lst@ifdisplaystyle\footnotesize\fi
+% default code style
+\lstset{
+  framerule=1pt,
+  frame=tb,
+  emphstyle={\small\ttfamily\bfseries\color{Orange}},
+  numbers=left,
+  numberstyle= \tiny\color{black},
+  basicstyle = \small\ttfamily,
+  keywordstyle    = \bfseries\color{BrickRed},
+  identifierstyle = \bfseries\color{black},
+  stringstyle     = \bfseries\color{ForestGreen},
+  commentstyle    = \bfseries\color{Violet},
+  breaklines      =   true,
+  columns         =   fixed,
+  basewidth       =   .5em,
+  backgroundcolor=\color{Gray!5},
+  tabsize=2,
+  showspaces=false,
+  showstringspaces=false,
 }
-\lstset{basicstyle=\scriptsize\ttfamily,style=estyle}
 
-\lstset{language=[LaTeX]TeX,
-	texcsstyle=*\color{winered},
-	numbers=none,
-	breaklines=true,
-	keywordstyle=\color{winered},
-	frame=tlbr,framesep=4pt,framerule=0pt,
-	commentstyle=\color{commentcolor},
-	emph={elegantpaper,fontenc,fontspec,xeCJK,FiraMono,xunicode,newtxmath,figure,fig,image,img,table,itemize,enumerate,newtxtext,newtxtt,ctex,microtype,description,times,newtx,booktabs,tabular,PDFLaTeX,XeLaTeX,type1cm,BibTeX,cite,gbt7714,lang},
-	emphstyle={\color{frenchplum}},
-	morekeywords={DeclareSymbolFont,SetSymbolFont,toprule,midrule,bottomrule,institute,version,includegraphics,setmainfont,setsansfont,setmonofont ,setCJKmainfont,setCJKsansfont,setCJKmonofont,RequirePackage,figref,tabref,email,maketitle,keywords,zhdate,zhtoday},
-	tabsize=2,
-	backgroundcolor=\color{lightgrey}
+\DeclareCaptionFormat{code}{
+  \colorbox{orange!40}{\large\ttfamily\bfseries#3}
+}
+\captionsetup[lstlisting]{
+  format=code, % format
+  justification=raggedright,singlelinecheck=false % left
 }
 
-
+\lstdefinestyle{Latex}{
+  language={[latex]TeX},
+  morekeywords = {
+elegantpaper,fontenc,fontspec,xeCJK,FiraMono,xunicode,newtxmath,figure,fig,image,img,table,itemize,enumerate,newtxtext,newtxtt,ctex,microtype,description,times,newtx,booktabs,tabular,PDFLaTeX,XeLaTeX,type1cm,BibTeX,cite,gbt7714,lang,DeclareSymbolFont,SetSymbolFont,toprule,midrule,bottomrule,institute,version,includegraphics,setmainfont,setsansfont,setmonofont,setCJKmainfont,setCJKsansfont,setCJKmonofont,RequirePackage,figref,tabref,email,maketitle,keywords,zhdate,zhtoday}
+}
 
 % restore the tt default family to lmodern tt family
 \renewcommand\ttdefault{lmtt}
+
+\newtcbox{\hword}[1][orange]{on line, arc = 0.3mm,auto outer arc,colback = #1!12!, colframe = #1!60!,colupper = black, boxsep =0mm, left =0.3mm, right = 0.3mm, top =0.4mm, bottom = 0.4mm,boxrule =0.2mm, bottomrule =0.2mm, toprule = 0.2mm}

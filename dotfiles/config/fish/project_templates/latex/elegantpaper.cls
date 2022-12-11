@@ -350,7 +350,7 @@
   frame=tb,
   emphstyle={\small\ttfamily\bfseries\color{Orange}},
   numbers=left,
-  numberstyle= \tiny\color{black},
+  numberstyle= \scriptsize\ttfamily\color{black},
   basicstyle = \small\ttfamily,
   keywordstyle    = \bfseries\color{BrickRed},
   identifierstyle = \bfseries\color{black},
@@ -377,6 +377,20 @@
   language={[latex]TeX},
   morekeywords = {
 elegantpaper,fontenc,fontspec,xeCJK,FiraMono,xunicode,newtxmath,figure,fig,image,img,table,itemize,enumerate,newtxtext,newtxtt,ctex,microtype,description,times,newtx,booktabs,tabular,PDFLaTeX,XeLaTeX,type1cm,BibTeX,cite,gbt7714,lang,DeclareSymbolFont,SetSymbolFont,toprule,midrule,bottomrule,institute,version,includegraphics,setmainfont,setsansfont,setmonofont,setCJKmainfont,setCJKsansfont,setCJKmonofont,RequirePackage,figref,tabref,email,maketitle,keywords,zhdate,zhtoday}
+}
+
+\lstdefinelanguage{Ascii}{
+  framerule=1pt,
+  frame=tb,
+  numbers=none,
+  basicstyle = \linespread{0.5}\scriptsize\ttfamily,
+  breaklines      =   true,
+  columns         =   fixed,
+  basewidth       =   .5em,
+  backgroundcolor=\color{Gray!5},
+  tabsize=2,
+  showspaces=false,
+  showstringspaces=false
 }
 
 % restore the tt default family to lmodern tt family

@@ -8,7 +8,7 @@ all in the =assets= folder in my =dotfile=
 ** popup-calendar =module=
 needs =yad= and =xdotool=
    #+begin_src bash
-paru -S yas xdotool
+paru -S yad xdotool
    #+end_src
 
 | action      | behavior         |

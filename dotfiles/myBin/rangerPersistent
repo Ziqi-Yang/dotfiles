@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+# --------------------
+# @Author: Zarkli Leonardo(mr.ziqiyang@gmail.com)
+# @Time: Fri Dec  9 21:05:53 2022;
+# --------------------
+
+rangerdir="/tmp/.rangerPersistent"
+ranger "$(cat ${rangerdir})" --choosedir="${rangerdir}"

@@ -74,3 +74,74 @@ pledge               [plɛdʒ]              n. 保证，誓言；抵押；抵押
 derived              [dɪ'raɪvd]           adj. 导出的；衍生的，派生的 v. 得到；推断（derive的过去分词）；由…而来
 exempt               [ɪg'zɛmpt]           vt. 免除；豁免 adj. 被免除的；被豁免的 n. 免税者；被免除义务者
 prominent            ['prɑmɪnənt]         adj. 突出的，显著的；杰出的；卓越的
+common               ['kɑmən]             adj. 共同的；普通的；一般的；通常的 n. 普通；平民；公有地 n. (Common)人名；(法)科蒙；(英)康芒
+semantic             [sɪ'mæntɪk]          adj. 语义的；语义学的（等于semantical）
+hierarchy            ['haɪərɑrki]         n. 层级；等级制度
+structure            ['strʌktʃɚ]          n. 结构；构造；建筑物 vt. 组织；构成；建造
+costly               ['kɔstli]            adj. 昂贵的；代价高的 n. (Costly)人名；(英)科斯特利
+messy                ['mɛsi]              adj. 凌乱的，散乱的；肮脏的，污秽的；麻烦的
+vibrations           ['vaibreiʃənz]       n. [力] 振动；共鸣；动摇（vibration的复数）
+inclination          ['ɪnklə'neʃən]       n. 倾向，爱好；斜坡
+infrared             [,ɪnfrə'rɛd]         n. 红外线 adj. 红外线的
+ultraviolet          [,ʌltrə'vaɪələt]     adj. 紫外的；紫外线的 n. 紫外线辐射，紫外光
+turquoise            ['tɝkwɔɪz]           n. 绿松石；蓝绿色 adj. 蓝绿色的
+lenses               ['lensɪz]            柔性焦距透镜组
+coast                [kost]               vi. 滑行；沿岸航行 vt. 沿…岸航行 n. 海岸；滑坡 n. (Coast)人名；(英)科斯特
+coasting             ['kostɪŋ]            n. 海岸线；[水运] 沿岸航行；沿海贸易 v. （靠惯性）[交] 滑行（coast的现在分词）；沿海航行
+spectrum             ['spɛktrəm]          n. 光谱；频谱；范围；余象
+chromatic            [krə'mætɪk]          adj. 彩色的；色品的；易染色的
+wedge                [wɛdʒ]               vt. 楔入；挤进；楔住 vi. 楔入；挤进 n. 楔子；楔形物；导致分裂的东西 n. (Wedge)人名；(英)韦奇
+monochromatic        [,mɑnəkrə'mætɪk]     adj. 单色的
+convex               ['kɑnvɛks]           adj. 凸面的；凸圆的 n. 凸面体；凸状
+concave              [kɑn'kev]            adj. 凹的，凹面的 n. 凹面 vt. 使成凹形
+illuminated          [ɪ'lumɪnetɪd]        adj. 被照明的 v. 照明；启发；兴奋（illuminate的过去分词）
+dimeter              [ˈdɪmətər]           n. 双韵脚；二步格诗 adj. 二步格的；双韵脚的
+crooked              ['krʊkɪd]            adj. 弯曲的；歪的；不正当的
+passages             ['pəsidʒ]            n. 短文（passage的复数形式）；通路；过客 v. 通过；参加争论（passage的三单形式）
+oblique              [ə'blik]             adj. 斜的；不光明正大的 n. 倾斜物 vi. 倾斜
+bands                [bænd]               n. 乐队；法官
+diffraction          [dɪ'frækʃən]         n. （光，声等的）衍射，绕射
+minima               ['mɪnɪmə]            n. 极小值（minimum的复数）；最小数
+sidenote             [ˈsaɪdˌnoʊt]         n. 旁注
+helpdesk             ['helpdesk]          n. 帮助台；超文本文档帮助信息
+corrupted            [kə'rʌpt]            adj. 腐败的；毁坏的；崩溃的 v. （使）腐败；（使）堕落（corrupt的过去分词）
+ligatures                                 n. 绳索；绷带；哨卡（ligature 的复数） v. 绑扎；联结（ligature 的三单形式）
+grating              ['gretɪŋ]            adj. 刺耳的；磨擦的 n. [光] 光栅；摩擦，摩擦声；格子 v. 磨碎；擦响；激怒（grate的ing形式）
+inclined             [ɪn'klaɪnd]          adj. 趋向于…的 v. 使…倾向（incline的过去分词）
+incidence            ['ɪnsɪdəns]          n. 发生率；影响；[光] 入射；影响范围
+crystal              ['krɪstl]            n. 结晶，晶体；水晶；水晶饰品 adj. 水晶的；透明的，清澈的 n. (Crystal)人名；(英)克里斯特尔，克丽丝特尔 (女名)
+polarization         [,polərɪ'zeʃən]      n. 极化；偏振；两极分化
+transverse           [træns'vɝs]          adj. 横向的；横断的；贯轴的 n. 横断面；贯轴；横肌
+longitudinal         [,lɑndʒə'tudnl]      adj. 长度的，纵向的；经线的
+slicing              ['slaɪsɪŋ]           n. 切断，切片；限制，[电子] 限幅
+apart from                                除…之外；且不说；并且
+primitives           ['prɪmətɪv]          n. [计] 基元（primitive的复数）；原始事物；基本体
+coupled              ['kʌpl]              adj. 耦合的；联接的；成对的；共轭的 （couple的过去分词形式）
+simultaneous         [,saɪml'tenɪəs]      adj. 同时的；联立的；同时发生的 n. 同时译员
+serial               ['sɪrɪəl]            adj. 连续的；连载的；分期偿还的 n. 电视连续剧；[图情] 期刊；连载小说
+synchronisation      [sɪnŋkrənaɪ'zeʃən]   n. 同步；同一时刻；同时发生
+loosely              ['lusli]             adv. 宽松地；放荡地；轻率地
+jitter               ['dʒɪtɚ]             vi. 抖动，[电子] 跳动；战战兢兢；神经过敏 vt. 紧张地说；使…惶恐不安 n. 振动，剧跳；紧张不安
+dual                 ['dʊəl]              adj. 双的；双重的 n. 双数；双数词 n. (Dual)人名；(法)迪阿尔
+essence              ['ɛsns]              n. 本质，实质；精华；香精 n. (Essence)人名；(英)埃森丝
+conservative         [kən'sɝvətɪv]        adj. 保守的 n. 保守派，守旧者
+dispatched           [dɪ'spætʃt]          派遣 [计] 发送
+quantum              ['kwɑntəm]           n. 量子论；额（特指定额、定量）；美国昆腾公司（世界领先的硬盘生产商）
+elapsed              [i'læps]             v. 时间过去；消逝（elapse的过去分词） adj. 过去的；经过的
+curator              [kjʊ'retɚ]           n. 馆长；监护人；管理者
+donor                ['donɚ]              n. 捐赠者；供者；赠送人 adj. 捐献的；经人工授精出生的
+virtue               ['vɝtʃʊ]             n. 美德；优点；贞操；功效 n. (Virtue)人名；(英)弗丘
+contiguously         [kən'tigjuəsli]      adv. 连续地；接触地
+illusion             [ɪ'luʒn]             n. 幻觉，错觉；错误的观念或信仰
+resident             ['rɛzɪdənt]          adj. 居住的；定居的 n. 居民；住院医生
+delegating           ['deliɡət; -ɡeit; 'deliɡeit] v. 授权（delegate的ing形式）；选举 n. 授权；委派；授权式 adj. 授权的
+overlay              ['ovəlɛi]            n. 覆盖图；覆盖物 vt. 在表面上铺一薄层，镀
+dedicated            ['dɛdə'ketɪd]        adj. 专用的；专注的；献身的 v. 以…奉献；把…用于（dedicate的过去式和过去分词）
+obviating            ['ɔbvieit]           避免（obviate的现在分词） 消除（obviate的现在分词） 排除（obviate的现在分词）
+optimal              ['ɑptəml]            adj. 最佳的；最理想的
+overhead             [,ovɚ'hɛd]           adv. 在头顶上；在空中；在高处 adj. 高架的；在头上的；在头顶上的 n. 天花板；[会计] 经常费用；间接费用；吊脚架空层
+variant              ['vɛrɪənt]           adj. 不同的；多样的 n. 变体；转化
+conceived            [kən'sivd]           v. 构思；设想（conceive的过去式）
+adjunct              ['ædʒʌŋkt]           n. 附属物；助手；修饰语 adj. 附属的
+mischievous          ['mɪstʃɪvəs]         adj. 淘气的；（人、行为等）恶作剧的；有害的
+distinction          [dɪ'stɪŋkʃən]        n. 区别；差别；特性；荣誉、勋章

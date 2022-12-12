@@ -145,3 +145,55 @@ conceived            [kən'sivd]           v. 构思；设想（conceive的过�
 adjunct              ['ædʒʌŋkt]           n. 附属物；助手；修饰语 adj. 附属的
 mischievous          ['mɪstʃɪvəs]         adj. 淘气的；（人、行为等）恶作剧的；有害的
 distinction          [dɪ'stɪŋkʃən]        n. 区别；差别；特性；荣誉、勋章
+propagation          [,prɑpə'geʃən]       n. 传播；繁殖；增殖
+vulnerabilities      ['vʌlnərəbl]         n. 缺陷（vulnerability的复数形式）；脆弱点
+tampering            ['tæmpɚ]             n. 贿赂 adj. 干涉的 v. 干预（tamper的ing形式）
+fabrication          [,fæbrɪ'keʃən]       n. 制造，建造；装配；伪造物
+integrity            [ɪn'tɛɡrəti]         n. 完整；正直；诚实；廉正
+legitimate           [ləˈdʒɪtəmɪt]        adj. 合法的；正当的；合理的；正统的 vt. 使合法；认为正当（等于legitimize）
+confidentiality      [,kɑnfɪ,dɛnʃɪ'æləti] n. 机密，[计] 机密性
+bus                  [bʌs]                n. 公共汽车 乘公共汽车
+bandwidth            ['bændwɪdθ]          n. [电子][物] 带宽；[通信] 频带宽度
+topology             [təˈpɑlədʒi]         n. 拓扑学
+metropolitan         [,mɛtrə'pɑlɪtən]     adj. 大都市的；大主教辖区的；宗主国的 n. 大城市人；大主教；宗主国的公民
+wide                 [waɪd]               adj. 广泛的；宽的，广阔的；张大的；远离目标的 adv. 广泛地；广阔地；充分地 n. 大千世界 n. (Wide)人名；(瑞典、芬)维德
+hypercube            ['haipə,kju:b]       n. 超立方体
+mesh                 [mɛʃ]                n. 网眼；网丝；圈套 vi. 相啮合 vt. [机] 啮合；以网捕捉
+checksum             ['tʃɛksʌm]           n. [计] 校验和；[计] 检查和
+intervention         [,ɪntɚ'vɛnʃən]       n. 介入；调停；妨碍
+replication          [replɪ'keɪʃ(ə)n]     n. 复制；回答；反响
+replicate            ['rɛplɪket]          vt. 复制；折叠 vi. 重复；折转 adj. 复制的；折叠的 n. 复制品；八音阶间隔的反覆音
+congestion           [kən'dʒɛstʃən]       n. 拥挤；拥塞；淤血
+airline              ['ɛrlaɪn]            n. 航空公司；航线 adj. 航线的
+mainframes           ['mein,freim]        n. 大型主机（mainframe的复数形式）
+inherent             [ɪn'hɪrənt]          adj. 固有的；内在的；与生俱来的，遗传的
+spatially            ['speɪʃli]           adv. 空间地；存在于空间地
+separated            ['sɛpəretɪd]         adj. 分开的；分居；不在一起生活的 v. 分开；隔开（separate的过去式和过去分词）
+peripherals          [pə'rifərəls]        n. 周边设备；[计] 外围设备
+spread               [sprɛd]              vi. 传播；伸展 vt. 传播，散布；展开；伸展；铺开 n. 传播；伸展 adj. 伸展的
+workload             ['wɝklod]            n. 工作量
+monolithic           [,mɑnə'lɪθɪk]        adj. 整体的；巨石的，庞大的；完全统一的 n. 单块集成电路，单片电路
+synchronization      [,sɪnkrənaɪ'zeʃən]   n. [物] 同步；同时性
+epic                 ['ɛpɪk]              adj. 史诗的，叙事诗的 n. 史诗；叙事诗；史诗般的作品
+voluntary            ['vɑləntɛri]         adj. 自愿的；志愿的；自发的；故意的 n. 志愿者；自愿行动
+reap                 [rip]                vt. 收获，获得；收割 vi. 收割，收获 n. (Reap)人名；(英)里普
+deterministic        [dɪ,tɝmɪn'ɪstɪk]     adj. 确定性的；命运注定论的
+race                 [res]                n. 属，种；种族，人种；家庭，门第 vt. 使参加比赛；和…竞赛；使急走，使全速行进 vi. 比速度，参加竞赛；全速行进 n. (Race)人名；(英)雷斯；(塞)拉采
+overlap              ['ovəlæp]            n. 重叠；重复 vi. 部分重叠；部分的同时发生 vt. 与…重叠；与…同时发生
+computation          ['kɑmpjʊ'teʃən]      n. 估计，计算
+pake                                      n. 芳香醚酮
+folks                [fəuk]               n. （复数）人们 n. (Folks)人名；(英)福克斯
+flatmate             ['flæt,meɪt]         n. 合住一套公寓的人；合租者
+semaphores           ['seməfɔ:]           n. 信号；[计] 信号量；旗语；信号灯（semaphore的复数） v. 用信号向…发出；打旗语（semaphore的三单形式）
+semaphore            ['sɛməfɔr]           vi. 打旗语；发信号 n. 信号；旗语；臂板信号机 vt. 用信号联络
+mutex                                     n. 互斥；互斥元，互斥体；互斥量
+probe                [prob]               n. 探针；调查 vi. 调查；探测 vt. 探查；用探针探测 n. (Probe)人名；(法)普罗布
+Dutch                [dʌtʃ]               adj. 荷兰的；荷兰人的；荷兰语的 n. 荷兰人；荷兰语 adv. 费用平摊地；各自付账地
+glitches             [ɡlitʃ]              n. 小故障（glitch的复数形式）；小毛病
+depleted             [di'plitid]          adj. 耗尽的；废弃的；贫化的 v. 使减少；弄空；耗尽…的资源（deplete的过去分词）
+dining               ['daɪnɪŋ]            n. 吃饭，进餐 v. 吃饭（dine的现在分词）
+philosophers         [fə'lɑsəfɚ]          n. 哲学家（philosopher的复数）
+criterion            [kraɪˈtɪriən]        n. （批评判断的）标准；准则；规范；准据
+penalty              ['pɛnəlti]           n. 罚款，罚金；处罚
+gain                 [ɡen]                n. 增加；利润；收获 vt. 获得；增加；赚到 vi. 增加；获利 n. (Gain)人名；(英、匈、法)盖恩
+exempt               [ɪg'zɛmpt]           vt. 免除；豁免 adj. 被免除的；被豁免的 n. 免税者；被免除义务者

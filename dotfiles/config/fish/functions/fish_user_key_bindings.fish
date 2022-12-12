@@ -8,4 +8,6 @@ function fish_user_key_bindings
   bind -M insert \v  'kill-line'
   bind -M insert \cF 'forward-char'
   bind -M insert \cB 'backward-char'
+  bind -M insert \ef 'forward-word'
+  bind -M insert \eb 'backward-word'
 end

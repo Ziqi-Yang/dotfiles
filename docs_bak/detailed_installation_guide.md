@@ -117,6 +117,7 @@ sudo pacman -S fcitx5-chinese-addons # 官方中文输入引擎
 sudo pacman -S fcitx5-anthy # 日文输入引擎
 sudo pacman -S fcitx5-pinyin-moegirl # 萌娘百科词库。二刺猿必备（archlinuxcn）
 sudo pacman -S fcitx5-material-color # 输入法主题
+paru -S fcitx5-pinyin-custom-pinyin-dictionary # 自建拼音输入法词库，百万常用词汇量 https://github.com/wuhgit/CustomPinyinDictionary
 
 vim ~/.pam_environment
 # INPUT_METHOD DEFAULT=fcitx5

@@ -117,6 +117,9 @@ dotfiles:
   d_usr:
     src: local/share/wudao-dict/usr
     dst: ~/.local/share/wudao-dict/usr
+  f_nyanlooped.mp3:
+    src: Music/nyanlooped.mp3
+    dst: ~/Music/nyanlooped.mp3
 profiles:
   myArch:
     dotfiles:
@@ -157,3 +160,4 @@ profiles:
     - f_discord.desktop
     - d_uair
     - d_usr
+    - f_nyanlooped.mp3

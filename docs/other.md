@@ -14,6 +14,7 @@
 
 - `screenkey`
 - `pqiv` image show
+- `scrcpy` display and control android phone
 
 ### command line
 

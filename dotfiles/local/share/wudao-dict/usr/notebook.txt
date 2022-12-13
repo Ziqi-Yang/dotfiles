@@ -197,3 +197,45 @@ criterion            [kraɪˈtɪriən]        n. （批评判断的）标准；�
 penalty              ['pɛnəlti]           n. 罚款，罚金；处罚
 gain                 [ɡen]                n. 增加；利润；收获 vt. 获得；增加；赚到 vi. 增加；获利 n. (Gain)人名；(英、匈、法)盖恩
 exempt               [ɪg'zɛmpt]           vt. 免除；豁免 adj. 被免除的；被豁免的 n. 免税者；被免除义务者
+tune                 [tun]                n. 曲调；和谐；心情 vt. 调整；使一致；为…调音 vi. [电子][通信] 调谐；协调 n. (Tune)人名；(英)图恩
+eligible             ['ɛlɪdʒəbl]          adj. 合格的，合适的；符合条件的；有资格当选的 n. 合格者；适任者；有资格者
+latency              ['letnsi]            n. 潜伏；潜在因素
+precedence           ['presidəns]         n. 优先；居先
+demote               [,di'mot]            vt. 使降级；使降职
+penalise             ['piːnəlaɪz]         vt. 惩罚，处罚；使…处于严重不利地位
+penality                                  n. 惩罚的性质或状态；判罚的责任
+lottery              ['lɑtəri]            n. 彩票；碰运气的事，难算计的事；抽彩给奖法
+exponential          ['ɛkspə'nɛnʃəl]      adj. 指数的 n. 指数
+recomputed           [ˌrikəmˈpjʊt]        vt. 验算；再计算
+homogeneous          [,homə'dʒinɪəs]      adj. 均匀的；[数] 齐次的；同种的；同类的，同质的
+preemptible                               adj. 可抢占的
+volatile             ['vɑlətl]            adj. [化学] 挥发性的；不稳定的；爆炸性的；反复无常的 n. 挥发物；有翅的动物 n. (Volatile)人名；(意)沃拉蒂莱
+tertiary             ['tɝʃɪ'ɛri]          n. 第三纪；第三修道会会员；第三级教士 adj. 第三的；第三位的；三代的
+idle                 ['aɪdl]              adj. 闲置的；懒惰的；停顿的 vi. 无所事事；虚度；空转 vt. 虚度；使空转
+simplistic           [sɪm'plɪstɪk]        adj. 过分简单化的；过分单纯化的
+compaction           [kəm'pækʃən]         n. 压紧；精简；密封；凝结
+chunks               [tʃʌŋk]              n. 大块，矮胖的人或物（chunk的复数形式）
+clustered            ['klʌstɚd]           adj. 成群的；聚集成群的 v. 聚合（cluster的过去式）
+locality             [lo'kæləti]          n. 所在；位置；地点
+void                 [vɔɪd]               adj. 空的；无效的；无人的 n. 空虚；空间；空隙 vt. 使无效；排放 n. (Void)人名；(俄)沃伊德
+encompassing         [in'kʌmpəs]          adj. 包含的；包容的，环绕 v. 围绕，包围（encompass的ing形式）
+yardstick            ['jɑrd'stɪk]         n. 码尺
+gauge                [gedʒ]               n. 计量器；标准尺寸；容量规格 vt. 测量；估计；给…定规格
+trapdoor             ['træpdɔr]           n. 地板门；活板门；井盖门
+exclusive            [ɪk'sklusɪv]         adj. 独有的；排外的；专一的 n. 独家新闻；独家经营的项目；排外者
+arithmetic           [ə'rɪθmətɪk]         n. 算术，算法
+conquer              ['kɑŋkɚ]             vt. 战胜，征服；攻克，攻取 vi. 胜利；得胜
+philosopher          [fə'lɑsəfɚ]          n. 哲学家；哲人
+palindrome           ['pælɪn'drom]        n. 回文
+chromatic            [krə'mætɪk]          adj. 彩色的；色品的；易染色的
+logarithmic          [lɔɡə'rɪðmɪk]        adj. 对数的
+motion               ['moʃən]             n. 动作；移动；手势；请求；意向；议案 vi. 运动；打手势 vt. 运动；向…打手势
+regrafted            [riˈɡræft]           v. 再移植（皮肤，骨骼等）；再嫁接；再植根于……
+graft                [ɡræft]              vi. 移植；嫁接；贪污 vt. 移植；嫁接；贪污 n. 移植；嫁接；渎职 n. （非正式）脚踏实地地埋头苦干
+compacts             ['kɑmpækt]           n. 契约；小型汽车；压块（compact的复数） v. 把…压紧；紧凑地组合成；变得坚实（compact的三单形式）
+factorial            [fæk'tɔrɪəl]         adj. 因子的，阶乘的 n. [数] 阶乘
+radix                [ˈreɪdɪks]           n. 根；[数]基数 n. （Radix）人名；（法、德、西）拉迪克斯；（英）雷迪克斯
+routine              [rʊ'tin]             n. [计] 程序；日常工作；例行公事 adj. 日常的；例行的
+subroutine           ['sʌbrutin]          n. [计] 子程序
+conceptual           [kən'sɛptʃʊəl]       adj. 概念上的
+terminology          [,tɝmə'nɑlədʒi]      n. 术语，术语学；用辞

@@ -1,12 +1,3 @@
-search 
-searc
-j local
-j wudao
-j dot
-j blog
-rename 杨子祺-1.docx
-rename 杨子祺-2.docx
-open_with 7
 j latex
 tra
 j projec
@@ -48,3 +39,12 @@ rename process_state.png
 rename Ziqi Yang 21207440 take-home exam.pdf
 open_with 9
 rename nyanlooped.mp3
+search seg
+prev_exam
+mkdir prev_exams
+rename 2020-2021.pdf
+.pdf
+rename 2019-2020.pdf
+rename physics.png
+rename temp_.org
+rename temp.org

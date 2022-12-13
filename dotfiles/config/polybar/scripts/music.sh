@@ -16,10 +16,10 @@ if [[ $? -eq 0 ]]; then
 fi
 
 
-if  [[ -n "$is_playing" ]]; then
+if  [[ -n "$is_playing" ]]; then # playing
     echo "%{F#bdc3c7}  %{F#d35400} %{F#27ae60}$metadata  %{F#bdc3c7}%{F-}"
-elif [[ -n "$is_live" ]]; then
+elif [[ -n "$is_live" ]]; then # paused
     echo "%{F#bdc3c7}  %{F#d35400} %{F#7f8c8d}$metadata  %{F#bdc3c7}%{F-}"
-else # Stopped & no player
-    echo "[ No Music Playing ]"
+else # stopped & no player
+    echo "%{F#7f8c8d}[ No Music Playing ]%{F-}"
 fi

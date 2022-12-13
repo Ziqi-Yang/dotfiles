@@ -1,9 +1,9 @@
 #!/bin/env bash
-# requirements: slop, tesseract && tesseract data: eng & chi_sim & xclip
+# requirements: slop, imagemagick, tesseract, tesseract data: eng & chi_sim, xclip
 
 imagefile="/tmp/sloppy.$RANDOM.png"
 text="/tmp/translation"
-slop=$(slop -f "%g") || exit 1
+slop=$(slop -b 5 -l -c 0.3,0.4,0.6,0.4 -f "%g") || exit 1
 read -r G <<< $slop
 import -window root -crop $G $imagefile
 tesseract $imagefile $text -l eng+chi_sim --psm 3 2>/dev/null

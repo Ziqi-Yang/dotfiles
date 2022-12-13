@@ -38,7 +38,7 @@ paru -S trash-cli
 [uair](https://github.com/metent/uair)
 
 #+begin_src bash
-paru -S uair
+paru -S uair mpg123
 #+end_src
 
 | action      | behavior     |

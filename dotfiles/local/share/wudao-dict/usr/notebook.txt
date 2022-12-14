@@ -239,3 +239,11 @@ routine              [rʊ'tin]             n. [计] 程序；日常工作；例�
 subroutine           ['sʌbrutin]          n. [计] 子程序
 conceptual           [kən'sɛptʃʊəl]       adj. 概念上的
 terminology          [,tɝmə'nɑlədʒi]      n. 术语，术语学；用辞
+devote               [dɪ'vot]             vt. 致力于；奉献
+bootstrap            ['bʊt'stræp]         n. [计] 引导程序，辅助程序；解靴带
+model                ['mɑdl]              n. 模型；典型；模范；模特儿；样式 vt. 模拟；塑造；模仿 vi. 做模型；做模特儿 adj. 模范的；作模型用的 n. (Model)人名；(德、俄、英)莫德尔
+retrieval            [rɪ'trivl]           n. 检索；恢复；取回；拯救
+Collison                                  n. (Collison)人名；(英)科利森
+collision            [kə'lɪʒən]           n. 碰撞；冲突；（意见，看法）的抵触；（政党等的）倾轧
+consecutive          [kən'sɛkjətɪv]       adj. 连贯的；连续不断的
+threshold            ['θrɛʃhold]          n. 入口；门槛；开始；极限；临界值

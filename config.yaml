@@ -120,6 +120,9 @@ dotfiles:
   f_nyanlooped.mp3:
     src: Music/nyanlooped.mp3
     dst: ~/Music/nyanlooped.mp3
+  d_rofimoji:
+    src: local/share/rofimoji
+    dst: ~/.local/share/rofimoji
 profiles:
   myArch:
     dotfiles:
@@ -161,3 +164,4 @@ profiles:
     - d_uair
     - d_usr
     - f_nyanlooped.mp3
+    - d_rofimoji

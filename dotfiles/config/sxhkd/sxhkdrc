@@ -32,12 +32,14 @@ super + alt + h
 super + alt + shift + h
 	~/myBin/winshow
 
-# emacs ====== begin
+# emoji
 super + e
-	doom +everywhere
+	rofimoji
+	# doom +everywhere
 
+# emacs ====== begin
 super + shift + x
-	emacsclient -c -e "((lambda ()  (doom/switch-to-scratch-buffer) (chunyang-toggle-frame-transparency)  ))" \
+	emacsclient -c -e "((lambda ()  (doom/switch-to-scratch-buffer) ))" \
 	--frame-parameters='(quote (name . "scratchemacs-frame"))'
 # emacs ====== end
 
@@ -48,7 +50,7 @@ super + r
 
 # rofi calc
 alt + c
-  rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo -n '\{result\}' | xclip -sel clip; xdotool type --clearmodifiers '\{result\}'"
+  rofi -show calc -modi calc -theme spotlight -no-show-match -no-sort -calc-command "echo -n '\{result\}' | xclip -sel clip; xdotool type --clearmodifiers '\{result\}'"
 
 # clipboard
 alt + v

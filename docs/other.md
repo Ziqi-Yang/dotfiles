@@ -15,6 +15,7 @@
 - `screenkey`
 - `pqiv` image show
 - `scrcpy` display and control android phone
+- `gtk3-icon-browser` in `extra/gtk3-demos` browser icon
 
 ### command line
 

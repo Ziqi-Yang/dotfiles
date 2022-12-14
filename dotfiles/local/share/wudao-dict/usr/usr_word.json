@@ -189,7 +189,7 @@
     "semaphores": 1,
     "semaphore": 1,
     "mutex": 2,
-    "probe": 1,
+    "probe": 4,
     "Dutch": 1,
     "glitches": 1,
     "depleted": 1,
@@ -238,5 +238,13 @@
     "routine": 1,
     "subroutine": 1,
     "conceptual": 1,
-    "terminology": 1
+    "terminology": 1,
+    "devote": 1,
+    "bootstrap": 1,
+    "model": 1,
+    "retrieval": 4,
+    "Collison": 1,
+    "collision": 1,
+    "consecutive": 1,
+    "threshold": 3
 }

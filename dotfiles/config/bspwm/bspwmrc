@@ -65,7 +65,7 @@ dunst &
 nm-applet &
 udiskie &
 fcitx5 -d &
-/home/zarkli/Public/Clash_for_Windows/cfw & 
+/opt/clash-for-windows-bin/cfw &
 # kdeconnect-indicator &
 xautolock -time 15 -locker 'betterlockscreen -l dimblur' &
 blueman-applet &

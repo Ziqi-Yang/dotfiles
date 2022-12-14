@@ -247,3 +247,21 @@ Collison                                  n. (Collison)人名；(英)科利森
 collision            [kə'lɪʒən]           n. 碰撞；冲突；（意见，看法）的抵触；（政党等的）倾轧
 consecutive          [kən'sɛkjətɪv]       adj. 连贯的；连续不断的
 threshold            ['θrɛʃhold]          n. 入口；门槛；开始；极限；临界值
+shushing             [ʃʌʃ; ʃuʃ]           v. 用“嘘”声让…静下来；使安静（shush的现在分词） n. 嘘声
+shush                [ʃʊʃ]                n. 嘘声 vt. 使安静 vi. 发嘘声 int. 嘘（示意安静下来）
+polarizers           [ˈpoʊləraɪzər]       n. 偏光器；[光] 起偏镜；偏振镜
+analysers            ['ænəlaizə]          n. [计] 分析器（analyser的复数）
+molecular            [mə'lɛkjəlɚ]         adj. [化学] 分子的；由分子组成的
+transmitted          [trænz'mit; træns-; trɑ:n-] v. 传输；传送（transmit的过去分词） adj. 透射的
+quantum              ['kwɑntəm]           n. 量子论；额（特指定额、定量）；美国昆腾公司（世界领先的硬盘生产商）
+radiation            [,redɪ'eʃən]         n. 辐射；发光；放射物
+radio                ['redɪo]             n. 收音机；无线电广播设备 vi. 用无线电进行通信 vt. 用无线电发送 n. (Radio)人名；(西)拉迪奥
+electromagnetic      [ɪ,lɛktromæɡ'nɛtɪk]  adj. 电磁的
+photons              ['fəu,təns]          n. [物] 光子；[量子] 光量子（photon的复数）
+ejected              [i'dʒekt; 'i:dʒekt]  adj. 射出的；被驱逐的；被放出的 v. 喷射；驱逐（eject的过去分词）
+calcium              ['kælsɪəm]           n. [化学] 钙
+refraction           [rɪ'frækʃən]         n. 折射；折光
+reflection           [rɪ'flɛkʃən]         n. 反射；沉思；映象
+asymptotic           ['æsɪmp,toʊtɪk]      adj. 渐近的；渐近线的
+ascending            [ə'sɛndɪŋ]           adj. 上升的 v. 上升；获得（ascend的ing形式）；追溯
+Divide-and-Conquer                        分而治之

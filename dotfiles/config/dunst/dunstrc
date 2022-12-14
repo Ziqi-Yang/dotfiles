@@ -116,7 +116,7 @@
     max_icon_size = 60
 
     # Paths to default icons.
-    icon_path = /home/zarkli/.local/share/icons/Deepin2022-Dark/scalable
+    # icon_path = /usr/share/icons/Tela-dracula/24/panel
     icon_theme = "Deepin2022-Dark, Adwaita"
     enable_recursive_icon_lookup = true
 
@@ -159,10 +159,9 @@
 
 
     # --- Mouse --- #
-    mouse_left_click = close_current
+    mouse_left_click = do_action, close_current
     mouse_middle_click = do_action, close_current
     mouse_right_click = close_all
-
 
 [experimental]
     per_monitor_dpi = false
@@ -188,24 +187,3 @@
     frame_color = "#FAB387"
     highlight = "#e05f65"
     timeout = 0
-    icon = battery-ac-adapter
-
-[backlight]
-    appname = "Backlight"
-    highlight = "#f1cf8a"
-    set_stack_tag = "backlight"
-
-[music]
-    appname = "Music"
-
-[volume]
-    summary = "Volume*"
-    highlight = "#70a5eb"
-    set_stack_tag = "volume"
-
-[battery]
-    appname = "Power Warning"
-
-[volume-muted]
-    summary = "Volume muted"
-    highlight = "#e05f65"

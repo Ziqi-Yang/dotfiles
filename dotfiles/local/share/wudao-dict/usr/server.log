@@ -1,0 +1,88 @@
+Server on...
+Get:5 bytes probe
+Send: 2264 bytes 
+Get:5 bytes probe
+Send: 2264 bytes 
+Get:11 bytes consecutive
+Send: 601 bytes 
+Get:7 bytes retival
+Get:9 bytes retrieval
+Send: 925 bytes 
+Get:9 bytes retrieval
+Send: 925 bytes 
+Get:5 bytes probe
+Send: 2264 bytes 
+Get:9 bytes threshold
+Send: 1224 bytes 
+Get:9 bytes threshold
+Send: 1224 bytes 
+Get:9 bytes threshold
+Send: 1224 bytes 
+Get:10 bytes polarizati
+Get:8 bytes shushing
+Send: 1020 bytes 
+Get:5 bytes shush
+Send: 1039 bytes 
+Get:10 bytes polarizers
+Get:9 bytes analysers
+Send: 540 bytes 
+Get:9 bytes analysers
+Send: 540 bytes 
+Get:9 bytes molecular
+Send: 471 bytes 
+Get:12 bytes transmittted
+Get:10 bytes transmitte
+Get:11 bytes transmitted
+Send: 1636 bytes 
+Get:7 bytes quantum
+Send: 1280 bytes 
+Get:7 bytes quantum
+Send: 1280 bytes 
+Get:9 bytes rediation
+Get:9 bytes radiation
+Send: 1144 bytes 
+Get:5 bytes radio
+Send: 2487 bytes 
+Get:14 bytes electomamnetic
+Get:15 bytes electromagnetic
+Send: 488 bytes 
+Get:7 bytes photons
+Send: 346 bytes 
+Get:7 bytes ejected
+Send: 1474 bytes 
+Get:7 bytes calcium
+Send: 372 bytes 
+Get:10 bytes refraction
+Send: 1508 bytes 
+Get:10 bytes refraction
+Send: 1508 bytes 
+Get:10 bytes reflection
+Send: 2410 bytes 
+Get:10 bytes refraction
+Send: 1508 bytes 
+Get:10 bytes reflection
+Send: 2410 bytes 
+Get:10 bytes asymptotic
+Send: 359 bytes 
+Get:9 bytes ascending
+Send: 681 bytes 
+Get:18 bytes divide-and-conquer
+Get:6 bytes 进度
+Send: 1665 bytes 
+Get:6 bytes 进度
+Send: 1665 bytes 
+Get:6 bytes 括号
+Traceback (most recent call last):
+  File "/home/zarkli/.local/share/wudao-dict/WudaoServer.py", line 75, in <module>
+    ws.run()
+  File "/home/zarkli/.local/share/wudao-dict/WudaoServer.py", line 48, in run
+    word_info = self.json_reader.get_zh_word_info(word)
+  File "/home/zarkli/.local/share/wudao-dict/src/JsonReader.py", line 78, in get_zh_word_info
+    word['sentence'] = json.loads(list_obj[5])
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 3 (char 2)

@@ -1,37 +1,7 @@
-rename physics_formulas
-rename main_bak.tex
-mkdir ./hide
-rename Andro
-other
-mkdir ./other
-mkdir ./assets
-open_with 2
-search tex
-search ex
-rename ElegantCS
-j project
-shell h
-rename elegantpaper.cls
-quitall
-j doom
-rename 
-j fish
-rename process_state.png
-rename Ziqi Yang 21207440 take-home exam.pdf
-open_with 9
-rename nyanlooped.mp3
-search seg
-prev_exam
-mkdir prev_exams
-rename 2020-2021.pdf
-.pdf
-rename 2019-2020.pdf
-rename physics.png
 rename temp_.org
 rename temp.org
 set vcs_aware true
 
-search 
 cd  /
 search eofi
 search share
@@ -48,3 +18,33 @@ search edit
 search search
 search calc
 j theme
+j dot
+j icon
+search high
+search wifi
+search network
+search volume
+search process
+search prograss
+search control
+search bar
+search progress
+search emacs
+search discord
+search alacritty
+search sound
+search play
+search off
+search music
+search pff
+search mute
+j tela
+search 
+rename audio-volume-muted-symbolic.svg
+search audio
+rename brightness_notify
+j deepin
+j ad
+j adw
+search brightnedd
+search bright

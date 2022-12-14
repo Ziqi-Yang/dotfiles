@@ -159,13 +159,12 @@ super + ctrl + shift + space
 
 # Audio
 XF86AudioRaiseVolume
-	amixer set Master 5%+
+	amixer set Master 5%+ && ~/myBin/volume_notify
 XF86AudioLowerVolume
-	amixer set Master 5%-
+	amixer set Master 5%- && ~/myBin/volume_notify
 XF86AudioMute
-	amixer set Master {mute, unmute}
+	amixer set Master {mute, unmute} && ~/myBin/volume_notify
 
 # Brightness control
 XF86MonBrightness{Up,Down}
-	brightnessctl s 10%{+,-}
-
+	brightnessctl s 10%{+,-} && ~/myBin/brightness_notify

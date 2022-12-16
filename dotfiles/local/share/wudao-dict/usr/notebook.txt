@@ -265,3 +265,44 @@ reflection           [rɪ'flɛkʃən]         n. 反射；沉思；映象
 asymptotic           ['æsɪmp,toʊtɪk]      adj. 渐近的；渐近线的
 ascending            [ə'sɛndɪŋ]           adj. 上升的 v. 上升；获得（ascend的ing形式）；追溯
 Divide-and-Conquer                        分而治之
+duality              [du'æləti]           n. 二元性；[物] 二象性
+orbital              ['ɔrbɪtl]            adj. 轨道的；眼窝的
+spectroscopic        [,spɛktrə'skɑpɪk]    adj. 光谱学的；分光镜的
+induction            [ɪn'dʌkʃən]          n. [电磁] 感应；归纳法；感应现象；入门培训，入职仪式，就职；诱导
+comprehensive        [ˌkɑːmprɪˈhensɪv]    adj. 综合的；广泛的；有理解力的 n. 综合学校；专业综合测验
+regime               [re'ʒim]             n. 政权，政体；社会制度；管理体制
+shaded               ['ʃedɪd]             adj. 荫蔽的；色彩较暗的 v. 遮蔽住；使阴暗（shade的过去分词）
+Lorentz              ['lɔ:rənts]          n. 洛伦兹（姓氏）
+electromotive        [ɪˌlektrəˈmoʊtɪv]    adj. 电动的；电动势的 n. 电动火车头
+electromotive force                       [电磁] 电动势
+force                [fɔrs]               n. 力量；武力；军队；魄力 vt. 促使，推动；强迫；强加 n. (Force)人名；(意)福尔切；(英、法)福斯
+electrostatic        [ɪ,lɛktro'stætɪk]    adj. 静电的；静电学的
+electrostatics       [ɪˌlektroʊˈstætɪks]  n. [电磁] 静电学
+reinforced           [,riɪn'fɔrst]        adj. 加固的；加强的；加筋的 v. 加强；增援（reinforce的过去分词）
+copper               ['kɑpɚ]              n. 铜；铜币；警察 adj. 铜制的 vt. 镀铜 n. (Copper)人名；(英)科珀
+non-uniform                               n. 不均匀，非均一
+coplanar             [koʊˈpleɪnər]        adj. [数] 共面的
+insulator            ['ɪnsəletɚ]          n. [物] 绝缘体；从事绝缘工作的工人
+permittivity         [ˌpɜːrmɪˈtɪvəti]     n. [电] 介电常数，[电] 电容率
+vacuum               ['vækjʊəm]           n. 真空；空间；真空吸尘器 adj. 真空的；利用真空的；产生真空的 vt. 用真空吸尘器清扫
+repulsive            [rɪ'pʌlsɪv]          adj. 排斥的；令人厌恶的；击退的；冷淡的
+trajectory           [trə'dʒɛktəri]       n. [物] 轨道，轨线；[航][军] 弹道
+bongo                ['bɒŋgəʊ]            n. 羚羊的一种；小手鼓 n. (Bongo)人名；(刚(布)、加蓬)邦戈
+gauss                [gaʊs]               n. [电磁] 高斯（磁感应或磁场的单位） n. (Gauss)人名；(英、德、西)[电磁] 高斯
+Gauss Law                                 高斯定律
+coaxial              [ko'æksɪəl]          adj. 同轴的，共轴的
+circuital            ['sə:kitəl]          adj. 与电路有关的
+equilibrium          [,ikwɪ'lɪbrɪəm]      n. 均衡；平静；保持平衡的能力
+equal                ['ikwəl]             adj. 平等的；相等的；胜任的 vt. 等于；比得上 n. 对手；匹敌；同辈；相等的事物
+scalar               [skelɚ]              adj. 标量的；数量的；梯状的，分等级的 n. [数] 标量；[数] 数量
+excess               ['ɛk'sɛs]            n. 超过，超额；过度，过量；无节制 adj. 额外的，过量的；附加的
+interior             [ɪn'tɪrɪɚ]           n. 内部；本质 adj. 内部的；国内的；本质的
+isotropic            [,aɪsə'trɑpɪk]       adj. [物][数] 各向同性的；等方性的
+electric             [ɪ'lɛktrɪk]          adj. 电的；电动的；发电的；导电的；令人震惊的 n. 电；电气车辆；带电体
+isotropical                               n. 均质 adj. 各向同性的
+geometrical          [dʒɪə'mɛtrɪkl]       adj. 几何的，几何学的
+cylindrical          [sə'lɪndrɪkl]        adj. 圆柱形的；圆柱体的
+spherical            ['sfɪrɪkəl]          adj. 球形的，球面的；天体的
+sphere               [sfɪr]               n. 范围；球体 vt. 包围；放入球内；使…成球形 adj. 球体的
+dipole               ['daɪpol]            n. [物化] 偶极；双极子
+decaying             [dɪ'ke]              n. [核] 衰减；颓坏；腐蚀作用 v. 腐烂；衰退；消瘦（decay的ing形式） adj. 衰减的；腐烂的；消散的

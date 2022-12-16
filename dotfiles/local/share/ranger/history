@@ -1,6 +1,3 @@
-rename temp_.org
-rename temp.org
-set vcs_aware true
 
 cd  /
 search eofi
@@ -48,3 +45,6 @@ j ad
 j adw
 search brightnedd
 search bright
+search jpg
+rename 5.jpg
+mount

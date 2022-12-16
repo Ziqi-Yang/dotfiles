@@ -20,7 +20,7 @@
 22.360679774997898	/home/zarkli/javaProjects/class/COMP2010J-p2
 14.142135623730951	/home/zarkli/javaProjects/class/COMP2010J-p2/meterials
 24.49489742783178	/home/zarkli/Documents/dotfiles/docs
-88.31760866327848	/home/zarkli/Documents/dotfiles
+90.0	/home/zarkli/Documents/dotfiles
 70.71067811865477	/home/zarkli/Documents/class/大学物理2(1)
 65.57438524302002	/home/zarkli/Documents/class/大学物理2(1)/Physics-2-1
 28.284271247461902	/home/zarkli/Documents/class/概率论与数理统计
@@ -253,3 +253,11 @@
 10.0	/home/zarkli/.local/share/icons/Deepin2022-Dark
 10.0	/home/zarkli/.local/share/icons/Deepin2022-Dark/scalable
 10.0	/home/zarkli/.local/share/icons/Deepin2022-Dark/scalable/devices
+20.0	/home/zarkli/Documents/dotfiles/dotfiles
+14.142135623730951	/home/zarkli/Documents/dotfiles/dotfiles/config
+14.142135623730951	/home/zarkli/Documents/dotfiles/dotfiles/Public
+10.0	/home/zarkli/Documents/dotfiles/dotfiles/Public/matter
+10.0	/home/zarkli/Documents/dotfiles/dotfiles/local
+10.0	/home/zarkli/Documents/dotfiles/dotfiles/local/share
+14.142135623730951	/home/zarkli/Documents/dotfiles/dotfiles/local/share/wudao-dict
+10.0	/home/zarkli/Documents/dotfiles/dotfiles/local/share/wudao-dict/usr

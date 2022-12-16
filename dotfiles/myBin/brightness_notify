@@ -14,6 +14,3 @@ brightness="$(brightnessctl | sed -n '2p' | sed 's/.*(\([0-9]*\)%).*/\1/')"
 
 dunstify -a "BrightnessInfo" -u low -i keyboard-brightness-symbolic -h string:x-dunst-stack-tag:$msgTag \
 -h int:value:"$brightness" "Brightness: ${brightness}%" -t 1000
-
-# Play the volume changed sound
-canberra-gtk-play -i audio-volume-change -d "changeVolume"

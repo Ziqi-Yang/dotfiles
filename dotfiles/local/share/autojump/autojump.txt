@@ -1,4 +1,4 @@
-93.80831519646857	/home/zarkli/Documents
+94.33981132056601	/home/zarkli/Documents
 22.360679774997898	/home/zarkli/Documents/blog
 47.9583152331272	/home/zarkli/projects
 47.9583152331272	/home/zarkli/projects/temp_project
@@ -6,11 +6,11 @@
 10.0	/home/zarkli/projects/temp_project/ranger-autojump
 14.142135623730951	/home/zarkli/.config/ranger/plugins
 34.64101615137755	/home/zarkli/.config/fish/functions
-91.6515138991168	/home/zarkli/Downloads
-94.86832980505135	/home/zarkli/Documents/latex
+92.73618495495703	/home/zarkli/Downloads
+96.4365076099295	/home/zarkli/Documents/latex
 43.588989435406745	/home/zarkli/Documents/latex/templates/assignment
 14.142135623730951	/home/zarkli/myBin
-129.99999999999997	/home/zarkli/Documents/class
+132.28756555322948	/home/zarkli/Documents/class
 50.00000000000001	/home/zarkli/Documents/class/COMP2011J_OOP
 34.64101615137755	/home/zarkli/Documents/class/COMP2011J_OOP/exam
 44.7213595499958	/home/zarkli/javaProjects
@@ -20,14 +20,14 @@
 22.360679774997898	/home/zarkli/javaProjects/class/COMP2010J-p2
 14.142135623730951	/home/zarkli/javaProjects/class/COMP2010J-p2/meterials
 24.49489742783178	/home/zarkli/Documents/dotfiles/docs
-87.74964387392123	/home/zarkli/Documents/dotfiles
-57.44562646538029	/home/zarkli/Documents/class/大学物理2(1)
-42.42640687119286	/home/zarkli/Documents/class/大学物理2(1)/Physics-2-1
+88.31760866327848	/home/zarkli/Documents/dotfiles
+70.71067811865477	/home/zarkli/Documents/class/大学物理2(1)
+65.57438524302002	/home/zarkli/Documents/class/大学物理2(1)/Physics-2-1
 28.284271247461902	/home/zarkli/Documents/class/概率论与数理统计
 22.360679774997898	/home/zarkli/Documents/class/crubs
 58.30951894845301	/home/zarkli/Documents/class/马克思主义基本原理
-76.1577310586391	/home/zarkli/Pictures
-24.49489742783178	/home/zarkli/Pictures/background
+76.8114574786861	/home/zarkli/Pictures
+26.457513110645905	/home/zarkli/Pictures/background
 20.0	/home/zarkli/.local/share/applications
 34.64101615137755	/home/zarkli/.config/polybar
 17.320508075688775	/home/zarkli/.config/polybar/scripts
@@ -36,7 +36,7 @@
 10.0	/home/zarkli/Videos
 10.0	/home/zarkli/Videos/record
 10.0	/home/zarkli/Documents/class/概率论与数理统计/homework
-40.00000000000001	/home/zarkli/Documents/class/exams
+41.231056256176615	/home/zarkli/Documents/class/exams
 47.9583152331272	/home/zarkli/Documents/class/新青年
 14.142135623730951	/home/zarkli/asepriteProjects
 37.41657386773942	/home/zarkli/Documents/class/BDIC2015J-English/r2w
@@ -50,7 +50,7 @@
 36.0555127546399	/home/zarkli/.local
 10.0	/home/zarkli/.local/share/fonts
 14.142135623730951	/usr/share/sounds/freedesktop/stereo
-38.729833462074176	/home/zarkli/.config
+40.00000000000001	/home/zarkli/.config
 41.231056256176615	/home/zarkli/.config/fish
 14.142135623730951	/home/zarkli/.local/share/fish
 10.0	/home/zarkli/.local/share/fish/generated_completions
@@ -96,7 +96,7 @@
 26.457513110645905	/home/zarkli/Documents/class/BDIC2015J-English/r2w/true
 14.142135623730951	/home/zarkli/Documents/class/新青年/findal
 48.98979485566357	/home/zarkli/Documents/class/COMP2012J_Operating_Systems
-28.284271247461902	/home/zarkli/Documents/class/大学物理2(1)/Physics-2 - 2
+46.904157598234306	/home/zarkli/Documents/class/大学物理2(1)/Physics-2 - 2
 28.284271247461902	/home/zarkli/javaProjects/class/SampleExamStart
 14.142135623730951	/home/zarkli/javaProjects/class/SampleExamStart/test
 10.0	/home/zarkli/javaProjects/class/SampleExamStart/hide
@@ -124,7 +124,7 @@
 28.284271247461902	/home/zarkli/Android/Sdk
 10.0	/home/zarkli/go
 20.0	/home/zarkli/data_science/covid_19_data
-17.320508075688775	/home/zarkli/Documents/latex/physics_formula
+22.360679774997898	/home/zarkli/Documents/latex/physics_formula
 14.142135623730951	/home/zarkli/Documents/latex/comp2011J_oop_take_home_exam/assets
 10.0	/home/zarkli/Documents/latex/templates/pledge
 10.0	/home/zarkli/.config/fish/myScript
@@ -196,8 +196,6 @@
 10.0	/home/zarkli/.local/state
 22.360679774997898	/home/zarkli/.local/share/rofi/themes
 14.142135623730951	/tmp
-17.320508075688775	/tmp/rofi-themes-collection
-14.142135623730951	/tmp/rofi-themes-collection/themes
 33.166247903554	/home/zarkli/.local/share/icons/Deepin2022
 14.142135623730951	/home/zarkli/.local/share/icons/Deepin2022/16
 10.0	/home/zarkli/.local/share/icons/Deepin2022/16/actions

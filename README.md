@@ -1,6 +1,6 @@
 # Hacking to the Arch
 
-[Planning to switch to Nixos and use wayland]
+[Planning to switch to Nixos and use wayland(Around 2023.10)]
 [screenshot is coming]
 
 ## Overview

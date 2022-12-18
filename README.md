@@ -1,5 +1,6 @@
 # Hacking to the Arch
 
+[Planning to switch to Nixos and use wayland]
 [screenshot is coming]
 
 ## Overview
@@ -24,7 +25,8 @@
 - Dotfile Syncer: initially [`dotfiles/myBin/sync.sh`](dotfiles/myBin/sync.sh) -> afterward [`dotdrop`](https://github.com/deadc0de6/dotdrop)
 
 **Themes**: 
-- icon: `Deepin Icons 2022` [kde store](https://store.kde.org/p/1678986/) [github](https://github.com/zayronxio/Deepin-icons-2022)
+- ~~icon: `Deepin Icons 2022` [kde store](https://store.kde.org/p/1678986/) [github](https://github.com/zayronxio/Deepin-icons-2022)~~
+- icon: `Tela-dracula` archlinux package name: `tele-icon-theme`
 - grub: [GRUB-Theme](https://github.com/13atm01/GRUB-Theme)
 - font: (the last 4 fonts is already included in this repo)
     - FiraCode Nerd Font: [aur](https://aur.archlinux.org/packages/nerd-fonts-fira-code) used for programming

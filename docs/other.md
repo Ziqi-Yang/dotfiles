@@ -27,6 +27,7 @@
 - `ncdu` show folder and file size 
 - `duf` show disk usage
 - [`delta`](https://github.com/dandavison/delta/) git diff tool
+- `zoxide`
 
 
 ### OCR

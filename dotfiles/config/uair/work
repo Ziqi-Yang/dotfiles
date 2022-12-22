@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+notify-send 'Work Done!'
+uairctl toggle
+nohup mpg123 -f -16384 /home/zarkli/Music/nyanlooped.mp3 > /dev/null 2>&1 &

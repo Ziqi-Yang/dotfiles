@@ -22,9 +22,7 @@ set _JAVA_OPTIONS
 set FLUTTER_STORAGE_BASE_URL "https://mirrors.tuna.tsinghua.edu.cn/flutter"
 set PUB_HOSTED_URL "https://mirrors.tuna.tsinghua.edu.cn/dart-pub"
 
-## autojump
-# remove unexist path everytime start a new interactve instance
-autojump --purge > /dev/null
+zoxide init fish | source
 
 end
 

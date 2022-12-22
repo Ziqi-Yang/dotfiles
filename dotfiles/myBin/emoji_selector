@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+rofi rofi -modi "emoji:/usr/bin/rofimoji --hidden-descriptions" -show emoji -theme emoji \
+    -ml-row-down "" -ml-row-up "" -ml-row-right "ScrollDown" -ml-row-left "ScrollUp"

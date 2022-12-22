@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+ACTION=$(dunstify -a "pomodoro" -t 3600000 --action="default,Reply" "Next") # 60 hour
+
+case "$ACTION" in
+"default")
+    uairctl toggle
+    ;;
+"1") # timeout
+    # uairctl toggle
+    ;;
+"2") # close
+    ;;
+esac

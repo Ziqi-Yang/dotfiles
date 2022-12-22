@@ -73,6 +73,7 @@ dotfiles:
   f_mimeapps.list:
     src: config/mimeapps.list
     dst: ~/.config/mimeapps.list
+    chmod: '600'
   f_settings.json:
     src: config/Code - OSS/User/settings.json
     dst: ~/.config/Code - OSS/User/settings.json
@@ -101,10 +102,6 @@ dotfiles:
   d_matter:
     src: Public/matter
     dst: ~/Public/matter
-  f_autojump.txt:
-    src: local/share/autojump/autojump.txt
-    dst: ~/.local/share/autojump/autojump.txt
-    chmod: '600'
   f_ranger.desktop:
     src: local/share/applications/ranger.desktop
     dst: ~/.local/share/applications/ranger.desktop
@@ -123,6 +120,16 @@ dotfiles:
   d_rofimoji:
     src: local/share/rofimoji
     dst: ~/.local/share/rofimoji
+  f_hyprland_wrap:
+    src: local/bin/hyprland_wrap
+    dst: ~/.local/bin/hyprland_wrap
+    chmod: '755'
+  d_hypr:
+    src: config/hypr
+    dst: ~/.config/hypr
+  d_zoxide:
+    src: local/share/zoxide
+    dst: ~/.local/share/zoxide
 profiles:
   myArch:
     dotfiles:
@@ -158,10 +165,12 @@ profiles:
     - f_yarnrc
     - f_config.toml
     - d_matter
-    - f_autojump.txt
     - f_ranger.desktop
     - f_discord.desktop
     - d_uair
     - d_usr
     - f_nyanlooped.mp3
     - d_rofimoji
+    - f_hyprland_wrap
+    - d_hypr
+    - d_zoxide

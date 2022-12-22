@@ -3,9 +3,8 @@
 ### preview & basic functinos (e.g. trash)
 
 ```shell
-sudo pacman -S highlight atool w3m poppler mediainfo catdoc docx2txt ueberzug trash-cli unarchiver autojump
+sudo pacman -S highlight atool w3m poppler mediainfo catdoc docx2txt ueberzug trash-cli unarchiver zoxide
 ```
-
 
 ### plugin
 
@@ -34,11 +33,9 @@ polkit.addRule(function(action, subject) {
 });
 ```
 
-3. ranger-autojump
-you need install `autojump` first  
-press keyshortcut `cj` to use it  
-(just check for update)  
-[ranger-autojump](https://github.com/fdw/ranger-autojump)
+3. ranger-zoxide
+install `zoxide` first
+[ranger](https://github.com/jchook/ranger-zoxide)
 
 4. drag & drop
 

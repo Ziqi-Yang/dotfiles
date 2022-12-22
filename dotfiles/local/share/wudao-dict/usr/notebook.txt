@@ -306,3 +306,60 @@ spherical            ['sfɪrɪkəl]          adj. 球形的，球面的；天体
 sphere               [sfɪr]               n. 范围；球体 vt. 包围；放入球内；使…成球形 adj. 球体的
 dipole               ['daɪpol]            n. [物化] 偶极；双极子
 decaying             [dɪ'ke]              n. [核] 衰减；颓坏；腐蚀作用 v. 腐烂；衰退；消瘦（decay的ing形式） adj. 衰减的；腐烂的；消散的
+dracula              ['drækjulə]          n. 吸血鬼，又叫惊情四百年（电影名）；德拉库拉（人名）
+tritons              [ˈtraɪtn]            n. [核] 氚核；法螺
+hyphen               ['haɪfn]             vt. 以连字号连接；以连字符连接 n. 连字号；连字符
+underscore           [,ʌndɚ'skɔr]         vt. 强调；划线于…下 n. 底线，[计] 下划线
+common               ['kɑmən]             adj. 共同的；普通的；一般的；通常的 n. 普通；平民；公有地 n. (Common)人名；(法)科蒙；(英)康芒
+reindeer             ['rendɪr]            n. [脊椎][畜牧] 驯鹿
+elves                [ɛlvz]               n. 侏儒；爱恶作剧的孩子（elf的复数）
+ironically           [aɪ'rɑnɪkli]         adv. 讽刺地；说反话地
+metal                ['mɛtl]              n. 金属；合金 vt. 以金属覆盖 adj. 金属制的 n. (Metal)人名；(捷)梅塔尔；(瑞典)梅塔尔
+trade-off            ['treidɔf,-ɔ:f]      n. 交换，交易；权衡；协定
+bus                  [bʌs]                n. 公共汽车 乘公共汽车
+checkout             ['tʃɛkaʊt]           n. 检验；签出；结账台；检出
+diverge              [daɪ'vɝdʒ]           vi. 分歧；偏离；分叉；离题 vt. 使偏离；使分叉
+rewind               [,ri'waɪnd]          n. 重绕；倒带器 vt. 倒回；重绕 vi. 倒回；重绕
+instaneous                                adj. 瞬时的
+snap                 [snæp]               vt. 突然折断，拉断；猛咬；啪地关上 vi. 咬；厉声说；咯嗒一声关上 n. 猛咬；劈啪声；突然折断 adj. 突然的
+snapshot             ['snæpʃɑt]           n. 快照，快相；急射，速射；简单印象 vt. 给…拍快照 vi. 拍快照
+resolution           [,rɛzə'luʃən]        n. [物] 分辨率；决议；解决；决心
+idempotent           [aɪˈdempətənt]       adj. 幂等的 n. [数] 幂等
+discard              [dɪsˈkɑːrd]          vt. 抛弃；放弃；丢弃 vi. 放弃 n. 抛弃；被丢弃的东西或人
+Qualifiers           ['kwɔlifaiə]         n. 限定符，	称限定词；后置修饰语（qualifier复数）
+thorough             [ˈθʌrəʊ; θʌro]       adj. 彻底的；十分的；周密的
+silos                ['saɪlo]             n. 筒仓；粮仓；贮仓（silo的复数） n. (Silos)人名；(西)西洛斯
+dumb                 [dʌm]                adj. 哑的，无说话能力的；不说话的，无声音的
+dump                 [dʌmp]               vt. 倾倒；倾卸；丢下，卸下；摆脱，扔弃；倾销 vi. 倒垃圾；突然跌倒或落下；卸货；转嫁（责任等） n. 垃圾场；仓库；无秩序地累积 n. （英）邓普（人名，男子教名Humphrey、Humphry的昵称）
+rust                 [rʌst]               n. 锈；生锈；[植保] 锈病 vt. 使生锈；腐蚀 vi. 生锈；成铁锈色；变迟钝 n. (Rust)人名；(英)拉斯特；(德、捷、瑞典)鲁斯特；(法)吕斯特
+smash                [smæʃ]               vt. 粉碎；使破产；溃裂 n. 破碎；扣球；冲突；大败 vi. 粉碎；打碎 adj. 了不起的；非常轰动的；出色的
+scorn                [skɔrn]              n. 轻蔑；嘲笑；藐视的对象 vt. 轻蔑；藐视；不屑做 vi. 表示轻蔑；表示鄙视
+pickle               ['pɪkl]              n. 泡菜；盐卤；腌制食品 vt. 泡；腌制 n. (Pickle)人名；(英)皮克尔
+peril                ['pɛrəl]             n. 危险；冒险 vt. 危及；置…于险境
+penalty              ['pɛnəlti]           n. 罚款，罚金；处罚
+blasphemous          ['blæsfɪməs]         adj. 亵渎神明的；不敬神的
+posterity            [pɑ'stɛrəti]         n. 子孙，后裔；后代
+coherent             [ko'hɪrənt]          adj. 连贯的，一致的；明了的；清晰的；凝聚性的；互相耦合的；粘在一起的
+INS                                       abbr. 惯性导航系统（Inertial Navigation System）；国际新闻社（International News Service）；信息网络系统（Information Network System）
+ours                 [ɑrz]                pron. 我们的 n. (Ours)人名；(法)乌尔斯
+outs                 [auts]               n. 未现赢张；付出的钱；输出
+quirk                [kwɝk]               n. 怪癖；急转；借口 n. (Quirk)人名；(英)夸克
+prevalence           ['prɛvələns]         n. 流行；普遍；广泛
+palimpsest           ['pælɪmpsɛst]        n. 重写本 写在重写本上的
+fabulous             ['fæbjələs]          adj. 难以置信的；传说的，寓言中的；极好的
+engraved             [ɪn'grevd]           adj. 被牢记的；被深深印入的 v. 雕刻（engrave的过去式）
+inferior             [ɪn'fɪrɪɚ]           adj. 差的；自卑的；下级的，下等的 n. 下级；次品
+prone                [pron]               adj. 俯卧的；有…倾向的，易于…的 n. (Prone)人名；(意、法)普罗内
+glitch               [ɡlɪtʃ]              n. 小故障；失灵；[电子] 短时脉冲波干扰 n. (Glitch)人名；(英)格利奇
+glitching            [ɡlɪtʃ]              n. 小故障；失灵；[电子]短时脉冲波干扰 n. （Glitch）人名；（英）格利奇
+rotation             [ro'teʃən]           n. 旋转；循环，轮流
+cinch                [sɪn(t)ʃ]            n. 肚带；紧握；有把握的事情 vt. 紧握住；系肚带
+paranoid             ['pærənɔɪd]          adj. 类似妄想狂的；属于偏执狂的 n. 患妄想狂的人；偏执狂患者
+flawed               [flɔd]               adj. 有缺陷的；有瑕疵的；有裂纹的
+nvidia                                    辉达，又译作英伟达（芯片厂方）
+vulkan                                    跨平台的2D 和3D 绘图应用程序接口
+tactics              ['tæktɪks]           n. 策略；战术；用兵学
+cap                  [kæp]                n. 盖；帽子 vi. 脱帽致意 vt. 覆盖；胜过；给…戴帽；加盖于 n. (Cap)人名；(法、德、罗)卡普；(塞、捷)察普
+Deuteranopia         [ˌdjʊtərəˈnopɪə]     n. [眼科] 绿色盲；[耳鼻喉] 第二型色盲
+Tritanopia           [ˌtrɪttəˈnopɪr]      蓝色盲
+porn                 [pɔrn]               n. 色情描写，色情文学；黄色书刊，色情照片（等于pornography） n. (Porn)人名；(泰、柬)蓬

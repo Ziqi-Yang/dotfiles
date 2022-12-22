@@ -8,9 +8,9 @@ format = "{name} {time}\n"
 name = "work"
 duration = "30m"
 # command = "notify-send 'Work Done!'; paplay /usr/share/sounds/freedesktop/stereo/complete.oga"
-command = "notify-send 'Work Done!'; uairctl toggle; nohup mpg123 -f -16384 /home/zarkli/Music/nyanlooped.mp3 > /dev/null 2>&1 &"
+command = "/home/zarkli/.config/uair/work"
 
 [[sessions]]
 name = "rest"
 duration = "5m"
-command = "notify-send 'Rest Done!'; /home/zarkli/myBin/phone_notify 继续学习啦！> /dev/null 2>&1; nohup mpg123 -f -19660 /home/zarkli/Music/nyanlooped.mp3 > /dev/null 2>&1 &"
+command = "/home/zarkli/.config/uair/reset"

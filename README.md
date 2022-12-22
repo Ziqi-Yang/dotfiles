@@ -51,6 +51,7 @@ Previous docs can be found in the `docs_bak` folder
 - [HynDuf7/dotfiles](https://github.com/HynDuf7/dotfiles)
 - [Syndrizzle/hotfiles](https://github.com/Syndrizzle/hotfiles)
 - [AmadeusWM/dotfiles-hyprland](https://github.com/AmadeusWM/dotfiles-hyprland)
+- [lokesh-krishna/dotfiles](https://github.com/lokesh-krishna/dotfiles)
 
 ## Useful Links
 __plan to delete the section__

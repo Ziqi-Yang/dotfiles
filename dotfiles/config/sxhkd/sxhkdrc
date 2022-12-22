@@ -34,8 +34,7 @@ super + alt + shift + h
 
 # emoji
 super + e
-	rofimoji
-	# doom +everywhere
+	~/myBin/emoji_selector
 
 # emacs ====== begin
 super + shift + x

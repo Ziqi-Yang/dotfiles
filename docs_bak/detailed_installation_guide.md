@@ -360,10 +360,10 @@ XF86MonBrightness{Up,Down}
 #### 无声音问题
 
 ```bash
-sudo pacman -S pulseaudio alsa-utils pulseaudio-alsa
+sudo pacman -S pulseaudio alsa-utils pulseaudio-alsa pamixer
 pulseaudio --start # 然后重启
-
 ```
+可以使用`alsa-urils`包中的`amixer`命令获取和调整音量, 此外还有很多包比如`pamixer`以及`wireplumber`中的`wpctl`也都可以，到`archwiki-pulseaudio`中查看即可，一个不行换另外一个。  
 如果还是没声音(很有可能是硬件较新，参考[Advanced_Linux_Sound_Architecture#ALSA_firmware - Arch Wiki](https://wiki.archlinux.org/title/Advanced_Linux_Sound_Architecture#ALSA_firmware))
 ```bash
 sudo pacman -S sof-firmware alsa-ucm-conf 

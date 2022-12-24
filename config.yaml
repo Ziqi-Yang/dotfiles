@@ -73,7 +73,7 @@ dotfiles:
   f_mimeapps.list:
     src: config/mimeapps.list
     dst: ~/.config/mimeapps.list
-    chmod: '600'
+    chmod: '644'
   f_settings.json:
     src: config/Code - OSS/User/settings.json
     dst: ~/.config/Code - OSS/User/settings.json
@@ -120,16 +120,18 @@ dotfiles:
   d_rofimoji:
     src: local/share/rofimoji
     dst: ~/.local/share/rofimoji
-  f_hyprland_wrap:
-    src: local/bin/hyprland_wrap
-    dst: ~/.local/bin/hyprland_wrap
-    chmod: '755'
   d_hypr:
     src: config/hypr
     dst: ~/.config/hypr
   d_zoxide:
     src: local/share/zoxide
     dst: ~/.local/share/zoxide
+  d_wofi:
+    src: config/wofi
+    dst: ~/.config/wofi
+  d_waybar:
+    src: config/waybar
+    dst: ~/.config/waybar
 profiles:
   myArch:
     dotfiles:
@@ -171,6 +173,7 @@ profiles:
     - d_usr
     - f_nyanlooped.mp3
     - d_rofimoji
-    - f_hyprland_wrap
     - d_hypr
     - d_zoxide
+    - d_wofi
+    - d_waybar

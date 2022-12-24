@@ -1,0 +1,6 @@
+#+title: Readme
+
+* Pre-requestments
+#+begin_src bash
+paru -S gnome-calendar
+#+end_src

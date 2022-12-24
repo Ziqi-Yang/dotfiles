@@ -1,5 +1,9 @@
 # Other
 
+## make aur package compile faster
+
+[use more cores](https://wiki.archlinux.org/title/Makepkg#Parallel_compilation)
+
 ## Recommanded Apps
 
 ### Video & Audio
@@ -28,6 +32,7 @@
 - `duf` show disk usage
 - [`delta`](https://github.com/dandavison/delta/) git diff tool
 - `zoxide`
+- `hwinfo`
 
 
 ### OCR

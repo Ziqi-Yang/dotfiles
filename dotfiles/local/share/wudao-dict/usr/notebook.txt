@@ -363,3 +363,10 @@ cap                  [kæp]                n. 盖；帽子 vi. 脱帽致意 vt. 
 Deuteranopia         [ˌdjʊtərəˈnopɪə]     n. [眼科] 绿色盲；[耳鼻喉] 第二型色盲
 Tritanopia           [ˌtrɪttəˈnopɪr]      蓝色盲
 porn                 [pɔrn]               n. 色情描写，色情文学；黄色书刊，色情照片（等于pornography） n. (Porn)人名；(泰、柬)蓬
+conceived            [kən'sivd]           v. 构思；设想（conceive的过去式）
+opaque               [o'pek]              adj. 不透明的；不传热的；迟钝的 n. 不透明物 vt. 使不透明；使不反光
+hello                [həˈlo]              int. 喂；哈罗 n. 表示问候， 惊奇或唤起注意时的用语 n. (Hello)人名；(法)埃洛
+sink                 [sɪŋk]               vi. 下沉；消沉；渗透 vt. 使下沉；挖掘；使低落 n. 水槽；洗涤槽；污水坑 n. (Sink)人名；(英、瑞典)辛克
+haikus               [ˈhaɪkuː]            n. 俳句；三行俳句诗
+octet                [ɑːkˈtet]            n. 八重奏，八重唱；八行诗；八个一组的物品；[计] 八位字节
+Ethernet             ['iθɚnɛt]            n. [计] 以太网

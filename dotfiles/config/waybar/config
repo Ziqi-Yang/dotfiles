@@ -1,0 +1,130 @@
+{
+    "layer": "top",
+    "modules-left": [
+        "clock",
+        "custom/pacman",
+        "custom/music",
+        "custom/pomodoro"
+    ],
+    "modules-center": [
+        "wlr/workspaces"
+    ],
+    "modules-right": [
+        "cpu",
+        "memory",
+        "disk",
+        "custom/trash",
+        "pulseaudio",
+        "network",
+        "tray"
+    ],
+    "custom/pomodoro": {
+        "format": "{}",
+        "exec": "~/.config/waybar/scripts/pomodoro.sh",
+        "on-click": "uairctl toggle && notify-send -t 500 'resume/pause'",
+        "on-click-right": "uairctl next && uairctl toggle && uairctl toggle"
+    },
+    "custom/music": {
+        "format": "{}",
+        "exec": "~/.config/waybar/scripts/music.sh",
+        "interval": 1,
+        "on-click": "playerctl play-pause",
+        "on-double-click": "playerctl previous",
+        "on-double-click-right": "playerctl next"
+    },
+    "custom/pacman": {
+        "format": "<big>􏆲</big>  {}",
+        "interval": 3600,                     // every hour
+        "exec": "checkupdates | wc -l",       // of updates
+        "exec-if": "exit 0",                  // always run; consider advanced run conditions
+        "on-click": "alacritty --class floating -e 'paru'; pkill -SIGRTMIN+8 waybar", // update system
+        "signal": 8,
+    },
+    "wlr/workspaces": {
+        "all-outputs": true,
+        "format": "{icon}",
+        "on-click": "activate",
+        "sort-by-number": true,
+        "format-icons": {
+            "1": "一",
+            "2": "二",
+            "3": "三",
+            "4": "四",
+            "5": "五",
+            "6": "六",
+            "7": "七",
+        }
+    },
+    "network": {
+        // "interface": "wlan0", // (Optional) To force the use of this interface,
+        "format-wifi": "  {essid}",
+        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        "family": "ipv4",
+        "tooltip-format-wifi": "  {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\n {bandwidthUpBits}  {bandwidthDownBits}",
+        "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n {bandwidthUpBits}  {bandwidthDownBits}"
+    },
+    "clock": {
+        "format": "  {:%H:%M   %e %b}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "calendar-weeks-pos": "right",
+        "today-format": "<span color='#ff6699'><b><u>{}</u></b></span>",
+        "format-calendar": "<span color='#ecc6d9'><b>{}</b></span>",
+        "format-calendar-weeks": "<span color='#99ffdd'><b>W{:%U}</b></span>",
+        "format-calendar-weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+        "on-click": "gnome-calendar",
+    },
+    "cpu": {
+        "interval": 3,
+        "format": "  {avg_frequency}GHz <span color=\"darkgray\">| {usage}%</span>",
+        "on-click": "alacritty -e htop --sort-key PERCENT_CPU",
+        "tooltip": false
+    },
+    "memory": {
+        "interval": 6,
+        "format": " {used:0.2f}G <span color=\"darkgray\">| {percentage}%</span>",
+    },
+    "disk": {
+        "interval": 30,
+        "format": "  {used}",
+        "path": "/"
+    },
+    "custom/trash": {
+        "format": " {}",
+        "interval": 5, // 5min
+        "exec": "/home/zarkli/.config/waybar/scripts/info-trash.sh",
+        "on-click": "/bin/sh -c 'dolphin trash:/' &", // update system
+        "format-icons": {
+            "used": "",
+        },
+    },
+    "pulseaudio": {
+        "scroll-step": 3, // %, can be a float
+        "format": "{icon} {volume}% {format_source}",
+        "format-bluetooth": "{volume}% {icon}  {format_source}",
+        "format-bluetooth-muted": " {icon}  {format_source}",
+        "format-muted": " {format_source}",
+        //"format-source": "{volume}% ",
+        //"format-source-muted": "",
+        "format-source": "",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol",
+        // mute microphone
+        "on-click-right": "pactl set-source-mute @DEFAULT_SOURCE@ toggle"
+    },
+    "tray": {
+        "icon-size": 8,
+        "spacing": 3
+    }
+}

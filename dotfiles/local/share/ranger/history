@@ -1,7 +1,3 @@
-rename 附件4：北京工业大学“星火基金”项目信息或总表-杨子祺-21372225.xls
-rename [学科信息填写错了]-附件4：北京工业大学“星火基金”项目信息或总表-杨子祺-21372225.xls
-mkdir ./星火
-search note
 open_with 
 search
 cd .doom.d/
@@ -17,7 +13,6 @@ rename 杨子祺.docx
 rename 杨子祺-入党推优记录表.docx
 cd /home/zarkli/notes/
 j dot
-
 mkdir ./screenshots
 mkdir screenshots
 rename 2022-12-21_18-09.png
@@ -48,3 +43,8 @@ rename .doom.d_2
 rename .doom.d
 search pol
 search way
+search unix
+search linux
+mkdir ./books
+
+rename Makefi

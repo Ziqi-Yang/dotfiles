@@ -74,8 +74,8 @@
 }
 
 /* Each module */
-#battery,
 #clock,
+#custom-notification,
 #custom-pomodoro,
 #memory,
 #network,
@@ -87,6 +87,8 @@
     padding-right: 0.6em;
 }
 
+#battery,
+#custom-trash,
 #cpu,
 #disk,
 #memory {
@@ -164,34 +166,17 @@
     padding: 0 0.4em;
 }
 
-
-/* #workspaces button.focused { */
-/*     background: #64727D; */
-/*     /\* border-bottom: 3px solid white; *\/ */
-/* } */
-
 #window {
     margin-right: 40px;
     margin-left: 40px;
     font-weight: normal;
 }
-#bluetooth {
-    background: @nord_bg_blue;
-    font-size: 1.2em;
-    font-weight: bold;
-    padding: 0 0.6em;
-}
-#custom-gpu {
-    background: @nord_bg;
-    font-weight: bold;
-    padding: 0 0.6em;
-}
-#custom-weather {
-    background: @mode;
-    font-weight: bold;
-    padding: 0 0.6em;
-}
 #custom-pacman {
+    background: @nord_bg_blue;
+    color: #D8DEE9;
+    font-weight: bold;
+}
+#custom-notification {
     background: @nord_bg_blue;
     color: #D8DEE9;
     font-weight: bold;
@@ -200,50 +185,14 @@
     background: @nord_bg_blue;
     color: #D8DEE9;
 }
-#custom-scratchpad-indicator {
-    background: @nord_light;
-    color: @nord_dark_font;
-    font-weight: bold;
-    padding: 0 0.6em;
-}
-#idle_inhibitor {
-    background: @mode;
-    /*font-size: 1.6em;*/
-    font-weight: bold;
-    padding: 0 0.6em;
-}
-#custom-alsa {
-    background: @sound;
-}
 
 #network {
     background: @nord_bg_blue;
 }
 
-#language {
-    background: @nord_bg_blue;
-    color: #D8DEE9;
-    padding: 0 0.4em;
-}
-#temperature {
-    background-color: @nord_bg;
-    color: #D8DEE9;
-}
-#temperature.critical {
-    background:  @critical;
-}
-#custom-layout {
-    background: @layout;
-}
-
 #battery {
-    background: @battery;
+    /* background: @nord_bg_blue; */
 }
-
-#backlight {
-    background: @backlight;
-}
-
 
 #clock {
     background: @nord_bg_blue;
@@ -255,7 +204,6 @@
 #clock.time {
     background: @mode;
 }
-
 
 
 #custom-pomodoro {
@@ -275,7 +223,6 @@
 #pulseaudio.source-muted {
     background: #D08770;
 }
-
 
 
 #tray {

@@ -370,3 +370,14 @@ sink                 [sɪŋk]               vi. 下沉；消沉；渗透 vt. 使
 haikus               [ˈhaɪkuː]            n. 俳句；三行俳句诗
 octet                [ɑːkˈtet]            n. 八重奏，八重唱；八行诗；八个一组的物品；[计] 八位字节
 Ethernet             ['iθɚnɛt]            n. [计] 以太网
+laggy                [ˈlæɡi]              迟缓的 延迟的
+lag                  [læɡ]                n. 落后；迟延；防护套；囚犯；桶板 vt. 落后于；押往监狱；加上外套 vi. 滞后；缓缓而行；蹒跚 adj. 最后的 n. (Lag)人名；(俄)拉格
+dude                 [d(j)uːd]            n. 男人，小伙子 n. (Dude)人名；(德、塞)杜德 n. （非正式）花花公子；纨绔子弟
+cascade              [kæ'sked]            n. 小瀑布，瀑布状物；串联 vi. 像瀑布般大量倾泻下来 vi. 像瀑布般悬挂着
+latitude             ['lætɪtud]           n. 纬度；界限；活动范围
+sometimes            ['sʌmtaɪmz]          adv. 有时，间或
+slick                [slɪk]               adj. 光滑的；华而不实的；聪明的；熟练的；老套的 n. [机] 平滑器；[机] 修光工具；通俗杂志 adv. 灵活地；聪明地 vt. 使光滑；使漂亮 vi. 打扮整洁 n. (Slick)人名；(英)斯利克
+devel                [ˈdevl]              abbr. 发展（development） n. （Devel）（美）德韦尔（人名）
+pad                  [pæd]                n. 衬垫；护具；便笺簿；填补 vi. 步行；放轻脚步走 vt. 填补；走 n. (Pad)人名；(英)帕德(男子教名 Patrick 的昵称)
+torus                ['torəs]             n. [植] 花托；圆环面；[解剖] 隆凸
+luminance            ['lumɪnəns]          n. [光][电子] 亮度；[光] 发光性（等于luminosity）；光明

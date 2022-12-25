@@ -327,7 +327,7 @@
     "scorn": 2,
     "pickle": 1,
     "peril": 1,
-    "blasphemous": 1,
+    "blasphemous": 5,
     "posterity": 1,
     "INS": 1,
     "ours": 1,
@@ -357,5 +357,16 @@
     "sink": 1,
     "haikus": 1,
     "octet": 1,
-    "Ethernet": 1
+    "Ethernet": 1,
+    "laggy": 1,
+    "lag": 2,
+    "dude": 1,
+    "cascade": 1,
+    "latitude": 1,
+    "sometimes": 1,
+    "slick": 1,
+    "devel": 1,
+    "pad": 1,
+    "torus": 1,
+    "luminance": 1
 }

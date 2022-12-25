@@ -5,15 +5,15 @@
  *******************************************************************************/
 
 * {
-    font:   "FiraCode Nerd Font 13";
+    font:   "zpix 13";
 
-    bg0:     #F5F5F59F;
-    bg1:     #7E7E7E50;
-    bg2:     #0860F2b6;
+    bg0:    #242424E6;
+    bg1:    #7E7E7E80;
+    bg2:    #0860f2E6;
 
-    fg0:     #242424ef;
-    fg1:     #FFFFFF;
-    fg2:     #24242480;
+    fg0:    #DEDEDE;
+    fg1:    #FFFFFF;
+    fg2:    #DEDEDE80;
 
     background-color:   transparent;
     text-color:         @fg0;
@@ -27,7 +27,7 @@ window {
     background-color:   @bg0;
 
     location:       center;
-    width:          1500;
+    width:          50%;
     border-radius:  0;
 }
 

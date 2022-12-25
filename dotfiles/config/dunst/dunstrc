@@ -14,7 +14,7 @@
     width = 300
     # height = 260
     origin = top-right
-    offset = 30x38
+    offset = 20x14
 
 
     progress_bar = true
@@ -146,7 +146,7 @@
     class = Dunst
 
     # Define the corner radius of the notification window
-    corner_radius = 0
+    corner_radius = 10
 
     # Don't gnore the dbus closeNotification message.
     ignore_dbusclose = false

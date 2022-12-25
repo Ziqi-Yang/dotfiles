@@ -132,6 +132,19 @@ dotfiles:
   d_waybar:
     src: config/waybar
     dst: ~/.config/waybar
+  d_gammastep:
+    src: config/gammastep
+    dst: ~/.config/gammastep
+  d_gtk-3.0:
+    src: config/gtk-3.0
+    dst: ~/.config/gtk-3.0
+  d_gtk-4.0:
+    src: config/gtk-4.0
+    dst: ~/.config/gtk-4.0
+    chmod: '700'
+  f_gtkrc-2.0:
+    src: gtkrc-2.0
+    dst: ~/.gtkrc-2.0
 profiles:
   myArch:
     dotfiles:
@@ -177,3 +190,7 @@ profiles:
     - d_zoxide
     - d_wofi
     - d_waybar
+    - d_gammastep
+    - d_gtk-3.0
+    - d_gtk-4.0
+    - f_gtkrc-2.0

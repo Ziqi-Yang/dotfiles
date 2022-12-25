@@ -2,6 +2,7 @@
     "layer": "top",
     "modules-left": [
         "clock",
+        "custom/notification",
         "custom/pacman",
         "custom/music",
         "custom/pomodoro"
@@ -14,6 +15,7 @@
         "memory",
         "disk",
         "custom/trash",
+        "battery",
         "pulseaudio",
         "network",
         "tray"
@@ -37,8 +39,26 @@
         "interval": 3600,                     // every hour
         "exec": "checkupdates | wc -l",       // of updates
         "exec-if": "exit 0",                  // always run; consider advanced run conditions
-        "on-click": "alacritty --class floating -e 'paru'; pkill -SIGRTMIN+8 waybar", // update system
+        "on-click": "alacritty --class floating --hold -e '/bin/bash' -c 'sudo pacman -Syu && env all_proxy=http://127.0.0.1:7890 paru'; pkill -SIGRTMIN+8 waybar", // update system
         "signal": 8,
+    },
+    "custom/notification": {
+        "format": "{}",
+        "interval": "once",
+        "exec": "if [[ \"$(dunstctl is-paused)\" == \"false\" ]]; then echo ''; else echo ''; fi",
+        "on-click": "dunstctl set-paused toggle; pkill -SIGRTMIN+1 waybar",
+        "signal": 1
+    },
+    "battery": {
+        "bat": "BAT0",
+        "interval": 60,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-icons": ["", "", "", "", ""],
+        "max-length": 25
     },
     "wlr/workspaces": {
         "all-outputs": true,
@@ -79,17 +99,18 @@
     "cpu": {
         "interval": 3,
         "format": "  {avg_frequency}GHz <span color=\"darkgray\">| {usage}%</span>",
-        "on-click": "alacritty -e htop --sort-key PERCENT_CPU",
-        "tooltip": false
+        "on-click": "alacritty --class floating -e htop --sort-key PERCENT_CPU",
     },
     "memory": {
         "interval": 6,
         "format": " {used:0.2f}G <span color=\"darkgray\">| {percentage}%</span>",
+        "on-click": "alacritty --class floating -e htop --sort-key PERCENT_MEM"
     },
     "disk": {
         "interval": 30,
         "format": "  {used}",
-        "path": "/"
+        "path": "/",
+        "on-click": "alacritty --class floating -e '/bin/bash' -c 'duf && read'",
     },
     "custom/trash": {
         "format": " {}",

@@ -367,6 +367,9 @@
     "slick": 1,
     "devel": 1,
     "pad": 1,
-    "torus": 1,
-    "luminance": 1
+    "torus": 2,
+    "luminance": 1,
+    "compensate": 1,
+    "plugged": 1,
+    "plug": 1
 }

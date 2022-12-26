@@ -28,7 +28,7 @@ window {
 
     location:       center;
     width:          50%;
-    border-radius:  0;
+    border-radius:  12px;
 }
 
 inputbar {

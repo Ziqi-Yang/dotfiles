@@ -381,3 +381,6 @@ devel                [ˈdevl]              abbr. 发展（development） n. （D
 pad                  [pæd]                n. 衬垫；护具；便笺簿；填补 vi. 步行；放轻脚步走 vt. 填补；走 n. (Pad)人名；(英)帕德(男子教名 Patrick 的昵称)
 torus                ['torəs]             n. [植] 花托；圆环面；[解剖] 隆凸
 luminance            ['lumɪnəns]          n. [光][电子] 亮度；[光] 发光性（等于luminosity）；光明
+compensate           ['kɑmpɛnset]         vi. 补偿，赔偿；抵消 vt. 补偿，赔偿；付报酬
+plugged              ['plʌɡd]             adj. 堵塞的；塞紧的 v. 堵塞；接通电源（plug的过去分词）
+plug                 [plʌɡ]               n. 插头；塞子；栓 vi. 塞住；用插头将与电源接通 vt. 插入；塞住；接插头

@@ -384,3 +384,36 @@ luminance            ['lumɪnəns]          n. [光][电子] 亮度；[光] 发�
 compensate           ['kɑmpɛnset]         vi. 补偿，赔偿；抵消 vt. 补偿，赔偿；付报酬
 plugged              ['plʌɡd]             adj. 堵塞的；塞紧的 v. 堵塞；接通电源（plug的过去分词）
 plug                 [plʌɡ]               n. 插头；塞子；栓 vi. 塞住；用插头将与电源接通 vt. 插入；塞住；接插头
+pertain              [pɝ'ten]             vi. 属于；关于；适合
+backtick                                  反引号 反转反向放电 那些
+oblivious            [ə'blɪvɪəs]          adj. 遗忘的；健忘的；不注意的；不知道的
+mortals              ['mɔ:təl]            凡人 人类（ mortal的复数 ）
+dank                 [dæŋk]               adj. 潮湿的；阴湿的；透水的 n. (Dank)人名；(英)丹克；(匈)东克
+spit out             [spɪt aʊt]           吐出
+tweak                [twik]               n. 扭；拧；焦急 vt. 扭；用力拉；开足马力
+precursor            [pri'kɝsɚ]           n. 先驱，前导
+commands             [kə'mændz]           n. [计] 命令，[计] 指令（command复数形式）
+blog                 [blɑg]               n. 博客；部落格；网络日志
+hi                   [haɪ]                int. 嗨！（表示问候或用以唤起注意） n. (Hi)人名；(柬)希
+retrieval            [rɪ'trivl]           n. 检索；恢复；取回；拯救
+inflate              [ɪn'flet]            vt. 使充气；使通货膨胀 vi. 膨胀；充气
+deflated             [di'fleitid]         adj. 泄气的 v. 抽气；使泄气（deflate的过去式和过去分词）
+nuggets              ['nʌɡit]             n. 丹佛掘金（nugget的复数）；金砖
+predecessors         ['pri:disesə; 'pre-] n. 前任（predecessor的复数）
+retrieved            [ri'tri:vd]          v. 恢复；重新取回；补偿；挽救（retrieved的过去分词）
+goddamn              ['ɡɒd'dæm]           adj. 该死的；讨厌的；受诅咒的
+idiotic              ['ɪdɪ'ɑtɪk]          adj. 白痴的；愚蠢的
+truckload            ['trʌklod]           n. 一货车的容量；货车荷载
+approximated                              adj. 接近的；估计的 v. 接近；约等于（approximate的过去式和过去分词）
+inflated             [ɪn'fletɪd]          adj. 通货膨胀的；充了气的；价格飞涨的；（植物）肿胀的 v. 膨胀（inflate的过去式和过去分词）；使充气；抬高（物价）
+blob                 [blɑb]               n. 一滴；一抹；难以名状的一团 vt. 弄脏；把…做错 vi. 得零分；弄错
+trivial              ['trɪvɪəl]           adj. 不重要的，琐碎的；琐细的
+SE                   [,ɛs'i]              abbr. 东南方（southeast） n. (Se)人名；(日)濑(姓)；(柬)塞
+instantiated                              v. 实例化，具现化，实体化；举例说明（instantiate 的过去式和过去分词）
+intermediate         [,ɪntɚ'midɪət]       vi. 起媒介作用 adj. 中间的，中级的 n. [化学] 中间物；媒介
+trademark            ['tred'mɑrk]         n. 商标 标志
+prototypes           ['prəutətaip]        n. 原型；技术原型；雏型
+warranty             ['wɔrənti]           n. 保证；担保；授权；（正当）理由
+slip                 [slɪp]               vi. 滑动；滑倒；犯错；失足；减退 vt. 使滑动；滑过；摆脱；塞入；闪开 n. 滑，滑倒；片，纸片；错误；下跌；事故 adj. 滑动的；有活结的；活络的 abbr. 串行线路接口协议，是旧式的协议（Serial Line Interface Protocol） n. (Slip)人名；(芬)斯利普
+seized               [si:z]               adj. 查封的 v. 逮住；咬住（seize的过去分词）
+nibble               ['nɪbl]              vi. 细咬；一点一点地咬；吹毛求疵 vt. 细咬；一点一点地咬；吹毛求疵 n. 轻咬；啃；细咬

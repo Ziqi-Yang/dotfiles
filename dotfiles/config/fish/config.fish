@@ -8,7 +8,7 @@ set ANDROID_SDK_ROOT /opt/android-sdk
 
 ## path
 set PATH $PATH ~/myBin/ $HOME/.cargo/bin ~/.npm-global/bin ~/go/bin
-set PATH $PATH ~/.local/bin ~/fvm/default/bin
+set PATH $PATH ~/.local/bin ~/fvm/default/bin ~/bin
 set PATH $PATH $ANDROID_SDK_ROOT/platform-tools/
 set PATH $PATH $ANDROID_SDK_ROOT/tools/bin/
 set PATH $PATH $ANDROID_ROOT/emulator

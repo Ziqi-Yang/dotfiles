@@ -1,9 +1,3 @@
-cd .doom.d/
-mkdir ./
-rename my-first-post.md
-mkdir ./my-first-post
-rename index.md
-mkdir ./posts
 rename 1.md
 rename 2.md
 rename 3.md
@@ -48,3 +42,9 @@ mkdir ./books
 rename Makefi
 search math
 mkdir ./test
+mkdir ./other
+mkdir sophomore
+mkdir ./first semester
+mkdir second semester
+mkdir cs61c
+rename bdic_pledge_cover

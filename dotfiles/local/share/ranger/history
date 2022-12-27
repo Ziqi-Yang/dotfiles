@@ -1,5 +1,3 @@
-open_with 
-search
 cd .doom.d/
 mkdir ./
 rename my-first-post.md
@@ -48,3 +46,5 @@ search linux
 mkdir ./books
 
 rename Makefi
+search math
+mkdir ./test

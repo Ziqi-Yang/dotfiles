@@ -1,5 +1,9 @@
 # Other
 
+```bash
+sudo pacman -S man-pages # install linux and POSIX man-pages
+```
+
 ## make aur package compile faster
 
 [use more cores](https://wiki.archlinux.org/title/Makepkg#Parallel_compilation)

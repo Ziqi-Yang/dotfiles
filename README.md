@@ -1,6 +1,6 @@
 # Hacking to the Arch
 
-[planning to switch to use wayland]  
+[planning to switch to wayland]  
 
 ![screenshot](./screenshots/2022-12-21_18-09.png)
 

@@ -417,3 +417,41 @@ warranty             ['wɔrənti]           n. 保证；担保；授权；（正
 slip                 [slɪp]               vi. 滑动；滑倒；犯错；失足；减退 vt. 使滑动；滑过；摆脱；塞入；闪开 n. 滑，滑倒；片，纸片；错误；下跌；事故 adj. 滑动的；有活结的；活络的 abbr. 串行线路接口协议，是旧式的协议（Serial Line Interface Protocol） n. (Slip)人名；(芬)斯利普
 seized               [si:z]               adj. 查封的 v. 逮住；咬住（seize的过去分词）
 nibble               ['nɪbl]              vi. 细咬；一点一点地咬；吹毛求疵 vt. 细咬；一点一点地咬；吹毛求疵 n. 轻咬；啃；细咬
+pledge               [plɛdʒ]              n. 保证，誓言；抵押；抵押品，典当物 vt. 保证，许诺；用……抵押；举杯祝……健康 n. (Pledge)人名；(英)普莱奇
+paradigms            ['pærədim]           n. 范例，模范（paradigm的复数形式）
+paradigm             ['pærə'daɪm]         n. 范例；词形变化表
+lieutenant           [lu'tɛnənt]          n. 中尉；副官；助理人员
+benevolent           [bə'nɛvələnt]        adj. 仁慈的；慈善的；亲切的
+dictator             ['dɪktetɚ]           n. 独裁者；命令者
+blessed              ['blɛsɪd]            adj. 幸福的；受祝福的；神圣的 v. 祝福（bless的过去分词）
+delegate             [ˈdɛləgɪt; (for v.,) ˈdɛləˌgeɪt] vt. 委派…为代表 n. 代表
+imperative           [ɪm'pɛrətɪv]         adj. 必要的，不可避免的；紧急的；命令的，专横的；势在必行的；[语]祈使的 n. 必要的事；命令；需要；规则；[语]祈使语气
+hyphen               ['haɪfn]             vt. 以连字号连接；以连字符连接 n. 连字号；连字符
+asterisk             ['æstərɪsk]          n. 星号；星号键 vt. 注上星号；用星号标出
+sophomore            ['sɑfəmɔr]           n. 大学二年级生；（美）有二年经验的人 adj. 二年级的；二年级学生的
+arithmetic           [ə'rɪθmətɪk]         n. 算术，算法
+oddity               ['ɑdəti]             n. 奇异；古怪；怪癖
+radix                [ˈreɪdɪks]           n. 根；[数]基数 n. （Radix）人名；（法、德、西）拉迪克斯；（英）雷迪克斯
+diminished           [dɪ'mɪnɪʃt]          adj. 减弱的；减退了的 v. 减少；削弱（diminish的过去分词）
+complement           [ˈkɑːmplɪment]       n. 补语；余角；补足物 vt. 补足，补助
+bias                 ['baɪəs]             n. 偏见；偏爱；斜纹；乖离率 vt. 使存偏见 adj. 偏斜的 adv. 偏斜地 n. (Bias)人名；(法、德、葡、喀)比亚斯；(英)拜厄斯
+Radice                                    雷迪斯
+radices              [ˈredɪsiz]           n. 根；基数；词根（radix 的复数形式）
+biased               ['baɪəst]            adj. 有偏见的；结果偏倚的，有偏的
+inversion            [ɪn'vɝʃən]           n. 倒置；反向；倒转
+trick                [trɪk]               n. 诡计；恶作剧；窍门；花招；骗局；欺诈 vt. 欺骗；哄骗；装饰；打扮 vi. 哄骗；戏弄 adj. 特技的；欺诈的；有决窍的 n. (Trick)人名；(英)特里克
+preferred            [prɪ'fɝd]            adj. 优先的；首选的 v. 偏爱（prefer的过去分词）
+adhere               [əd'hɪr]             vi. 坚持；依附；粘着；追随 vt. 使粘附
+checkoff             [ˈtʃekˌɔf]           n. 代扣工会会费
+hive                 [haɪv]               vi. 群居；入蜂房；生活在蜂房中 n. 蜂房，蜂巢；热闹的场所；熙攘喧闹的人群 vt. 入蜂箱；贮备
+apropos              [,æprə'po]           adj. 恰好的；适当的 adv. 恰好地；适当地；恰当地 prep. 关于
+dump                 [dʌmp]               vt. 倾倒；倾卸；丢下，卸下；摆脱，扔弃；倾销 vi. 倒垃圾；突然跌倒或落下；卸货；转嫁（责任等） n. 垃圾场；仓库；无秩序地累积 n. （英）邓普（人名，男子教名Humphrey、Humphry的昵称）
+analogy              [ə'nælədʒi]          n. 类比；类推；类似
+leftover             ['lɛftovɚ]           n. 残留物；吃剩的饭菜；剩余物 adj. 残余的；吃剩的
+sparing              ['spɛrɪŋ]            adj. 节约的；贫乏的；保守的 n. 抽出；宽恕；免去；给予（spare的ing形式）
+dangling             ['dæŋg(ə)lɪŋ; 'dæŋglɪŋ] adj. 悬挂的；摇摆的 v. 摇晃（dangle的ing形式）
+precedence           ['presidəns]         n. 优先；居先
+versa                ['vɝsə]              adj. 反的
+vice                 [vaɪs]               n. 恶习；缺点；[机] 老虎钳；卖淫 prep. 代替 vt. 钳住 adj. 副的；代替的 n. (Vice)人名；(塞)维采
+vice versa           [ˌvaɪs ˈvɜːrsə; ˌvaɪsi ˈvɜːrsə] adv.  反之亦然
+pitfall              ['pɪt'fɔl]           n. 陷阱，圈套；缺陷；诱惑

@@ -1,6 +1,14 @@
 #+title: Readme
 
 * Pre-requestments
+1. fonts → go to =style.css= to see all needed fonts
+2.
 #+begin_src bash
-paru -S gnome-calendar
+paru -S gnome-calendar # clock
+paru -S uair mpg123 # custom/pomodoro
+paru -S htop # cpu, memory
+paru -S duf # disk
+paru -S trash-cli dolphin # custom/trash
+paru -S libqulse # pulseaudio
+paru -S playerctl # custom/music
 #+end_src

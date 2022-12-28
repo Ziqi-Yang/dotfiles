@@ -1,0 +1,66 @@
+* Hacking to the Arch
+:PROPERTIES:
+:CUSTOM_ID: hacking-to-the-arch
+:END:
+
+**wayland**:
+#+caption: wayland_screenshot
+[[./screenshots/swappy-20221228-185712.png]]
+
+
+**x11**:
+#+caption: x11_screenshot
+[[./screenshots/2022-12-21_18-09.png]]
+
+** Overview
+*** infrastructure
+- Panel: =polybar= (X11), =waybar= (Wayland)
+- Terminal: =alacritty=
+- Shell: =fish=
+- Menu(Application Launcher, etc.): =rofi= (lbonn's fork for both Wayland and X11) and =jgmenu= (X11)
+- Display Manager: =lightdm= with =lightdm-slick-greeter=
+- Screen Lock: =BetterScreenLock= (X11)
+- Notification Manager: =dunst=
+- Editors(and IDE):
+  - =emacs=: doom emacs [[https://github.com/Ziqi-Yang/.doom.d][configuration]](in another repo)
+  - +=neovim=: astrovim [[./dotfiles/config/nvim/lua/user/init.lua][configuration]]+
+  - =Jetbrains IDE=: [[./dotfiles/config/ideavimrc][.ideavimrc]]
+  - =vscode=(=code - oss=): [[./dotfiles/config/Code%20-%20OSS/User/settings.json][settings.json]]
+  - =vim=: [[https://gist.github.com/Ziqi-Yang/2fd25c93254382c9e5b376568a0e9611][extremely basic config]] for algorithm competition
+- File Manager: =ranger=
+- Windows Manager: =bspwm= (X11, with hotkey manager =sxhkd=), =hyprland= (Wayland)
+- Compositor: =picom= (X11, [[https://github.com/pijulius/picom][pijulius/picom]])
+- Pdf Reader: =sioyek= (now) =zathura= (discard)
+- Dot files Manager: [[https://github.com/deadc0de6/dotdrop][dotdrop]]
+
+*** Appearance
+- icons:
+  + (now) =Tela-dracula= Arch Linux package name: =tele-icon-theme=
+  + =Deepin Icons 2022= [[https://store.kde.org/p/1678986/][KDE store ]][[https://github.com/zayronxio/Deepin-icons-2022][GitHub]]
+- grub:
+  + (now) [[https://github.com/mateosss/matter][matter]]
+  + [[https://github.com/13atm01/GRUB-Theme][GRUB-Theme]]
+- font:
+  + [[https://aur.archlinux.org/packages/nerd-fonts-fira-code][FiraCode Nerd Font]] used for programming
+  + [[https://github.com/SolidZORO/zpix-pixel-font][zpix]] pixel font
+  + [[https://fontawesome.com/download][Font Awesome 6 Free]] icon
+  + [[https://github.com/Templarian/MaterialDesign-Font][Material Design Icons Desktop TTF]] icon
+  + [[https://github.com/romkatv/powerlevel10k-media/][MesloLGS_NF]]
+- cursor: [[https://github.com/ful1e5/Google_Cursor][Google_Cursor]] (google-dot-blue)
+- qt5: [[https://aur.archlinux.org/packages/kvantum-qt5-git][Kvantum]]
+- GTK: [[https://github.com/vinceliuice/Layan-gtk-theme][Layan-gtk-theme]]
+** [[https://ziqi-yang.github.io/dotfiles/#/][Docs]]
+On progress\\
+Previous docs can be found in the =docs_bak= folder
+
+** Other Awesome Dot files
+- [[https://github.com/gh0stzk/dotfiles][gh0stzk/dotfiles]]
+- [[https://github.com/tam-carre/dotfiles][tam-carre/dotfiles]]
+- [[https://github.com/HynDuf7/dotfiles][HynDuf7/dotfiles]]
+- [[https://github.com/Syndrizzle/hotfiles][Syndrizzle/hotfiles]]
+- [[https://github.com/AmadeusWM/dotfiles-hyprland][AmadeusWM/dotfiles-hyprland]]
+- [[https://github.com/lokesh-krishna/dotfiles][lokesh-krishna/dotfiles]]
+
+** Useful Links
+- [[https://wiki.archlinux.org/title/HiDPI][Hi DPI - Arch Wiki]]
+- [[https://wiki.archlinux.org/title/environment_variables][Environment variables]]

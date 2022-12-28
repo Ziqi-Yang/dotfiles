@@ -455,3 +455,28 @@ versa                ['vɝsə]              adj. 反的
 vice                 [vaɪs]               n. 恶习；缺点；[机] 老虎钳；卖淫 prep. 代替 vt. 钳住 adj. 副的；代替的 n. (Vice)人名；(塞)维采
 vice versa           [ˌvaɪs ˈvɜːrsə; ˌvaɪsi ˈvɜːrsə] adv.  反之亦然
 pitfall              ['pɪt'fɔl]           n. 陷阱，圈套；缺陷；诱惑
+tricky               ['trɪkɪ]             adj. 狡猾的；机警的
+Stephan                                   n. 斯蒂芬（男子名）
+dangerous            ['dendʒərəs]         adj. 危险的 危险地
+endianness           ['endiənis]          n. 字节顺序
+inaudible            [ɪn'ɔdəbl]           adj. 听不见的；不可闻的
+anomalous            [ə'nɑmələs]          adj. 异常的；不规则的；不恰当的
+bus                  [bʌs]                n. 公共汽车 乘公共汽车
+dumb                 [dʌm]                adj. 哑的，无说话能力的；不说话的，无声音的
+dereference          [ˌdiːˈrefrəns]       n. 废弃；解除参照
+kibi                                      n. 吉备国（日本在设置令制国以前存在的一个国）
+kb                                        abbr. 千字节（kilobyte）；键盘（keyboard）；英国高等法院（King's Bench）；（国际象棋中与“王”同列配置的）象（King's Bishop）
+slowish                                   adj. 速度稍慢的；有点沉闷的
+flawed               [flɔd]               adj. 有缺陷的；有瑕疵的；有裂纹的
+vitamins             ['vaɪtəmɪnz]         n. [生化] 维生素；[生化] 维他命
+conceptual           [kən'sɛptʃʊəl]       adj. 概念上的
+variable             ['vɛrɪəbl]           adj. 变量的；可变的；易变的，多变的；变异的，[生物] 畸变的 n. [数] 变量；可变物，可变因素
+ternary              ['tɝnəri]            adj. [数] 三元的，三重的；[数] 三进制的；第三的
+parentheses          [pə'rɛnθəsɪz]        n. parenthesis的复数形式
+parenthesis          [pə'rɛnθəsɪs]        n. 插入语,插入成分 n. 圆括号 n. 间歇，插曲
+permute              [pɚ'mjʊt]            vt. 交换；变更；排列
+cardinal             ['kɑrdɪnl]           n. 红衣主教；枢机主教；鲜红色；【鸟类】(北美)主红雀 adj. 主要的，基本的；深红色的
+manifest             ['mænɪfɛst]          vt. 证明，表明；显示 vi. 显示，出现 n. 载货单，货单；旅客名单 adj. 显然的，明显的；明白的
+hisen                                     n. （Hisen）人名；（塞）希森
+radar                ['redɑr]             n. [雷达] 雷达，无线电探测器 n. (Radar)人名；(塞)拉达尔
+adjunct              ['ædʒʌŋkt]           n. 附属物；助手；修饰语 adj. 附属的

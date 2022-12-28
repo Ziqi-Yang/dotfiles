@@ -1,13 +1,3 @@
-rename 1.md
-rename 2.md
-rename 3.md
-rename 杨子祺.docx
-rename 杨子祺-入党推优记录表.docx
-cd /home/zarkli/notes/
-j dot
-mkdir ./screenshots
-mkdir screenshots
-rename 2022-12-21_18-09.png
 search rofi
 search hyper
 search hypr
@@ -20,7 +10,6 @@ search .emacs
 rename .emacs.d.1
 rename .emacs.d
 rename .emacs.d.bak
-search 
 rename .doom.d.bak
 rename .doom.d_1
 rename init_1.el
@@ -38,7 +27,6 @@ search way
 search unix
 search linux
 mkdir ./books
-
 rename Makefi
 search math
 mkdir ./test
@@ -48,3 +36,15 @@ mkdir ./first semester
 mkdir second semester
 mkdir cs61c
 rename bdic_pledge_cover
+mkdir ./
+
+mkdir cs
+mkdir self_learn
+open_with 
+mkdir 
+search swappy
+search 
+search mkd
+mkdir swappy
+search swapp
+e ./config

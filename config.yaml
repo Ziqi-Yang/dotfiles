@@ -145,6 +145,9 @@ dotfiles:
   f_gtkrc-2.0:
     src: gtkrc-2.0
     dst: ~/.gtkrc-2.0
+  d_swappy:
+    src: config/swappy
+    dst: ~/.config/swappy
 profiles:
   myArch:
     dotfiles:
@@ -194,3 +197,4 @@ profiles:
     - d_gtk-3.0
     - d_gtk-4.0
     - f_gtkrc-2.0
+    - d_swappy

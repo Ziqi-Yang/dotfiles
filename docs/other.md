@@ -24,6 +24,8 @@ sudo pacman -S man-pages # install linux and POSIX man-pages
 - `pqiv` image show
 - `scrcpy` display and control android phone
 - `gtk3-icon-browser` in `extra/gtk3-demos` browser icon
+- `yt-dlp` download youtube video
+- `lux` download bilibili video
 
 ### command line
 

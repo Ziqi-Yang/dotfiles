@@ -480,3 +480,131 @@ manifest             ['mænɪfɛst]          vt. 证明，表明；显示 vi. �
 hisen                                     n. （Hisen）人名；（塞）希森
 radar                ['redɑr]             n. [雷达] 雷达，无线电探测器 n. (Radar)人名；(塞)拉达尔
 adjunct              ['ædʒʌŋkt]           n. 附属物；助手；修饰语 adj. 附属的
+hare                 [hɛr]                n. 野兔 n. (Hare)人名；(印)哈雷；(英)黑尔；(法)阿尔
+tortue                                    n. （法）乌龟
+acyclic              [e'saɪklɪk]          adj. 非循环的；[物] 非周期的
+impede               [ɪm'pid]             vt. 阻碍；妨碍；阻止
+squash               [skwɔʃ]              vt. 镇压；把…压扁；使沉默 vi. 受挤压；发出挤压声；挤入 n. 壁球；挤压；咯吱声；南瓜属植物；（英）果汁饮料
+rewinded             [ˌriːˈwaɪnd]         v. 倒回（录像带、磁带）；<非正式>回到原来的谈话内容（或活动） n. 倒带（键）
+rewind               [,ri'waɪnd]          n. 重绕；倒带器 vt. 倒回；重绕 vi. 倒回；重绕
+pull                 [pʊl]                vt. 拉；拔；拖 vi. 拉，拖；拔 n. 拉，拉绳；拉力，牵引力；拖 n. (Pull)人名；(法)皮尔；(德、瑞典)普尔
+descendant           [dɪ'sɛndənt]         adj. 下降的；祖传的 n. 后裔；子孙
+coerce               [ko'ɝs]              vt. 强制，迫使
+variations           [,vɛrɪ'eʃən]         n. 变奏曲，变更；[生物] 变种（variation的复数形式）
+decent               ['disnt]             adj. 正派的；得体的；相当好的
+segmentation         [,sɛɡmɛn'teʃən]      n. 分割；割断；细胞分裂
+vulkan                                    跨平台的2D 和3D 绘图应用程序接口
+malloc                                    n. 分配内存
+definitely           ['dɛfɪnətli]         adv. 清楚地，当然；明确地，肯定地
+preliminary          [prɪ'lɪmɪnɛri]       n. 准备；预赛；初步措施 adj. 初步的；开始的；预备的
+trial                ['traɪəl]            n. 试验；审讯；努力；磨炼 adj. 试验的；审讯的 n. (Trial)人名；(法)特里亚尔
+canonical            [kə'nɑnɪkl]          adj. 依教规的；权威的；牧师的 n. 牧师礼服
+exponent             [ɪk'sponənt]         n. [数] 指数；典型；说明者，说明物 n. 倡导者，鼓吹者，代表者，拥护者 adj. 说明的
+tracks               [træk]               n. [铁路] 轨道（track的复数）；[计] 磁道；轮胎
+botany               ['bɑtəni]            n. 植物学；地区植物总称
+slay                 [sle]                vt. 杀害，杀死；使禁不住大笑 vi. 杀死，杀害；残杀 n. (Slay)人名；(英、柬)斯莱
+associative          [ə'soʃɪətɪv]         adj. 联想的；联合的；组合的
+mantissa             [mænˈtɪsə]           n. [数]尾数；假数；定点部分；小数部分 n. （Mantissa）人名；（刚（布））曼蒂萨
+akin                 [ə'kɪn]              adj. 类似的；同类的；同族的 n. (Akin)人名；(土、瑞典、尼日利)阿金；(匈)奥金；(英)埃金
+odd                  [ɑd]                 adj. 奇数的；古怪的；剩余的；临时的；零散的 n. 奇数；怪人；奇特的事物 n. (Odd)人名；(英、西、挪、瑞典)奥德
+tedious              ['tidɪəs]            adj. 沉闷的；冗长乏味的
+daunting             ['dɔntɪŋ]            adj. 使人畏缩的；使人气馁的；令人怯步的
+precedent            ['prɛsɪdənt]         n. 先例；前例 adj. 在前的；在先的
+Ethernet             ['iθɚnɛt]            n. [计] 以太网
+pseudo               ['sʊdo]              n. 伪君子；假冒的人 adj. 冒充的，假的
+shift                [ʃɪft]               n. 移动；变化；手段；轮班 vi. 移动；转变；转换 vt. 转移；改变；替换
+intimidating         [ɪn'tɪmɪdetɪŋ]       adj. 吓人的
+intimidate           [ɪn'tɪmɪdet]         vt. 恐吓，威胁；胁迫
+suppressed           [sə'prɛst]           adj. 抑制的，发育不全的 v. 镇压，禁止（suppress的过去时和过去分词）
+venture              ['vɛntʃɚ]            vt. 敢于 vi. 冒险；投机 n. 企业；风险；冒险 n. (Venture)人名；(法)旺蒂尔
+subscripted                               下标的；写在下面的
+weird                [wɪrd]               adj. 怪异的；不可思议的；超自然的 n. （苏格兰）命运；预言
+newbie               ['nubi]              n. 网络新手；新兵
+versatile            ['vɝsətl]            adj. 多才多艺的；通用的，万能的；多面手的
+RISC                 [risk]               abbr. 精简指令集计算机（Reduced Instruction-Set Computer）
+underneath           [,ʌndɚ'niθ]          prep. 在…的下面；在…的形式下；在…的支配下 adv. 在下面；在底下 n. 下面；底部 adj. 下面的；底层的
+neath                                     prep. 在…之下
+uptake               ['ʌptek]             n. 摄取；领会；举起
+corrupt              [kə'rʌpt]            adj. 腐败的，贪污的；堕落的 vt. 使腐烂；使堕落，使恶化 vi. 堕落，腐化；腐烂
+devote               [dɪ'vot]             vt. 致力于；奉献
+tradeoff             ['tred,ɔf]           n. 权衡；折衷；（公平）交易（等于trade-off）
+rigid                ['rɪdʒɪd]            adj. 严格的；僵硬的，死板的；坚硬的；精确的
+hashtag              [ˈhæʃtæɡ]            n. 标签
+pound sign           [ˈpaʊnd saɪn]        英镑符号；井字号
+verilog                                   n. 一种硬件描述语言
+hexadecimal          [ˌheksəˈdesɪml]      adj. 十六进制的 n. 十六进制
+Venus                ['vinəs]             n. [天] 金星；维纳斯（爱与美的女神）
+directives           [di'rektiv; dai-]    n. 指令（directive的复数形式）；指示
+mnemonic             [nɪ'mɑnɪk]           adj. 记忆的；助记的；记忆术的
+such that            [sʌtʃ ðæt]           如此……以致
+reindeer             ['rendɪr]            n. [脊椎][畜牧] 驯鹿
+elves                [ɛlvz]               n. 侏儒；爱恶作剧的孩子（elf的复数）
+expedition           [,ɛkspə'dɪʃən]       n. 远征；探险队；迅速
+overgrown            [,ovɚ'ɡron]          adj. 蔓生的；生长过快的 v. 生长过度（overgrow的过去分词）
+inventory            ['ɪnvəntɔri]         n. 存货，存货清单；详细目录；财产清册
+elf                  [ɛlf]                n. 小精灵；淘气鬼 n. (Elf)人名；(芬、瑞典)埃尔夫
+rlves                                     abbr. 晶状体后纤维组织形成
+ration               ['ræʃən]             vt. 配给；定量供应 n. 定量；口粮；配给量
+advent               ['ædvɛnt]            n. 到来；出现；基督降临；基督降临节
+volatile             ['vɑlətl]            adj. [化学] 挥发性的；不稳定的；爆炸性的；反复无常的 n. 挥发物；有翅的动物 n. (Volatile)人名；(意)沃拉蒂莱
+prologue             ['prolɔɡ]            n. 开场白；序言 vt. 加上…前言；为…作序
+opcode               [ˈɑːpkoʊd]           n. 操作码；作业码
+mega                 ['mɛɡə]              n. 百万 adj. 许多；宏大的 adv. 非常 n. (Mega)人名；(葡、意、捷、塞)梅加
+aesthetic            [esˈθetɪk; ɛsˈθɛtɪk] adj. 美的；美学的；审美的，具有审美趣味的
+velocity             [vəˈlɑsəti]          n. 【物】速度
+pervasive            [pɚ'vesɪv]           adj. 普遍的；到处渗透的；流行的
+Conversely,          [ˈkɑːnvɜːrsli]       adv. 相反地，反过来说
+rundown              ['rʌndaʊn]           n. 裁减；纲要
+comprised            [kəm'praiz]          v. 包含（comprise的过去分词）；由…组成
+verbatim             [vɝ'betɪm]           adv. 逐字地 adj. 逐字的
+abiding              [ə'baɪdɪŋ]           adj. 持久的，永久的；不变的 v. 遵守；容忍；继续存在（abide的现在分词）
+analogous            [ə'næləɡəs]          adj. 类似的；[昆] 同功的；可比拟的
+poke                 [pok]                vi. 刺，捅；戳；伸出；刺探；闲荡 vt. 刺，捅；戳；拨开 n. 戳；刺；袋子；懒汉
+menger                                    n. 门格尔（男子名）
+stub                 [stʌb]               n. 存根；烟蒂；树桩；断株 vt. 踩熄；连根拔除 n. (Stub)人名；(挪、瑞典)斯图布
+factorial            [fæk'tɔrɪəl]         adj. 因子的，阶乘的 n. [数] 阶乘
+recursion            [rɪ'kɝʃən]           n. [数] 递归，循环；递归式
+mutate               ['mjutet]            vi. 变化，产生突变 vt. 改变，使突变
+spectroscopic        [,spɛktrə'skɑpɪk]    adj. 光谱学的；分光镜的
+recurse                                   n. 递归（算法） v. 递归
+epilogue             ['ɛpɪlɔɡ]            n. 结语，收场白；尾声，后记
+threshold            ['θrɛʃhold]          n. 入口；门槛；开始；极限；临界值
+inner product                             内积（即点积）
+tinged               [tindʒd]             adj. 淡色的 v. 着淡色于…（tinge的过去分词）
+sort of                                   有几分地；到某种程度；稍稍
+suppress             [sə'prɛs]            vt. 抑制；镇压；废止
+sanity               ['sænəti]            n. 明智；头脑清楚；精神健全；通情达理
+sanity test          [ˈsænəti test]       可用性测试 健全性测试
+hyphen               ['haɪfn]             vt. 以连字号连接；以连字符连接 n. 连字号；连字符
+stride               [straɪd]             n. 大步；步幅；进展 vt. 跨过；大踏步走过；跨坐在… vi. 跨；跨过；大步行走
+consecutive          [kən'sɛkjətɪv]       adj. 连贯的；连续不断的
+swags                [swæɡ]               赃物 流浪者的行囊 装饰性帷幕 [建] 垂花饰 洼地（swag的名词复数）
+swag                 [swæɡ]               n. 赃物，掠夺品；摇晃；大量 vi. 垂下；摇晃，倾斜 vt. 使……摇摆；用垂挂物装饰
+dummy                ['dʌmi]              adj. 虚拟的；假的 n. 傀儡；哑巴；仿制品
+tracer               ['tresɚ]             n. [核] 示踪物；追踪者；描图者；（铁笔等）绘图工具 n. (Tracer)人名；(英)特雷瑟
+trace                [tres]               vi. 追溯；沿路走 vt. 追踪，查探；描绘；回溯 n. 痕迹，踪迹；微量；[仪] 迹线；缰绳
+commutative          [kəˈmjuːtətɪv]       adj. 交换的，交替的；（一般）代替的
+radical              ['rædɪkl]            adj. 激进的；根本的；彻底的 n. 基础；激进分子；[物化] 原子团；[数] 根数
+extensively          [ik'stensivli]       adv. 广阔地；广大地
+luxury               ['lʌɡʒəri]           n. 奢侈，奢华；奢侈品；享受 adj. 奢侈的
+conquer              ['kɑŋkɚ]             vt. 战胜，征服；攻克，攻取 vi. 胜利；得胜
+authoritative        [ə'θɔrətetɪv]        adj. 有权威的；命令式的；当局的
+feat                 [fit]                n. 功绩，壮举；技艺表演 adj. 合适的；灵巧的
+defeat               [dɪ'fit]             vt. 击败，战胜；挫败；使…失败 n. 失败的事实；击败的行为
+tedious              ['tidɪəs]            adj. 沉闷的；冗长乏味的
+grafted              [græft]              n. 枝接纤维 v. [农学] 嫁接（graft的过去分词）
+nit                  [nɪt]                n. 幼虫；没用的人 n. (Nit)人名；(俄)尼特；(泰)尼
+tweak                [twik]               n. 扭；拧；焦急 vt. 扭；用力拉；开足马力
+auxiliary            [ɔːɡ'zɪlɪəri]        n. 助动词；辅助者，辅助物；附属机构 adj. 辅助的；副的；附加的
+chore                [tʃɔr]               n. 家庭杂务；日常的零星事务；讨厌的或累人的工作
+bump                 [bʌmp]               n. 肿块，隆起物；撞击 vi. 碰撞，撞击；颠簸而行 vt. 碰，撞；颠簸 adv. 突然地，猛烈地 n. (Bump)人名；(英、西)邦普
+merch                [mɜːrtʃ]             n. 美国默克制药公司
+didactic             [daɪ'dæktɪk]         adj. 说教的；教诲的
+crisper              ['krɪspɚ]            n. [制冷] 保鲜储藏格
+folk                 [fok]                n. 民族；人们；亲属（复数） adj. 民间的 n. (Folk)人名；(英、匈、捷)福克
+folks                [fəuk]               n. （复数）人们 n. (Folks)人名；(英)福克斯
+trial                ['traɪəl]            n. 试验；审讯；努力；磨炼 adj. 试验的；审讯的 n. (Trial)人名；(法)特里亚尔
+trivial              ['trɪvɪəl]           adj. 不重要的，琐碎的；琐细的
+wifi                 [ˈwaɪfaɪ]            n. 无线（局域）网（同 Wi-Fi）
+wife                 [waɪf]               n. 妻子，已婚妇女；夫人
+yello                                     int. （接打电话时）喂

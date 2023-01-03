@@ -26,6 +26,21 @@
         "on-click": "uairctl toggle && notify-send -t 500 'resume/pause'",
         "on-click-right": "uairctl next && uairctl toggle && uairctl toggle"
     },
+    "custom/notification": {
+        "format": "{}",
+        "interval": "once",
+        "exec": "if [[ \"$(dunstctl is-paused)\" == \"false\" ]]; then echo ''; else echo ''; fi",
+        "on-click": "dunstctl set-paused toggle; pkill -SIGRTMIN+1 waybar",
+        "signal": 1
+    },
+    "custom/pacman": {
+        "format": "<big>􏆲</big>  {}",
+        "interval": 3600,                     // every hour
+        "exec": "checkupdates | wc -l",       // of updates
+        "exec-if": "exit 0",                  // always run; consider advanced run conditions
+        "on-click": "alacritty --class floating --hold -e '/bin/bash' -c 'sudo pacman -Syu && env all_proxy=http://127.0.0.1:7890 paru && echo done'; pkill -SIGRTMIN+2 waybar", // update system
+        "signal": 2,
+    },
     "custom/music": {
         "format": "{}",
         "exec": "~/.config/waybar/scripts/music.sh",
@@ -33,21 +48,6 @@
         "on-click": "playerctl play-pause",
         "on-double-click": "playerctl previous",
         "on-double-click-right": "playerctl next"
-    },
-    "custom/pacman": {
-        "format": "<big>􏆲</big>  {}",
-        "interval": 3600,                     // every hour
-        "exec": "checkupdates | wc -l",       // of updates
-        "exec-if": "exit 0",                  // always run; consider advanced run conditions
-        "on-click": "alacritty --class floating --hold -e '/bin/bash' -c 'sudo pacman -Syu && env all_proxy=http://127.0.0.1:7890 paru && echo done'; pkill -SIGRTMIN+8 waybar", // update system
-        "signal": 8,
-    },
-    "custom/notification": {
-        "format": "{}",
-        "interval": "once",
-        "exec": "if [[ \"$(dunstctl is-paused)\" == \"false\" ]]; then echo ''; else echo ''; fi",
-        "on-click": "dunstctl set-paused toggle; pkill -SIGRTMIN+1 waybar",
-        "signal": 1
     },
     "battery": {
         "bat": "BAT0",

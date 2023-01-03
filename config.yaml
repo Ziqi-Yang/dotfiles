@@ -148,6 +148,9 @@ dotfiles:
   d_swappy:
     src: config/swappy
     dst: ~/.config/swappy
+  d_paru:
+    src: config/paru
+    dst: ~/.config/paru
 profiles:
   myArch:
     dotfiles:
@@ -198,3 +201,4 @@ profiles:
     - d_gtk-4.0
     - f_gtkrc-2.0
     - d_swappy
+    - d_paru

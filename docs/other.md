@@ -26,6 +26,7 @@ sudo pacman -S man-pages # install linux and POSIX man-pages
 - `gtk3-icon-browser` in `extra/gtk3-demos` browser icon
 - `yt-dlp` download youtube video
 - `lux` download bilibili video
+- `hexyl` termainl hex editor
 
 ### command line
 

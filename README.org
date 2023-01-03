@@ -1,14 +1,11 @@
 * Hacking to the Arch
-:PROPERTIES:
-:CUSTOM_ID: hacking-to-the-arch
-:END:
+*Wayland*:
 
-**wayland**:
 #+caption: wayland_screenshot
 [[./screenshots/swappy-20221228-185712.png]]
 
+*x11*:
 
-**x11**:
 #+caption: x11_screenshot
 [[./screenshots/2022-12-21_18-09.png]]
 

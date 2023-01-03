@@ -1,0 +1,36 @@
+#+title: Collection
+
+* Media
+- =mpv=
+- =imv= simple image previewer for Wayland
+- [[https://github.com/qier222/YesPlayMusic][yesplaymusic]] thrid-party netease music app build on electron
+- =obstudio=
+- =kdenlive= video editing, but it is not stable, and =appimage= version is recommended(sometimes AUR version is still not working, manually download an AppImage file)
+- =blender= also a choice for video editing(though its main function is not this), stable
+
+* Utility
+- =screenkey= show key \\
+  Currently, it doesn't on Wayland since Wayland protocol only allow every application use its own keybindings in its frame.
+- [[https://github.com/Genymobile/scrcpy][scrcpy]] screen copy, connect your android phone
+- =gtk3-icon-browser= browser icon (in package =extra/gtke-demos=)
+- [[https://github.com/yt-dlp/yt-dlp][yt-dlp]] youtube-dl fork
+- [[https://github.com/iawia002/lux][lux]] download bilibili video
+- =hexyl= terminal hex editor
+- [[https://github.com/chubin/cheat.sh][cht.sh]] program quick reference
+- [[https://github.com/XAMPPRocky/tokei][tokei]] count code
+- =htop= modern top
+- [[https://github.com/rofl0r/ncdu][ncdu]] disk space usage (du)
+- [[https://github.com/muesli/duf][duf]] disk usage (df)
+- [[https://github.com/dandavison/delta][delta]] git diff tool
+- [[https://github.com/ogham/exa][exa]] modern ls
+- [[https://github.com/ajeetdsouza/zoxide][zoxide]] better jump
+- =neofetch=
+- =hwinfo= easy way to see hardware information
+
+* Trivial
+** OCR
+recommand use website [[https://pearocr.com/#/][pearocr]]
+for local can use =tesseract=:
+#+begin_src bash
+paru -S tesseract gimagereader-qt tesseract-data-chi_sim tesseract-data-eng # gimagereader-qt can be replaced with gimagereader-gtk
+#+end_src

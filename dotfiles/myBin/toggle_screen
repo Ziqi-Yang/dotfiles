@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+# For Hyprland on Wayland
+
+screen_status=$(hyprctl monitors | grep dpmsStatus | sed 's/.*\([0-9]\).*/\1/')
+# echo "$screen_status" # 0: off 1: on
+if [[ "$screen_status" == "1" ]]; then
+    hyprctl dispatch dpms off
+else
+    hyprctl dispatch dpms on
+fi

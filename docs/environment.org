@@ -1,0 +1,6 @@
+#+title: Environment
+
+#+begin_src bash
+# c environment
+paru -S cgdb valgrind
+#+end_src

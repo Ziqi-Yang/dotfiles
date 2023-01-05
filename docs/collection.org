@@ -1,14 +1,22 @@
 #+title: Collection
 
 * Media
+** Tool
 - =mpv=
 - =imv= simple image previewer for Wayland
 - [[https://github.com/qier222/YesPlayMusic][yesplaymusic]] thrid-party netease music app build on electron
 - =obstudio=
 - =kdenlive= video editing, but it is not stable, and =appimage= version is recommended(sometimes AUR version is still not working, manually download an AppImage file)
 - =blender= also a choice for video editing(though its main function is not this), stable
+** Social
+- =electronic-wechat-uos-bin(aur)= WeChat client
+- =telegram=
+- =discord=
 
 * Utility
+- =selectdefaultapplication-git(aur)= change default application
+- =qt5ct= and =kvantum= change QT application theme
+- =lxappearance= change GTK application theme
 - =screenkey= show key \\
   Currently, it doesn't on Wayland since Wayland protocol only allow every application use its own keybindings in its frame.
 - [[https://github.com/Genymobile/scrcpy][scrcpy]] screen copy, connect your android phone

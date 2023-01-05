@@ -608,3 +608,33 @@ trivial              ['trɪvɪəl]           adj. 不重要的，琐碎的；琐
 wifi                 [ˈwaɪfaɪ]            n. 无线（局域）网（同 Wi-Fi）
 wife                 [waɪf]               n. 妻子，已婚妇女；夫人
 yello                                     int. （接打电话时）喂
+MV                   [,em 'vi:]           abbr. 市场价值（Market Value）；平均值（Mean Value）；平均变化（Mean Variation）；中等电压（Medium Voltage）
+vanilla              [və'nɪlə]            n. 香子兰，香草 adj. 香草味的
+slick                [slɪk]               adj. 光滑的；华而不实的；聪明的；熟练的；老套的 n. [机] 平滑器；[机] 修光工具；通俗杂志 adv. 灵活地；聪明地 vt. 使光滑；使漂亮 vi. 打扮整洁 n. (Slick)人名；(英)斯利克
+assemble             [ə'sɛmbl]            vt. 集合，聚集；装配；收集 vi. 集合，聚集
+assembly             [ə'sɛmbli]           n. 装配；集会，集合
+frustrating          ['frʌstretɪŋ]        adj. 令人沮丧的 v. 使沮丧（frustrate的ing形式）
+disgusting           [dɪs'ɡʌstɪŋ]         adj. 令人厌恶的 令人极不能接受的
+demonstrate          ['dɛmən'stret]       vt. 证明；展示；论证 vi. 示威
+revert               [rɪ'vɝt]             vi. 回复；重提；返祖遗传；归还 vt. 使回复原状 n. 恢复原状者 n. (Revert)人名；(西)雷韦特；(法)勒韦尔
+transitive           ['trænsətɪv]         adj. 及物的；过渡的；可迁的 n. 传递；及物动词
+intransitive         [ɪn'trænsətɪv]       adj. 不及物的 n. 不及物动词
+manual               ['mænjuəl]           adj. 手工的；体力的 n. 手册，指南
+synchronous          ['sɪŋkrənəs]         adj. 同步的；同时的
+transistor           [træn'zɪstɚ]         n. 晶体管（收音机）
+voltage              ['voltɪdʒ]           n. [电] 电压
+drain                [dren]               vi. 排水；流干 vt. 喝光，耗尽；使流出；排掉水 n. 排水；下水道，排水管；消耗 n. (Drain)人名；(英)德雷恩；(法)德兰
+consoles             [kən'səul]           n. [计] 控制台（console的复数）；支柱 v. 安慰；慰问（console的三单形式）
+inclined             [ɪn'klaɪnd]          adj. 趋向于…的 v. 使…倾向（incline的过去分词）
+bruh                 [brəː]               n. 哥们（非正式美语）：男性友人（经常用作称呼语）
+pasta                ['pɑstə]             n. 意大利面食；面团 n. (Pasta)人名；(英、意)帕斯塔
+purse                [pɝs]                n. (女士)手提袋；(国家、家庭、团体等的) 财力 vt. （嘴巴）皱起，使缩拢；撅嘴
+multiplexor          [ˈmʌltɪpleksər]      n. 多路器，多路复用器
+weeb                                      n. <俚、贬>对那些痴迷于日本文化、希望自己是日本人的非日本人的蔑称（同 weeaboo）；<影俚>动漫迷，指对动漫或漫画有强烈兴趣的人；（Weeb）（美、英、加、巴）韦伯（人名）
+wire                 ['waɪɚ]              n. 电线；金属丝；电报 vt. 拍电报；给…装电线 vi. 打电报 n. (Wire)人名；(英)怀尔
+flip                 [flɪp]               vt. 掷；轻击 vi. 用指轻弹；蹦跳 adj. 无礼的；轻率的 n. 弹；筋斗
+flop                 [flɑp]               vt. 笨拙地抛下；扑通放下；拍（翅） vi. 失败；扑拍；扑通落下；笨重地摔 n. 失败；砰然落下；拍击声 adv. 扑通一声；恰巧
+curator              [kjʊ'retɚ]           n. 馆长；监护人；管理者
+propagate            ['prɑpə'get]         vt. 传播；传送；繁殖；宣传 vi. 繁殖；增殖
+linus torvalds                            林纳斯·托瓦兹（著名的电脑程序员、黑客）
+prune                [prun]               vi. 删除；减少 vt. 修剪；删除；剪去 n. 深紫红色；傻瓜；李子干 n. (Prune)人名；(罗)普鲁内

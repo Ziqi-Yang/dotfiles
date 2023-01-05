@@ -1,8 +1,3 @@
-search pol
-search way
-search unix
-search linux
-mkdir ./books
 rename Makefi
 search math
 mkdir ./test
@@ -33,14 +28,12 @@ rename Connie_Talbot-Count_on_Me_compressed.mp3
 shell 
 rename v.jar
 rename ex.s
-rename venus.jar
 open_with a
 
 search 
 rename .emacs.d_bak
 rename .doom.d_bak
 rename .doom.d
-search .emacs
 search jjj
 rename .emacs.d
 rename .emacs.d_doom
@@ -48,3 +41,10 @@ search emacs
 mkdir emacs
 mkdir ./
 rename Pictures
+rename venus.jar_
+rename venus_bak.jar
+rename venus.jar
+rename Androidqq
+lrename state.pdf
+rename lec11_reading:state.pdf
+search .emacs

@@ -691,3 +691,4 @@ monetization         [ˌmɑːnɪtəˈzeɪʃn]     n. [金融] 货币化；定为
 meow                 [mɪ'aʊ]              vi. 猫叫 n. 猫叫声
 kitty                                     n. 小猫，猫咪
 tune                 [tun]                n. 曲调；和谐；心情 vt. 调整；使一致；为…调音 vi. [电子][通信] 调谐；协调 n. (Tune)人名；(英)图恩
+reddit                                    n. 新闻网站名

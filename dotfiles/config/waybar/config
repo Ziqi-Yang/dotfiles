@@ -2,9 +2,9 @@
     "layer": "top",
     "modules-left": [
         "clock",
+        "custom/todo",
         "custom/notification",
         "custom/pacman",
-        "custom/todo",
         "custom/music",
         "custom/pomodoro"
     ],
@@ -35,7 +35,7 @@
         "signal": 1
     },
     "custom/pacman": {
-        "format": "<big>􏆲</big>  {}",
+        "format": "<big></big>  {}",
         "interval": 3600,                     // every hour
         "exec": "checkupdates | wc -l",       // of updates
         "exec-if": "exit 0",                  // always run; consider advanced run conditions
@@ -54,7 +54,7 @@
         "format": " {}",
         "exec": "ultralist l | grep '[ ]' | wc -l",
         "interval": 1,
-        "on-click": "alacritty --class floating --hold -e '/bin/fish' -c 'ultralist l group:p'"
+        "on-click": "kitty --class floating --hold bash -c 'ultralist l group:p'"
     },
     "battery": {
         "bat": "BAT0",

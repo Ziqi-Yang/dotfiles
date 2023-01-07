@@ -114,14 +114,14 @@ entry {
     background-color:            inherit;
     text-color:                  inherit;
     cursor:                      text;
-    placeholder:                 "Search...";
+    placeholder:                 "Find Emoji...";
     placeholder-color:           inherit;
 }
 
 /*****----- Listview -----*****/
 listview {
     enabled:                     true;
-    columns:                     10;
+    columns:                     5;
     lines:                       10;
     cycle:                       true;
     dynamic:                     true;

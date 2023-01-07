@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
 rofi rofi -modi "emoji:/usr/bin/rofimoji --hidden-descriptions" -show emoji -theme emoji \
-    -ml-row-down "" -ml-row-up "" -ml-row-right "ScrollDown" -ml-row-left "ScrollUp"
+    -kb-row-up "Control+p,Control+k" -kb-row-down "Control+n,Control+j" \
+    -kb-page-prev "Page_Up,Up,Left,Control+K,Control+H" -kb-page-next "Page_Down,Down,Right,Control+J,Control+L" \
+    -kb-move-char-forward "Control+l" -kb-move-char-back "Control+h"

@@ -1,8 +1,3 @@
-rename Makefi
-search math
-mkdir ./test
-mkdir ./other
-mkdir sophomore
 mkdir ./first semester
 mkdir second semester
 mkdir cs61c
@@ -48,3 +43,8 @@ rename Androidqq
 lrename state.pdf
 rename lec11_reading:state.pdf
 search .emacs
+shell kj
+search .
+search gnu
+search dor
+search dot

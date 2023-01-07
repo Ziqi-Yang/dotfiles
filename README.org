@@ -12,7 +12,7 @@
 ** Overview
 *** infrastructure
 - Panel: =polybar= (X11), =waybar= (Wayland)
-- Terminal: =alacritty=
+- Terminal: =kitty= (main) and =alacritty=
 - Shell: =fish=
 - Menu(Application Launcher, etc.): =rofi= (lbonn's fork for both Wayland and X11) and =jgmenu= (X11)
 - Display Manager: =lightdm= with =lightdm-slick-greeter=

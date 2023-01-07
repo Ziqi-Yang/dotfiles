@@ -4,6 +4,7 @@
         "clock",
         "custom/notification",
         "custom/pacman",
+        "custom/todo",
         "custom/music",
         "custom/pomodoro"
     ],
@@ -48,6 +49,12 @@
         "on-click": "playerctl play-pause",
         "on-double-click": "playerctl previous",
         "on-double-click-right": "playerctl next"
+    },
+    "custom/todo": {
+        "format": " {}",
+        "exec": "ultralist l | grep '[ ]' | wc -l",
+        "interval": 1,
+        "on-click": "alacritty --class floating --hold -e '/bin/fish' -c 'ultralist l group:p'"
     },
     "battery": {
         "bat": "BAT0",

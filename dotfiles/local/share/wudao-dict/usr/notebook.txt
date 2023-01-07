@@ -638,3 +638,56 @@ curator              [kjʊ'retɚ]           n. 馆长；监护人；管理者
 propagate            ['prɑpə'get]         vt. 传播；传送；繁殖；宣传 vi. 繁殖；增殖
 linus torvalds                            林纳斯·托瓦兹（著名的电脑程序员、黑客）
 prune                [prun]               vi. 删除；减少 vt. 修剪；删除；剪去 n. 深紫红色；傻瓜；李子干 n. (Prune)人名；(罗)普鲁内
+gang                 [ɡæŋ]                n. 群；一伙；一组 vt. 使成群结队；结伙伤害或恐吓某人 vi. 成群结队 n. (Gang)人名；(法)冈；(罗)甘格；(英)甘
+clique               [klik]               n. 派系；阀；私党；小圈子 vi. 结党 n. (Clique)人名；(法)克利克
+derp                                      int.<俚>（对毫无意义的言论或愚蠢的行为表示讽刺）咄 n.<俚>愚蠢的人；愚蠢 adj.愚笨的
+dong                 [dɑŋ]                n. 盾（越南货币单位） vt. 打击；敲击 vi. 发出铛铛的钟声 n. (Dong)人名；(中)董 (普通话·威妥玛)
+IDC                                       abbr. 瞬时动作的偏移控制（Instantaneous Deviation Control）；情报与指挥中心（Information and Direction Center）；国际文献资料中心（International Documentation Centre）
+duh                  [dɜː]                int. 咄（表犹豫，不快或轻蔑） n. (Duh)人名；(塞)杜赫
+luv                  [lʌv]                n. 爱，爱情
+lub                                       abbr. 润滑（Lubricate）；逻辑元件块（logical unit block）
+MEH                  [mɛ]                 abbr. 给水泵汽轮机控制系统；小汽机电液调节系统
+nerd                 [nɝd]                n. 呆子；书呆子；讨厌的人
+Orly                 ['ɔ:li; ɔ:'li:]      n. 奥利（法国北部城镇）
+wut                                       abbr. 武汉理工大学（Wuhan University of Technology）；华沙工业大学（Warsaw University of Technology）
+combinational                             adj. 组合的
+cascade              [kæ'sked]            n. 小瀑布，瀑布状物；串联 vi. 像瀑布般大量倾泻下来 vi. 像瀑布般悬挂着
+nuances              ['nju:ɑ:ns; nju:'ɑ:ns] 细微差别
+Elliptic             [ɪˈlɪptɪk]           adj. 椭圆形的；省略的
+marginal             ['mɑrdʒɪnl]          adj. 边缘的；临界的；末端的
+armor                ['ɑrmɚ]              n. [军] 装甲；盔甲 vt. 为…装甲 n. (Armor)人名；(法、英)阿莫尔
+asymmetric           [,esɪ'mɛtrɪk]        adj. 不对称的；非对称的
+cheat sheet          [ˈtʃiːt ʃiːt]        小抄；备忘单
+secrets              ['si:krit]           n. 秘密；隐私（secret的复数）
+merits               ['mɛrɪts]            n. 优点（merit的复数）；功绩；是非曲直
+intermediate         [,ɪntɚ'midɪət]       vi. 起媒介作用 adj. 中间的，中级的 n. [化学] 中间物；媒介
+trick                [trɪk]               n. 诡计；恶作剧；窍门；花招；骗局；欺诈 vt. 欺骗；哄骗；装饰；打扮 vi. 哄骗；戏弄 adj. 特技的；欺诈的；有决窍的 n. (Trick)人名；(英)特里克
+work                 [wɝk]                n. 工作；[物] 功；产品；操作；职业；行为；事业；工厂；著作；文学、音乐或艺术作品 vt. 使工作；操作；经营；使缓慢前进 vi. 工作；运作；起作用 n. （英、埃塞）沃克（人名）
+works                ['wɜːks]             n. 作品；工厂；工程结构 n. (Works)人名；(英)沃克斯
+chores               [tʃɔrz]              n. 杂务；零工；困难的工作（chore的复数）
+curation                                  n. 屏模；帘
+rigorous             ['rɪɡərəs]           adj. 严格的，严厉的；严密的；严酷的
+intimidate           [ɪn'tɪmɪdet]         vt. 恐吓，威胁；胁迫
+nudity               ['nudəti]            n. 裸露；裸体像
+portfolio            [pɔrt'folɪo]         n. 公文包；文件夹；证券投资组合；部长职务
+robust               [ro'bʌst]            adj. 强健的；健康的；粗野的；粗鲁的
+anime                ['ænɪme]             n. 日本动漫；芳香树脂
+cab                  [kæb]                n. 驾驶室；出租汽车；出租马车 vi. 乘出租马车（或汽车）
+vin                  [vɪn]                n. （法）酒；葡萄酒
+MBA                  ['ɛm 'bi 'e]         abbr. 工商管理学硕士（Master of Business Administration）；海洋生物协会（Marine Biological Association）；主要战区（Main Battle Area） n. (Mba)人名；(加蓬、赤几、多哥)姆巴
+raw                  [rɔ]                 adj. 生的；未加工的；阴冷的；刺痛的；擦掉皮的；无经验的；（在艺术等方面）不成熟的 n. 擦伤处 vt. 擦伤 n. (Raw)人名；(英)罗
+nest                 [nɛst]               n. 巢，窝；安乐窝；温床 vt. 筑巢；嵌套 vi. 筑巢；找鸟巢 n. (Nest)人名；(德)内丝特；(英)内丝特(女子教名 Agnes 威尔士语的昵称)
+nested               ['nestɪd]            adj. 嵌套的，内装的 v. 筑巢；嵌入（nest的过去分词）
+single quote                              单引号
+conservancy          [kən'sɝvənsi]        n. 管理；保护；保存
+invoices             ['invɔis]            n. [会计] 发票，单据（invoice的复数） v. 给…开发票；托运（invoice的第三人称单数）
+mutual               ['mjutʃuəl]          adj. 共同的；相互的，彼此的
+initiatives          [ɪˈnɪʃɪətɪvz]        n. 积极性；主动权（initiative的复数）；创始
+initiative           [ɪ'nɪʃətɪv]          n. 主动权；首创精神 adj. 主动的；自发的；起始的
+enthusiastic         [ɪn,θuzɪ'æstɪk]      adj. 热情的；热心的；狂热的
+enthusiasts          [in'θju:ziæst; inθu:-] 热心人 热衷者 狂热者（ enthusiast的复数 ）
+enthusiast           [ɪn'θuzɪæst]         n. 狂热者，热心家
+monetization         [ˌmɑːnɪtəˈzeɪʃn]     n. [金融] 货币化；定为货币；货币铸造
+meow                 [mɪ'aʊ]              vi. 猫叫 n. 猫叫声
+kitty                                     n. 小猫，猫咪
+tune                 [tun]                n. 曲调；和谐；心情 vt. 调整；使一致；为…调音 vi. [电子][通信] 调谐；协调 n. (Tune)人名；(英)图恩

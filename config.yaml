@@ -151,6 +151,9 @@ dotfiles:
   d_paru:
     src: config/paru
     dst: ~/.config/paru
+  d_kitty:
+    src: config/kitty
+    dst: ~/.config/kitty
 profiles:
   myArch:
     dotfiles:
@@ -202,3 +205,4 @@ profiles:
     - f_gtkrc-2.0
     - d_swappy
     - d_paru
+    - d_kitty

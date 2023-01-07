@@ -1,2 +1,3 @@
 action = copy
-files = [ /home/zarkli/.local/share/rofimoji/data/m_*.csv , emojis_smileys_emotion, emojis_symbols]
+# files = [ /home/zarkli/.local/share/rofimoji/data/m_*.csv , emojis_smileys_emotion, emojis_symbols]
+files = [ /home/zarkli/.local/share/rofimoji/data/m_*.csv]

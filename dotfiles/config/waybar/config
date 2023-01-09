@@ -39,7 +39,7 @@
         "interval": 3600,                     // every hour
         "exec": "checkupdates | wc -l",       // of updates
         "exec-if": "exit 0",                  // always run; consider advanced run conditions
-        "on-click": "alacritty --class floating --hold -e '/bin/bash' -c 'sudo pacman -Syu && env all_proxy=http://127.0.0.1:7890 paru && echo done'; pkill -SIGRTMIN+2 waybar", // update system
+        "on-click": "alacritty --class floating --hold -e '/bin/bash' -c 'sudo pacman -Syu && env all_proxy=http://127.0.0.1:7890 paru -Syu -a && echo done'; pkill -SIGRTMIN+2 waybar", // update system
         "signal": 2,
     },
     "custom/music": {
@@ -53,7 +53,7 @@
     "custom/todo": {
         "format": " {}",
         "exec": "ultralist l | grep '[ ]' | wc -l",
-        "interval": 1,
+        "interval": 30,
         "on-click": "kitty --class floating --hold bash -c 'ultralist l group:p'"
     },
     "battery": {
@@ -117,7 +117,7 @@
         "interval": 30,
         "format": "  {used}",
         "path": "/",
-        "on-click": "alacritty --class floating -e '/bin/bash' -c 'duf && read'",
+        "on-click": "alacritty --class floating -e '/bin/bash' -c 'duf && ncdu & read'",
     },
     "custom/trash": {
         "format": " {}",

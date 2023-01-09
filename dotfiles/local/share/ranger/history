@@ -1,11 +1,6 @@
-mkdir ./first semester
-mkdir second semester
-mkdir cs61c
-rename bdic_pledge_cover
 mkdir cs
 mkdir self_learn
 open_with 
-mkdir 
 search swappy
 search mkd
 mkdir swappy
@@ -48,3 +43,8 @@ search .
 search gnu
 search dor
 search dot
+rename spark-project
+rename [学科信息填写错了]-附件4：北京工业大学“星火基金”项目信息或总表-杨子祺-21372225.xls
+mkdir 
+search .loca
+search test

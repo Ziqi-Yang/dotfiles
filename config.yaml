@@ -154,6 +154,9 @@ dotfiles:
   d_kitty:
     src: config/kitty
     dst: ~/.config/kitty
+  d_theme:
+    src: local/share/delta/theme
+    dst: ~/.local/share/delta/theme
 profiles:
   myArch:
     dotfiles:
@@ -206,3 +209,4 @@ profiles:
     - d_swappy
     - d_paru
     - d_kitty
+    - d_theme

@@ -5,4 +5,5 @@ function blog
     git add -A
     git commit
     git push
+	cd -
 end

@@ -692,3 +692,47 @@ meow                 [mɪ'aʊ]              vi. 猫叫 n. 猫叫声
 kitty                                     n. 小猫，猫咪
 tune                 [tun]                n. 曲调；和谐；心情 vt. 调整；使一致；为…调音 vi. [电子][通信] 调谐；协调 n. (Tune)人名；(英)图恩
 reddit                                    n. 新闻网站名
+versatile            ['vɝsətl]            adj. 多才多艺的；通用的，万能的；多面手的
+warranty             ['wɔrənti]           n. 保证；担保；授权；（正当）理由
+verbatim             [vɝ'betɪm]           adv. 逐字地 adj. 逐字的
+constitute           ['kɑnstətut]         vt. 组成，构成；建立；任命
+lexicographically                         adv. 词典编纂上地；从词典学角度看
+deflate              [dɪ'flet]            vt. 放气；使缩小；紧缩通货；打击；使泄气 vi. 缩小；物价下降
+milking              ['mɪlkɪŋ]            n. 挤奶；一次的挤奶量
+footboard            [ˈfʊtˌbɔːrd]         n. 踏足板；（床架底部的）竖板
+oblivious            [ə'blɪvɪəs]          adj. 遗忘的；健忘的；不注意的；不知道的
+mortals              ['mɔ:təl]            凡人 人类（ mortal的复数 ）
+mere                 [mɪr]                adj. 仅仅的；只不过的 n. 小湖；池塘 n. (Mere)人名；(日)目连(姓)；(西)梅雷
+bunch                [bʌntʃ]              n. 群；串；突出物 vi. 隆起；打褶；形成一串 vt. 使成一串；使打褶 n. (Bunch)人名；(英)邦奇
+tip                  [tɪp]                vi. 给小费；翻倒；倾覆 vt. 给小费；倾斜；翻倒；装顶端 n. 小费；尖端；小建议，小窍门；轻拍
+ancillary            ['ænsəlɛri]          adj. 辅助的；副的；从属的 n. 助手；附件
+restore              [rɪ'stɔr]            vt. 恢复；修复；归还 vi. 恢复；还原
+blob                 [blɑb]               n. 一滴；一抹；难以名状的一团 vt. 弄脏；把…做错 vi. 得零分；弄错
+sparse               [spɑrs]              adj. 稀疏的；稀少的
+magnet               ['mægnɪt]            n. 磁铁；[电磁] 磁体；磁石 n. (Magnet)人名；(塞)马格内特；(西)马涅特；(法)马涅
+tarball                                   n. 原始码；（Linux 下最方便的）打包工具
+integrity            [ɪn'tɛɡrəti]         n. 完整；正直；诚实；廉正
+invocation           [,ɪnvə'keʃən]        n. 祈祷；符咒；【法律】(法院对另案的)文件调取；(法权的)行使
+invocate             [ˈɪnvəˌkeɪt]         v. 祈求；援引；引起（等于 invoke）
+invoke               [ɪn'vok]             vt. 调用；祈求；引起；恳求
+sift                 [sɪft]               vt. 筛选；撒；过滤；详查 vi. 筛；详查；撒下；细究 n. (Sift)人名；(匈)希夫特
+replicates           ['replikit; 'replikeit] 复制
+conceivably          [kən'sivəbli]        adv. 令人信服地；可相信地；想得到地
+whatsoever           [,hwɑtso'ɛvɚ]        pron. 无论什么
+whatever             [wət'ɛvɚ]            adj. 不管什么样的 pron. 无论什么；诸如此类 conj. 无论什么
+emphatic             [ɪm'fætɪk]           adj. 着重的；加强语气的；显著的
+sane                 [sen]                adj. 健全的；理智的；[临床] 神志正常的 n. (Sane)人名；(日)实(姓)；(日)实(名)；(芬、塞、冈、几比、塞内)萨内
+flawlessly           ['flɔ:lisli]         adv. 完美无瑕地
+flawless             ['flɔləs]            adj. 完美的；无瑕疵的；无裂缝的
+heuristically        [hjuə'ristik]        启发式地
+licence              ['laɪsəns]           n. 许可证，执照；特许 vt. 特许，许可；发给执照
+license              ['laɪsns]            n. 执照，许可证；特许 vt. 许可；特许；发许可证给
+obfuscate            ['ɑbfʌsket]          vt. 使模糊；使迷乱；弄暗
+bumps                [bʌmp]               碰撞（bump的第三人称单数） 碰撞（bump的复数）
+mega                 ['mɛɡə]              n. 百万 adj. 许多；宏大的 adv. 非常 n. (Mega)人名；(葡、意、捷、塞)梅加
+nauseated            ['nɔʃɪetɪd]          adj. 厌恶的；作呕的 v. 作呕；厌恶（nauseate的过去分词）
+nauseate             ['nɔzɪet]            vi. 作呕；厌恶；产生恶感 vt. 使厌恶；使恶心；使作呕
+crystal              ['krɪstl]            n. 结晶，晶体；水晶；水晶饰品 adj. 水晶的；透明的，清澈的 n. (Crystal)人名；(英)克里斯特尔，克丽丝特尔 (女名)
+dirtied              [ 'də:ti ]           vt. 弄脏；玷污（dirty 的过去式和过去分词） vi. 变脏（dirty 的过去式和过去分词）
+revert               [rɪ'vɝt]             vi. 回复；重提；返祖遗传；归还 vt. 使回复原状 n. 恢复原状者 n. (Revert)人名；(西)雷韦特；(法)勒韦尔
+prepend                                   vt. 预先考虑；预谋

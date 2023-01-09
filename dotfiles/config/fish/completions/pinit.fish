@@ -1,1 +1,1 @@
-complete -f -c pinit -a "java python cc latex rust"
+complete -f -c pinit -a "java python cc latex rust aur"

@@ -14,7 +14,7 @@ function pinit -a 'language' -a 'packageName'
       switch "$language"
         case "java"
             pinit_java $packageName
-        case "python"
+        case "python" # TODO
 
         case "cc"
             pinit_cc $packageName
@@ -22,6 +22,8 @@ function pinit -a 'language' -a 'packageName'
             pinit_rust $packageName
         case "latex"
             pinit_latex $packageName
+        case "aur"
+            pinit_aur $packageName
         case "*"
             echo "Language not support"
             return -1

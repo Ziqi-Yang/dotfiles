@@ -7,6 +7,10 @@ set ai cin " autoindent & cindent
 imap kk <esc>
 nmap <Space>zca :w<CR>:!clear && g++ -g -O2 -std=gnu++17 -static % -o main && ./main && echo && read -P '[press enter to exit]'<CR> 
 
+" wayland copy 
+" sync from vim register to system
+nnoremap <C-@> :call system("wl-copy", @")<CR>
+
 set hls " hlsearch, useful for replacing
 set is " incsearch, useful for replacing
 set mouse=a " enable mouse for jumping and selecting

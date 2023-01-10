@@ -1,4 +1,3 @@
-mkdir cs
 mkdir self_learn
 open_with 
 search swappy
@@ -48,3 +47,4 @@ rename [学科信息填写错了]-附件4：北京工业大学“星火基金”
 mkdir 
 search .loca
 search test
+find i

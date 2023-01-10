@@ -1,11 +1,7 @@
-
-
 ### make
 sources.txt
 Makefile_bak
-
-### doom emacs
-.dir-locals.el
+/build
 
 ### maven
 target

@@ -736,3 +736,57 @@ crystal              ['krɪstl]            n. 结晶，晶体；水晶；水晶�
 dirtied              [ 'də:ti ]           vt. 弄脏；玷污（dirty 的过去式和过去分词） vi. 变脏（dirty 的过去式和过去分词）
 revert               [rɪ'vɝt]             vi. 回复；重提；返祖遗传；归还 vt. 使回复原状 n. 恢复原状者 n. (Revert)人名；(西)雷韦特；(法)勒韦尔
 prepend                                   vt. 预先考虑；预谋
+syllabus             ['sɪləbəs]           n. 教学大纲，摘要；课程表
+crisper              ['krɪspɚ]            n. [制冷] 保鲜储藏格
+conjunction          [kən'dʒʌŋkʃən]       n. 结合；[语] 连接词；同时发生
+asynchronous         [e'sɪŋkrənəs]        adj. [电] 异步的；不同时的；不同期的
+ToDo                 [tə'du]              n. 待办事项；备忘录 n. (Todo)人名；(西、塞、法)托多
+prevalent            ['prɛvələnt]         adj. 流行的；普遍的，广传的
+diffuse              [dɪ'fjus]            adj. 弥漫的；散开的 vt. 扩散；传播；漫射 vi. 传播；四散
+bumper               ['bʌmpɚ]             adj. 丰盛的，丰富的 n. 缓冲器，保险杆，减震物 vt. 装满；为…祝酒 vi. 干杯
+aardvarks            [ˈɑːrdvɑːrk]         n. [脊椎] 土豚；非洲食蚁兽
+artifacts            ['a:rtifækts]        n. 史前古器物；人工产品
+cruft                                     令人讨厌的东西，不整齐的部分
+spectroscopic        [,spɛktrə'skɑpɪk]    adj. 光谱学的；分光镜的
+Foo                  [fu]                 n. 富/夫（姓氏）
+foobar                                    n. 播放器名
+chimp                [tʃɪmp]              n. （非洲的）黑猩猩
+explicitly           [ɪk'splɪsɪtli]       adv. 明确地；明白地
+ironically           [aɪ'rɑnɪkli]         adv. 讽刺地；说反话地
+amend                [ə'mɛnd]             vt. 修改；改善，改进 vi. 改正，改善；改过自新 n. (Amend)人名；(德、英)阿门德
+transplant           [træns'plænt]        vt. 移植；迁移；使移居 n. 移植；移植器官；被移植物；移居者 vi. 移植；迁移；移居
+pretend              [prɪ'tɛnd]           vi. 假装，伪装，佯装 adj. 假装的 vt. 假装，伪装，模拟
+pristine             ['prɪstin]           adj. 原始的，古时的；纯朴的
+netsuke              [ˈnetsʊˌkeɪ]         n. 悬锤；坠子
+encapsulation        [ɪn,kæpsə'leʃən]     n. 封装；包装
+flawed               [flɔd]               adj. 有缺陷的；有瑕疵的；有裂纹的
+convoluted           ['kɑnvəlutɪd]        adj. 复杂的；费解的；旋绕的 v. 盘绕；缠绕（convolute的过去分词）
+trails               [treil]              n. 山径；踪迹（trail的复数）；游径 vt. 拖尾（trail的第三人称单数） vi. 拖曳（trail的第三人称单数）
+rewind               [,ri'waɪnd]          n. 重绕；倒带器 vt. 倒回；重绕 vi. 倒回；重绕
+detach               [dɪ'tætʃ]            vt. 分离；派遣；使超然
+swath                [sweð]               n. 细长的列；收割的刈痕；收割的宽度
+pitfall              ['pɪt'fɔl]           n. 陷阱，圈套；缺陷；诱惑
+plethora             ['plɛθərə]           n. 过多；过剩；[医] 多血症
+mangling             ['mæŋgl]             v. 矫直；碾压（mangle的ing形式）
+abysmal              [ə'bɪzməl]           adj. 深不可测的；糟透的；极度的
+vigilantly           [ˈvɪdʒɪləntli]       adv. 警惕地；警觉地；留心地
+demystified          [ˌdiːˈmɪstɪfaɪd]     v. 使非神秘化；使（某事）简单化（demystify 的过去式和过去分词）
+metaphor             ['mɛtəfɚ]            n. 暗喻，隐喻；比喻说法
+rogation             [roʊˈɡeɪʃən]         n. 祈祷；法律草案
+interrogation        [ɪn,tɛrə'geʃən]      n. 讯问；审问；[语] 疑问句
+plumbing             ['plʌmɪŋ]            n. 铅工业；铅管品制造 v. 探究；垂直悬挂；用铅锤测量；灌铅以增重（plumb的现在分词）
+plumb                [plʌm]               vt. 使垂直；探测，探索 n. 垂直；铅锤 adv. 恰恰，正；垂直地 vi. 当管子工 adj. 垂直的 n. (Plumb)人名；(英)普拉姆
+populate             ['pɑpjulet]          vt. 居住于；构成人口；移民于；殖民于
+git                  [ɡɪt]                n. 饭桶，无用的人 n. (Git)人名；(俄)吉特
+stash                [stæʃ]               n. 藏匿处；藏匿物 vt. 存放；贮藏 vi. 存放；藏起来
+manifest             ['mænɪfɛst]          vt. 证明，表明；显示 vi. 显示，出现 n. 载货单，货单；旅客名单 adj. 显然的，明显的；明白的
+recap                [ri'kæp]             n. 翻新的轮胎 vt. 翻新胎面；扼要重述
+shield               [ʃild]               n. 盾；防护物；保护者 vt. 遮蔽；包庇；避开；保卫 vi. 防御；起保护作用 n. (Shield)人名；(英)希尔德
+loot                 [lut]                n. 战利品；抢劫；掠夺品 vt. 抢劫，洗劫；强夺 vi. 洗劫，掠夺；抢劫
+grind                [ɡraɪnd]             vt. 磨碎；磨快 vi. 磨碎；折磨 n. 磨；苦工作 n. (Grind)人名；(法、德)格林德
+UO                   [,ju 'o]             abbr. 尚未发出的定货单（undelivered orders）；网络创世纪（Ultima Online） n. (Uo)人名；(日)卯尾(姓)
+yo                   [jo]                 int. 唷（表示鼓励，警告）；嗨（表示应答） n. (Yo)人名；(日)与(名)
+chemmy                                    abbr. 铁路牌（一种赌博游戏）（chemin de fer）
+anticipated          [æn'tɪsə,petɪd]      adj. 预期的；期望的 v. 预料（anticipate的过去分词）；盼望
+lexicographically                         adv. 词典编纂上地；从词典学角度看
+graphically          ['græfɪkli]          adv. 生动地；活灵活现地；用图表表示；轮廓分明地

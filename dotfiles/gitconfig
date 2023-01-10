@@ -3,6 +3,7 @@
 [user]
 	name = Zarkli Leonardo
 	email = mr.ziqiyang@gmail.com
+	signingKey = 389582ABC15D64CCFB74D82F934AE9B6B6E9FF34
 
 [core]
 	editor = vim
@@ -25,9 +26,3 @@
 	proxy = http://127.0.0.1:7890
 [https]
 	proxy = http://127.0.0.1:7890
-
-[alias]
-	co = checkout
-	br = branch
-	ci = commit
-	st = status

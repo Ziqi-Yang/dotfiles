@@ -4,7 +4,6 @@
 	name = Zarkli Leonardo
 	email = mr.ziqiyang@gmail.com
 	signingKey = 389582ABC15D64CCFB74D82F934AE9B6B6E9FF34
-
 [core]
 	editor = vim
 	autocrlf = input

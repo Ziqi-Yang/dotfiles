@@ -1,2 +1,4 @@
 **/'
 **/__pycache__
+/gitleaks-report.json
+/bfg.txt

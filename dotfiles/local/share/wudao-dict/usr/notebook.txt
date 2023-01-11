@@ -790,3 +790,18 @@ chemmy                                    abbr. 铁路牌（一种赌博游戏�
 anticipated          [æn'tɪsə,petɪd]      adj. 预期的；期望的 v. 预料（anticipate的过去分词）；盼望
 lexicographically                         adv. 词典编纂上地；从词典学角度看
 graphically          ['græfɪkli]          adv. 生动地；活灵活现地；用图表表示；轮廓分明地
+recherche            [rə'ʃɛrʃe]           adj. 精心设计的；异国风味的；精选的；矫揉造作的
+passphrase                                n. 密码；通行码；口令短语
+achieve              [ə'tʃiv]             vt. 取得；获得；实现；成功 vi. 达到预期的目的，实现预期的结果，如愿以偿
+archive              ['ɑrkaɪv]            n. 档案馆；档案文件 vt. 把…存档
+setted                                    vt. （尤指在教学中根据学生的能力）分组（set 的过去式和过去分词）
+survive              [sɚ'vaɪv]            vt. 幸存；生还；幸免于；比...活得长 vi. 幸存；活下来
+remediate            [rɪˈmiːdieɪt]        v. （尤指对环境破坏的）矫正；补救；治疗
+tilde                ['tɪldə]             n. 波浪字符；加在西班牙语n字上的发音符号 n. (Tilde)人名；(德)蒂尔德
+synopsis             [sɪ'nɑpsɪs]          n. 概要，大纲
+obsolescent          [,ɑbsə'lɛsnt]        adj. 荒废的；即将过时的；逐渐被废弃的
+valut                                     n. （Valut）人名；（捷）瓦卢特
+pgp                                       abbr. 加密软体（Pretty Good Privacy）
+nifty                ['nɪfti]             adj. 俏皮的；漂亮的 n. 俏皮话
+acknowledgement      [ək'nɑlɪdʒmənt]      n. 承认；确认；感谢
+compromised          ['kɔmprəmaiz]        adj. 妥协的；妥协让步的，缺乏抵抗力的 vt. 妥协；连累（compromise的过去分词）

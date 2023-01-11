@@ -88,7 +88,8 @@
         "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        // "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        "on-click": "alacritty --class floating -e '/bin/bash' -c 'nmtui'",
         "family": "ipv4",
         "tooltip-format-wifi": "  {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\n {bandwidthUpBits}  {bandwidthDownBits}",
         "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n {bandwidthUpBits}  {bandwidthDownBits}"

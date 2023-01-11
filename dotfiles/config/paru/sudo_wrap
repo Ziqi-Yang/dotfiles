@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+notify-send -a "Paru" "Please enter your password!"
+sudo "$@"

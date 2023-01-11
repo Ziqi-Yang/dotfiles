@@ -1,0 +1,21 @@
+#+title: Settings
+
+* Font
+** Programming Font and Chinese Font
+#+begin_src bash
+# programming font
+paru -S ttf-firacode-nerd # FiraCode Nerd Font
+paru -S nerd-fonts-ibm-plex-mono # BlexMono Nerd Font (i.e. IBM Plex Mono nerd font patched)
+paru -S ttf-ibm-plex # IBM Plex Mono, kitty needed
+
+# chinese font
+paru -S ttf-lxgw-wenkai ttf-lxgw-wenkai-mono
+paru -S nerd-fonts-ibm-plex-mono
+paru -S ttf-zpix
+#+end_src
+** Icon Font
+All of the fonts below are included in the repo
+- [[https://fontawesome.com/download][Font Awesome 6 Free]]
+- [[https://icofont.com/][icofont]]
+- [[https://github.com/Templarian/MaterialDesign-Font][Material Design Icons Desktop TTF]]
+- [[https://github.com/romkatv/powerlevel10k-media/][MesloLGS_NF]]

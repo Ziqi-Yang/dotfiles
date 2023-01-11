@@ -1,0 +1,10 @@
+#+title: Journal
+
+* 2022
+
+** 2022-12 December
+
+*** 2022-12-27 Tuesday
+**** [2022-12-27 Tue 15:57] read =progit= book
+patterns for private small team
+**** [2022-12-27 Tue 10:50] read baby-git source code

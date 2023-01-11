@@ -731,5 +731,8 @@
     "pgp": 1,
     "nifty": 1,
     "acknowledgement": 1,
-    "compromised": 2
+    "compromised": 2,
+    "tangled": 1,
+    "ligature": 1,
+    "refactor": 1
 }

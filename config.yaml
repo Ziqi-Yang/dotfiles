@@ -157,6 +157,9 @@ dotfiles:
   d_theme:
     src: local/share/delta/theme
     dst: ~/.local/share/delta/theme
+  d_notes:
+    src: notes
+    dst: ~/notes
 profiles:
   myArch:
     dotfiles:
@@ -210,3 +213,4 @@ profiles:
     - d_paru
     - d_kitty
     - d_theme
+    - d_notes

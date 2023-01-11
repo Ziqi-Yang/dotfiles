@@ -38,11 +38,13 @@
   + (now) [[https://github.com/mateosss/matter][matter]]
   + [[https://github.com/13atm01/GRUB-Theme][GRUB-Theme]]
 - font:
-  + [[https://aur.archlinux.org/packages/nerd-fonts-fira-code][FiraCode Nerd Font]] used for programming
-  + [[https://github.com/SolidZORO/zpix-pixel-font][zpix]] pixel font
-  + [[https://fontawesome.com/download][Font Awesome 6 Free]] icon
-  + [[https://github.com/Templarian/MaterialDesign-Font][Material Design Icons Desktop TTF]] icon
-  + [[https://github.com/romkatv/powerlevel10k-media/][MesloLGS_NF]]
+  + [[https://aur.archlinux.org/packages/nerd-fonts-ibm-plex-mono][nerd-fonts-ibm-plex-mono]](AUR) and [[https://archlinux.org/packages/community/any/ttf-ibm-plex/][ttf-ibm-plex]](Community) for programming
+  + [[https://aur.archlinux.org/packages/nerd-fonts-fira-code][FiraCode Nerd Font]] for programming
+  + [[https://github.com/SolidZORO/zpix-pixel-font][zpix]] pixel font (Chinese & Japanese support) for system display (Waybar, Rofi, ...)
+  + [[https://fontawesome.com/download][Font Awesome 6 Free]] icon (Waybar)
+  + [[https://icofont.com/][icofont]] icon (Waybar)
+  + [[https://github.com/Templarian/MaterialDesign-Font][Material Design Icons Desktop TTF]] icon (Waybar)
+  + [[https://github.com/romkatv/powerlevel10k-media/][MesloLGS_NF]] (Waybar)
 - cursor: [[https://github.com/ful1e5/Google_Cursor][Google_Cursor]] (google-dot-blue)
 - qt5: [[https://aur.archlinux.org/packages/kvantum-qt5-git][Kvantum]]
 - GTK: [[https://github.com/vinceliuice/Layan-gtk-theme][Layan-gtk-theme]]

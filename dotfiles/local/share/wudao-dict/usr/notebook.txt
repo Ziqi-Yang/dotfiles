@@ -805,3 +805,6 @@ pgp                                       abbr. 加密软体（Pretty Good Priva
 nifty                ['nɪfti]             adj. 俏皮的；漂亮的 n. 俏皮话
 acknowledgement      [ək'nɑlɪdʒmənt]      n. 承认；确认；感谢
 compromised          ['kɔmprəmaiz]        adj. 妥协的；妥协让步的，缺乏抵抗力的 vt. 妥协；连累（compromise的过去分词）
+tangled              ['tæŋgld]            adj. 紊乱的；纠缠的；缠结的；复杂的
+ligature             ['lɪɡətʃɚ]           n. 绷带；绳索；连字；连接物 vt. 结扎；捆
+refactor             [ri'fæktə]           n. 重构 vt. 重构

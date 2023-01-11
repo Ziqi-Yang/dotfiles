@@ -1,6 +1,3 @@
-whatever
-emphatic
-emphatic
 sane
 flawlessly
 flawless
@@ -98,3 +95,6 @@ nifty
 acknowledgement
 compromised
 compromised
+tangled
+ligature
+refactor

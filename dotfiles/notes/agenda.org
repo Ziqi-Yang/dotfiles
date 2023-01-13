@@ -1,3 +1,19 @@
-* My Todos
-** TODO [#A] what should I do? <2023-01-11 Wed>
-** TODO [#C] kj :something:
+* My To-dos
+** TODO UNIVERSAL
+*** TODO learning how to learn on Coursera
+*** TODO change to-do program from uairctl into org
+
+** PROG PROGRAMMING
+*** PROG [#A] leetcode everyday problem
+DEADLINE: <2023-01-13 Fri +1d>
+*** PROG [#A] learn rust
+*** PROG continue cs61c
+*** PROG [#C] learn basic typescript, node and Vue3
+
+** PROJ PROJECT
+*** PROJ [#C] uairctl
+*** PROJ [#C] git secrets hide tool [[file:~/projects/git_secret_havent_named_yet/README.org][README.org]]
+*** PROJ [#C] browser extension share cookie with local
+To solve the login hard problem(not use puppetter and python selenium)
+- custom location
+- password protect

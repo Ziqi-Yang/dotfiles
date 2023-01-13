@@ -17,5 +17,3 @@ set mouse=a " enable mouse for jumping and selecting
 
 hi Search ctermbg=red
 hi Search ctermfg=white
-
-cd ~/programme/algo

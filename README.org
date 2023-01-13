@@ -1,8 +1,11 @@
 * Hacking to the Arch
 *Wayland*:
 
-#+caption: wayland_screenshot
-[[./screenshots/swappy-20221228-185712.png]]
+#+caption: wayland_screenshot_0
+[[./screenshots/wayland-0.png]]
+
+#+caption: wayland_screenshot_1
+[[./screenshots/wayland-1.png]]
 
 *x11*:
 

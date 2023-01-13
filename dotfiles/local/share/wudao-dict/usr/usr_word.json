@@ -479,7 +479,7 @@
     "slay": 1,
     "associative": 2,
     "mantissa": 2,
-    "akin": 1,
+    "akin": 2,
     "odd": 1,
     "tedious": 2,
     "daunting": 1,
@@ -734,5 +734,11 @@
     "compromised": 2,
     "tangled": 1,
     "ligature": 1,
-    "refactor": 1
+    "refactor": 1,
+    "overly": 1,
+    "BUTs": 1,
+    "nuts": 1,
+    "nerds": 1,
+    "lexical": 1,
+    "derive": 1
 }

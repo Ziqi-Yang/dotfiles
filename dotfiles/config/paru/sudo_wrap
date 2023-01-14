@@ -1,4 +1,5 @@
 #!/usr/bin/bash
 
 notify-send -a "Paru" "Please enter your password!"
+paplay /usr/share/sounds/freedesktop/stereo/bell.oga
 sudo "$@"

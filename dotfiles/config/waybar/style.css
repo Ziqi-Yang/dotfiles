@@ -83,15 +83,16 @@
 #pulseaudio.muted {
     background: #e74c3c;
 }
+
+#network.disconnected,
 #pulseaudio.source-muted {
     background: #e67e22;
 }
 
 
 /* blink */
-
+/* #network.disconnected,  only blink at once */
 #cpu.warning,
-#network.disconnected,
 #battery.warning.discharging {
     animation-name: blink-warning;
     animation-duration: 3s;

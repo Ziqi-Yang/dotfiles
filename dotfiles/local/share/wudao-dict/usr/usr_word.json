@@ -746,5 +746,6 @@
     "trait": 2,
     "babel": 1,
     "prelude": 2,
-    "spartan": 1
+    "spartan": 1,
+    "predicate": 1
 }

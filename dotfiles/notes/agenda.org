@@ -3,6 +3,7 @@
 *** TODO learning how to learn on Coursera
 *** TODO change to-do program from uairctl into org
 *** TODO clean my keyboard
+*** TODO collect asciimoji
 
 ** PROG PROGRAMMING
 *** PROG [#A] leetcode everyday problem
@@ -13,10 +14,10 @@ DEADLINE: <2023-01-13 Fri +1d>
 *** PROG [#C] learn basic typescript, node and Vue3
 
 ** PROJ PROJECT
+*** PROJ [#A] 星火项目lightdm greeter开发
 *** PROJ [#C] uairctl
 *** PROJ [#C] git secrets hide tool [[file:~/projects/git_secret_havent_named_yet/README.org][README.org]]
 *** PROJ [#C] browser extension share cookie with local
 To solve the login hard problem(not use puppetter and python selenium), for example: leetcode.cn
 - custom location
 - password protect
-

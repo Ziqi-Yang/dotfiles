@@ -14,8 +14,11 @@ paru -S nerd-fonts-ibm-plex-mono
 paru -S ttf-zpix
 #+end_src
 ** Icon Font
-All of the fonts below are included in the repo
 - [[https://fontawesome.com/download][Font Awesome 6 Free]]
-- [[https://icofont.com/][icofont]]
-- [[https://github.com/Templarian/MaterialDesign-Font][Material Design Icons Desktop TTF]]
-- [[https://github.com/romkatv/powerlevel10k-media/][MesloLGS_NF]]
+- [[https://icofont.com/][icofont]] (In the repo)
+- [[https://github.com/Templarian/MaterialDesign-Font][Material Design Icons Desktop TTF]] (In the repo)
+- [[https://github.com/romkatv/powerlevel10k-media/][MesloLGS_NF]] (In the repo)
+
+#+begin_src bash
+paru -S ttf-font-awesome
+#+end_src

@@ -5,6 +5,7 @@
         "custom/todo",
         "custom/notification",
         "custom/pacman",
+        "custom/leetcode",
         "custom/music",
         "custom/pomodoro"
     ],
@@ -41,6 +42,14 @@
         "exec-if": "exit 0",                  // always run; consider advanced run conditions
         "on-click": "alacritty --class floating --hold -e '/bin/bash' -c 'sudo pacman -Syu && env all_proxy=http://127.0.0.1:7890 paru -Syu -a && echo done'; pkill -SIGRTMIN+2 waybar", // update system
         "signal": 2,
+    },
+    "custom/leetcode": {
+        "format": "{}",
+        "interval": 300,                      // 5 minutes
+        "exec": "~/.config/waybar/scripts/leetcode_status -z meow-king",
+        "on-click": "xdg-open https://leetcode.cn/problemset/all/",
+        "on-click-right": "~/.config/waybar/scripts/leetcode_status -z meow-king -t; pkill -SIGRTMIN+3 waybar",
+        "signal": 3,
     },
     "custom/music": {
         "format": "{}",

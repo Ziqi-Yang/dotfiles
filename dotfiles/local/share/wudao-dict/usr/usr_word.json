@@ -472,7 +472,7 @@
     "definitely": 1,
     "preliminary": 1,
     "trial": 2,
-    "canonical": 1,
+    "canonical": 2,
     "exponent": 1,
     "tracks": 1,
     "botany": 1,
@@ -747,5 +747,14 @@
     "babel": 1,
     "prelude": 2,
     "spartan": 1,
-    "predicate": 1
+    "predicate": 1,
+    "slug": 1,
+    "truncate": 1,
+    "emulation": 1,
+    "bar": 1,
+    "merchant": 1,
+    "flair": 1,
+    "angular": 1,
+    "span": 1,
+    "spam": 2
 }

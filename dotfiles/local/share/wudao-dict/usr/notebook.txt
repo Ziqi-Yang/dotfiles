@@ -826,3 +826,13 @@ subroutine           ['sʌbrutin]          n. [计] 子程序
 regime               [re'ʒim]             n. 政权，政体；社会制度；管理体制
 spartan              ['spɑːt(ə)n]         adj. 斯巴达的；斯巴达式的；（生活方式）简朴的，清苦的。 n. 斯巴达人；勇士
 predicate            ['prɛdɪkət]          vt. 断定为…；使…基于 vi. 断言，断定 n. 谓语，述语 adj. 谓语的；述语的
+slug                 [slʌɡ]               n. 鼻涕虫；动作缓慢的人；金属小块 vi. 偷懒；动作迟缓 vt. 重击
+truncate             [trʌŋ'ket]           adj. 截短的；被删节的 vt. 把…截短；缩短；使成平面
+emulation            [,ɛmjə'leʃən]        n. [计] 仿真；竞争；效法
+canonical            [kə'nɑnɪkl]          adj. 依教规的；权威的；牧师的 n. 牧师礼服
+bar                  [bɑr]                n. 条，棒；酒吧；障碍；法庭 vt. 禁止；阻拦 prep. 除……外 n. (Bar)人名；(阿拉伯、德、法、俄、罗、捷、波、葡、以)巴尔
+merchant             ['mɝtʃənt]           n. 商人，批发商；店主 adj. 商业的，商人的 n. (Merchant)人名；(英)麦钱特
+flair                [flɛr]               n. 天资；天分；资质；鉴别力 n. 人名；(法)弗莱尔
+angular              ['æŋɡjəlɚ]           adj. [生物] 有角的；生硬的，笨拙的；瘦削的
+span                 [spæn]               n. 跨度，跨距；范围 vt. 跨越；持续；以手指测量 n. (Span)人名；(捷)斯潘
+spam                 [spæm]               v. 刷屏

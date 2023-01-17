@@ -61,9 +61,9 @@
     },
     "custom/todo": {
         "format": " {}",
-        "exec": "ultralist l | grep '[ ]' | wc -l",
+        "exec": "rg '(TODO|PROG|BLOG|WAIT)' ~/notes/agenda.org | wc -l",
         "interval": 30,
-        "on-click": "kitty --class floating --hold bash -c 'ultralist l group:p'"
+        "on-click": "emacsclient -n ~/notes/agenda.org"
     },
     "battery": {
         "bat": "BAT0",
@@ -127,7 +127,7 @@
         "interval": 30,
         "format": "  {used}",
         "path": "/",
-        "on-click": "alacritty --class floating -e '/bin/bash' -c 'duf && ncdu & read'",
+        "on-click": "alacritty --class floating --hold -e '/bin/bash' -c 'duf && ncdu'",
     },
     "custom/trash": {
         "format": " {}",

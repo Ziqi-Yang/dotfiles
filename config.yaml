@@ -160,6 +160,9 @@ dotfiles:
   d_notes:
     src: notes
     dst: ~/notes
+  f_user.js:
+    src: mozilla/firefox/user.js
+    dst: ~/.mozilla/firefox/user.js
 profiles:
   myArch:
     dotfiles:
@@ -214,3 +217,4 @@ profiles:
     - d_kitty
     - d_theme
     - d_notes
+    - f_user.js

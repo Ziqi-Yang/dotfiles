@@ -1,19 +1,28 @@
+#+STARTUP: show3levels
+
 * My To-dos
 ** TODO UNIVERSAL
 *** TODO learning how to learn on Coursera
 *** TODO change to-do program from uairctl into org
 *** TODO clean my keyboard
 *** TODO collect asciimoji
+*** TODO explore anki card - also with the integrity with leetcode
 
 ** PROG PROGRAMMING
-*** PROG [#A] leetcode everyday problem
-DEADLINE: <2023-01-13 Fri +1d>
+*** TODO [#A] leetcode everyday problem
+DEADLINE: <2023-01-15 Sun +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-01-16 Mon 22:02]
+:END:
+- State "DONE"       from "PROG"       [2023-01-16 Mon 22:00]
 *** PROG [#A] learn rust
 - rust语言圣经
 *** PROG continue cs61c
 *** PROG [#C] learn basic typescript, node and Vue3
 
+
 ** PROJ PROJECT
+*** PROJ [#A] contribute to git
 *** PROJ [#A] 星火项目lightdm greeter开发
 *** PROJ [#C] uairctl
 *** PROJ [#C] git secrets hide tool [[file:~/projects/git_secret_havent_named_yet/README.org][README.org]]
@@ -21,3 +30,18 @@ DEADLINE: <2023-01-13 Fri +1d>
 To solve the login hard problem(not use puppetter and python selenium), for example: leetcode.cn
 - custom location
 - password protect
+
+*** PROJ [#C] rofi for thesaurus
+*** PROJ [#C] fav cli to add, search and execute useful command snippets
+*** PROJ [#C] chart ascii lib
+1. ascii dot and line to show broken line graph
+2. bar chart use ████░░░░░░░░░░░░░░░░░░░░░ (emacs display error :<, [[https://github.com/Ziqi-Yang][see it on web]])
+   and use ⡿⠋⠁([[https://www.twitchquotes.com/copypastas/ascii-art][ascii-art]]), also ║▌║▌║█
+3. also check go: https://github.com/guptarohit/asciigraph (python: https://github.com/kroitor/asciichart)
+   https://github.com/sepandhaghighi/art https://github.com/linkedin/asciietch
+   https://github.com/etano/graphscii (short code !)
+   https://github.com/tool3/chartscii
+4. extension: like music display
+
+*** PROJ [#C] develop pastebin.com extension for firefox
+*** PROJ [#C] dict tool cli, also able to interact with rofi, wofi, dmenu

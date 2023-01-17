@@ -836,3 +836,36 @@ flair                [flɛr]               n. 天资；天分；资质；鉴别�
 angular              ['æŋɡjəlɚ]           adj. [生物] 有角的；生硬的，笨拙的；瘦削的
 span                 [spæn]               n. 跨度，跨距；范围 vt. 跨越；持续；以手指测量 n. (Span)人名；(捷)斯潘
 spam                 [spæm]               v. 刷屏
+thesaurus            [θɪ'sɔrəs]           n. 宝库；辞典；知识宝库；分类词汇汇编
+sheer                [ʃɪr]                adj. 绝对的；透明的；峻峭的；纯粹的 adv. 完全；陡峭地 vi. 偏航 vt. 使偏航；使急转向 n. 偏航；透明薄织物
+shear                [ʃɪr]                vt. 剪；修剪；剥夺 vi. 剪；剪切；修剪 n. [力] 切变；修剪；大剪刀 n. (Shear)人名；(英)希尔
+dolly                ['dɑli]              n. 洋娃娃；手推车；移动式摄影车；洗衣搅棒 vt. 用移动车移动 vi. 移动摄影车
+operand              [,ɑpə'rænd]          n. [计] 操作数；[计] 运算对象
+generic              [dʒə'nɛrɪk]          adj. 类的；一般的；属的；非商标的
+retired              [rɪ'taɪɚd]           adj. 退休的；退役的；幽闭的 v. 退休（retire的过去分词）
+dynamic              [daɪ'næmɪk]          adj. 动态的；动力的；动力学的；有活力的 n. 动态；动力
+partial              ['pɑrʃəl]            adj. 局部的；偏爱的；不公平的
+reflexive            [rɪ'flɛksɪv]         n. 反身代词；反身动词 adj. 反身的；[物] 反射的
+ness                 [nɛs]                n. 海角；突端 n. (Ness)人名；(德、英、西、瑞典)内斯，内丝(女名)
+dude                 [d(j)uːd]            n. 男人，小伙子 n. (Dude)人名；(德、塞)杜德 n. （非正式）花花公子；纨绔子弟
+closure              ['kloʒɚ]             n. 关闭；终止，结束 vt. 使终止
+harassment           [hə'ræsmənt]         n. 骚扰；烦恼
+chrome               [krom]               n. 铬，铬合金；铬黄；谷歌浏览器
+omni                 ['ɑmni]              n. 全方位；泛光灯 pref. 表示“总”；表示“遍”
+obfuscate            ['ɑbfʌsket]          vt. 使模糊；使迷乱；弄暗
+noble                ['nobl]              adj. 高尚的；贵族的；惰性的；宏伟的 n. 贵族 vt. 抓住；逮捕 n. (Noble)人名；(英、法、意)诺布尔；(西)诺夫莱；(阿拉伯)努布莱
+sanitize             ['sænɪtaɪz]          vt. 使…无害；给…消毒；对…采取卫生措施
+intermediate         [,ɪntɚ'midɪət]       vi. 起媒介作用 adj. 中间的，中级的 n. [化学] 中间物；媒介
+left                 [lɛft]               adj. 左边的；左派的；剩下的 adv. 在左面 n. 左边；左派；激进分子 v. 离开（leave的过去式）
+lyft                                      来福车（打车应用）
+endpoint             ['ɛnd,pɔɪnt]         n. 端点；末端，终结点
+cumbersome           ['kʌmbəs(ə)m]        adj. 笨重的；累赘的；难处理的
+or so                                     大约，左右
+cockamamie                                adj. 荒诞可笑的；不可信的
+elaborate            [ɪ'læbəret]          adj. 精心制作的；详尽的；煞费苦心的 vt. 精心制作；详细阐述；从简单成分合成（复杂有机物） vi. 详细描述；变复杂
+posterity            [pɑ'stɛrəti]         n. 子孙，后裔；后代
+dispatched           [dɪ'spætʃt]          派遣 [计] 发送
+swan                 [swɑn]               n. 天鹅；天鹅星座 vi. 游荡，闲荡 n. (Swan)人名；(英、芬、德)斯旺
+duck                 [dʌk]                n. 鸭子；鸭肉；（英）宝贝儿；零分 vi. 闪避；没入水中 vt. 躲避；猛按…入水 n. (Duck)人名；(德、葡、匈)杜克
+tint                 [tɪnt]               n. 色彩；浅色 vt. 染（发）；给…着色 n. (Tint)人名；(缅)丁
+phony                ['foni]              adj. 假的，欺骗的 n. 假冒者；赝品

@@ -1,16 +1,20 @@
-##
-# C Makefile
-# reference: https://makefiletutorial.com/#makefile-cookbook
-# important gcc flags: https://www.linuxfordevices.com/tutorials/linux/important-gcc-flags
+# Makefile for c/c++ program
 #
-# @file
-# @version 0.1
-
+# ========================================
+# @author: Ziqi Yang<mr.ziqiyang@gmail.com>
+# @create_date: Tue Jan 17 2023
+# @last_modified_date: Tue Jan 17 2023
+# @reference: https://makefiletutorial.com/#makefile-cookbook
+# ========================================
 TARGET_EXEC := main
 
-
-BUILD_DIR := ./build
 SRC_DIR := ./src
+BUILD_DIR := ./build
+DEBUG_DIR := $(BUILD_DIR)/debug
+RELEASE_DIR := $(BUILD_DIR)/release
+
+# CC := cc # default: cc
+# CXX := g++ # default: g++
 
 SRCS := $(shell fd '.*\.(c|cpp|s)' $(SRC_DIR))
 OBJS := $(SRCS:%=$(BUILD_DIR)/%.o)
@@ -18,15 +22,30 @@ DEPS := $(OBJS:.o=.d)
 INC_DIRS := $(fd --type d '.' $(SRC_DIR))
 INC_FLAGS := $(addprefix -I,$(INC_DIRS))
 
-all: run
+# CPPFLAGS: c/c++ shared flags
+CPPFLAGS := $(INC_FLAGS) -Wall -Wextra -pedantic -MMD -MP
+CFGLAGS := -std=c99 # only for c
+# CXXFGLAGS := # only for cpp
+CPP_FLAGS_DEBUG := -O0 -g3
+CPP_FLAGS_RELEASE := -O2
 
-CPPFLAGS := $(INC_FLAGS) -Wall -MMD -MP
-# CFGLAGS :=
-# CXXFGLAGS :=
-LDLIBS := -lraylib -lGL -lm -lpthread -ldl -lrt
+LDLIBS := -lm
 # LDFLAGS : =-L/usr/local/include
 
-$(BUILD_DIR)/$(TARGET_EXEC): $(OBJS)
+.PHNOY: debug release clean run runRelease
+# default: debug
+debug: CPPFLAGS += $(CPP_FLAGS_DEBUG)
+debug: $(DEBUG_DIR)/$(TARGET_EXEC)
+
+release: CPPFLAGS += $(CPP_FLAGS_RELEASE)
+release: $(RELEASE_DIR)/$(TARGET_EXEC)
+
+$(DEBUG_DIR)/$(TARGET_EXEC): $(OBJS)
+	mkdir -p $(DEBUG_DIR)
+	$(CXX) $(OBJS) -o $@ $(LDLIBS) $(LDFLAGS)
+
+$(RELEASE_DIR)/$(TARGET_EXEC): $(OBJS)
+	mkdir -p $(RELEASE_DIR)
 	$(CXX) $(OBJS) -o $@ $(LDLIBS) $(LDFLAGS)
 
 # Build step for C source
@@ -39,15 +58,14 @@ $(BUILD_DIR)/%.cpp.o: %.cpp
 	mkdir -p $(dir $@)
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $< -o $@
 
-.PHNOY: clean run build
-build: $(BUILD_DIR)/$(TARGET_EXEC)
-
-run: build
-	$(BUILD_DIR)/$(TARGET_EXEC)
-
 clean:
 	rm -r $(BUILD_DIR)
 
+# run debug target
+run: $(DEBUG_DIR)/$(TARGET_EXEC)
+	$(DEBUG_DIR)/$(TARGET_EXEC)
+
+runRelease: $(RELEASE_DIR)/$(TARGET_EXEC)
+	$(RELEASE_DIR)/$(TARGET_EXEC)
 
 -include $(DEPS)
-# end

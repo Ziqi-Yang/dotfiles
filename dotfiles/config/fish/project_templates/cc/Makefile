@@ -23,7 +23,7 @@ INC_DIRS := $(fd --type d '.' $(SRC_DIR))
 INC_FLAGS := $(addprefix -I,$(INC_DIRS))
 
 # CPPFLAGS: c/c++ shared flags
-CPPFLAGS := $(INC_FLAGS) -Wall -Wextra -pedantic -MMD -MP
+CPPFLAGS := $(INC_FLAGS) -Wall -pedantic -MMD -MP
 CFGLAGS := -std=c99 # only for c
 # CXXFGLAGS := # only for cpp
 CPP_FLAGS_DEBUG := -O0 -g3
@@ -62,10 +62,10 @@ clean:
 	rm -r $(BUILD_DIR)
 
 # run debug target
-run: $(DEBUG_DIR)/$(TARGET_EXEC)
+run: debug # must use label, since in debug label, we update $CPPFLAGS
 	$(DEBUG_DIR)/$(TARGET_EXEC)
 
-runRelease: $(RELEASE_DIR)/$(TARGET_EXEC)
+runRelease: release
 	$(RELEASE_DIR)/$(TARGET_EXEC)
 
 -include $(DEPS)

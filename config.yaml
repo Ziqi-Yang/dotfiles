@@ -58,9 +58,6 @@ dotfiles:
   f_ideavimrc:
     src: ideavimrc
     dst: ~/.ideavimrc
-  f_todos.json:
-    src: todos.json
-    dst: ~/.todos.json
   f_vimrc:
     src: vimrc
     dst: ~/.vimrc
@@ -184,7 +181,6 @@ profiles:
     - f_xsession
     - f_xresources
     - f_ideavimrc
-    - f_todos.json
     - f_vimrc
     - f_rofimoji.rc
     - f_init.lua

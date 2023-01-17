@@ -157,7 +157,7 @@
     "bus": 3,
     "bandwidth": 1,
     "topology": 1,
-    "metropolitan": 2,
+    "metropolitan": 3,
     "wide": 1,
     "hypercube": 1,
     "mesh": 2,
@@ -784,5 +784,9 @@
     "swan": 1,
     "duck": 1,
     "tint": 2,
-    "phony": 1
+    "phony": 1,
+    "modal": 1,
+    "cock": 1,
+    "chock": 1,
+    "choke": 1
 }

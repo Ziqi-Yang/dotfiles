@@ -24,7 +24,7 @@ INC_FLAGS := $(addprefix -I,$(INC_DIRS))
 
 # CPPFLAGS: c/c++ shared flags
 CPPFLAGS := $(INC_FLAGS) -Wall -pedantic -MMD -MP
-CFGLAGS := -std=c99 # only for c
+CFGLAGS := -std=c11 # only for c
 # CXXFGLAGS := # only for cpp
 CPP_FLAGS_DEBUG := -O0 -g3
 CPP_FLAGS_RELEASE := -O2

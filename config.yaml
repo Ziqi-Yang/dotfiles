@@ -160,6 +160,9 @@ dotfiles:
   f_user.js:
     src: mozilla/firefox/user.js
     dst: ~/.mozilla/firefox/user.js
+  f_gitmessage.txt:
+    src: gitmessage.txt
+    dst: ~/.gitmessage.txt
 profiles:
   myArch:
     dotfiles:
@@ -214,3 +217,4 @@ profiles:
     - d_theme
     - d_notes
     - f_user.js
+    - f_gitmessage.txt

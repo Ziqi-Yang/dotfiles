@@ -9,6 +9,8 @@
 	editor = vim
 	autocrlf = input
 	pager = delta # https://github.com/dandavison/delta/
+	excludesFile = /home/zarkli/.gitignore_global # personal gitignore only(like code liner or debuger cache)
+
 [interactive]
 	diffFilter = delta --color-only --features=interactive
 [delta]
@@ -26,3 +28,5 @@
 	proxy = http://127.0.0.1:7890
 [https]
 	proxy = http://127.0.0.1:7890
+[commit]
+	template = /home/zarkli/.gitmessage.txt

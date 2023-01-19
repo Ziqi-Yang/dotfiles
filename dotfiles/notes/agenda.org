@@ -3,17 +3,21 @@
 * My To-dos
 ** TODO UNIVERSAL
 *** TODO learning how to learn on Coursera
-*** TODO change to-do program from uairctl into org
-*** TODO clean my keyboard
-*** TODO collect asciimoji
+*** DONE change to-do program from uairctl into org
+CLOSED: [2023-01-18 Wed 09:25]
+*** DONE clean my keyboard
+CLOSED: [2023-01-18 Wed 09:25]
 *** TODO explore anki card - also with the integrity with leetcode
 
+*** TODO https://github.com/maaslalani/draw
+
 ** PROG PROGRAMMING
-*** TODO [#A] leetcode everyday problem
-DEADLINE: <2023-01-15 Sun +1d>
+*** TODO [#A] leetcode everyday problem [[file:algo.org][algo.org]]
+DEADLINE: <2023-01-17 Tue +1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-01-16 Mon 22:02]
+:LAST_REPEAT: [2023-01-17 Tue 22:04]
 :END:
+- State "DONE"       from "TODO"       [2023-01-17 Tue 22:04]
 - State "DONE"       from "PROG"       [2023-01-16 Mon 22:00]
 *** PROG [#A] learn rust
 - rust语言圣经

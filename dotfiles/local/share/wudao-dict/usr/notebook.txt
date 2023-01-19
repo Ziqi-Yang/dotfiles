@@ -874,3 +874,23 @@ modal                ['modl]              adj. 模式的；情态的；形式的
 cock                 [kɑk]                n. 公鸡；龙头；雄鸟；头目 vt. 使竖起；使耸立；使朝上 vi. 翘起；竖起；大摇大摆 n. (Cock)人名；(英、西、瑞典)科克
 chock                [tʃɑk]               n. 木楔；楔形木垫 vt. 收放定盘上；用楔子垫阻 adv. 满满地
 choke                [tʃok]               vt. 呛；使窒息；阻塞；抑制；扑灭 vi. 窒息；阻塞；说不出话来 n. 窒息；噎；[动力] 阻气门
+spot                 [spɑt]               n. 地点；斑点 vt. 认出；弄脏；用灯光照射 vi. 沾上污渍；满是斑点 adj. 现场的；现货买卖的 adv. 准确地；恰好
+mangle               ['mæŋɡl]             vt. 乱砍；轧布；损坏 n. 轧布机 n. (Mangle)人名；(英)曼格尔
+mandatory            ['mændətɔri]         adj. 强制的；托管的；命令的 n. 受托者（等于mandatary）
+nudity               ['nudəti]            n. 裸露；裸体像
+mesh                 [mɛʃ]                n. 网眼；网丝；圈套 vi. 相啮合 vt. [机] 啮合；以网捕捉
+literals             [ˈlɪtərəlz]          n. 误印（literal 的复数）
+literal              ['lɪtərəl]           adj. 文字的；逐字的；无夸张的
+turbo                ['tɝbo]              n. 涡轮增压机
+mimic                ['mɪmɪk]             vt. 模仿，摹拟 n. 效颦者，模仿者；仿制品；小丑 adj. 模仿的，模拟的；假装的
+suite                [sut; swit]          n. （一套）家具；套房；组曲；（一批）随员，随从
+disposal             [dɪ'spozl]           n. 处理；支配；清理；安排
+hunk                 [hʌŋk]               n. 大块，大片；厚块；（俚语）强壮 adj. 好的；行的
+inclination          ['ɪnklə'neʃən]       n. 倾向，爱好；斜坡
+culprit              ['kʌlprɪt]           n. 犯人，罪犯；被控犯罪的人
+bisect               [baɪ'sɛkt]           vt. 平分；二等分 vi. 横贯；一分为二
+applicable           ['æplɪkəbl]          adj. 可适用的；可应用的；合适的
+recurse                                   n. 递归（算法） v. 递归
+smudge               [smʌdʒ]              vt. 弄脏，涂污；用浓烟熏 vi. 被弄脏；形成污迹 n. 污点，污迹；烟熏火堆
+linter               [ˈlɪntər]            n. 轧毛机；剥绒机；棉绒 n. （Linter）人名；（英、德、匈）林特
+liner                ['laɪnɚ]             n. 班轮，班机；衬垫；画线者

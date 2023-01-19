@@ -35,9 +35,11 @@
 - =neofetch=
 - =hwinfo= easy way to see hardware information
 - =aur-auto-vote-git= (AUR) a simple python script to help you auto-vote installed packages
+
 ** git utils
 - [[https://github.com/zricethezav/gitleaks][gitleaks]] check your git repo secrets leaks
-- =bfg= Removes large or troublesome blobs like git-filter-branch does, but faster. (remove secrets in git history)
+- [[https://github.com/rtyley/bfg-repo-cleaner][bfg]] Removes large or troublesome blobs like git-filter-branch does, but faster. (remove secrets and big files in git history)
+
 * Trivial
 ** OCR
 recommand use website [[https://pearocr.com/#/][pearocr]]

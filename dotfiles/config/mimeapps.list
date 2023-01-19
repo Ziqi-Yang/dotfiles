@@ -24,7 +24,6 @@ application/x-extension-xht=firefox.desktop;
 
 [Default Applications]
 application/gzip=org.kde.ark.desktop
-application/pdf=org.pwmt.zathura.desktop
 application/rss+xml=userapp-Thunderbird-9U4BU1.desktop
 application/vnd.debian.binary-package=org.kde.ark.desktop
 application/vnd.ms-cab-compressed=org.kde.ark.desktop
@@ -122,3 +121,4 @@ image/jpeg=imv.desktop
 image/x-portable-anymap=imv.desktop
 image/bmp=imv.desktop
 image/tiff=imv.desktop
+application/pdf=sioyek.desktop

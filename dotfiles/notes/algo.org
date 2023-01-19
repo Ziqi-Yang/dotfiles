@@ -1,0 +1,10 @@
+#+title: Algo
+Use <SPC-n-m> to search tags
+
+* Collected Articles
+** [[https://leetcode.cn/problems/finding-mk-average/solutions/1533789/by-heng-deng-shi-bxvd/?languageTags=c][求出MK平均值（循环队列和二进制树）]] :二进制索引树:循环队列:
+
+* Solutions to Read
+** TODO [[https://leetcode.cn/problems/finding-mk-average/solutions/1198507/c-xian-duan-shu-tong-pai-xu-by-qinstaunc-8tcs/?languageTags=c][1825 Finding MK Average - C 线段树 桶排序]]
+
+* Problems to Rechallenge

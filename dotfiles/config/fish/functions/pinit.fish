@@ -24,6 +24,8 @@ function pinit -a 'language' -a 'packageName'
             pinit_latex $packageName
         case "aur"
             pinit_aur $packageName
+        case "go" # TODO
+            pinit_go $packageName
         case "*"
             echo "Language not support"
             return -1

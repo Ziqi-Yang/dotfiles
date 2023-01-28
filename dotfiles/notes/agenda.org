@@ -11,6 +11,7 @@ CLOSED: [2023-01-18 Wed 09:25]
 
 *** TODO https://github.com/maaslalani/draw
 
+
 ** PROG PROGRAMMING
 *** TODO [#A] leetcode everyday problem [[file:algo.org][algo.org]]
 DEADLINE: <2023-01-17 Tue +1d>
@@ -22,12 +23,18 @@ DEADLINE: <2023-01-17 Tue +1d>
 *** PROG [#A] learn rust
 - rust语言圣经
 *** PROG continue cs61c
-*** PROG [#C] learn basic typescript, node and Vue3
+*** TODO [#C] learn basic typescript, node and Vue3
+
+*** TODO learn btfs, qemu, docker(podman) command line
 
 
 ** PROJ PROJECT
 *** PROJ [#A] contribute to git
+horizontal git log
 *** PROJ [#A] 星火项目lightdm greeter开发
+1. possibly used technologies: gtk4, wasm, webkit
+2. exteneded api, suck as keypressed
+3. game?
 *** PROJ [#C] uairctl
 *** PROJ [#C] git secrets hide tool [[file:~/projects/git_secret_havent_named_yet/README.org][README.org]]
 *** PROJ [#C] browser extension share cookie with local
@@ -45,7 +52,31 @@ To solve the login hard problem(not use puppetter and python selenium), for exam
    https://github.com/sepandhaghighi/art https://github.com/linkedin/asciietch
    https://github.com/etano/graphscii (short code !)
    https://github.com/tool3/chartscii
+   https://github.com/red-data-tools/YouPlot
 4. extension: like music display
 
 *** PROJ [#C] develop pastebin.com extension for firefox
 *** PROJ [#C] dict tool cli, also able to interact with rofi, wofi, dmenu
+*** PROJ 'How to' 教阿宅、老人、小孩基本的社会技能
+- targets: 老人，小孩，阿宅
+- 基本社会技能：比如火车学生证，如何打车，如何坐地铁，如何坐火车(以及如何中转)，如何使用微信或者支付宝付款，如何办理银行卡，如何在b站上收益等等，不提供科学上网教程，但是提供比如在如何注册paypal以及使用paypal付款等等内容（这个应当后期考虑，甚至不考虑，这个貌似超纲了）
+- 文档一个仓库，作为submodule在app仓库下。(到底是用flutter还是html等未定，反正至少要有移动端)
+*** PROJ make rebuild and configure system easy on archlinux
+don't want to use nix but still want to make rebuild and configure archlinux system easy
+- make a tui to select entry like ranger(or just interact with ranger or other terminal file explorer)
+- interact with arch-installer and dotdrop
+*** PROJ share idea platform
+你的想法，大家一起来实现 你有想法，但目前不能实现，可以让其他人帮你实现
+1. 首先是个记录idea的网站，提供api, 供开发插件(如果出app记录的话必须要快速打开，保证记录idea, 最好提供桌面组件)
+2. 分享idea
+   1. 免费公开、赞赏、部分观看、付费关闭公开idea模式, 收付款可以参考github sponsorship
+   2. idea组团：比如游戏开发或者翻译就需要好几种人才，可以发起idea来组团，设置职位（或者人数）
+3. 首先应该国际化，然后国内
+*** PROJ 围棋棋盘虚拟化
+能一起面对面玩的游戏（主机等）太贵，发明一个便宜的一起玩, 虚拟棋子
+*** PROJ 每日前端分享, 脚本codepen以及其他平台自动生成打代码视频(或者每日ui分享)
+*** PROJ bilibili 直播弹幕游戏 - 答题
+1. 第一个答题的人获得积分
+2. 答错题有扣分(或者扣生命，扣到0就一段时间不能答题)，通过刷礼物可以减少扣分
+
+*** PROJ [#C] 游戏解说ai

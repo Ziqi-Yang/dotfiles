@@ -163,6 +163,12 @@ dotfiles:
   f_gitmessage.txt:
     src: gitmessage.txt
     dst: ~/.gitmessage.txt
+  f_env:
+    src: config/go/env
+    dst: ~/.config/go/env
+  d_cargo:
+    src: config/cargo
+    dst: ~/.config/cargo
 profiles:
   myArch:
     dotfiles:
@@ -218,3 +224,5 @@ profiles:
     - d_notes
     - f_user.js
     - f_gitmessage.txt
+    - f_env
+    - d_cargo

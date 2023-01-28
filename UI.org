@@ -6,11 +6,10 @@
 # programming font
 paru -S ttf-firacode-nerd # FiraCode Nerd Font
 paru -S nerd-fonts-ibm-plex-mono # BlexMono Nerd Font (i.e. IBM Plex Mono nerd font patched)
-paru -S ttf-ibm-plex # IBM Plex Mono, kitty needed
+paru -S ttf-ibmplex-mono-nerd ttf-ibm-plex # BlexMono Nerd Font(emacs needs) & IBM Plex Mono(kitty needs)
 
 # chinese font
 paru -S ttf-lxgw-wenkai ttf-lxgw-wenkai-mono
-paru -S nerd-fonts-ibm-plex-mono
 paru -S ttf-zpix
 #+end_src
 ** Icon Font

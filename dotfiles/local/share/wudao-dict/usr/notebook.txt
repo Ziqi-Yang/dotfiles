@@ -894,3 +894,85 @@ recurse                                   n. 递归（算法） v. 递归
 smudge               [smʌdʒ]              vt. 弄脏，涂污；用浓烟熏 vi. 被弄脏；形成污迹 n. 污点，污迹；烟熏火堆
 linter               [ˈlɪntər]            n. 轧毛机；剥绒机；棉绒 n. （Linter）人名；（英、德、匈）林特
 liner                ['laɪnɚ]             n. 班轮，班机；衬垫；画线者
+intellectual         [,ɪntə'lɛktʃuəl]     adj. 智力的；聪明的；理智的 n. 知识分子；凭理智做事者
+inertia              [ɪ'nɝʃə]             n. [力] 惯性；惰性，迟钝；不活动
+preforce                                  n. 预先加力
+refine               [rɪ'faɪn]            vt. 精炼，提纯；改善；使…文雅
+stereotype           ['stɛrɪətaɪp]        vt. 使用铅版；套用老套，使一成不变 n. 陈腔滥调，老套；铅版
+plumbing             ['plʌmɪŋ]            n. 铅工业；铅管品制造 v. 探究；垂直悬挂；用铅锤测量；灌铅以增重（plumb的现在分词）
+plumb                [plʌm]               vt. 使垂直；探测，探索 n. 垂直；铅锤 adv. 恰恰，正；垂直地 vi. 当管子工 adj. 垂直的 n. (Plumb)人名；(英)普拉姆
+porcelain            [ˈpɔrsələn]          n. 瓷；瓷器 adj. 瓷制的；精美的
+MOE                                       abbr. 有效性量度（Measure of Effectiveness） n. (Moe)人名；(挪、瑞典)穆厄；(英)莫
+buddy                ['bʌdi]              n. 伙伴，好朋友；密友；小男孩 vi. 做好朋友，交朋友 n. (Buddy)人名；(英)巴迪
+venture              ['vɛntʃɚ]            vt. 敢于 vi. 冒险；投机 n. 企业；风险；冒险 n. (Venture)人名；(法)旺蒂尔
+empowered            [im'pauə]            adj. 获得授权的；允许的 v. 允许；授与权力（empower的过去式）
+empower              [ɪm'paʊɚ]            vt. 授权，允许；使能够
+transcribing         [træn'skraib; trænz'k-; trɑ:n-] n. 采谱 v. 抄写（transcribe的ing形式）；译
+insane               [ɪn'sen]             adj. 疯狂的；精神病的；极愚蠢的
+boggle               ['bɒg(ə)l]           vi. 犹豫，退缩；惊恐 vt. 搞糟，弄坏；使……惊奇；使……困惑 n. 犹豫，退缩；惊奇
+random               ['rændəm]            adj. [数] 随机的；任意的；胡乱的 n. 随意 adv. 胡乱地
+crooked              ['krʊkɪd]            adj. 弯曲的；歪的；不正当的
+bench                [bɛntʃ]              n. 长凳；工作台；替补队员 vt. 给…以席位；为…设置条凳 n. (Bench)人名；(英)本奇；(德)本希；(丹)本克
+cargo                ['kɑrɡo]             n. 货物，船货 n. (Cargo)人名；(英、西)卡戈
+lapse                [læps]               n. (一时的) 走神，判断错误
+png                                       abbr. 巴布亚新几内亚（Papua New Guinea）；可移植的网络图象文件格式（Portable Network Graphic）；（拉）不受欢迎的人（Persona Non Grata）
+ancillary            ['ænsəlɛri]          adj. 辅助的；副的；从属的 n. 助手；附件
+prudent              ['prʊdnt]            adj. 谨慎的；精明的；节俭的 n. (Prudent)人名；(法)普吕当
+property             ['prɑpɚti]           n. 性质，性能；财产；所有权
+employ               [ɪm'plɔɪ]            vt. 使用，采用；雇用；使忙于，使从事于 n. 使用；雇用
+vice                 [vaɪs]               n. 恶习；缺点；[机] 老虎钳；卖淫 prep. 代替 vt. 钳住 adj. 副的；代替的 n. (Vice)人名；(塞)维采
+versa                ['vɝsə]              adj. 反的
+vice-versa                                反之亦然
+excerpt              ['ɛksɝpt]            n. 摘录，引用 vt. 引用，摘录 vi. 摘录，引用
+hooray               [hu're]              vi. 呼万岁 vt. 呼万岁 n. 万岁 int. 万岁
+amethyst             ['æməθɪst]           n. 紫水晶；[宝] 紫晶；紫色
+bust                 [bʌst]               vi. 破产；爆裂；降低级别 vt. 使破产；使爆裂；逮捕 n. 破产；半身像；萧条；胸部 adj. 破产了的；毁坏了的 n. (Bust)人名；(德)布斯特
+reinforced           [,riɪn'fɔrst]        adj. 加固的；加强的；加筋的 v. 加强；增援（reinforce的过去分词）
+singleton            ['sɪŋɡltən]          n. 一个；独身 n. (Singleton)人名；(英)辛格尔顿
+coerced              [kəu'ə:s]            强制，强迫，胁迫，迫使（coerce的过去式和过去分词）
+naive                [naɪ'iv]             adj. 天真的,幼稚的
+oops                 [ʊps]                int. 哎哟（表示惊讶，狼狈时所发的喊声）
+outlive              [,aʊt'lɪv]           vt. 比…活得长；比…经久；经受住；渡过…而存在
+arm                  [ɑrm]                n. 手臂；武器；袖子；装备；部门 vi. 武装起来 vt. 武装；备战
+predicate            ['prɛdɪkət]          vt. 断定为…；使…基于 vi. 断言，断定 n. 谓语，述语 adj. 谓语的；述语的
+referral             [rɪ'fɝəl]            n. n. 参照；提及；被推举的人；转诊病人 n. 引荐来源(指给某个网站带来了流量的其他网站）
+tangle               ['tæŋɡl]             n. 纠纷；混乱状态 vt. 使纠缠；处于混乱状态 vi. 缠结；乱作一团
+enduring             [ɪn'dʊrɪŋ]           adj. 持久的；能忍受的 v. 忍耐（endure的ing形式）
+agnostic             [æg'nɑstɪk]          n. 不可知论者 adj. 不可知论的
+mantra               ['mæntrə]            n. 咒语（尤指四吠陀经典内作为咒文或祷告唱念的）；颂歌 n. (Mantra)人名；(印尼)曼特拉
+sparse               [spɑrs]              adj. 稀疏的；稀少的
+formidable           ['fɔrmɪdəbl]         adj. 强大的；可怕的；令人敬畏的；艰难的
+sprite               [spraɪt]             n. 妖精，精灵；鬼怪；调皮鬼
+obsolete             [ɑbsəˌlit]           adj. 废弃的；老式的 n. 废词；陈腐的人 vt. 淘汰；废弃
+incarnation          [,ɪnkɑr'neʃən]       n. 化身；道成肉身；典型
+compound             ['kɑmpaʊnd]          n. [化学] 化合物；混合物；复合词 adj. 复合的；混合的 v. 合成；混合；恶化，加重；和解，妥协
+compromise           ['kɑmprəmaɪz]        vt. 妥协；危害 vi. 妥协；让步 n. 妥协，和解；折衷
+warehouse            ['wɛrhaʊs]           n. 仓库；货栈；大商店 vt. 储入仓库；以他人名义购进（股票）
+covertly             ['kʌvətli]           adv. 秘密地；偷偷摸摸地
+nefarious            [nɪ'feərɪəs]         adj. 邪恶的；穷凶极恶的；不法的
+hotwire                                   adj. 热线式的，热电阻线的 v. 热线发动，短路点火（汽车引擎）
+uncanny              [ʌn'kæni]            adj. 神秘的；离奇的；可怕的
+monstrous            ['mɑnstrəs]          adj. 巨大的；怪异的；荒谬的；畸形的
+ordinary             ['ɔrdnɛri]           adj. 普通的；平凡的；平常的 n. 普通；平常的人（或事）
+despise              [dɪ'spaɪz]           vt. 轻视，鄙视
+ideology             [,aɪdɪ'ɒlədʒɪ; ɪd-]  n. 意识形态；思想意识；观念学
+purist               ['pjʊrɪst]           n. 纯化论者，力求纯化的人
+sublime              [sə'blaɪm]           adj. 庄严的；令人崇敬的；极端的；超群的 n. 崇高；顶点 vt. 使…纯化；使…升华；使…变高尚 vi. 升华；纯化；变高尚
+hysteric             [hɪ'sterɪk]          n. 癔病患者；歇斯底里患者 adj. 歇斯底里的；癔病的；亢奋的
+platform             ['plæt'fɔrm]         n. 平台；月台，站台；坛；讲台
+exclusively          [ɪk'sklʊsɪvli]       adv. 唯一地；专有地；排外地
+hypothetical         [,haɪpə'θɛtɪkl]      adj. 假设的；爱猜想的
+operands             ['ɔpərænd; ,ɔpə'rænd] n. [计] 操作数；[计] 操作对象；[计] 运算对象（operand的复数形式）
+poke                 [pok]                vi. 刺，捅；戳；伸出；刺探；闲荡 vt. 刺，捅；戳；拨开 n. 戳；刺；袋子；懒汉
+per                  [pɚ]                 prep. 每；经；按照；每一 n. (Per)人名；(德、挪、丹、瑞典)佩尔
+gadget               ['gædʒɪt]            n. 小玩意；小器具；小配件；诡计
+elide                [ɪ'laɪd]             vt. 省略；取消；删去；不予考虑删节 n. (Elide)人名；(意)埃利德
+retract              [rɪ'trækt]           vt. 缩回；缩进；取消 vi. 缩回；缩进；撤消 n. 收缩核
+verge                [vɝdʒ]               vi. 濒临，接近；处在边缘 n. 边缘 n. (Verge)人名；(英)弗奇；(西)贝尔赫
+edited               ['ɛdɪtɪd]            v. [计] 编辑（edit的过去式和过去分词） adj. 编辑过的
+relive               [,ri'lɪv]            vt. 再体验 vi. 复活；再生
+relax                [rɪ'læks]            vi. 放松，休息；松懈，松弛；变从容；休养 vt. 放松；使休息；使松弛；缓和；使松懈
+synchronous          ['sɪŋkrənəs]         adj. 同步的；同时的
+poisoned             ['pɔiznd]            adj. 中毒的；遭毒害的 v. 使中毒；毒害；破坏（poison的过去分词）
+monopolies           [mə'nɔpəli]          n. [经] 垄断（monopoly的复数）；垄断部门
+taste                [test]               n. 味道；品味；审美 vt. 尝；体验 vi. 尝起来；有…的味道 n. (Taste)人名；(法)塔斯特

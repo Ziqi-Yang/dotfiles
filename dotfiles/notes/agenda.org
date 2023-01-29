@@ -11,6 +11,7 @@ CLOSED: [2023-01-18 Wed 09:25]
 
 *** TODO https://github.com/maaslalani/draw
 
+*** TODO dotfile installation.org
 
 ** PROG PROGRAMMING
 *** TODO [#A] leetcode everyday problem [[file:algo.org][algo.org]]
@@ -32,7 +33,7 @@ DEADLINE: <2023-01-17 Tue +1d>
 *** PROJ [#A] contribute to git
 horizontal git log
 *** PROJ [#A] 星火项目lightdm greeter开发
-1. possibly used technologies: gtk4, wasm, webkit
+1. possibly used technologies: gtk4, wasm, webgl, webkit
 2. exteneded api, suck as keypressed
 3. game?
 *** PROJ [#C] uairctl
@@ -57,7 +58,7 @@ To solve the login hard problem(not use puppetter and python selenium), for exam
 
 *** PROJ [#C] develop pastebin.com extension for firefox
 *** PROJ [#C] dict tool cli, also able to interact with rofi, wofi, dmenu
-*** PROJ 'How to' 教阿宅、老人、小孩基本的社会技能
+*** PROJ [#B] 'How to' 教阿宅、老人、小孩基本的社会技能
 - targets: 老人，小孩，阿宅
 - 基本社会技能：比如火车学生证，如何打车，如何坐地铁，如何坐火车(以及如何中转)，如何使用微信或者支付宝付款，如何办理银行卡，如何在b站上收益等等，不提供科学上网教程，但是提供比如在如何注册paypal以及使用paypal付款等等内容（这个应当后期考虑，甚至不考虑，这个貌似超纲了）
 - 文档一个仓库，作为submodule在app仓库下。(到底是用flutter还是html等未定，反正至少要有移动端)

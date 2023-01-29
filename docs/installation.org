@@ -1,0 +1,145 @@
+#+title: Installation
+#+auto_tangle: t
+
+#+begin_src sh :tangle yes
+#!/usr/bin/env bash
+#+end_src
+
+The document is only for =wayland=, since I won't switch to =Xorg= environment(In the last I use =bspwm=) in the future.
+
+* TODOS
+** TODO customize =archinstall= script
+
+* Tips
+- Make sure all the code block are assigned by the property label =tangle yes=, the file is auto-tangled by default(org-auto-tangle), use Shortkey =<SPC-m-B>= to manually tanlge the file.
+- To show key shortcut for an executable, use command =rg <executable name> dotfiles/config/hypr/hyprland.conf=
+
+* Pre-requests
+** Use =archinstall= script to install basic Arch Linux system.
+- Select =minial= for desktop environment(profile) since currently =archinstall= script doesn't support Hyprland(Hyprland hasn't merged into the official repository).
+- Select =use NetworkManger= for =Network configuration=, note that =networkmanger-applet= won't be installed if you selected a =minial= desktop environment. Since it doesn't work on Wayland, I use the build in =nmtui= command to replace it.
+** Add =archlinuxcn= mirror
+#+begin_src sh :tangle yes
+if grep -q 'archlinuxcn' /etc/pacman.conf; then
+  echo 'already added "archlinuxcn" source'
+else
+  sudo echo '[archlinuxcn]' >> /etc/pacman.conf
+  sudo echo 'Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch' >> /etc/pacman.conf
+fi
+sudo pacman -S archlinuxcn-keyring
+#+end_src
+** Install =paru= AUR helper
+#+begin_src sh :tangle yes
+sudo pacman -S paru
+#+end_src
+* System
+** Basic
+- =xdg-user-dirs=: create user default directories(like =Download=, =Document=)
+- =ntfs-3g=: NTFS filesystem driver and utilities
+- =udisks2= & =udiskie=: enable auto mount of USB flash disk
+- =fish=: fish shell
+- =ripgrep=: search
+- =htop=: modern top
+- =neofetch=: fetch system information
+#+begin_src sh :tangle yes
+sudo pacman -S git xdg-user-dirs ntfs-3g udisks2 udiskie fish ripgrep htop neofetch wget
+chsh -s /bin/fish # change default shell for current user
+#+end_src
+** Display Manager
+- =lxdm=: can be used if =lightdm= doesn't work
+#+begin_src sh :tangle yes
+sudo pacman -S lightdm lightdm-slick-greeter lxdm
+sudo systemctl disable lxdm
+sudo systemctl enable lightdm
+#+end_src
+** Wayland(Hyprland) Utility
+line 3:\\
+- =wev=: alternative of =xev=, show mouse and key name
+- =wl-clipboard=: alternative of =xclip=
+
+line 4:\\
+- =clipman=: clipboard manager for Wayland
+- =hyprpaper=: background paper
+- =rofi-lbonn-wayland-git=: rofi Wayland fork
+- =waybar-hyprland-git=: Wayland bar (with Hyprland integration)
+- =gammastep=: screen gamma tool(protect eyes)
+#+begin_src sh :tangle yes
+paru -S hyprland-git xorg-xwayland xorg-xlsclients qt5-wayland glfw-wayland qt6-wayland
+paru -S dunst wireplumber pipewire polkit-kde-agent xdg-desktop-portal-hyprland-git
+paru -S wev wl-clipboard wtype
+paru -S clipman hyprpaper rofi-lbonn-wayland-git waybar-hyprland-git gammastep
+#+end_src
+** UI
+*** Font
+**** Chinese Font
+#+begin_src sh :tangle yes
+sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
+#+end_src
+
+* User Applications
+** Utility
+- =hyprpick=: color pick for =Hyprland=
+#+begin_src sh :tangle yes
+paru -S hyprpick
+#+end_src
+** Input Method - Fcitx5
+- =fcitx5-im=: group of the basic components of fcitx5(select all when it prompts you to choose which component to install)
+- =fcitx5-chinese-addons=: for Chinese
+- =fcitx5-anthy=: for Japanese
+- =fcitx5-pinyin-moegirl=: moegirl(萌娘百科)
+- =fcitx5-material-color=: color theme
+- =fcitx5-pinyin-custom-pinyin-dictionary=: 某人自建拼音输入法词库，百万常用词汇量 https://github.com/wuhgit/CustomPinyinDictionary
+#+begin_src sh :tangle yes
+paru -S fcitx5-im fcitx5-chinese-addons fcitx5-anthy fcitx5-pinyin-moegirl fcitx5-material-color fcitx5-pinyin-custom-pinyin-dictionary
+#+end_src
+** Media
+*** Image Editor/Viewer
+#+begin_src sh :tangle yes
+paru -S gwenview imv
+#+end_src
+*** Audio
+#+begin_src sh :tange yes
+paru -S mpg123
+#+end_src
+** ScreenShot
+- =grim slurp swappy=: combine three to a screenshot application for Wayland
+- =flameshot=: currently not support Hyprland
+#+begin_src sh :tangle yes
+paru -S grim slurp swappy flameshot
+#+end_src
+** File Managers
+#+begin_src sh :tangle yes
+paru -S ranger dolphin
+#+end_src
+** Archiving Tools
+1. =ark= can decompress 7z file with the support of =p7zip=
+2. =unarchiver= is required by =ranger= (my custom command)
+#+begin_src sh :tangle yes
+paru -S ark unarchiver p7zip gzip unzip
+#+end_src
+** Terminal Emulators
+- =kitty= main terminal emulator
+- =alacritty=
+#+begin_src sh :rangle yes
+paru -S alacritty kitty
+#+end_src
+** Browser
+#+begin_src sh :tangle yes
+paru -S firefox
+#+end_src
+** Editors
+- =emacs29-git=: native-comp and pgtk(for wayland capability) support
+#+begin_src sh :tangle yes
+paru -S emacs29-git
+#+end_src
+** Programming Language & Specific Tools
+
+* Configurations
+1. lightdm
+2. ranger
+3. fcitx5
+** Disable DHCP System Units
+see [[https://wiki.archlinux.org/title/NetworkManager#DHCP_client][NetworkManager - DHCP client - Arch Wiki]]
+#+begin_src sh :tangle yes
+sudo systemctl disable dhcpcd
+#+end_src

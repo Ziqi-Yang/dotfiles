@@ -33,7 +33,7 @@
 #waybar {
     background: rgba(52, 73, 94,0.5);
     color: #ecf0f1;
-    font-family: "Zpix", "Font Awesome 6 Free Solid", "Material Design Icons Desktop", "IcoFont", "MesloLGS NF";
+    font-family: "Zpix", "Font Awesome 6 Free Solid", "Material Design Icons Desktop", "IcoFont";
     font-size: 10px;
     font-weight: bold;
 }

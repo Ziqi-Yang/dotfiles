@@ -988,3 +988,5 @@ emulator             ['ɛmjuletɚ]          n. 仿真器，模拟器；竞争者
 capability           [ˌkepəˈbɪlətɪ]       n. 才能，能力；性能，容量
 devel                [ˈdevl]              abbr. 发展（development） n. （Devel）（美）德韦尔（人名）
 u盘                                        USB flash disk
+verbatim             [vɝ'betɪm]           adv. 逐字地 adj. 逐字的
+checkup              ['tʃekʌp]            n. 审查，检查；健康检查

@@ -64,6 +64,32 @@ handle_extension() {
         #     7z l -p -- "${FILE_PATH}" && exit 5
         #     exit 1;;
 
+        ## since font preview in handle_image can only support otf,
+        ## I put the function here using file extension
+        ## font preview
+        ## fontimage command is in the fontforge package
+        ttf|otf)
+            preview_png="/tmp/$(basename "${IMAGE_CACHE_PATH%.*}").png"
+            if fontimage -o "${preview_png}" \
+                            --pixelsize "120" \
+                            --fontname \
+                            --pixelsize "80" \
+                            --text "  ABCDEFGHIJKLMNOPQRSTUVWXYZ  " \
+                            --text "  abcdefghijklmnopqrstuvwxyz  " \
+                            --text "  0123456789.:,;(*!?') ff fl fi ffi ffl  " \
+                            --text "  The quick brown fox jumps over the lazy dog.  " \
+                            --text "  落霞与孤鹜齐飞  " \
+                            --text "  秋水共长天一色  " \
+                            "${FILE_PATH}";
+            then
+                convert -- "${preview_png}" "${IMAGE_CACHE_PATH}" \
+                    && rm "${preview_png}" \
+                    && exit 6
+            else
+                exit 1
+            fi
+            ;;
+
         ## PDF
         pdf)
             ## Preview as text conversion
@@ -88,11 +114,11 @@ handle_extension() {
             exit 1;;
 
         ## XLSX
-        # xlsx)
+        xlsx)
             ## Preview as csv conversion
             ## Uses: https://github.com/dilshod/xlsx2csv
-            # xlsx2csv -- "${FILE_PATH}" && exit 5
-            # exit 1;;
+            xlsx2csv -- "${FILE_PATH}" && exit 5
+            exit 1;;
 
         ## HTML
         htm|html|xhtml)
@@ -191,7 +217,7 @@ handle_image() {
         #     exit 1;;
 
         ## Font
-        application/font*|application/*opentype)
+        fonts/ttf|application/font*|application/*opentype)
             preview_png="/tmp/$(basename "${IMAGE_CACHE_PATH%.*}").png"
             if fontimage -o "${preview_png}" \
                          --pixelsize "120" \

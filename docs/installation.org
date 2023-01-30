@@ -1,25 +1,43 @@
 #+title: Installation
 #+auto_tangle: t
+#+PROPERTY: header-args :tangle install.sh
 
-#+begin_src sh :tangle yes
+#+begin_src sh
 #!/usr/bin/env bash
+set -e # exit on error
 #+end_src
 
-The document is only for =wayland=, since I won't switch to =Xorg= environment(In the last I use =bspwm=) in the future.
+#+RESULTS:
+
+#+begin_src sh :tangle post.sh
+#!/usr/bin/env bash
+set -e # exit on error
+#+end_src
+
+The document is only for =Wayland=, since I won't switch to =Xorg= environment(In the last I use =bspwm=) in the future.
 
 * TODOS
 ** TODO customize =archinstall= script
 
 * Tips
-- Make sure all the code block are assigned by the property label =tangle yes=, the file is auto-tangled by default(org-auto-tangle), use Shortkey =<SPC-m-B>= to manually tanlge the file.
+- Make sure all the code block are assigned by the property label =tangle yes=, the file is auto-tangled by default(org-auto-tangle), use key shortcut =<SPC-m-B>= to manually tanlge the file.
 - To show key shortcut for an executable, use command =rg <executable name> dotfiles/config/hypr/hyprland.conf=
+- Scripts Execute Order:
+  1. =install.sh=
+  2. reboot and configure proxy
+  3. =post.sh=
 
 * Pre-requests
+** Install git, clone the Repo, and cd into the root directory of the repo.
+#+begin_src sh
+# git clone https://github.com/Ziqi-Yang/dotfiles.git dotfiles
+# cd dotfiles
+#+end_src
 ** Use =archinstall= script to install basic Arch Linux system.
 - Select =minial= for desktop environment(profile) since currently =archinstall= script doesn't support Hyprland(Hyprland hasn't merged into the official repository).
 - Select =use NetworkManger= for =Network configuration=, note that =networkmanger-applet= won't be installed if you selected a =minial= desktop environment. Since it doesn't work on Wayland, I use the build in =nmtui= command to replace it.
-** Add =archlinuxcn= mirror
-#+begin_src sh :tangle yes
+** Add =archlinuxcn= package repository
+#+begin_src sh
 if grep -q 'archlinuxcn' /etc/pacman.conf; then
   echo 'already added "archlinuxcn" source'
 else
@@ -28,59 +46,133 @@ else
 fi
 sudo pacman -S archlinuxcn-keyring
 #+end_src
-** Install =paru= AUR helper
-#+begin_src sh :tangle yes
-sudo pacman -S paru
+** Change mirrors order in the =mirrorlist=
+#+begin_src sh
+sudo sed -i '1iServer = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch' /etc/pacman.d/mirrorlist
+sudo sed -i '1iServer = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch' /etc/pacman.d/mirrorlist
 #+end_src
+** Install =paru= AUR helper
+#+begin_src sh
+sudo pacman -S paru
+mkdir -p ~/.config/paru
+#+end_src
+** See all the entries needed to manually set in the document
+search for symbol =!!!= in the document, or you can execute command
+#+begin_src sh :tangle no
+rg '!!!' ./docs/installation.org
+#+end_src
+
 * System
 ** Basic
 - =xdg-user-dirs=: create user default directories(like =Download=, =Document=)
 - =ntfs-3g=: NTFS filesystem driver and utilities
 - =udisks2= & =udiskie=: enable auto mount of USB flash disk
 - =fish=: fish shell
-- =ripgrep=: search
+- =ripgrep=: search, alternative for =grep=
+- =fd=: search, alternative for =find=
 - =htop=: modern top
 - =neofetch=: fetch system information
-#+begin_src sh :tangle yes
-sudo pacman -S git xdg-user-dirs ntfs-3g udisks2 udiskie fish ripgrep htop neofetch wget
-chsh -s /bin/fish # change default shell for current user
+- =brightnessctl=: brightness control
+#+begin_src sh
+sudo pacman -S git xdg-user-dirs ntfs-3g udisks2 udiskie fish ripgrep fd htop neofetch wget brightnessctl
 #+end_src
+
+** Sound
+*** Computer
+=sof-firmware alsa-ucm-conf= packages are required for some newer laptop according to [[https://wiki.archlinux.org/title/Advanced_Linux_Sound_Architecture#ALSA_firmware][Advanced Linux Sound Architecture#ALSA_firmware - Arch Wiki]]
+#+begin_src sh
+sudo pacman -S pulseaudio alsa-utils pulseaudio-alsa pamixer sof-firmware alsa-ucm-conf
+#+end_src
+*** Bluetooth
+- =bluez-utils= provide =bluetoothctl= tool
+- =pavucontrol= provide the GUI for PulseAudio
+- =blueman= provide GUI for Bluetooth
+#+begin_src sh
+sudo pacman -S bluez bluez-utils pulseaudio-bluetooth pulseaudio-alsa blueman
+sudo systemctl enable bluetooth
+sudo usermod -a -G lp $USER
+#+end_src
+** Touchpad
+#+begin_src sh
+sudo pacman -S libinput xf86-input-synaptics
+#+end_src
+
 ** Display Manager
 - =lxdm=: can be used if =lightdm= doesn't work
-#+begin_src sh :tangle yes
+#+begin_src sh
 sudo pacman -S lightdm lightdm-slick-greeter lxdm
 sudo systemctl disable lxdm
 sudo systemctl enable lightdm
 #+end_src
+** GPU Driver
+*!!! Refer to Arch Wiki to find what drivers suit your GPU*
+
+#+begin_src sh
+sudo pacman -S mesa vulkan-intel nvidia nvidia-settings
+#+end_src
 ** Wayland(Hyprland) Utility
-line 3:\\
 - =wev=: alternative of =xev=, show mouse and key name
 - =wl-clipboard=: alternative of =xclip=
-
-line 4:\\
 - =clipman=: clipboard manager for Wayland
 - =hyprpaper=: background paper
 - =rofi-lbonn-wayland-git=: rofi Wayland fork
 - =waybar-hyprland-git=: Wayland bar (with Hyprland integration)
 - =gammastep=: screen gamma tool(protect eyes)
-#+begin_src sh :tangle yes
-paru -S hyprland-git xorg-xwayland xorg-xlsclients qt5-wayland glfw-wayland qt6-wayland
-paru -S dunst wireplumber pipewire polkit-kde-agent xdg-desktop-portal-hyprland-git
-paru -S wev wl-clipboard wtype
-paru -S clipman hyprpaper rofi-lbonn-wayland-git waybar-hyprland-git gammastep
+#+begin_src sh
+paru -S hyprland-git
+sudo pacman -S xorg-xwayland xorg-xlsclients qt5-wayland glfw-wayland qt6-wayland
+sudo pacman -S dunst wireplumber pipewire polkit-kde-agent
+
+sudo pacman -S wev-git wl-clipboard wtype clipman gammastep
+#+end_src
+
+#+begin_src sh :tangle post.sh
+paru -S xdg-desktop-portal-hyprland-git
+
+paru -S hyprpaper rofi-lbonn-wayland-git waybar-hyprland-git
 #+end_src
 ** UI
 *** Font
+copy fonts in the repo to user font path
+- =JosefinSans-Regular.ttf=: [[file:../dotfiles/Public/matter/my_command.sh]] need
+- =MaterialDesignIconsDesktop.ttf=: [[https://github.com/Templarian/MaterialDesign-Font][GitHub]] [[https://pictogrammers.com/library/mdi/][Icons]]
+- =icon-font=: https://icofont.com/
+#+begin_src sh
+mkdir -p ~/.local/share/fonts
+cp assets/fonts/* ~/.local/share/fonts/
+fc-cache -rv
+#+end_src
 **** Chinese Font
-#+begin_src sh :tangle yes
-sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
+- =ttf-zpix=: pixel font
+#+begin_src sh
+sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra  ttf-lxgw-wenkai ttf-lxgw-wenkai-mono
+#+end_src
+
+#+begin_src sh :tangle post.sh
+paru -S ttf-zpix
+#+end_src
+**** English Font
+#+begin_src sh
+paru -S ttf-firacode-nerd
+#+end_src
+
+#+begin_src sh :tangle post.sh
+paru -S nerd-fonts-ibm-plex-mono
+#+end_src
+*** Cursor Theme
+#+begin_src sh :tangle post.sh
+paru -S googledot-cursor-theme
 #+end_src
 
 * User Applications
 ** Utility
 - =hyprpick=: color pick for =Hyprland=
-#+begin_src sh :tangle yes
-paru -S hyprpick
+- =fzf=: command line fuzzy finder
+- =trash-cli=: trash bin management
+- =zoxide=: advanced cd
+- =jq=: manipulate and pretty print JSON
+#+begin_src sh :tangle post.sh
+paru -S hyprpick fzf trash-cli zoxide jq
 #+end_src
 ** Input Method - Fcitx5
 - =fcitx5-im=: group of the basic components of fcitx5(select all when it prompts you to choose which component to install)
@@ -89,57 +181,304 @@ paru -S hyprpick
 - =fcitx5-pinyin-moegirl=: moegirl(萌娘百科)
 - =fcitx5-material-color=: color theme
 - =fcitx5-pinyin-custom-pinyin-dictionary=: 某人自建拼音输入法词库，百万常用词汇量 https://github.com/wuhgit/CustomPinyinDictionary
-#+begin_src sh :tangle yes
-paru -S fcitx5-im fcitx5-chinese-addons fcitx5-anthy fcitx5-pinyin-moegirl fcitx5-material-color fcitx5-pinyin-custom-pinyin-dictionary
+#+begin_src sh
+sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-anthy fcitx5-pinyin-moegirl fcitx5-material-color
+#+end_src
+
+#+begin_src sh :tangle post.sh
+paru -S fcitx5-pinyin-custom-pinyin-dictionary
 #+end_src
 ** Media
 *** Image Editor/Viewer
-#+begin_src sh :tangle yes
-paru -S gwenview imv
+- =gwenview= & =imv=: image viewer
+- =aseprite=: pixel art editor
+#+begin_src sh :tangle post.sh
+sudo pacman -S gwenview imv
+#+end_src
+
+#+begin_src sh :tangle post.sh
+paru -S aseprite
 #+end_src
 *** Audio
-#+begin_src sh :tange yes
+#+begin_src sh
 paru -S mpg123
 #+end_src
 ** ScreenShot
 - =grim slurp swappy=: combine three to a screenshot application for Wayland
 - =flameshot=: currently not support Hyprland
-#+begin_src sh :tangle yes
-paru -S grim slurp swappy flameshot
+#+begin_src sh
+sudo pacman -S grim slurp swappy flameshot
 #+end_src
 ** File Managers
-#+begin_src sh :tangle yes
-paru -S ranger dolphin
+#+begin_src sh
+sudo pacman -S ranger dolphin
 #+end_src
 ** Archiving Tools
 1. =ark= can decompress 7z file with the support of =p7zip=
 2. =unarchiver= is required by =ranger= (my custom command)
-#+begin_src sh :tangle yes
-paru -S ark unarchiver p7zip gzip unzip
+#+begin_src sh
+sudo pacman -S ark unarchiver p7zip gzip unzip zip
 #+end_src
 ** Terminal Emulators
 - =kitty= main terminal emulator
 - =alacritty=
-#+begin_src sh :rangle yes
-paru -S alacritty kitty
+#+begin_src sh
+sudo pacman -S alacritty kitty
 #+end_src
 ** Browser
-#+begin_src sh :tangle yes
-paru -S firefox
+#+begin_src sh
+sudo pacman -S firefox
 #+end_src
+** Customization Tool
+- =lxappearance=: GTK theme
+- =qt5ct=: change qt theme for application
+#+begin_src sh
+sudo pacman -S lxappearance qt5ct
+#+end_src
+
 ** Editors
 - =emacs29-git=: native-comp and pgtk(for wayland capability) support
-#+begin_src sh :tangle yes
+#+begin_src sh
+sudo pacman -S vi vim
+#+end_src
+
+#+begin_src sh :tangle post.sh
 paru -S emacs29-git
 #+end_src
 ** Programming Language & Specific Tools
+*** Build Tools
+#+begin_src sh
+sudo pacman -S make cmake
+#+end_src
+*** Debug Tools
+- =valgrind=: check cc program memory-management problems
+- =ptvsd= & =debugpy=: debug python
+#+begin_src sh
+sudo pacman -S lldb gdb cgdb valgrind
+#+end_src
 
+#+begin_src sh :tangle post.sh
+paru -S lldb-mi-git
+
+pip3 install ptvsd --user
+pip3 install debugpy --user
+#+end_src
+*** Python
+#+begin_src sh
+sudo pacman -S ipython python-pip
+#+end_src
+
+Emacs python mode
+#+begin_src sh :tangle post.sh
+pip install pyright pytest nose black pyflakes isort
+#+end_src
+*** Rust
+#+begin_src sh
+sudo pacman -S rustup rust-analyzer
+#+end_src
+
+Emacs rust mode
+#+begin_src sh :tangle post.sh
+rustup component add rustfmt-preview clippy-preview
+cargo install cargo-check
+#+end_src
+*** cc
+#+begin_src sh
+paru -S clang ccls
+#+end_src
+
+#+begin_src sh :tangle post.sh
+pip install cmake-language-server --user
+paru -S rtags-git
+#+end_src
+*** Golang
+#+begin_src sh
+paru -S go
+#+end_src
+
+#+begin_src sh :tangle post.sh
+go install github.com/x-motemen/gore/cmd/gore@latest
+go install github.com/stamblerre/gocode@latest
+go install golang.org/x/tools/cmd/godoc@latest
+go install golang.org/x/tools/cmd/goimports@latest
+go install golang.org/x/tools/cmd/gorename@latest
+go install golang.org/x/tools/cmd/guru@latest
+go install github.com/cweill/gotests/gotests@latest
+go install github.com/fatih/gomodifytags@latest
+paru -S golangci-lint-bin gopls
+#+end_src
+*** sh
+#+begin_src sh
+sudo pacman -S shellcheck bash-language-server
+#+end_src
+
+#+begin_src sh :tangle post.sh
+paru -S bashdb
+#+end_src
+*** latex
+#+begin_src sh
+sudo pacman -S texlab biber
+#+end_src
+*** Node.js and NPM
+Here we install =node.js= and =npm= for system use, later we will use =nvm= to manage =node= for user use(in fish shell)
+#+begin_src sh
+sudo pacman -S nodejs npm
+#+end_src
+*** Others
+- =ltex-ls-bin=: lsp ltex grammar check (Emacs =lsp-ltex= package)
+- =wakatime=: wakatime CLI that editor plugin can use
+- =sqlite= & =wordnet-cli=: (Emacs =:loopup=)
+- =browser-sync=: live web preview
+- =libvterm=: (Emacs =vterm= needs)
+#+begin_src sh
+sudo pacman -S sqlite pandoc libvterm
+#+end_src
+
+#+begin_src sh :tangle post.sh
+paru -S ltex-ls-bin wakatime wordnet-cli
+npm install -g browser-sync # live web preview
+#+end_src
 * Configurations
-1. lightdm
-2. ranger
-3. fcitx5
+1. lightdm-slick-greeter 配置 TODO
+2. 笔记本电源按键以及笔记本合盖行为控制
+3. set =qt5ct= as default setting application
+4. copy image to both =picture= and =/usr/share/background= (create), and then update lightdm-slick-greeter section
+** Fcitx5
+** Ranger Enhance
+*** Command & Preview
+- use =kitty= to preview image
+the needed programs are specialized in the =dotfiles/.config/ranger/scope.sh=
+A) =python-pdftotext=: preview pdf
+B) =highlight=: code highlight
+C) =mediainfo=: media metadata
+D) =poppler=:
+E) =w3m=: HTML
+F) =doc=: preview doc
+G) =docsx2txt=: docs
+H) =jq=: JSON
+I) =python-pdftotext=: PDF preview
+J) =ffmpegthumbnailer=: show video first frame
+K) =fontforge=: font preview
+L) =trash-cli=: used in my custom command to interact with trash bin
+M) =unarchiver=: manipulate archives
+N) =zoxide=: zoxide interaction
+O) =dragon-drop=: drag and drop support(keybinding =r=)
+#+begin_src sh
+sudo pacman -S highlight poppler mediainfo w3m catdoc docx2txt jq python-pdftotext ffmpegthumbnailer fontforge trash-cli unarchiver zoxide dragon-drop
+#+end_src
+
+#+begin_src sh :tangle post.sh
+paru -S python-xlsx2csv
+#+end_src
+*** Allow unauthenticated mounting
+according to https://dynacont.net/documentation/linux/udisks2_polkit_Allow_unauthenticated_mounting/
+#+begin_src sh
+mkdir -p /etc/polkit-1/rules.d
+echo '// See the polkit(8) man page for more information
+// about configuring polkit.
+
+// Allow udisks2 to mount devices without authentication
+// for users in the "wheel" group.
+polkit.addRule(function(action, subject) {
+    if ((action.id == "org.freedesktop.udisks2.filesystem-mount-system" ||
+         action.id == "org.freedesktop.udisks2.filesystem-mount") &&
+        subject.isInGroup("wheel")) {
+        return polkit.Result.YES;
+    }
+});' > /etc/polkit-1/rules.d/10-udisks2.rules
+#+end_src
+
+** lightdm settings
+*** Set default greeter
+#+begin_src sh
+sudo sed -i 's/#greeter-session=.*/greeter-session=hello/g' /etc/lightdm/lightdm.conf
+#+end_src
+*** Set default session
+#+begin_src sh
+echo '#!/bin/sh
+
+cd ~ || exit
+
+export _JAVA_AWT_WM_NONREPARENTING=1
+export XCURSOR_SIZE=24
+
+# qt
+QT_AUTO_SCREEN_SCALE_FACTOR=1
+QT_QPA_PLATFORM="wayland;xcb"
+QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+QT_QPA_PLATFORMTHEME=qt5ct
+
+XCURSOR_THEME=GoogleDot-Blue
+XCURSOR_SIZE=24
+
+exec Hyprland' > /usr/share/wayland-sessions/hyprland_wrap
+chmod +x /usr/share/wayland-sessions/hyprland_wrap
+
+echo '[Desktop Entry]
+Name=Hyprland_Wrap
+Comment=An intelligent dynamic tiling Wayland compositor
+Exec=/usr/share/wayland-sessions/hyprland_wrap
+Type=Application' >  /usr/share/wayland-sessions/hyprland_wrap.desktop
+
+sudo sed -i 's/#user-session=.*/user-session=hyprland_wrap/g' /etc/lightdm/lightdm.conf
+#+end_src
+
+*** Slick-Greeter Settings
+#+begin_src sh
+echo '[Greeter]
+background=/usr/share/background/4.png
+enable-hidpi=auto' > /etc/lightdm/slick-greeter.conf
+#+end_src
+
 ** Disable DHCP System Units
 see [[https://wiki.archlinux.org/title/NetworkManager#DHCP_client][NetworkManager - DHCP client - Arch Wiki]]
-#+begin_src sh :tangle yes
+#+begin_src sh
 sudo systemctl disable dhcpcd
 #+end_src
+** Set Default Applications
+*** Change default terminal
+=rofi= will use the default terminal to execute command
+#+begin_src sh
+echo 'export TERMINAL="alacritty"' >> ~/.profile
+#+end_src
+
+** UI
+*** Icon theme
+#+begin_src sh
+sudo pacman -S tela-icon-theme-git
+#+end_src
+Also try [[https://store.kde.org/p/1678986/][Deepin Icons 2022]]
+*** GTK theme
+#+begin_src sh :tangle post.sh
+paru -S layan-gtk-theme-git
+#+end_src
+*** Qt theme
+#+begin_src sh
+sudo pacman -S kvantum
+#+end_src
+*** Fcitx5 theme
+#+begin_src sh :tangle post.sh
+paru -S fcitx5-nord
+#+end_src
+*** GRUB theme
+use the following command to generate(and install) grub theme
+#+begin_src sh :tangle post.sh
+gfw dotfiles/Public/matter/my_command.sh
+#+end_src
+
+* Post Installation
+*** Use nvm to manage Node.js & NPM
+Use =nvm= (already installed in the fish configuration) to install.
+#+begin_src sh :tangle post.sh
+nvm install latest
+nvm use latest
+#+end_src
+*** Different time display for Linux and windows
+https://sspai.com/post/55983
+*** Change user default shell
+#+begin_src sh :tangle post.sh
+chsh -s /bin/fish
+#+end_src
+* Manual Checkup
+** power off without privilege
+https://askubuntu.com/questions/168879/shutdown-from-terminal-without-entering-password

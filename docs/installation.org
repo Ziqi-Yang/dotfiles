@@ -12,6 +12,11 @@ set -e # exit on error
 set -e # exit on error
 #+end_src
 
+#+begin_src sh :tangle optional.sh
+#!/usr/bin/env bash
+set -e # exit on error
+#+end_src
+
 The document is only for =Wayland=, since I won't switch to =Xorg= environment(In the last I use =bspwm=) in the future.
 
 * TODOS
@@ -338,7 +343,8 @@ sudo pacman -S make cmake
 #+end_src
 *** Debug Tools
 - =valgrind=: check cc program memory-management problems
-- =ptvsd= & =debugpy=: debug python
+- =ptvsd= & =debugpy=: Emacs debug python
+- =pygments=: syntax highlighting for [[https://github.com/cyrus-and/gdb-dashboard][gdb dashboard]]
 #+begin_src sh
 sudo pacman -S lldb gdb cgdb valgrind
 #+end_src
@@ -346,8 +352,7 @@ sudo pacman -S lldb gdb cgdb valgrind
 #+begin_src sh :tangle post.sh
 paru -S lldb-mi-git
 
-pip3 install ptvsd --user
-pip3 install debugpy --user
+pip3 install ptvsd debugpy pygments --user
 #+end_src
 *** Python
 #+begin_src sh
@@ -416,6 +421,7 @@ paru -S bashdb
 sudo pacman -S texlab biber
 #+end_src
 *** Flutter
+https://dev.to/awais/configure-flutter-development-environment-on-manjaro-arch-linux-4a0a
 **** FVM Setup
 #+begin_src sh :tangle post.sh
 paru -S fvm-bin
@@ -423,8 +429,15 @@ fvm install stable
 fvm global stable
 #+end_src
 **** Install Android SDK
-#+begin_src sh
+*!!! Not completed. Need to be updated.*
+#+begin_src sh :tanlge post.sh
+sudo pacman -S android-sdk android-sdk-platform-tools android-sdk-build-tools
+sudo pacman -S android-platform
 
+sudo groupadd android-sdk
+sudo gpasswd -a $USER android-sdk
+sudo setfacl -R -m g:android-sdk:rwx /opt/android-sdk
+sudo setfacl -d -m g:android-sdk:rwX /opt/android-sdk
 #+end_src
 
 *** Node.js and NPM
@@ -458,9 +471,22 @@ paru -S ltex-ls-bin wakatime wordnet-cli cht.sh-git
 npm install -g browser-sync # live web preview
 #+end_src
 * Configurations
-1. 笔记本电源按键以及笔记本合盖行为控制
-2. set =qt5ct= as default setting application
+** qt5ct
+#+begin_src sh
+echo 'QT_QPA_PLATFORMTHEME=qt5ct' >> >> /etc/environment
+#+end_src
 ** Fcitx5
+#+begin_src sh
+echo 'GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx' >> /etc/environment
+#+end_src
+** Handle Power Key and Lid Switch Behaviors
+#+begin_src sh
+sudo sed -i "s/#HandleLidSwitch=suspend/HandleLidSwitch=ignore/g" /etc/systemd/logind.conf
+sudo sed -i "s/#HandleLidSwitchExternalPower=suspend/HandleLidSwitchExternalPower=ignore" /etc/systemd/logind.conf
+sudo sed -i "s/#HandleLidSwitchExternalPower=suspend/HandleLidSwitchExternalPower=ignore/g" /etc/systemd/logind.conf
+#+end_src
 ** Makepkg use more core
 #+begin_src sh
 sudo sed -i 's/#MAKEFLAGS=.*/MAKEFLAGS="-j$(nproc)"/g' /etc/makepkg.conf

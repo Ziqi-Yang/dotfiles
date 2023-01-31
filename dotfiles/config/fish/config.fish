@@ -19,8 +19,8 @@ set JAVA_HOME /usr/lib/jvm/default-java
 set _JAVA_OPTIONS
 
 ## flutter
-set FLUTTER_STORAGE_BASE_URL "https://mirrors.tuna.tsinghua.edu.cn/flutter"
-set PUB_HOSTED_URL "https://mirrors.tuna.tsinghua.edu.cn/dart-pub"
+export FLUTTER_STORAGE_BASE_URL="https://mirrors.tuna.tsinghua.edu.cn/flutter"
+export PUB_HOSTED_URL="https://mirrors.tuna.tsinghua.edu.cn/dart-pub"
 
 zoxide init fish | source
 

@@ -105,11 +105,27 @@ sudo pacman -S shellcheck bash-language-server
 
 sudo pacman -S texlab biber
 
+sudo pacman -S android-sdk android-sdk-platform-tools android-sdk-build-tools
+sudo pacman -S android-platform
 
+sudo groupadd android-sdk
+sudo gpasswd -a $USER android-sdk
+sudo setfacl -R -m g:android-sdk:rwx /opt/android-sdk
+sudo setfacl -d -m g:android-sdk:rwX /opt/android-sdk
 
 sudo pacman -S nodejs npm
 
 sudo pacman -S sqlite pandoc libvterm tokei hexyl jq
+
+echo 'QT_QPA_PLATFORMTHEME=qt5ct' >> >> /etc/environment
+
+echo 'GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx' >> /etc/environment
+
+sudo sed -i "s/#HandleLidSwitch=suspend/HandleLidSwitch=ignore/g" /etc/systemd/logind.conf
+sudo sed -i "s/#HandleLidSwitchExternalPower=suspend/HandleLidSwitchExternalPower=ignore" /etc/systemd/logind.conf
+sudo sed -i "s/#HandleLidSwitchExternalPower=suspend/HandleLidSwitchExternalPower=ignore/g" /etc/systemd/logind.conf
 
 sudo sed -i 's/#MAKEFLAGS=.*/MAKEFLAGS="-j$(nproc)"/g' /etc/makepkg.conf
 

@@ -29,8 +29,7 @@ paru -S gitleaks
 
 paru -S lldb-mi-git
 
-pip3 install ptvsd --user
-pip3 install debugpy --user
+pip3 install ptvsd debugpy pygments --user
 
 pip install pyright pytest nose black pyflakes isort
 

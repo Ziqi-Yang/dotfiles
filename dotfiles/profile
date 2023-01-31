@@ -1,0 +1,7 @@
+. "$HOME/.cargo/env"
+export TERMINAL="alacritty"
+export _JAVA_AWT_WM_NONREPARENTING=1
+
+# Added by Toolbox App
+export PATH="$PATH:/home/zarkli/.local/share/JetBrains/Toolbox/scripts"
+

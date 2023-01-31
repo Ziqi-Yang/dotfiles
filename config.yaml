@@ -176,6 +176,12 @@ dotfiles:
   d_go:
     src: config/go
     dst: ~/.config/go
+  f_bashrc:
+    src: bashrc
+    dst: ~/.bashrc
+  f_profile:
+    src: profile
+    dst: ~/.profile
 profiles:
   myArch:
     dotfiles:
@@ -235,3 +241,5 @@ profiles:
     - d_cargo
     - d_fcitx5
     - d_go
+    - f_bashrc
+    - f_profile

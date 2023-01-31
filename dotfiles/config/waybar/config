@@ -111,7 +111,6 @@
         "format-calendar": "<span color='#ecc6d9'><b>{}</b></span>",
         "format-calendar-weeks": "<span color='#99ffdd'><b>W{:%U}</b></span>",
         "format-calendar-weekdays": "<span color='#ffcc66'><b>{}</b></span>",
-        "on-click": "gnome-calendar",
     },
     "cpu": {
         "interval": 3,

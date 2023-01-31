@@ -990,3 +990,4 @@ devel                [ˈdevl]              abbr. 发展（development） n. （D
 u盘                                        USB flash disk
 verbatim             [vɝ'betɪm]           adv. 逐字地 adj. 逐字的
 checkup              ['tʃekʌp]            n. 审查，检查；健康检查
+conky                [ˈkɑːŋki]            n. （美、泰、俄）康基（人名）

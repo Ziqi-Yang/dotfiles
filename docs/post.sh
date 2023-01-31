@@ -5,13 +5,13 @@ paru -S xdg-desktop-portal-hyprland-git
 
 paru -S hyprpaper rofi-lbonn-wayland-git waybar-hyprland-git
 
-paru -S ttf-zpix
+paru -S ttf-zpix ttf-wps-fonts
 
 paru -S nerd-fonts-ibm-plex-mono
 
 paru -S googledot-cursor-theme
 
-paru -S hyprpick selectdefaultapplication-git aur-auto-vote-git
+paru -S hyprpick selectdefaultapplication-git aur-auto-vote-git wudao-dict-git
 
 paru -S fcitx5-pinyin-custom-pinyin-dictionary
 
@@ -20,6 +20,10 @@ paru -S aseprite
 paru -S sioyek-git
 
 paru -S yesplaymusic
+
+paru -S clash-for-windows-bin
+
+paru -S wemeet-bin zoom
 
 paru -S electronic-wechat-uos-bin
 
@@ -60,6 +64,9 @@ nvm use latest
 
 paru -S ltex-ls-bin wakatime wordnet-cli cht.sh-git
 npm install -g browser-sync # live web preview
+
+paru -S uair
+pip install requests
 
 paru -S python-xlsx2csv
 

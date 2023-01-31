@@ -26,6 +26,8 @@ sudo pacman -S bluez bluez-utils pulseaudio-bluetooth pulseaudio-alsa blueman
 sudo systemctl enable bluetooth
 sudo usermod -a -G lp $USER
 
+sudo pacman -S os-prober
+
 sudo pacman -S libinput xf86-input-synaptics
 
 sudo pacman -S lightdm lightdm-slick-greeter lxdm
@@ -48,7 +50,7 @@ mkdir -p ~/.local/share/fonts
 cp assets/fonts/* ~/.local/share/fonts/
 fc-cache -rv
 
-sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra  ttf-lxgw-wenkai ttf-lxgw-wenkai-mono
+sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra  ttf-lxgw-wenkai ttf-lxgw-wenkai-mono wqy-zenhei
 
 sudo pacman -S ttf-firacode-nerd ttf-ibm-plex
 
@@ -57,11 +59,11 @@ sudo pacman -S ttf-font-awesome
 sudo mkdir -p /usr/share/background/
 sudo cp assets/images/background/* /usr/share/background/
 
-sudo pacman -S fzf trash-cli zoxide scrcpy gtk3-demos yt-dlp lux-dl rofimoji rofi-calc
+sudo pacman -S fzf trash-cli zoxide scrcpy gtk3-demos yt-dlp lux-dl rofimoji rofi-calc bat curl fd ffmpeg gnupg hugo
 
 sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-anthy fcitx5-pinyin-moegirl fcitx5-material-color
 
-sudo pacman -S gwenview imv
+sudo pacman -S gimp inkscape gwenview imv
 
 sudo pacman -S mpv obs-studio blender
 
@@ -72,6 +74,8 @@ sudo pacman -S mpg123
 sudo pacman -S grim slurp swappy flameshot
 
 sudo pacman -S ranger dolphin
+
+paru -S wps-office wps-office-mui-zh-cn ttf-wps-fonts
 
 sudo pacman -S ark unarchiver p7zip gzip unzip zip
 
@@ -103,7 +107,7 @@ paru -S go
 
 sudo pacman -S shellcheck bash-language-server
 
-sudo pacman -S texlab biber
+sudo pacman -S texlive-most texlive-lang texlab biber
 
 sudo pacman -S android-sdk android-sdk-platform-tools android-sdk-build-tools
 sudo pacman -S android-platform
@@ -122,6 +126,8 @@ echo 'QT_QPA_PLATFORMTHEME=qt5ct' >> >> /etc/environment
 echo 'GTK_IM_MODULE=fcitx
 QT_IM_MODULE=fcitx
 XMODIFIERS=@im=fcitx' >> /etc/environment
+
+sudo pacman -S alacritty kitty mpg123 htop duf trash-cli dolphin playerctl pacman-contrib libpulse
 
 sudo sed -i "s/#HandleLidSwitch=suspend/HandleLidSwitch=ignore/g" /etc/systemd/logind.conf
 sudo sed -i "s/#HandleLidSwitchExternalPower=suspend/HandleLidSwitchExternalPower=ignore" /etc/systemd/logind.conf

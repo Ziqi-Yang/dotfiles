@@ -32,7 +32,7 @@ The document is only for =Wayland=, since I won't switch to =Xorg= environment(I
 - To show key shortcut for an executable, use command =rg <executable name> dotfiles/config/hypr/hyprland.conf=
 - Scripts Execute Order:
   1. =install.sh=
-  2. reboot and configure proxy
+  2. reboot and configure proxy [[*Networking]]
   3. =post.sh=
   4. decide whether to execute =optional.sh=
 
@@ -107,6 +107,10 @@ sudo pacman -S bluez bluez-utils pulseaudio-bluetooth pulseaudio-alsa blueman
 sudo systemctl enable bluetooth
 sudo usermod -a -G lp $USER
 #+end_src
+** GRUB
+#+begin_src sh
+sudo pacman -S os-prober
+#+end_src
 ** Touchpad
 #+begin_src sh
 sudo pacman -S libinput xf86-input-synaptics
@@ -169,11 +173,11 @@ fc-cache -rv
 **** Chinese Font
 - =ttf-zpix=: pixel font
 #+begin_src sh
-sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra  ttf-lxgw-wenkai ttf-lxgw-wenkai-mono
+sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra  ttf-lxgw-wenkai ttf-lxgw-wenkai-mono wqy-zenhei
 #+end_src
 
 #+begin_src sh :tangle post.sh
-paru -S ttf-zpix
+paru -S ttf-zpix ttf-wps-fonts
 #+end_src
 **** English Font
 #+begin_src sh
@@ -213,12 +217,19 @@ sudo cp assets/images/background/* /usr/share/background/
 - [[https://github.com/fdw/rofimoji][rofimoji]]: a emoji selector interacts with rofi
 - [[https://gitlab.com/dwt1/shell-color-scripts][shell-color-scripts]]: print colorful ASCII arts, which can be configured to be displayed at the shell startup. (currently not using it)
 - [[https://github.com/pipeseroni/pipes.sh][pipes-sh]]: show pipes at terminal(currently not using it)
+- =wudao-dict-git=: dict/translator
+- =bat=: modern =cat=
+- =curl=
+- =fd=: modern =find=
+- =ffmpeg=
+- =gnupg=: gpg
+- =hugo=: blog
 #+begin_src sh
-sudo pacman -S fzf trash-cli zoxide scrcpy gtk3-demos yt-dlp lux-dl rofimoji rofi-calc
+sudo pacman -S fzf trash-cli zoxide scrcpy gtk3-demos yt-dlp lux-dl rofimoji rofi-calc bat curl fd ffmpeg gnupg hugo
 #+end_src
 
 #+begin_src sh :tangle post.sh
-paru -S hyprpick selectdefaultapplication-git aur-auto-vote-git
+paru -S hyprpick selectdefaultapplication-git aur-auto-vote-git wudao-dict-git
 #+end_src
 
 #+begin_src sh :tangle optional.sh
@@ -245,11 +256,13 @@ paru -S fcitx5-pinyin-custom-pinyin-dictionary
 #+end_src
 ** Media
 *** Image Editor/Viewer
+- =gimp=: editor
+- =inkscape=: SVG editor (also provide cli tool)
 - =gwenview= & =imv=: image viewer
 - =aseprite=: pixel art editor
 
 #+begin_src sh
-sudo pacman -S gwenview imv
+sudo pacman -S gimp inkscape gwenview imv
 #+end_src
 
 #+begin_src sh :tangle post.sh
@@ -267,7 +280,7 @@ sudo pacman -S zathura zathura-cb zathura-djvu zathura-pdf-mupdf
 #+begin_src sh :tangle post.sh
 paru -S sioyek-git
 #+end_src
-*** Audio / Music Plaer
+*** Audio / Music Player
 #+begin_src sh
 sudo pacman -S mpg123
 #+end_src
@@ -284,6 +297,18 @@ sudo pacman -S grim slurp swappy flameshot
 ** File Managers
 #+begin_src sh
 sudo pacman -S ranger dolphin
+#+end_src
+** Networking
+#+begin_src sh :tangle post.sh
+paru -S clash-for-windows-bin
+#+end_src
+** Office
+#+begin_src sh :tanlge post.sh
+paru -S wps-office wps-office-mui-zh-cn ttf-wps-fonts
+#+end_src
+** Meeting
+#+begin_src sh :tangle post.sh
+paru -S wemeet-bin zoom
 #+end_src
 ** Archiving Tools
 1. =ark= can decompress 7z file with the support of =p7zip=
@@ -422,8 +447,9 @@ sudo pacman -S shellcheck bash-language-server
 paru -S bashdb
 #+end_src
 *** latex
+- =texlab= & =biber=: required by
 #+begin_src sh
-sudo pacman -S texlab biber
+sudo pacman -S texlive-most texlive-lang texlab biber
 #+end_src
 *** Flutter
 https://dev.to/awais/configure-flutter-development-environment-on-manjaro-arch-linux-4a0a
@@ -485,6 +511,16 @@ echo 'QT_QPA_PLATFORMTHEME=qt5ct' >> >> /etc/environment
 echo 'GTK_IM_MODULE=fcitx
 QT_IM_MODULE=fcitx
 XMODIFIERS=@im=fcitx' >> /etc/environment
+#+end_src
+** Waybar
+The function of each package can be found in [[file:~/Documents/dotfiles/dotfiles/config/waybar/README.org][WayBar - README.org]]
+#+begin_src sh
+sudo pacman -S alacritty kitty mpg123 htop duf trash-cli dolphin playerctl pacman-contrib libpulse
+#+end_src
+
+#+begin_src sh :tangle post.sh
+paru -S uair
+pip install requests
 #+end_src
 ** Handle Power Key and Lid Switch Behaviors
 #+begin_src sh
@@ -602,7 +638,6 @@ sudo systemctl disable dhcpcd
 #+begin_src sh
 echo 'export TERMINAL="alacritty"' >> ~/.profile
 #+end_src
-
 ** UI
 *** Icon theme
 #+begin_src sh

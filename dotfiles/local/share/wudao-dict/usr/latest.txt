@@ -1,4 +1,3 @@
-boggle
 random
 crooked
 bench
@@ -98,3 +97,4 @@ devel
 u盘
 verbatim
 checkup
+conky

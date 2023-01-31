@@ -50,6 +50,9 @@ sudo pacman -S ttf-firacode-nerd ttf-ibm-plex
 
 sudo pacman -S ttf-font-awesome
 
+sudo mkdir -p /usr/share/background/
+sudo cp assets/images/background/* /usr/share/background/
+
 sudo pacman -S fzf trash-cli zoxide scrcpy gtk3-demos yt-dlp lux-dl
 
 sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-anthy fcitx5-pinyin-moegirl fcitx5-material-color

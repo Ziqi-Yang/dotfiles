@@ -168,9 +168,14 @@ paru -S nerd-fonts-ibm-plex-mono
 #+begin_src sh
 sudo pacman -S ttf-font-awesome
 #+end_src
-*** Cursor Theme
+*** Install Cursor Theme
 #+begin_src sh :tangle post.sh
 paru -S googledot-cursor-theme
+#+end_src
+*** Images
+#+begin_src sh
+sudo mkdir -p /usr/share/background/
+sudo cp assets/images/background/* /usr/share/background/
 #+end_src
 
 * User Applications
@@ -415,10 +420,9 @@ paru -S ltex-ls-bin wakatime wordnet-cli cht.sh-git
 npm install -g browser-sync # live web preview
 #+end_src
 * Configurations
-1. lightdm-slick-greeter 配置 TODO
-2. 笔记本电源按键以及笔记本合盖行为控制
-3. set =qt5ct= as default setting application
-4. copy image to both =picture= and =/usr/share/background= (create), and then update lightdm-slick-greeter section
+1. 笔记本电源按键以及笔记本合盖行为控制
+2. set =qt5ct= as default setting application
+3. copy image to both =picture= and =/usr/share/background= (create), and then update lightdm-slick-greeter section
 ** Fcitx5
 ** Makepkg use more core
 #+begin_src sh

@@ -173,6 +173,9 @@ dotfiles:
     src: config/fcitx5
     dst: ~/.config/fcitx5
     chmod: '700'
+  d_go:
+    src: config/go
+    dst: ~/.config/go
 profiles:
   myArch:
     dotfiles:
@@ -231,3 +234,4 @@ profiles:
     - f_env
     - d_cargo
     - d_fcitx5
+    - d_go

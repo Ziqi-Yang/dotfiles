@@ -123,18 +123,27 @@ sudo pacman -S mesa vulkan-intel nvidia nvidia-settings
 - =rofi-lbonn-wayland-git=: rofi Wayland fork
 - =waybar-hyprland-git=: Wayland bar (with Hyprland integration)
 - =gammastep=: screen gamma tool(protect eyes)
+- =wofi=: for clipboard selection
 #+begin_src sh
 paru -S hyprland-git
 sudo pacman -S xorg-xwayland xorg-xlsclients qt5-wayland glfw-wayland qt6-wayland
 sudo pacman -S dunst wireplumber pipewire polkit-kde-agent
 
-sudo pacman -S wev-git wl-clipboard wtype clipman gammastep
+sudo pacman -S wev-git wl-clipboard wtype clipman gammastep wofi
 #+end_src
 
 #+begin_src sh :tangle post.sh
 paru -S xdg-desktop-portal-hyprland-git
 
 paru -S hyprpaper rofi-lbonn-wayland-git waybar-hyprland-git
+#+end_src
+** Virtual Machine
+according to https://wiki.manjaro.org/index.php/Virt-manager/en#Install_virt-manager.2C_qemu_and_all_dependencies
+
+#+begin_src sh
+sudo pacman -S virt-manager qemu vde2 iptables-nft dnsmasq bridge-utils openbsd-netcat edk2-ovmf swtpm
+sudo systemctl enable libvirtd.service
+sudo usermod -a -G libvirt $USER
 #+end_src
 ** UI
 *** Font
@@ -190,12 +199,20 @@ sudo cp assets/images/background/* /usr/share/background/
 - [[https://github.com/yt-dlp/yt-dlp][yt-dlp]]: download YouTube videos(and videos from other video sites)
 - [[https://github.com/iawia002/lux][lux]]: download Bilibili videos(and videos from other video sites)
 - =aur-auto-vote-git=: auto vote installed AUR packages
+- [[https://github.com/svenstaro/rofi-calc][rofi-calc]]: a calculator interacts with rofi
+- [[https://github.com/fdw/rofimoji][rofimoji]]: a emoji selector interacts with rofi
+- [[https://gitlab.com/dwt1/shell-color-scripts][shell-color-scripts]]: print colorful ASCII arts, which can be configured to be displayed at the shell startup. (currently not using it)
+- [[https://github.com/pipeseroni/pipes.sh][pipes-sh]]: show pipes at terminal(currently not using it)
 #+begin_src sh
-sudo pacman -S fzf trash-cli zoxide scrcpy gtk3-demos yt-dlp lux-dl
+sudo pacman -S fzf trash-cli zoxide scrcpy gtk3-demos yt-dlp lux-dl rofimoji rofi-calc
 #+end_src
 
 #+begin_src sh :tangle post.sh
 paru -S hyprpick selectdefaultapplication-git aur-auto-vote-git
+#+end_src
+
+#+begin_src sh :tangle optional.sh
+paru -S shell-color-scripts pipes-sh
 #+end_src
 ** OCR
 It is recommended to use website [[https://pearocr.com/#/][pearocr]]
@@ -234,7 +251,7 @@ sudo pacman -S mpv obs-studio blender
 #+end_src
 *** PDF Reader
 #+begin_src sh
-sudo pacman -S zathura
+sudo pacman -S zathura zathura-cb zathura-djvu zathura-pdf-mupdf
 #+end_src
 
 #+begin_src sh :tangle post.sh
@@ -351,7 +368,7 @@ Emacs rust mode
 rustup component add rustfmt-preview clippy-preview
 cargo install cargo-check
 #+end_src
-*** cc
+*** CC
 - =man-pages=: Linux man pages, provides c API docs
 #+begin_src sh
 sudo pacman -S clang ccls man-pages
@@ -360,6 +377,15 @@ sudo pacman -S clang ccls man-pages
 #+begin_src sh :tangle post.sh
 pip install cmake-language-server --user
 paru -S rtags-git
+#+end_src
+*** Java
+#+begin_src sh
+sudo pacman -S jdk8-openjdk jdk-openjdk
+#+end_src
+
+(optional) set jdk8 as default jdk version
+#+begin_src sh :tangle optional.sh
+# sudo archlinux-java set java-8-openjdk/jre
 #+end_src
 *** Golang
 #+begin_src sh
@@ -389,6 +415,18 @@ paru -S bashdb
 #+begin_src sh
 sudo pacman -S texlab biber
 #+end_src
+*** Flutter
+**** FVM Setup
+#+begin_src sh :tangle post.sh
+paru -S fvm-bin
+fvm install stable
+fvm global stable
+#+end_src
+**** Install Android SDK
+#+begin_src sh
+
+#+end_src
+
 *** Node.js and NPM
 Here we install =node.js= and =npm= for system use, later we will use =nvm= to manage =node= for user use(in fish shell)
 #+begin_src sh
@@ -422,7 +460,6 @@ npm install -g browser-sync # live web preview
 * Configurations
 1. 笔记本电源按键以及笔记本合盖行为控制
 2. set =qt5ct= as default setting application
-3. copy image to both =picture= and =/usr/share/background= (create), and then update lightdm-slick-greeter section
 ** Fcitx5
 ** Makepkg use more core
 #+begin_src sh
@@ -556,7 +593,7 @@ paru -S fcitx5-nord
 *** GRUB theme
 use the following command to generate(and install) grub theme
 #+begin_src sh :tangle post.sh
-gfw dotfiles/Public/matter/my_command.sh
+env all_proxy=127.0.0.1:7890 dotfiles/Public/matter/my_command.sh
 #+end_src
 
 ** Change user default shell

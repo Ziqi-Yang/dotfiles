@@ -52,6 +52,10 @@ paru -S golangci-lint-bin gopls
 
 paru -S bashdb
 
+paru -S fvm-bin
+fvm install stable
+fvm global stable
+
 nvm install latest
 nvm use latest
 
@@ -64,6 +68,6 @@ paru -S layan-gtk-theme-git
 
 paru -S fcitx5-nord
 
-gfw dotfiles/Public/matter/my_command.sh
+env all_proxy=127.0.0.1:7890 dotfiles/Public/matter/my_command.sh
 
 chsh -s /bin/fish

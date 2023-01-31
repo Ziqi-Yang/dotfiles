@@ -182,6 +182,9 @@ dotfiles:
   f_profile:
     src: profile
     dst: ~/.profile
+  f_gdbinit:
+    src: gdbinit
+    dst: ~/.gdbinit
 profiles:
   myArch:
     dotfiles:
@@ -243,3 +246,4 @@ profiles:
     - d_go
     - f_bashrc
     - f_profile
+    - f_gdbinit

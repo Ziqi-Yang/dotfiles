@@ -38,7 +38,11 @@ paru -S hyprland-git
 sudo pacman -S xorg-xwayland xorg-xlsclients qt5-wayland glfw-wayland qt6-wayland
 sudo pacman -S dunst wireplumber pipewire polkit-kde-agent
 
-sudo pacman -S wev-git wl-clipboard wtype clipman gammastep
+sudo pacman -S wev-git wl-clipboard wtype clipman gammastep wofi
+
+sudo pacman -S virt-manager qemu vde2 iptables-nft dnsmasq bridge-utils openbsd-netcat edk2-ovmf swtpm
+sudo systemctl enable libvirtd.service
+sudo usermod -a -G libvirt $USER
 
 mkdir -p ~/.local/share/fonts
 cp assets/fonts/* ~/.local/share/fonts/
@@ -53,7 +57,7 @@ sudo pacman -S ttf-font-awesome
 sudo mkdir -p /usr/share/background/
 sudo cp assets/images/background/* /usr/share/background/
 
-sudo pacman -S fzf trash-cli zoxide scrcpy gtk3-demos yt-dlp lux-dl
+sudo pacman -S fzf trash-cli zoxide scrcpy gtk3-demos yt-dlp lux-dl rofimoji rofi-calc
 
 sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-anthy fcitx5-pinyin-moegirl fcitx5-material-color
 
@@ -61,7 +65,7 @@ sudo pacman -S gwenview imv
 
 sudo pacman -S mpv obs-studio blender
 
-sudo pacman -S zathura
+sudo pacman -S zathura zathura-cb zathura-djvu zathura-pdf-mupdf
 
 sudo pacman -S mpg123
 
@@ -93,11 +97,15 @@ sudo pacman -S rustup rust-analyzer
 
 sudo pacman -S clang ccls man-pages
 
+sudo pacman -S jdk8-openjdk jdk-openjdk
+
 paru -S go
 
 sudo pacman -S shellcheck bash-language-server
 
 sudo pacman -S texlab biber
+
+
 
 sudo pacman -S nodejs npm
 

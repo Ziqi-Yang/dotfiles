@@ -1,7 +1,7 @@
 ﻿#!/usr/bin/env bash
 set -e # exit on error
 
-# git clone https://github.com/Ziqi-Yang/dotfiles.git dotfiles
+# git clone --recurse-submodules --depth 1 --branch main https://github.com/Ziqi-Yang/dotfiles.git dotfiles
 # cd dotfiles
 
 if grep -q 'archlinuxcn' /etc/pacman.conf; then

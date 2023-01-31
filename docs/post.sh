@@ -11,6 +11,9 @@ paru -S nerd-fonts-ibm-plex-mono
 
 paru -S googledot-cursor-theme
 
+# ./dotdrop.sh install --dry # dry run
+./dotdrop.sh install
+
 paru -S hyprpick selectdefaultapplication-git aur-auto-vote-git wudao-dict-git
 
 paru -S fcitx5-pinyin-custom-pinyin-dictionary

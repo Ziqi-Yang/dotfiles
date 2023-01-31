@@ -31,15 +31,16 @@ The document is only for =Wayland=, since I won't switch to =Xorg= environment(I
 - Make sure all the code block are assigned by the property label =tangle yes=, the file is auto-tangled by default(org-auto-tangle), use key shortcut =<SPC-m-B>= to manually tangle the file.
 - To show key shortcut for an executable, use command =rg <executable name> dotfiles/config/hypr/hyprland.conf=
 - Scripts Execute Order:
-  1. =install.sh=
+  in the root directory of this repository
+  1. =docs/install.sh=
   2. reboot and configure proxy [[*Networking]]
-  3. =post.sh=
-  4. decide whether to execute =optional.sh=
+  3. =docs/post.sh=
+  4. decide whether to execute =docs/optional.sh=
 
 * Pre-requests
 ** Install git, clone the Repo, and cd into the root directory of the repo.
 #+begin_src sh
-# git clone https://github.com/Ziqi-Yang/dotfiles.git dotfiles
+# git clone --recurse-submodules --depth 1 --branch main https://github.com/Ziqi-Yang/dotfiles.git dotfiles
 # cd dotfiles
 #+end_src
 ** Use =archinstall= script to install basic Arch Linux system.
@@ -202,6 +203,12 @@ sudo cp assets/images/background/* /usr/share/background/
 #+end_src
 
 * User Applications
+install configuration files
+#+begin_src sh :tangle post.sh
+# ./dotdrop.sh install --dry # dry run
+./dotdrop.sh install
+#+end_src
+
 ** Utility
 - =hyprpick=: color pick for =Hyprland=
 - =fzf=: command line fuzzy finder

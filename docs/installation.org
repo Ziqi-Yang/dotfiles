@@ -7,8 +7,6 @@
 set -e # exit on error
 #+end_src
 
-#+RESULTS:
-
 #+begin_src sh :tangle post.sh
 #!/usr/bin/env bash
 set -e # exit on error
@@ -20,12 +18,13 @@ The document is only for =Wayland=, since I won't switch to =Xorg= environment(I
 ** TODO customize =archinstall= script
 
 * Tips
-- Make sure all the code block are assigned by the property label =tangle yes=, the file is auto-tangled by default(org-auto-tangle), use key shortcut =<SPC-m-B>= to manually tanlge the file.
+- Make sure all the code block are assigned by the property label =tangle yes=, the file is auto-tangled by default(org-auto-tangle), use key shortcut =<SPC-m-B>= to manually tangle the file.
 - To show key shortcut for an executable, use command =rg <executable name> dotfiles/config/hypr/hyprland.conf=
 - Scripts Execute Order:
   1. =install.sh=
   2. reboot and configure proxy
   3. =post.sh=
+  4. decide whether to execute =optional.sh=
 
 * Pre-requests
 ** Install git, clone the Repo, and cd into the root directory of the repo.
@@ -56,8 +55,10 @@ sudo sed -i '1iServer = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/
 sudo pacman -S paru
 mkdir -p ~/.config/paru
 #+end_src
-** See all the entries needed to manually set in the document
-search for symbol =!!!= in the document, or you can execute command
+** See all the entries needed to manually set/checkup in the document
+You should look at both [[*Manual Checkup]] and =!!!= entries  before you start the installation.
+
+Search for symbol =!!!= in the document, or you can execute command
 #+begin_src sh :tangle no
 rg '!!!' ./docs/installation.org
 #+end_src
@@ -73,8 +74,12 @@ rg '!!!' ./docs/installation.org
 - =htop=: modern top
 - =neofetch=: fetch system information
 - =brightnessctl=: brightness control
+- [[https://github.com/rofl0r/ncdu][ncdu:]] disk space usage (du)
+- [[https://github.com/muesli/duf][duf:]] disk usage (df)
+- [[https://github.com/ogham/exa][exa]]: modern ls
+- =hwinfo=: hardware info
 #+begin_src sh
-sudo pacman -S git xdg-user-dirs ntfs-3g udisks2 udiskie fish ripgrep fd htop neofetch wget brightnessctl
+sudo pacman -S git xdg-user-dirs ntfs-3g udisks2 udiskie fish ripgrep fd htop neofetch wget brightnessctl ncdu duf hwinfo
 #+end_src
 
 ** Sound
@@ -153,11 +158,15 @@ paru -S ttf-zpix
 #+end_src
 **** English Font
 #+begin_src sh
-paru -S ttf-firacode-nerd
+sudo pacman -S ttf-firacode-nerd ttf-ibm-plex
 #+end_src
 
 #+begin_src sh :tangle post.sh
 paru -S nerd-fonts-ibm-plex-mono
+#+end_src
+**** Icon Font
+#+begin_src sh
+sudo pacman -S ttf-font-awesome
 #+end_src
 *** Cursor Theme
 #+begin_src sh :tangle post.sh
@@ -169,10 +178,24 @@ paru -S googledot-cursor-theme
 - =hyprpick=: color pick for =Hyprland=
 - =fzf=: command line fuzzy finder
 - =trash-cli=: trash bin management
-- =zoxide=: advanced cd
-- =jq=: manipulate and pretty print JSON
+- [[https://github.com/ajeetdsouza/zoxide][zoxide]]: advanced cd
+- =selectdefaultapplication-git=: select default application for specific extension
+- [[https://github.com/Genymobile/scrcpy][scrcpy]]: screen copy, connect your android phone
+- =gtk3-demos=: contains =gtk3-icon-browser=, which is used for browse icons
+- [[https://github.com/yt-dlp/yt-dlp][yt-dlp]]: download YouTube videos(and videos from other video sites)
+- [[https://github.com/iawia002/lux][lux]]: download Bilibili videos(and videos from other video sites)
+- =aur-auto-vote-git=: auto vote installed AUR packages
+#+begin_src sh
+sudo pacman -S fzf trash-cli zoxide scrcpy gtk3-demos yt-dlp lux-dl
+#+end_src
+
 #+begin_src sh :tangle post.sh
-paru -S hyprpick fzf trash-cli zoxide jq
+paru -S hyprpick selectdefaultapplication-git aur-auto-vote-git
+#+end_src
+** OCR
+It is recommended to use website [[https://pearocr.com/#/][pearocr]]
+#+begin_src sh :tangle optional.sh
+paru -S tesseract gimagereader-qt tesseract-data-chi_sim tesseract-data-eng # gimagereader-qt can be replaced with gimagereader-gtk
 #+end_src
 ** Input Method - Fcitx5
 - =fcitx5-im=: group of the basic components of fcitx5(select all when it prompts you to choose which component to install)
@@ -192,16 +215,33 @@ paru -S fcitx5-pinyin-custom-pinyin-dictionary
 *** Image Editor/Viewer
 - =gwenview= & =imv=: image viewer
 - =aseprite=: pixel art editor
-#+begin_src sh :tangle post.sh
+
+#+begin_src sh
 sudo pacman -S gwenview imv
 #+end_src
 
 #+begin_src sh :tangle post.sh
 paru -S aseprite
 #+end_src
-*** Audio
+*** Video Editor/Viewer / Recorder
 #+begin_src sh
-paru -S mpg123
+sudo pacman -S mpv obs-studio blender
+#+end_src
+*** PDF Reader
+#+begin_src sh
+sudo pacman -S zathura
+#+end_src
+
+#+begin_src sh :tangle post.sh
+paru -S sioyek-git
+#+end_src
+*** Audio / Music Plaer
+#+begin_src sh
+sudo pacman -S mpg123
+#+end_src
+
+#+begin_src sh :tangle post.sh
+paru -S yesplaymusic
 #+end_src
 ** ScreenShot
 - =grim slurp swappy=: combine three to a screenshot application for Wayland
@@ -229,6 +269,14 @@ sudo pacman -S alacritty kitty
 #+begin_src sh
 sudo pacman -S firefox
 #+end_src
+** Chat
+#+begin_src sh
+sudo pacman -S telegram-desktop
+#+end_src
+
+#+begin_src sh :tangle post.sh
+paru -S electronic-wechat-uos-bin
+#+end_src
 ** Customization Tool
 - =lxappearance=: GTK theme
 - =qt5ct=: change qt theme for application
@@ -246,6 +294,22 @@ sudo pacman -S vi vim
 paru -S emacs29-git
 #+end_src
 ** Programming Language & Specific Tools
+*** Git Tools
+- [[https://github.com/rtyley/bfg-repo-cleaner][bfg]] Removes large or troublesome blobs like git-filter-branch does, but faster. (remove secrets and big files in git history)
+- [[https://github.com/zricethezav/gitleaks][gitleaks]] check your git repo secrets leaks
+- [[https://github.com/dandavison/delta][git-delta]]: git diff tool
+#+begin_src sh
+sudo pacman -S bfg git-delta
+#+end_src
+
+#+begin_src sh :tangle post.sh
+paru -S gitleaks
+#+end_src
+*** Docker
+#+begin_src
+sudo pacman -S podman
+#+end_src
+
 *** Build Tools
 #+begin_src sh
 sudo pacman -S make cmake
@@ -283,8 +347,9 @@ rustup component add rustfmt-preview clippy-preview
 cargo install cargo-check
 #+end_src
 *** cc
+- =man-pages=: Linux man pages, provides c API docs
 #+begin_src sh
-paru -S clang ccls
+sudo pacman -S clang ccls man-pages
 #+end_src
 
 #+begin_src sh :tangle post.sh
@@ -324,18 +389,29 @@ Here we install =node.js= and =npm= for system use, later we will use =nvm= to m
 #+begin_src sh
 sudo pacman -S nodejs npm
 #+end_src
+**** Use nvm to manage Node.js & NPM
+Use =nvm= (already installed in the fish configuration) to install.
+#+begin_src sh :tangle post.sh
+nvm install latest
+nvm use latest
+#+end_src
+
 *** Others
 - =ltex-ls-bin=: lsp ltex grammar check (Emacs =lsp-ltex= package)
 - =wakatime=: wakatime CLI that editor plugin can use
 - =sqlite= & =wordnet-cli=: (Emacs =:loopup=)
 - =browser-sync=: live web preview
 - =libvterm=: (Emacs =vterm= needs)
+- [[https://github.com/XAMPPRocky/tokei][tokei]]: count code
+- =hexyl=: view hex in terminal
+- [[https://github.com/chubin/cheat.sh][cht.sh-git]]: cheat sheet
+- =jq=: manipulate and pretty print JSON
 #+begin_src sh
-sudo pacman -S sqlite pandoc libvterm
+sudo pacman -S sqlite pandoc libvterm tokei hexyl jq
 #+end_src
 
 #+begin_src sh :tangle post.sh
-paru -S ltex-ls-bin wakatime wordnet-cli
+paru -S ltex-ls-bin wakatime wordnet-cli cht.sh-git
 npm install -g browser-sync # live web preview
 #+end_src
 * Configurations
@@ -344,6 +420,14 @@ npm install -g browser-sync # live web preview
 3. set =qt5ct= as default setting application
 4. copy image to both =picture= and =/usr/share/background= (create), and then update lightdm-slick-greeter section
 ** Fcitx5
+** Makepkg use more core
+#+begin_src sh
+sudo sed -i 's/#MAKEFLAGS=.*/MAKEFLAGS="-j$(nproc)"/g' /etc/makepkg.conf
+#+end_src
+** Increase sudo login time limit
+#+begin_src sh
+sudo sed -i 's/# deny =.*/deny = 5/g' /etc/security/faillock.conf
+#+end_src
 ** Ranger Enhance
 *** Command & Preview
 - use =kitty= to preview image
@@ -422,6 +506,11 @@ Type=Application' >  /usr/share/wayland-sessions/hyprland_wrap.desktop
 
 sudo sed -i 's/#user-session=.*/user-session=hyprland_wrap/g' /etc/lightdm/lightdm.conf
 #+end_src
+*** Enable Xsession?
+*!!!* Don't know why, but when I disable it, I cannot log in to the Harland desktop(only tried Hyprland).
+#+begin_src sh
+# sudo sed -i 's/#session-wrapper=.*/session-wrapper=\/etc\/lightdm\/Xsession/g' /etc/lightdm/lightdm.conf
+#+end_src
 
 *** Slick-Greeter Settings
 #+begin_src sh
@@ -466,19 +555,24 @@ use the following command to generate(and install) grub theme
 gfw dotfiles/Public/matter/my_command.sh
 #+end_src
 
-* Post Installation
-*** Use nvm to manage Node.js & NPM
-Use =nvm= (already installed in the fish configuration) to install.
-#+begin_src sh :tangle post.sh
-nvm install latest
-nvm use latest
-#+end_src
-*** Different time display for Linux and windows
-https://sspai.com/post/55983
-*** Change user default shell
+** Change user default shell
 #+begin_src sh :tangle post.sh
 chsh -s /bin/fish
 #+end_src
+** Firefox disable CTRL-w
+File =~/.mozilla/firefox/user.js= is synced using DotDrop.
+#+begin_src sh
+paru -S firefox-user-autoconfig
+
+# the pakcage needs some tweaks
+echo 'pref("general.config.sandbox_enabled", false);' >> /usr/lib/firefox/defaults/pref/autoconfig.js
+#+end_src
 * Manual Checkup
+** Different time display for Linux and windows
+https://sspai.com/post/55983
 ** power off without privilege
 https://askubuntu.com/questions/168879/shutdown-from-terminal-without-entering-password
+** Secrets
+1. Go to private repo: https://github.com/Ziqi-Yang/secrets
+2. Download ZIP of the repo source code.
+3. Run ~make decrypt~

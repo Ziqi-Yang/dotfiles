@@ -11,15 +11,21 @@ paru -S nerd-fonts-ibm-plex-mono
 
 paru -S googledot-cursor-theme
 
-paru -S hyprpick fzf trash-cli zoxide jq
+paru -S hyprpick selectdefaultapplication-git aur-auto-vote-git
 
 paru -S fcitx5-pinyin-custom-pinyin-dictionary
 
-sudo pacman -S gwenview imv
-
 paru -S aseprite
 
+paru -S sioyek-git
+
+paru -S yesplaymusic
+
+paru -S electronic-wechat-uos-bin
+
 paru -S emacs29-git
+
+paru -S gitleaks
 
 paru -S lldb-mi-git
 
@@ -46,7 +52,10 @@ paru -S golangci-lint-bin gopls
 
 paru -S bashdb
 
-paru -S ltex-ls-bin wakatime wordnet-cli
+nvm install latest
+nvm use latest
+
+paru -S ltex-ls-bin wakatime wordnet-cli cht.sh-git
 npm install -g browser-sync # live web preview
 
 paru -S python-xlsx2csv
@@ -56,8 +65,5 @@ paru -S layan-gtk-theme-git
 paru -S fcitx5-nord
 
 gfw dotfiles/Public/matter/my_command.sh
-
-nvm install latest
-nvm use latest
 
 chsh -s /bin/fish

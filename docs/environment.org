@@ -1,9 +1,0 @@
-#+title: Environment
-
-#+begin_src bash
-# c environment
-paru -S cgdb valgrind
-
-# container
-paru -S podman
-#+end_src

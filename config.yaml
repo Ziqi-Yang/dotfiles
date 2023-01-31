@@ -169,6 +169,10 @@ dotfiles:
   d_cargo:
     src: config/cargo
     dst: ~/.config/cargo
+  d_fcitx5:
+    src: config/fcitx5
+    dst: ~/.config/fcitx5
+    chmod: '700'
 profiles:
   myArch:
     dotfiles:
@@ -226,3 +230,4 @@ profiles:
     - f_gitmessage.txt
     - f_env
     - d_cargo
+    - d_fcitx5

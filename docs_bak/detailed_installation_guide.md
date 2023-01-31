@@ -463,6 +463,9 @@ sudo systemctl restart systemd-logind.service
 echo 'export TERMINAL="alacritty"' >> ~/.profile
 ```
 
+
+
+
 ### 系统美化
 
 #### 安装FiraCode Nerd Font字体

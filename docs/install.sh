@@ -18,7 +18,7 @@ sudo sed -i '1iServer = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/
 sudo pacman -S paru
 mkdir -p ~/.config/paru
 
-sudo pacman -S git xdg-user-dirs ntfs-3g udisks2 udiskie fish ripgrep fd htop neofetch wget brightnessctl
+sudo pacman -S git xdg-user-dirs ntfs-3g udisks2 udiskie fish ripgrep fd htop neofetch wget brightnessctl ncdu duf hwinfo
 
 sudo pacman -S pulseaudio alsa-utils pulseaudio-alsa pamixer sof-firmware alsa-ucm-conf
 
@@ -46,11 +46,21 @@ fc-cache -rv
 
 sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra  ttf-lxgw-wenkai ttf-lxgw-wenkai-mono
 
-paru -S ttf-firacode-nerd
+sudo pacman -S ttf-firacode-nerd ttf-ibm-plex
+
+sudo pacman -S ttf-font-awesome
+
+sudo pacman -S fzf trash-cli zoxide scrcpy gtk3-demos yt-dlp lux-dl
 
 sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-anthy fcitx5-pinyin-moegirl fcitx5-material-color
 
-paru -S mpg123
+sudo pacman -S gwenview imv
+
+sudo pacman -S mpv obs-studio blender
+
+sudo pacman -S zathura
+
+sudo pacman -S mpg123
 
 sudo pacman -S grim slurp swappy flameshot
 
@@ -62,9 +72,13 @@ sudo pacman -S alacritty kitty
 
 sudo pacman -S firefox
 
+sudo pacman -S telegram-desktop
+
 sudo pacman -S lxappearance qt5ct
 
 sudo pacman -S vi vim
+
+sudo pacman -S bfg git-delta
 
 sudo pacman -S make cmake
 
@@ -74,7 +88,7 @@ sudo pacman -S ipython python-pip
 
 sudo pacman -S rustup rust-analyzer
 
-paru -S clang ccls
+sudo pacman -S clang ccls man-pages
 
 paru -S go
 
@@ -84,7 +98,11 @@ sudo pacman -S texlab biber
 
 sudo pacman -S nodejs npm
 
-sudo pacman -S sqlite pandoc libvterm
+sudo pacman -S sqlite pandoc libvterm tokei hexyl jq
+
+sudo sed -i 's/#MAKEFLAGS=.*/MAKEFLAGS="-j$(nproc)"/g' /etc/makepkg.conf
+
+sudo sed -i 's/# deny =.*/deny = 5/g' /etc/security/faillock.conf
 
 sudo pacman -S highlight poppler mediainfo w3m catdoc docx2txt jq python-pdftotext ffmpegthumbnailer fontforge trash-cli unarchiver zoxide dragon-drop
 
@@ -131,6 +149,8 @@ Type=Application' >  /usr/share/wayland-sessions/hyprland_wrap.desktop
 
 sudo sed -i 's/#user-session=.*/user-session=hyprland_wrap/g' /etc/lightdm/lightdm.conf
 
+# sudo sed -i 's/#session-wrapper=.*/session-wrapper=\/etc\/lightdm\/Xsession/g' /etc/lightdm/lightdm.conf
+
 echo '[Greeter]
 background=/usr/share/background/4.png
 enable-hidpi=auto' > /etc/lightdm/slick-greeter.conf
@@ -142,3 +162,8 @@ echo 'export TERMINAL="alacritty"' >> ~/.profile
 sudo pacman -S tela-icon-theme-git
 
 sudo pacman -S kvantum
+
+paru -S firefox-user-autoconfig
+
+# the pakcage needs some tweaks
+echo 'pref("general.config.sandbox_enabled", false);' >> /usr/lib/firefox/defaults/pref/autoconfig.js

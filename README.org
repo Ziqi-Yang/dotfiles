@@ -47,7 +47,6 @@
   + [[https://fontawesome.com/download][Font Awesome 6 Free]] icon (Waybar)
   + [[https://icofont.com/][icofont]] icon (Waybar)
   + [[https://github.com/Templarian/MaterialDesign-Font][Material Design Icons Desktop TTF]] icon (Waybar)
-  + [[https://github.com/romkatv/powerlevel10k-media/][MesloLGS_NF]] (Waybar)
 - cursor: [[https://github.com/ful1e5/Google_Cursor][Google_Cursor]] (google-dot-blue)
 - qt5: [[https://aur.archlinux.org/packages/kvantum-qt5-git][Kvantum]]
 - GTK: [[https://github.com/vinceliuice/Layan-gtk-theme][Layan-gtk-theme]]

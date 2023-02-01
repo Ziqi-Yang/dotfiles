@@ -101,7 +101,7 @@ sudo pacman -S rustup rust-analyzer
 
 sudo pacman -S clang ccls man-pages
 
-sudo pacman -S jdk8-openjdk jdk-openjdk
+sudo pacman -S jdk8-openjdk jdk-openjdk maven
 
 paru -S go
 
@@ -117,7 +117,7 @@ sudo gpasswd -a $USER android-sdk
 sudo setfacl -R -m g:android-sdk:rwx /opt/android-sdk
 sudo setfacl -d -m g:android-sdk:rwX /opt/android-sdk
 
-sudo pacman -S nodejs npm
+sudo pacman -S nodejs npm deno
 
 sudo pacman -S sqlite pandoc libvterm tokei hexyl jq
 

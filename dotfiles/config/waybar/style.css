@@ -38,6 +38,7 @@
     font-weight: bold;
 }
 
+#image,
 #clock,
 #custom-notification,
 #custom-pacman,
@@ -57,7 +58,6 @@
     padding-left: 0.4em;
     padding-right: 0.4em;
 }
-
 
 #workspaces button {
     font-weight: 900; /* Somewhy the bar-wide setting is ignored*/

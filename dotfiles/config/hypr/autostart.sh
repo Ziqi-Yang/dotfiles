@@ -3,7 +3,7 @@
 ~/.config/hypr/xdpw &
 /usr/lib/polkit-kde-authentication-agent-1 &
 
-hyprpaper &
+hyprpaper --no-fractional &
 dunst &
 waybar &
 udiskie &

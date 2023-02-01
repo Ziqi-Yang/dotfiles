@@ -1,6 +1,7 @@
 {
     "layer": "top",
     "modules-left": [
+        "image#avatar",
         "clock",
         "custom/todo",
         "custom/notification",
@@ -22,6 +23,10 @@
         "network",
         "tray"
     ],
+    "image#avatar": {
+        "path": "/home/zarkli/.config/waybar/assets/avatar-100-100.png",
+        "size": 15,
+    },
     "custom/pomodoro": {
         "format": "{}",
         "exec": "~/.config/waybar/scripts/pomodoro.sh",

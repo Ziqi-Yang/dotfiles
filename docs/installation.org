@@ -422,7 +422,7 @@ paru -S rtags-git
 #+end_src
 *** Java
 #+begin_src sh
-sudo pacman -S jdk8-openjdk jdk-openjdk
+sudo pacman -S jdk8-openjdk jdk-openjdk maven
 #+end_src
 
 (optional) set jdk8 as default jdk version
@@ -478,10 +478,10 @@ sudo setfacl -R -m g:android-sdk:rwx /opt/android-sdk
 sudo setfacl -d -m g:android-sdk:rwX /opt/android-sdk
 #+end_src
 
-*** Node.js and NPM
+*** Node.js and NPM and Deno
 Here we install =node.js= and =npm= for system use, later we will use =nvm= to manage =node= for user use(in fish shell)
 #+begin_src sh
-sudo pacman -S nodejs npm
+sudo pacman -S nodejs npm deno
 #+end_src
 **** Use nvm to manage Node.js & NPM
 Use =nvm= (already installed in the fish configuration) to install.

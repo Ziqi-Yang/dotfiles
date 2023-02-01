@@ -991,3 +991,14 @@ u盘                                        USB flash disk
 verbatim             [vɝ'betɪm]           adv. 逐字地 adj. 逐字的
 checkup              ['tʃekʌp]            n. 审查，检查；健康检查
 conky                [ˈkɑːŋki]            n. （美、泰、俄）康基（人名）
+freed                [fri:]               adj. 释放的 v. 使自由；解放（free的过去分词） n. (Freed)人名；(英)弗里德；(瑞典、法)弗雷德
+opera                ['ɑprə]              n. 歌剧；歌剧院；歌剧团 n. (Opera)人名；(意)奥佩拉
+daytime              ['detaɪm]            n. 日间，白天
+manifest             ['mænɪfɛst]          vt. 证明，表明；显示 vi. 显示，出现 n. 载货单，货单；旅客名单 adj. 显然的，明显的；明白的
+fractional           ['frækʃənl]          adj. 部分的；[数] 分数的，小数的
+analogous            [ə'næləɡəs]          adj. 类似的；[昆] 同功的；可比拟的
+conjunction          [kən'dʒʌŋkʃən]       n. 结合；[语] 连接词；同时发生
+mangle               ['mæŋɡl]             vt. 乱砍；轧布；损坏 n. 轧布机 n. (Mangle)人名；(英)曼格尔
+quirks               [kwə:k]              怪癖 急转 借口（quirk的复数 ）
+subscriptions        [səb'skripʃən]       n. 订阅（subscription的复数形式）；捐献
+pristine             ['prɪstin]           adj. 原始的，古时的；纯朴的

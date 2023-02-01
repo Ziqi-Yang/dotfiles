@@ -11,7 +11,9 @@ CLOSED: [2023-01-18 Wed 09:25]
 
 *** TODO https://github.com/maaslalani/draw
 
-*** TODO dotfile installation.org
+*** DONE dotfile installation.org
+CLOSED: [2023-02-01 Wed 20:23]
+
 
 ** PROG PROGRAMMING
 *** TODO [#A] leetcode everyday problem [[file:algo.org][algo.org]]
@@ -28,6 +30,7 @@ DEADLINE: <2023-01-17 Tue +1d>
 
 *** TODO learn btfs, qemu, docker(podman) command line
 
+*** TODO Explore pocketbase, superbase
 
 ** PROJ PROJECT
 *** PROJ [#A] contribute to git
@@ -36,7 +39,7 @@ horizontal git log
 1. possibly used technologies: gtk4, wasm, webgl, webkit
 2. exteneded api, suck as keypressed
 3. game?
-*** PROJ [#C] uairctl
+*** PROJ [#C] contribute to uair
 *** PROJ [#C] git secrets hide tool [[file:~/projects/git_secret_havent_named_yet/README.org][README.org]]
 *** PROJ [#C] browser extension share cookie with local
 To solve the login hard problem(not use puppetter and python selenium), for example: leetcode.cn
@@ -79,5 +82,14 @@ don't want to use nix but still want to make rebuild and configure archlinux sys
 *** PROJ bilibili 直播弹幕游戏 - 答题
 1. 第一个答题的人获得积分
 2. 答错题有扣分(或者扣生命，扣到0就一段时间不能答题)，通过刷礼物可以减少扣分
+*** PROJ bilibili 视频自动化 搬运codepen 加上自动打代码效果
+html转视频 https://github.com/tnfe/FFCreator
 
 *** PROJ [#C] 游戏解说ai
+*** PROJ =dn= daytime and nighttime command executor
+day and night according to
+1. latitude and longitude
+2. manual set time
+only execute once at the time split or first run
+*** PROJ a icon font collecting anime characters
+注意申明版权信息（仅限个人，不得商用

@@ -119,7 +119,7 @@ sudo gpasswd -a $USER android-sdk
 sudo setfacl -R -m g:android-sdk:rwx /opt/android-sdk
 sudo setfacl -d -m g:android-sdk:rwX /opt/android-sdk
 
-sudo pacman -S nodejs npm deno
+sudo pacman -S nodejs npm deno pnpm
 
 sudo pacman -S sqlite pandoc libvterm tokei hexyl jq
 

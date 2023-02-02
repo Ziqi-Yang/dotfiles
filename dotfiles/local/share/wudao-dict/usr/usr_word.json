@@ -479,7 +479,7 @@
     "slay": 1,
     "associative": 2,
     "mantissa": 2,
-    "akin": 2,
+    "akin": 3,
     "odd": 1,
     "tedious": 2,
     "daunting": 1,
@@ -893,5 +893,8 @@
     "quirks": 1,
     "subscriptions": 1,
     "gripes": 1,
-    "Plymouth": 2
+    "Plymouth": 2,
+    "embryo": 1,
+    "paw": 2,
+    "suffix": 1
 }

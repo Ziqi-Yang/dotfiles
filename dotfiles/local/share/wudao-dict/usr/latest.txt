@@ -1,8 +1,3 @@
-amethyst
-lexical
-bust
-reinforced
-singleton
 singleton
 coerced
 coerced
@@ -98,3 +93,8 @@ dodger
 gripes
 Plymouth
 Plymouth
+embryo
+paw
+paw
+akin
+suffix

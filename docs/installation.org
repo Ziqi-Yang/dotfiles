@@ -500,10 +500,10 @@ sudo setfacl -R -m g:android-sdk:rwx /opt/android-sdk
 sudo setfacl -d -m g:android-sdk:rwX /opt/android-sdk
 #+end_src
 
-*** Node.js and NPM and Deno
+*** Node.js Group
 Here we install =node.js= and =npm= for system use, later we will use =nvm= to manage =node= for user use(in fish shell)
 #+begin_src sh
-sudo pacman -S nodejs npm deno
+sudo pacman -S nodejs npm deno pnpm
 #+end_src
 **** Use nvm to manage Node.js & NPM
 Use =nvm= (already installed in the fish configuration) to install.

@@ -1004,3 +1004,7 @@ subscriptions        [səb'skripʃən]       n. 订阅（subscription的复数�
 pristine             ['prɪstin]           adj. 原始的，古时的；纯朴的
 gripes               ['graips]            n. 抱怨（gripe的复数形式）；胃绞痛；肠绞痛 v. 控制；抓住（gripe的第三人称单数）
 Plymouth             ['pliməθ]            n. 普利茅斯（英国一座城市）
+embryo               ['ɛmbrɪo]            n. [胚] 胚胎；胚芽；初期 adj. 胚胎的；初期的
+paw                  [pɔ]                 vt. 抓，扒；亲昵地抚摸 vi. 用爪子抓；翻找 n. 爪子；手
+akin                 [ə'kɪn]              adj. 类似的；同类的；同族的 n. (Akin)人名；(土、瑞典、尼日利)阿金；(匈)奥金；(英)埃金
+suffix               ['sʌfɪks]            vt. 添后缀 n. 后缀；下标

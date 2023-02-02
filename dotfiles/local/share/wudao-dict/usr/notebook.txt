@@ -1002,3 +1002,5 @@ mangle               ['mæŋɡl]             vt. 乱砍；轧布；损坏 n. 轧
 quirks               [kwə:k]              怪癖 急转 借口（quirk的复数 ）
 subscriptions        [səb'skripʃən]       n. 订阅（subscription的复数形式）；捐献
 pristine             ['prɪstin]           adj. 原始的，古时的；纯朴的
+gripes               ['graips]            n. 抱怨（gripe的复数形式）；胃绞痛；肠绞痛 v. 控制；抓住（gripe的第三人称单数）
+Plymouth             ['pliməθ]            n. 普利茅斯（英国一座城市）

@@ -1,6 +1,16 @@
 ﻿#!/usr/bin/env bash
 set -e # exit on error
 
+paru -S plymouth-git
+
+sudo cp /etc/mkinitcpio.conf /etc/mkinitcpio.conf.bak
+sudo sed -i -E 's/^HOOKS=\((.*)\)/HOOKS=(\1 plymouth)/' /etc/mkinitcpio.conf
+sudo mkinitcpio -p linux
+
+sudo cp /etc/default/grub /etc/default/grub.bak
+sudo sed -i -E 's/GRUB_CMDLINE_LINUX_DEFAULT="(.*)"/GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 nowatchdog quiet splash"/' /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
 paru -S xdg-desktop-portal-hyprland-git
 
 paru -S hyprpaper rofi-lbonn-wayland-git waybar-hyprland-git
@@ -67,6 +77,9 @@ nvm use latest
 
 paru -S ltex-ls-bin wakatime wordnet-cli cht.sh-git
 npm install -g browser-sync # live web preview
+
+paru -S proxzima-plymouth-git
+sudo plymouth-set-default-theme -R proxzima
 
 paru -S uair
 pip install requests

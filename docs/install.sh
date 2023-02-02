@@ -27,6 +27,8 @@ sudo systemctl enable bluetooth
 sudo usermod -a -G lp $USER
 
 sudo pacman -S os-prober
+sudo sed '1aGRUB_DISABLE_OS_PROBER=false' /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 sudo pacman -S libinput xf86-input-synaptics
 

@@ -112,7 +112,24 @@ sudo usermod -a -G lp $USER
 ** GRUB
 #+begin_src sh
 sudo pacman -S os-prober
+sudo sed '1aGRUB_DISABLE_OS_PROBER=false' /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 #+end_src
+** Plymouth
+#+begin_src sh :tangle post.sh
+paru -S plymouth-git
+
+sudo cp /etc/mkinitcpio.conf /etc/mkinitcpio.conf.bak
+sudo sed -i -E 's/^HOOKS=\((.*)\)/HOOKS=(\1 plymouth)/' /etc/mkinitcpio.conf
+sudo mkinitcpio -p linux
+
+sudo cp /etc/default/grub /etc/default/grub.bak
+sudo sed -i -E 's/GRUB_CMDLINE_LINUX_DEFAULT="(.*)"/GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 nowatchdog quiet splash"/' /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+#+end_src
+Reference:
+1. https://www.debugpoint.com/install-plymouth-arch-linux/
+2. https://wiki.archlinux.org/title/plymouth
 ** Touchpad
 #+begin_src sh
 sudo pacman -S libinput xf86-input-synaptics
@@ -514,6 +531,13 @@ npm install -g browser-sync # live web preview
 #+begin_src sh
 echo 'QT_QPA_PLATFORMTHEME=qt5ct' >> >> /etc/environment
 #+end_src
+** Plymouth
+use theme [[https://github.com/PROxZIMA/proxzima-plymouth][Proxzima]]
+#+begin_src sh :tangle post.sh
+paru -S proxzima-plymouth-git
+sudo plymouth-set-default-theme -R proxzima
+#+end_src
+
 ** Fcitx5
 #+begin_src sh
 echo 'GTK_IM_MODULE=fcitx
@@ -691,3 +715,5 @@ https://askubuntu.com/questions/168879/shutdown-from-terminal-without-entering-p
 1. Go to private repo: https://github.com/Ziqi-Yang/secrets
 2. Download ZIP of the repo source code.
 3. Run ~make decrypt~
+* Useful Resources
+1. https://arch.icekylin.online/

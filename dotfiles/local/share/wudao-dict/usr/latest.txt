@@ -1,5 +1,3 @@
-excerpt
-hooray
 hooray
 amethyst
 lexical
@@ -98,3 +96,5 @@ purist
 pristine
 dodger
 dodger
+gripes
+Plymouth

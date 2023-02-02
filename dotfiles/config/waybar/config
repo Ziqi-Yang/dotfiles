@@ -26,6 +26,7 @@
     "image#avatar": {
         "path": "/home/zarkli/.config/waybar/assets/avatar-100-100.png",
         "size": 15,
+        "on-click": "xdg-open https://github.com/Ziqi-Yang"
     },
     "custom/pomodoro": {
         "format": "{}",

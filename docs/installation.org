@@ -115,6 +115,13 @@ sudo pacman -S os-prober
 sudo sed '1aGRUB_DISABLE_OS_PROBER=false' /etc/default/grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 #+end_src
+** Display Manager
+- =lxdm=: can be used if =lightdm= doesn't work
+#+begin_src sh
+sudo pacman -S lightdm lightdm-slick-greeter lxdm
+sudo systemctl disable lxdm
+sudo systemctl enable lightdm
+#+end_src
 ** Plymouth
 #+begin_src sh :tangle post.sh
 paru -S plymouth-git
@@ -126,6 +133,10 @@ sudo mkinitcpio -p linux
 sudo cp /etc/default/grub /etc/default/grub.bak
 sudo sed -i -E 's/GRUB_CMDLINE_LINUX_DEFAULT="(.*)"/GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 nowatchdog quiet splash"/' /etc/default/grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+# systemctl status display-manager # show current display manager
+sudo systemctl disable lightdm
+sudo systemctl enable lightdm-plymouth
 #+end_src
 Reference:
 1. https://www.debugpoint.com/install-plymouth-arch-linux/
@@ -135,13 +146,6 @@ Reference:
 sudo pacman -S libinput xf86-input-synaptics
 #+end_src
 
-** Display Manager
-- =lxdm=: can be used if =lightdm= doesn't work
-#+begin_src sh
-sudo pacman -S lightdm lightdm-slick-greeter lxdm
-sudo systemctl disable lxdm
-sudo systemctl enable lightdm
-#+end_src
 ** GPU Driver
 *!!! Refer to Arch Wiki to find what drivers suit your GPU*
 

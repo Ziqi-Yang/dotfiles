@@ -11,6 +11,10 @@ sudo cp /etc/default/grub /etc/default/grub.bak
 sudo sed -i -E 's/GRUB_CMDLINE_LINUX_DEFAULT="(.*)"/GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 nowatchdog quiet splash"/' /etc/default/grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
+# systemctl status display-manager # show current display manager
+sudo systemctl disable lightdm
+sudo systemctl enable lightdm-plymouth
+
 paru -S xdg-desktop-portal-hyprland-git
 
 paru -S hyprpaper rofi-lbonn-wayland-git waybar-hyprland-git

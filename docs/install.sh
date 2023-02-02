@@ -30,11 +30,11 @@ sudo pacman -S os-prober
 sudo sed '1aGRUB_DISABLE_OS_PROBER=false' /etc/default/grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
-sudo pacman -S libinput xf86-input-synaptics
-
 sudo pacman -S lightdm lightdm-slick-greeter lxdm
 sudo systemctl disable lxdm
 sudo systemctl enable lightdm
+
+sudo pacman -S libinput xf86-input-synaptics
 
 sudo pacman -S mesa vulkan-intel nvidia nvidia-settings
 

@@ -1,5 +1,3 @@
-vice-versa
-vice-versa
 excerpt
 hooray
 hooray
@@ -98,3 +96,5 @@ quirks
 subscriptions
 purist
 pristine
+dodger
+dodger

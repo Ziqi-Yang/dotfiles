@@ -89,8 +89,9 @@ rg '!!!' ./docs/installation.org
 - [[https://github.com/muesli/duf][duf:]] disk usage (df)
 - [[https://github.com/ogham/exa][exa]]: modern ls
 - =hwinfo=: hardware info
+- =rsync=: alternative for SCP
 #+begin_src sh
-sudo pacman -S git xdg-user-dirs ntfs-3g udisks2 udiskie fish ripgrep fd htop neofetch wget brightnessctl ncdu duf hwinfo
+sudo pacman -S git xdg-user-dirs ntfs-3g udisks2 udiskie fish ripgrep fd htop neofetch wget brightnessctl ncdu duf hwinfo rsync
 #+end_src
 
 ** Sound

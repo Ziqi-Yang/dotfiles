@@ -24,6 +24,7 @@ skip-levels = 1
 [keys.normal]
 A-x = "command_palette"
 X = "extend_line_above"
+g = { c = "toggle_comments" }
 
 [keys.insert]
 A-x = "command_palette"

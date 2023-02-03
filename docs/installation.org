@@ -380,6 +380,7 @@ sudo pacman -S vi vim helix
 #+begin_src sh :tangle post.sh
 paru -S emacs29-git
 #+end_src
+
 ** Programming Language & Specific Tools
 *** Git Tools
 - [[https://github.com/rtyley/bfg-repo-cleaner][bfg]] Removes large or troublesome blobs like git-filter-branch does, but faster. (remove secrets and big files in git history)
@@ -528,8 +529,9 @@ nvm use latest
 - =hexyl=: view hex in terminal
 - [[https://github.com/chubin/cheat.sh][cht.sh-git]]: cheat sheet
 - =jq=: manipulate and pretty print JSON
+- =nyancat=: nyancat run in your terminal
 #+begin_src sh
-sudo pacman -S sqlite pandoc libvterm tokei hexyl jq
+sudo pacman -S sqlite pandoc libvterm tokei hexyl jq nyancat
 #+end_src
 
 #+begin_src sh :tangle post.sh

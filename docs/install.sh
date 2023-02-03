@@ -121,7 +121,7 @@ sudo setfacl -d -m g:android-sdk:rwX /opt/android-sdk
 
 sudo pacman -S nodejs npm deno pnpm
 
-sudo pacman -S sqlite pandoc libvterm tokei hexyl jq
+sudo pacman -S sqlite pandoc libvterm tokei hexyl jq nyancat
 
 echo 'QT_QPA_PLATFORMTHEME=qt5ct' >> >> /etc/environment
 

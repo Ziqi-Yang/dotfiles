@@ -1,11 +1,3 @@
-rename Makefile
-rename contribute
-search en
-search bash
-mkdir ./script
-rename scripts
-search pack
-search d6
 mkdir ./back
 rename bak
 notice
@@ -18,7 +10,6 @@ search emacs
 search doom
 rename .doom.d
 search paru
-open_with 
 open_with 1
 search eww
 mkdir assets
@@ -35,7 +26,6 @@ rename othersProject
 rename othersProjects
 rename elseProjects
 mkdir ./other
-
 mkdir 
 rename rust
 rename python
@@ -48,3 +38,13 @@ rename spark_project
 rename 
 rename Studio
 rename AndroidStudio
+mkdir lib
+mkdir pages
+rename libs
+
+open_with 
+mkdir cart
+mkdir home
+mkdir sign-in
+search 
+search ibm

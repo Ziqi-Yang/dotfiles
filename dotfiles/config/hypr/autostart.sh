@@ -9,7 +9,7 @@ waybar &
 udiskie &
 gammastep-indicator &
 fcitx5 -d --replace &
-/opt/clash-for-windows-bin/cfw &
+clash-verge &
 # xautolock -time 15 -locker 'betterlockscreen -l dimblur' &
 blueman-applet &
 

@@ -89,7 +89,7 @@ sudo pacman -S telegram-desktop
 
 sudo pacman -S lxappearance qt5ct
 
-sudo pacman -S vi vim
+sudo pacman -S vi vim helix
 
 sudo pacman -S bfg git-delta
 

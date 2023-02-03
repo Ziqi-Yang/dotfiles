@@ -1,4 +1,3 @@
-singleton
 coerced
 coerced
 naive
@@ -98,3 +97,4 @@ paw
 paw
 akin
 suffix
+quirks

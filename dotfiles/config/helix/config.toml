@@ -1,0 +1,34 @@
+theme = "solarized_light"
+
+[editor]
+scrolloff = 10
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker] 
+hidden = true
+
+[editor.whitespace.render]
+space = "none"
+tab = "all"
+newline = "none"
+
+[editor.indent-guides]
+render = true
+character = "╎"
+skip-levels = 1
+
+[keys.normal]
+A-x = "command_palette"
+X = "extend_line_above"
+
+[keys.insert]
+A-x = "command_palette"
+A-k = "normal_mode"
+C-h = "move_char_left"
+C-l = "move_char_right"
+C-j = "move_line_down"
+C-k = "move_line_up"

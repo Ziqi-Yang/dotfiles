@@ -88,6 +88,6 @@ map ctrl+shift+l next_tab
 
 
 # BEGIN_KITTY_THEME
-# Gruvbox Material Light Hard
+# Gruvbox Material Light Soft
 include current-theme.conf
 # END_KITTY_THEME

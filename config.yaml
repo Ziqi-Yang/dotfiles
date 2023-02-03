@@ -185,6 +185,9 @@ dotfiles:
   f_gdbinit:
     src: gdbinit
     dst: ~/.gdbinit
+  d_helix:
+    src: config/helix
+    dst: ~/.config/helix
 profiles:
   myArch:
     dotfiles:
@@ -247,3 +250,4 @@ profiles:
     - f_bashrc
     - f_profile
     - f_gdbinit
+    - d_helix

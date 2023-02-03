@@ -329,7 +329,8 @@ sudo pacman -S ranger dolphin
 #+end_src
 ** Networking
 #+begin_src sh :tangle post.sh
-paru -S clash-for-windows-bin
+# paru -S clash-for-windows-bin
+paru -Sa clash-verge # install aur package(self build), not archlinuxcn package(meet error)
 #+end_src
 ** Office
 #+begin_src sh :tanlge post.sh
@@ -373,7 +374,7 @@ sudo pacman -S lxappearance qt5ct
 ** Editors
 - =emacs29-git=: native-comp and pgtk(for wayland capability) support
 #+begin_src sh
-sudo pacman -S vi vim
+sudo pacman -S vi vim helix
 #+end_src
 
 #+begin_src sh :tangle post.sh
@@ -474,6 +475,11 @@ sudo pacman -S shellcheck bash-language-server
 
 #+begin_src sh :tangle post.sh
 paru -S bashdb
+#+end_src
+*** JavaScript
+**** Emacs Vue Support
+#+begin_src sh :tangle post.sh
+npm install -g @volar/vue-language-server
 #+end_src
 *** latex
 - =texlab= & =biber=: required by

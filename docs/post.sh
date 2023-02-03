@@ -38,7 +38,8 @@ paru -S sioyek-git
 
 paru -S yesplaymusic
 
-paru -S clash-for-windows-bin
+# paru -S clash-for-windows-bin
+paru -Sa clash-verge # install aur package(self build), not archlinuxcn package(meet error)
 
 paru -S wemeet-bin zoom
 
@@ -71,6 +72,8 @@ go install github.com/fatih/gomodifytags@latest
 paru -S golangci-lint-bin gopls
 
 paru -S bashdb
+
+npm install -g @volar/vue-language-server
 
 paru -S fvm-bin
 fvm install stable

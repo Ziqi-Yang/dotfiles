@@ -32,6 +32,11 @@ DEADLINE: <2023-01-17 Tue +1d>
 
 *** TODO Explore pocketbase, superbase
 
+*** TODO learn p2p
+snapdrop
+https://github.com/schollz/croc
+
+
 ** PROJ PROJECT
 *** PROJ [#A] contribute to git
 horizontal git log
@@ -40,6 +45,7 @@ horizontal git log
 2. exteneded api, suck as keypressed
 3. game?
 经费800元
+*** PROJ rewrite class 3 forever
 *** PROJ [#C] contribute to uair
 *** PROJ [#C] git secrets hide tool [[file:~/projects/git_secret_havent_named_yet/README.org][README.org]]
 *** PROJ [#C] browser extension share cookie with local

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env bash
+#!/usr/bin/env bash
 set -e # exit on error
 
 paru -S plymouth-git
@@ -6,6 +6,7 @@ paru -S plymouth-git
 sudo cp /etc/mkinitcpio.conf /etc/mkinitcpio.conf.bak
 sudo sed -i -E 's/^HOOKS=\((.*)\)/HOOKS=(\1 plymouth)/' /etc/mkinitcpio.conf
 sudo mkinitcpio -p linux
+sudo mkinitcpio -p linux-zen
 
 sudo cp /etc/default/grub /etc/default/grub.bak
 sudo sed -i -E 's/GRUB_CMDLINE_LINUX_DEFAULT="(.*)"/GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 nowatchdog quiet splash"/' /etc/default/grub

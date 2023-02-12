@@ -28,7 +28,7 @@ g = { c = "toggle_comments" }
 
 [keys.insert]
 A-x = "command_palette"
-A-k = "normal_mode"
+j = { k = "normal_mode" }
 C-h = "move_char_left"
 C-l = "move_char_right"
 C-j = "move_line_down"

@@ -1,0 +1,6 @@
+#+title: ElegantCS
+
+A [[https://github.com/ElegantLaTeX/ElegantPaper][ElegantPaper]] fork that targets Computer Sciences. This fork improves the code-highlighting style provided by =lstlisting=. The detailed difference is noted in the =elegant-en.tex= file.
+
+* License
+This work is released under the LaTeX Project Public License, v1.3c or later.

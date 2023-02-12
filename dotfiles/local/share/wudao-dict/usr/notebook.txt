@@ -1008,3 +1008,58 @@ embryo               ['ɛmbrɪo]            n. [胚] 胚胎；胚芽；初期 ad
 paw                  [pɔ]                 vt. 抓，扒；亲昵地抚摸 vi. 用爪子抓；翻找 n. 爪子；手
 akin                 [ə'kɪn]              adj. 类似的；同类的；同族的 n. (Akin)人名；(土、瑞典、尼日利)阿金；(匈)奥金；(英)埃金
 suffix               ['sʌfɪks]            vt. 添后缀 n. 后缀；下标
+directive            [daɪ'rɛktɪv]         n. 指示；指令 adj. 指导的；管理的
+clutter              ['klʌtɚ]             n. 杂乱，混乱 vt. 使凌乱；胡乱地填满 n. (Clutter)人名；(英)克拉特
+recipe               ['rɛsəpi]            n. 食谱；[临床] 处方；秘诀；烹饪法
+stuttering           ['stʌtɚ]             n. 口吃；结巴
+fend                 [fend]               vt. 谋生；保护；挡开；供养 vi. 照料；供养；力争
+chord                [kɔrd]               n. 弦；和弦；香水的基调 n. (Chord)人名；(英)科德
+apostrophe           [ə'pɑstrəfi]         n. 省略符号，撇号；呼语，顿呼
+inferior             [ɪn'fɪrɪɚ]           adj. 差的；自卑的；下级的，下等的 n. 下级；次品
+inhibit              [ɪn'hɪbɪt]           vt. 抑制；禁止
+pitch                [pɪtʃ]               vi. 倾斜；投掷；搭帐篷；坠落 vt. 投；掷；定位于；用沥青涂；扎营；向前倾跌 n. 沥青；音高；程度；树脂；倾斜；投掷；球场
+itch                 [ɪtʃ]                n. 痒；渴望；疥疮 vi. 发痒；渴望 vt. 使发痒；使恼怒
+monospace                                 n. 单一间隔；划一字距，等宽字体
+pesky                ['pɛski]             adj. 讨厌的；麻烦的 adv. 极端 n. (Pesky)人名；(罗)佩斯基
+mnemonic             [nɪ'mɑnɪk]           adj. 记忆的；助记的；记忆术的
+scenery              ['sinəri]            n. 风景；景色；舞台布景
+forge                [fɔrdʒ]              n. 熔炉，锻铁炉；铁工厂 vi. 伪造；做锻工；前进 vt. 伪造；锻造；前进 n. (Forge)人名；(德)福格；(法)福尔热
+legacy               ['lɛgəsi]            n. 遗赠，遗产
+tangentially         [tæn'dʒɛnʃəli]       adv. 无关地；切线地
+Olivetti                                  n. 好利获得（意大利电信公司）；奥利维蒂（意大利艳星）
+emit                 [ɪ'mɪt]              vt. 发出，放射；发行；发表
+facility             [fə'sɪləti]          n. 设施；设备；容易；灵巧
+falsehood            ['fɔlshʊd]           n. 说谎；假话；不真实；错误的信仰
+relocate             [,ri'loket]          vt. 重新安置；迁移 vi. 重新安置；迁移新址 n. 浮动
+slope                [slop]               n. 斜坡；倾斜；斜率；扛枪姿势 vi. 倾斜；逃走 vt. 倾斜；使倾斜；扛
+wrap                 [ræp]                vt. 包；缠绕；隐藏；掩护 vi. 包起来；缠绕；穿外衣 n. 外套；围巾
+wrap around          [ˈræp əˈraʊnd]       adj. 卷绕的，环绕的
+perspective          [pɚ'spɛktɪv]         n. 观点；远景；透视图 adj. 透视的
+simultaneous         [,saɪml'tenɪəs]      adj. 同时的；联立的；同时发生的 n. 同时译员
+aesthetic            [esˈθetɪk; ɛsˈθɛtɪk] adj. 美的；美学的；审美的，具有审美趣味的
+nuisance             ['nusns]             n. 讨厌的人；损害；麻烦事；讨厌的东西
+rigid                ['rɪdʒɪd]            adj. 严格的；僵硬的，死板的；坚硬的；精确的
+convolute            [ˈkɑnvəˌlʊt]         v. 回旋；盘旋；卷绕 adj. 回旋状的；旋绕的 n. 盘旋面
+slurp                [slɝp]               vt. 出声地吃或喝 vi. 出声地吃或喝 n. 吃的声音；啜食声
+barf                 [bɑːf]               vt. 呕吐 vi. 呕吐
+splice               [splaɪs]             vt. 拼接；接合；使结婚 n. 接合；结婚
+vertical             ['vɝtɪkl]            adj. 垂直的，直立的；[解剖] 头顶的，顶点的 n. 垂直线，垂直面
+periphery            [pə'rɪfəri]          n. 外围，边缘；圆周；圆柱体表面
+with                 [wɪð; wɪθ]           prep. 用；随着；支持；和…在一起 n. (With)人名；(德、芬、丹、瑞典)维特
+command              [kə'mænd]            vi. 命令，指挥；控制 vt. 命令，指挥；控制；远望 n. 指挥，控制；命令；司令部 n. (Command)人名；(法)科芒
+start                [stɑrt]              vt. 开始；启动 vi. 出发 n. 开始；起点
+word                 [wɝd]                n. [语] 单词；话语；消息；诺言；命令 vt. 用言辞表达 n. (Word)人名；(英)沃德
+translate            [træns'let]          vt. 翻译；转化；解释；转变为；调动 vi. 翻译
+evil                 ['ivl]               adj. 邪恶的；不幸的；有害的；讨厌的 n. 罪恶，邪恶；不幸
+tricky               ['trɪkɪ]             adj. 狡猾的；机警的
+miscellany           ['mɪsəleni]          n. 杂录，杂集；混杂；混合物
+unobtrusive          ['ʌnəb'trʊsɪv]       adj. 不唐突的；谦虚的；不引人注目的
+foundation           [faʊn'deʃən]         n. 基础；地基；基金会；根据；创立
+institute            ['ɪnstɪtut]          vt. 开始（调查）；制定；创立；提起（诉讼） n. 学会，协会；学院
+pasta                ['pɑstə]             n. 意大利面食；面团 n. (Pasta)人名；(英、意)帕斯塔
+bruh                 [brəː]               n. 哥们（非正式美语）：男性友人（经常用作称呼语）
+Braille              [brel]               vt. 用盲字印 n. 布莱叶（法国盲人教育家）；盲人用点字法
+wife                 [waɪf]               n. 妻子，已婚妇女；夫人
+aerial               ['ɛrɪəl]             adj. 空中的，航空的；空气的；空想的 n. [电讯] 天线
+verbatim             [vɝ'betɪm]           adv. 逐字地 adj. 逐字的
+swipe                [swaɪp]              vt. 猛击；偷窃；刷…卡 n. 猛击；尖刻的话 vi. 猛打；大口喝酒

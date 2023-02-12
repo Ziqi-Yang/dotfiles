@@ -249,7 +249,6 @@
     "go.toolsManagement.autoUpdate": true,
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
-    "editor.guides.bracketPairs": true,
-    "http.proxy": "http://127.0.0.1:7890"
+    "editor.guides.bracketPairs": true
 
 }

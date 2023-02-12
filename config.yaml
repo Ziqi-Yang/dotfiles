@@ -64,9 +64,6 @@ dotfiles:
   f_rofimoji.rc:
     src: config/rofimoji.rc
     dst: ~/.config/rofimoji.rc
-  f_init.lua:
-    src: config/nvim/lua/user/init.lua
-    dst: ~/.config/nvim/lua/user/init.lua
   f_mimeapps.list:
     src: config/mimeapps.list
     dst: ~/.config/mimeapps.list
@@ -188,6 +185,12 @@ dotfiles:
   d_helix:
     src: config/helix
     dst: ~/.config/helix
+  f_code-flags.conf:
+    src: config/code-flags.conf
+    dst: ~/.config/code-flags.conf
+  d_texmf:
+    src: texmf
+    dst: ~/texmf
 profiles:
   myArch:
     dotfiles:
@@ -211,7 +214,6 @@ profiles:
     - f_ideavimrc
     - f_vimrc
     - f_rofimoji.rc
-    - f_init.lua
     - f_mimeapps.list
     - f_settings.json
     - d_share_rofi
@@ -251,3 +253,5 @@ profiles:
     - f_profile
     - f_gdbinit
     - d_helix
+    - f_code-flags.conf
+    - d_texmf

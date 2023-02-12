@@ -109,6 +109,13 @@ sudo pacman -S bluez bluez-utils pulseaudio-bluetooth pulseaudio-alsa blueman
 sudo systemctl enable bluetooth
 sudo usermod -a -G lp $USER
 #+end_src
+** Linux-zen kernel and header
+#+begin_src sh
+sudo pacman -S linux-zen linux-zen-headers
+#+end_src
+*!!! Make sure to check the generated grub entry that linux-zen kernel is used by default*
+refer: https://arch.icekylin.online/advanced/optional-cfg-2.html#%F0%9F%90%A7-%E6%9B%B4%E6%8D%A2%E5%8F%AF%E9%80%89%E5%86%85%E6%A0%B8
+
 ** GRUB
 #+begin_src sh
 sudo pacman -S os-prober
@@ -129,6 +136,7 @@ paru -S plymouth-git
 sudo cp /etc/mkinitcpio.conf /etc/mkinitcpio.conf.bak
 sudo sed -i -E 's/^HOOKS=\((.*)\)/HOOKS=(\1 plymouth)/' /etc/mkinitcpio.conf
 sudo mkinitcpio -p linux
+sudo mkinitcpio -p linux-zen
 
 sudo cp /etc/default/grub /etc/default/grub.bak
 sudo sed -i -E 's/GRUB_CMDLINE_LINUX_DEFAULT="(.*)"/GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 nowatchdog quiet splash"/' /etc/default/grub
@@ -253,8 +261,9 @@ install configuration files
 - =ffmpeg=
 - =gnupg=: gpg
 - =hugo=: blog
+- =gitui=: git TUI
 #+begin_src sh
-sudo pacman -S fzf trash-cli zoxide scrcpy gtk3-demos yt-dlp lux-dl rofimoji rofi-calc bat curl fd ffmpeg gnupg hugo
+sudo pacman -S fzf trash-cli zoxide scrcpy gtk3-demos yt-dlp lux-dl rofimoji rofi-calc bat curl fd ffmpeg gnupg hugo gitui
 #+end_src
 
 #+begin_src sh :tangle post.sh
@@ -374,7 +383,7 @@ sudo pacman -S lxappearance qt5ct
 ** Editors
 - =emacs29-git=: native-comp and pgtk(for wayland capability) support
 #+begin_src sh
-sudo pacman -S vi vim helix
+sudo pacman -S vi vim helix code
 #+end_src
 
 #+begin_src sh :tangle post.sh

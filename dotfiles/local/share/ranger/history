@@ -1,50 +1,50 @@
-mkdir ./back
-rename bak
-notice
-mkdir notice
-touch 杨子祺 支部寒假活动一.txt
-shell 
-shell udo q
-rename .doom.d_bak
-search emacs
-search doom
-rename .doom.d
-search paru
-open_with 1
-search eww
-mkdir assets
-rename avatar-100-100.png
-search way
-mkdir ./rustProject
-python
-mkdir ./pyProjects
-rename pythonProjects
-rename rustProject
-rename rustProjects
-rename gameProjects
-rename othersProject
-rename othersProjects
-rename elseProjects
-mkdir ./other
-mkdir 
-rename rust
-rename python
-rename java
-rename go
-rename game
-rename otherPeople
-mkdir ./contribute
-rename spark_project
-rename 
-rename Studio
-rename AndroidStudio
-mkdir lib
 mkdir pages
 rename libs
-
-open_with 
 mkdir cart
 mkdir home
 mkdir sign-in
-search 
 search ibm
+open_with 
+touch App.vue
+rename evil
+mkdir ./packages
+hh
+mkdir .local
+mkdir ./.local
+search .doom
+work
+rename l-general.el
+search tool
+search magit
+search git
+search vc
+search python
+cd /home/zarkli/.emacs.d/
+rename treesitter
+rename treesit-langs
+search tree
+search emacs
+search org
+search 
+search evil
+search edi
+search ui
+search woek
+search work
+
+search .emcas
+search .em
+search .emacs
+mkdir ./assets
+mkdir ./banner
+rename banners
+search lan
+search lang
+search latex
+search auc
+search late
+rename main.pd.bak
+rename main.pdf
+rename main.pdf.bak
+open_with a
+search test

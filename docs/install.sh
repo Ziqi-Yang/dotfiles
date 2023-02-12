@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env bash
+#!/usr/bin/env bash
 set -e # exit on error
 
 # git clone --recurse-submodules --depth 1 --branch main https://github.com/Ziqi-Yang/dotfiles.git dotfiles
@@ -25,6 +25,8 @@ sudo pacman -S pulseaudio alsa-utils pulseaudio-alsa pamixer sof-firmware alsa-u
 sudo pacman -S bluez bluez-utils pulseaudio-bluetooth pulseaudio-alsa blueman
 sudo systemctl enable bluetooth
 sudo usermod -a -G lp $USER
+
+sudo pacman -S linux-zen linux-zen-headers
 
 sudo pacman -S os-prober
 sudo sed '1aGRUB_DISABLE_OS_PROBER=false' /etc/default/grub
@@ -61,7 +63,7 @@ sudo pacman -S ttf-font-awesome
 sudo mkdir -p /usr/share/background/
 sudo cp assets/images/background/* /usr/share/background/
 
-sudo pacman -S fzf trash-cli zoxide scrcpy gtk3-demos yt-dlp lux-dl rofimoji rofi-calc bat curl fd ffmpeg gnupg hugo
+sudo pacman -S fzf trash-cli zoxide scrcpy gtk3-demos yt-dlp lux-dl rofimoji rofi-calc bat curl fd ffmpeg gnupg hugo gitui
 
 sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-anthy fcitx5-pinyin-moegirl fcitx5-material-color
 
@@ -89,7 +91,7 @@ sudo pacman -S telegram-desktop
 
 sudo pacman -S lxappearance qt5ct
 
-sudo pacman -S vi vim helix
+sudo pacman -S vi vim helix code
 
 sudo pacman -S bfg git-delta
 

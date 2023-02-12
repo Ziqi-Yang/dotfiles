@@ -121,13 +121,13 @@ handle_extension() {
             exit 1;;
 
         ## HTML
-        htm|html|xhtml)
-            ## Preview as text conversion
-            w3m -dump "${FILE_PATH}" && exit 5
-            lynx -dump -- "${FILE_PATH}" && exit 5
-            elinks -dump "${FILE_PATH}" && exit 5
-            pandoc -s -t markdown -- "${FILE_PATH}" && exit 5
-            ;;
+        # htm|html|xhtml)
+        #     ## Preview as text conversion
+        #     w3m -dump "${FILE_PATH}" && exit 5
+        #     lynx -dump -- "${FILE_PATH}" && exit 5
+        #     elinks -dump "${FILE_PATH}" && exit 5
+        #     pandoc -s -t markdown -- "${FILE_PATH}" && exit 5
+        #     ;;
 
         ## JSON
         json)

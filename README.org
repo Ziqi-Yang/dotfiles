@@ -22,7 +22,7 @@
 - Screen Lock: =BetterScreenLock= (X11)
 - Notification Manager: =dunst=
 - Editors(and IDE):
-  - =emacs=: doom emacs [[https://github.com/Ziqi-Yang/.doom.d][configuration]](in another repo)
+  - =emacs=: own [[https://github.com/Ziqi-Yang/.emacs.d][.emacs.d]](in use) doom emacs [[https://github.com/Ziqi-Yang/.doom.d][configuration]]
   - +=neovim=: astrovim [[./dotfiles/config/nvim/lua/user/init.lua][configuration]]+
   - =Jetbrains IDE=: [[./dotfiles/config/ideavimrc][.ideavimrc]]
   - =vscode=(=code - oss=): [[./dotfiles/config/Code%20-%20OSS/User/settings.json][settings.json]]

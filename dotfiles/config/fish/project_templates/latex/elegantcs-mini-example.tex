@@ -1,13 +1,12 @@
-%!TEX program = xelatex
-\documentclass[lang=en,a4paper,bibtex]{elegantpaper}
-% NOTE lang=en when using english
+\documentclass[lang=en,a4paper,bibtex]{elegantcs}
+% NOTE lang=cn when using chinese
 
 \title{Title}
 \author{Ethan DENG \\ Fudan University \and Dongsheng DENG \\ PA Technology}
 \institute{Your Institute}
 \version{0.10}
-\date{\today} % NOTE \zhtoday when using english
-\addbibresource[location=local]{reference.bib} % FIXME change the content in the reference.bib file
+\date{\today} % NOTE \zhtoday when using chinese
+%% \addbibresource[location=local]{reference.bib} % FIXME change the content in the reference.bib file
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -15,11 +14,32 @@ abstract
 \keywords{Keyword1, Keyword2}
 \end{abstract}
 
+Predefined code style for all languages supported by \textit{listings}\\
+Code from a file:
 
+\textbf{Cpp}:
+\lstinputlisting[language=C++]{assets/test.cpp} % NOTE you may need assets/test.cpp to correctly demostrate the function.
 
-Hello ElegantCS!
+Code in latex document:
+\textbf{Java}(with caption version):
+\begin{lstlisting}[language=Java, caption={Showcase.java}]
+class Showcase
+{
+  public static void main(String[] args)
+  {
+    System.out.println("hello world!");
+  }
+}
+\end{lstlisting}
 
+Also, the \lstinline[language=Python]|print("inline code")| example.
 
-\nocite{*}
-\printbibliography[heading=bibintoc, title=\ebibname]
+\textbf{Ascii Art}:
+\setmonofont{Quivira}
+\lstinputlisting[language=Ascii]{assets/ascii3.txt}
+\defaultfont
+\lstinputlisting[language=Ascii]{assets/ascii.txt}
+
+%% \nocite{*}
+%% \printbibliography[heading=bibintoc, title=\ebibname]
 \end{document}

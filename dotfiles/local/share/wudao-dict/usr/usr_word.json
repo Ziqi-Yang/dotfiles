@@ -628,7 +628,7 @@
     "MBA": 1,
     "raw": 1,
     "nest": 1,
-    "nested": 1,
+    "nested": 2,
     "single quote": 1,
     "conservancy": 1,
     "invoices": 1,
@@ -941,5 +941,13 @@
     "institute": 1,
     "Braille": 3,
     "aerial": 1,
-    "swipe": 1
+    "swipe": 1,
+    "somehow": 1,
+    "somewhat": 1,
+    "patrons": 1,
+    "next": 1,
+    "pursue": 1,
+    "hypervisor": 1,
+    "visor": 1,
+    "supervisor": 1
 }

@@ -1,0 +1,15 @@
+* docker
+** +podman+ 
+*not recommended*, since it can not fully support docker(my experience in using other's script which executes docker. There may be an error to prevent you to use packages mirror, and besides packages mirror, podman's default pulling speed is low)
+The rootless settings: follow [[https://wiki.archlinux.org/title/Podman#Rootless_Podman][archwiki]]
+#+begin_src shell
+    sudo pacman -S podman podman-docker
+#+end_src
+** Docker
+#+begin_src shell
+  sudo pacman -S docker
+  gpasswd -a user group
+  sudo systemctl enable --now docker.service
+  # relogin may needed
+#+end_src
+NOTE: I have sync

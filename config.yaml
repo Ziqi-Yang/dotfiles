@@ -67,7 +67,7 @@ dotfiles:
   f_mimeapps.list:
     src: config/mimeapps.list
     dst: ~/.config/mimeapps.list
-    chmod: '644'
+    chmod: '600'
   f_settings.json:
     src: config/Code - OSS/User/settings.json
     dst: ~/.config/Code - OSS/User/settings.json
@@ -191,6 +191,9 @@ dotfiles:
   d_texmf:
     src: texmf
     dst: ~/texmf
+  f_config.json:
+    src: docker/config.json
+    dst: ~/.docker/config.json
 profiles:
   myArch:
     dotfiles:
@@ -255,3 +258,4 @@ profiles:
     - d_helix
     - f_code-flags.conf
     - d_texmf
+    - f_config.json

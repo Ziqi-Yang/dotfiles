@@ -86,8 +86,9 @@ map ctrl+shift+h previous_tab
 map ctrl+shift+l next_tab
 }}}
 
+allow_remote_control yes
 
 # BEGIN_KITTY_THEME
-# Gruvbox Material Light Soft
+# GitHub Dark High Contrast
 include current-theme.conf
 # END_KITTY_THEME

@@ -1,10 +1,11 @@
-% Author: Dongsheng Deng
-% Homepage: https://ddswhu.me/
+% ElegentPaper Author: Dongsheng Deng
 % Email: elegantlatex2e@gmail.com
-% Lastest Version: https://github.com/ElegantLaTeX/ElegantPaper
+% ElegentCS Author: Ziqi Yang
+% Email: mr.ziqiyang@gmail.com
+% Lastest Version: https://github.com/Ziqi-Yang/ElegantCS
 
 % --- Class structure: identification part
-\ProvidesClass{elegantpaper}[2022/04/09 v0.10 ElegantLaTeX Paper class]
+\ProvidesClass{elegantcs}[2022/04/09 v0.10 ElegantCS LaTeX Paper class]
 \NeedsTeXFormat{LaTeX2e} 
 
 %%%
@@ -131,6 +132,7 @@
   \RequirePackage[scaled=.90]{helvet}
 \fi
 
+
 \ifdefstring{\ELEGANT@lang}{cn}{
   \ifdefstring{\ELEGANT@chinesefont}{founder}{
     \RequirePackage[UTF8,scheme=plain,fontset=none]{ctex}
@@ -154,7 +156,13 @@
   
   \AfterEndPreamble{
     \setlength\parindent{2\ccwd}}
-}{\relax}
+}{
+  %% This line also reuqired by english because when you want to use full unicode in
+  %% lstlisting(like ⣿ character), there will be no line break. It is strange :
+  %% TODO: in the future, the package should be conditionally added depending on whether
+  %% user want Ascii Art full unicode support
+  \RequirePackage[UTF8,scheme=plain,fontset=none]{ctex}
+}
 
 
 \ifcsname kaishu\endcsname
@@ -379,7 +387,12 @@
 elegantpaper,fontenc,fontspec,xeCJK,FiraMono,xunicode,newtxmath,figure,fig,image,img,table,itemize,enumerate,newtxtext,newtxtt,ctex,microtype,description,times,newtx,booktabs,tabular,PDFLaTeX,XeLaTeX,type1cm,BibTeX,cite,gbt7714,lang,DeclareSymbolFont,SetSymbolFont,toprule,midrule,bottomrule,institute,version,includegraphics,setmainfont,setsansfont,setmonofont,setCJKmainfont,setCJKsansfont,setCJKmonofont,RequirePackage,figref,tabref,email,maketitle,keywords,zhdate,zhtoday}
 }
 
+
+%% Should put this line to deal with unicode missing line breaking error(have put it before)
+%% \RequirePackage[UTF8,scheme=plain,fontset=none]{ctex}
+
 \lstdefinelanguage{Ascii}{
+  breaklines=true,
   framerule=1pt,
   frame=tb,
   numbers=none,
@@ -391,6 +404,12 @@ elegantpaper,fontenc,fontspec,xeCJK,FiraMono,xunicode,newtxmath,figure,fig,image
   tabsize=2,
   showspaces=false,
   showstringspaces=false
+}
+
+\newcommand{\defaultfont}{
+    \renewcommand\rmdefault{lmr}
+    \renewcommand\sfdefault{lmss}
+    \renewcommand\ttdefault{lmtt}
 }
 
 % restore the tt default family to lmodern tt family

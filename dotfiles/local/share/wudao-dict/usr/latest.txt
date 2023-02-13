@@ -1,12 +1,3 @@
-manifest
-fractional
-analogous
-analogous
-conjunction
-conjunction
-mangle
-quirks
-subscriptions
 purist
 pristine
 dodger
@@ -98,3 +89,12 @@ wife
 aerial
 verbatim
 swipe
+somehow
+somewhat
+nested
+patrons
+next
+pursue
+hypervisor
+visor
+supervisor

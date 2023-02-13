@@ -23,9 +23,8 @@ DEADLINE: <2023-01-17 Tue +1d>
 :END:
 - State "DONE"       from "TODO"       [2023-01-17 Tue 22:04]
 - State "DONE"       from "PROG"       [2023-01-16 Mon 22:00]
-*** PROG [#A] learn rust
-- rust语言圣经
-*** PROG continue cs61c
+*** TODO [[https://rcore-os.cn/rCore-Tutorial-Book-v3/index.html][rCore-Tutorial-Book]]
+*** TODO continue cs61c
 *** TODO [#B] learn basic typescript, node and Vue3
 
 *** TODO learn btfs, qemu, docker(podman) command line

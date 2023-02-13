@@ -1063,3 +1063,12 @@ wife                 [waɪf]               n. 妻子，已婚妇女；夫人
 aerial               ['ɛrɪəl]             adj. 空中的，航空的；空气的；空想的 n. [电讯] 天线
 verbatim             [vɝ'betɪm]           adv. 逐字地 adj. 逐字的
 swipe                [swaɪp]              vt. 猛击；偷窃；刷…卡 n. 猛击；尖刻的话 vi. 猛打；大口喝酒
+somehow              ['sʌmhaʊ]            adv. 以某种方法；莫名其妙地
+somewhat             ['sʌmwʌt]            n. 几分；某物 adv. 有点；多少；几分；稍微
+nested               ['nestɪd]            adj. 嵌套的，内装的 v. 筑巢；嵌入（nest的过去分词）
+patrons              ['peitrən]           n. 赞助人；老顾客（patron的复数）；庇护人
+next                 [nɛkst]              adv. 然后；下次；其次 adj. 下一个的；其次的；贴近的 n. 下一个 prep. 靠近；居于…之后
+pursue               [pə'sʊ]              vt. 继续；从事；追赶；纠缠 vi. 追赶；继续进行
+hypervisor           [ˈhaɪpərvaɪzər]      n. 超级监督者；管理程序
+visor                ['vaɪzɚ]             n. 遮阳板；面甲；帽舌 vt. （用面具等）遮护
+supervisor           ['supɚvaɪzɚ]         n. 监督人，[管理] 管理人；检查员

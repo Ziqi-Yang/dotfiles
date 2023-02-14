@@ -316,7 +316,7 @@
     "snapshot": 1,
     "resolution": 1,
     "idempotent": 2,
-    "discard": 1,
+    "discard": 2,
     "Qualifiers": 1,
     "thorough": 1,
     "silos": 1,
@@ -948,6 +948,12 @@
     "next": 1,
     "pursue": 1,
     "hypervisor": 1,
-    "visor": 1,
-    "supervisor": 1
+    "visor": 2,
+    "supervisor": 1,
+    "crap": 1,
+    "penguin": 1,
+    "jade": 1,
+    "require": 1,
+    "persist": 1,
+    "district": 1
 }

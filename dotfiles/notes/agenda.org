@@ -53,7 +53,7 @@ To solve the login hard problem(not use puppetter and python selenium), for exam
 - password protect
 
 *** PROJ [#C] rofi for thesaurus
-*** PROJ [#C] fav cli to add, search and execute useful command snippets
+*** PROJ improve [[https://github.com/denisidoro/navi][navi]] with project support
 *** PROJ [#C] chart ascii lib
 1. ascii dot and line to show broken line graph
 2. bar chart use ████░░░░░░░░░░░░░░░░░░░░░ (emacs display error :<, [[https://github.com/Ziqi-Yang][see it on web]])

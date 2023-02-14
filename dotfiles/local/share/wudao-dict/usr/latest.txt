@@ -1,11 +1,3 @@
-purist
-pristine
-dodger
-dodger
-gripes
-Plymouth
-Plymouth
-embryo
 paw
 paw
 akin
@@ -98,3 +90,11 @@ pursue
 hypervisor
 visor
 supervisor
+crap
+penguin
+visor
+jade
+discard
+require
+persist
+district

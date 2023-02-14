@@ -1072,3 +1072,10 @@ pursue               [pə'sʊ]              vt. 继续；从事；追赶；纠�
 hypervisor           [ˈhaɪpərvaɪzər]      n. 超级监督者；管理程序
 visor                ['vaɪzɚ]             n. 遮阳板；面甲；帽舌 vt. （用面具等）遮护
 supervisor           ['supɚvaɪzɚ]         n. 监督人，[管理] 管理人；检查员
+crap                 [kræp]               n. 废话；废物；屎；拉屎 vi. 掷骰子；拉屎 n. (Crap)人名；(英)克拉普
+penguin              ['pɛŋɡwɪn]           n. 企鹅；空军地勤人员
+jade                 [dʒed]               n. 翡翠；[宝] 碧玉；老马 adj. 玉制的；绿玉色的 vi. 疲倦 vt. 使疲倦 n. (Jade)人名；(英)杰德；(法)雅德
+discard              [dɪsˈkɑːrd]          vt. 抛弃；放弃；丢弃 vi. 放弃 n. 抛弃；被丢弃的东西或人
+require              [rɪ'kwaɪr]           vt. 需要；要求；命令
+persist              [pɚ'sɪst]            vi. 存留，坚持；持续，固执 vt. 坚持说，反复说
+district             ['dɪstrɪkt]          n. 区域；地方；行政区

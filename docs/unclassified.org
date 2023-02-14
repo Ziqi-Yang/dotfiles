@@ -8,8 +8,26 @@ The rootless settings: follow [[https://wiki.archlinux.org/title/Podman#Rootless
 ** Docker
 #+begin_src shell
   sudo pacman -S docker
-  gpasswd -a user group
+  gpasswd -a zarkli docker # enable rootless (important for proxy, since we put other proxy configuration file at '~/.docker/config.json' and we should avoid using sudo(tested))
   sudo systemctl enable --now docker.service
-  # relogin may needed
+  # relogin may needed to enable rootless
 #+end_src
-NOTE: I have sync
+example proxy file [[~/.docker/config.json]]
+#+begin_src json
+{
+ "proxies":
+ {
+   "default":
+   {
+     "httpProxy": "http://127.0.0.1:7890",
+     "httpsProxy": "http://127.0.0.1:7890",
+     "noProxy": "localhost"
+   }
+ }
+}
+#+end_src
+Note: you should add =--net host= when you run =docker run= to make the proxy works correct since I use =127.0.0.1= as the host address.
+#+begin_src shell
+  docker run --net host --rm -it -v .:/mnt -w /mnt rcore-tutorial-v3 bash 
+#+end_src
+

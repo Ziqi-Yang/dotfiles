@@ -79,7 +79,8 @@ sudo pacman -S grim slurp swappy flameshot
 
 sudo pacman -S ranger dolphin
 
-paru -S wps-office wps-office-mui-zh-cn ttf-wps-fonts
+paru libreoffice-fresh
+# paru -S wps-office wps-office-mui-zh-cn ttf-wps-fonts
 
 sudo pacman -S ark unarchiver p7zip gzip unzip zip
 

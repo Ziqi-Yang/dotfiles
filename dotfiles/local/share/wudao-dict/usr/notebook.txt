@@ -1079,3 +1079,97 @@ discard              [dɪsˈkɑːrd]          vt. 抛弃；放弃；丢弃 vi. �
 require              [rɪ'kwaɪr]           vt. 需要；要求；命令
 persist              [pɚ'sɪst]            vi. 存留，坚持；持续，固执 vt. 坚持说，反复说
 district             ['dɪstrɪkt]          n. 区域；地方；行政区
+taxonomy             [tæk'sɑnəmi]         n. 分类学；分类法
+blog                 [blɑg]               n. 博客；部落格；网络日志
+blogs                [blɑgs]              博客
+abbreviate           [ə'brivɪ'et]         vt. 缩写，使省略；使简短 vi. 使用缩写词
+board                [bɔrd]               n. 董事会；木板；甲板；膳食 vt. 上（飞机、车、船等）；用板盖上；给提供膳宿 vi. 寄宿 n. (Board)人名；(英、西)博德
+creep                [krip]               vi. 爬行；蔓延；慢慢地移动；起鸡皮疙瘩 n. 爬行；毛骨悚然的感觉；谄媚者
+ster                 [stɚ]                n. 灭菌，绝育；消毒器，杀菌器 n. (Ster)人名；(德)施特
+dignity              ['dɪɡnəti]           n. 尊严；高贵
+recognition          [,rɛkəɡ'nɪʃən]       n. 识别；承认，认出；重视；赞誉；公认
+inherent             [ɪn'hɪrənt]          adj. 固有的；内在的；与生俱来的，遗传的
+disregard            [,dɪsrɪ'ɡɑrd]        vt. 忽视；不理；漠视；不顾 n. 忽视；不尊重
+contempt             [kən'tɛmpt]          n. 轻视，蔑视；耻辱
+blossom              ['blɑsəm]            vi. 开花；兴旺；发展成 n. 花；开花期；兴旺期；花开的状态 n. (Blossom)人名；(英)布洛瑟姆
+underneath           [,ʌndɚ'niθ]          prep. 在…的下面；在…的形式下；在…的支配下 adv. 在下面；在底下 n. 下面；底部 adj. 下面的；底层的
+wisteria             [wɪ'stɪrɪə]          n. 紫藤；柴藤
+nephritis            [neˈfraɪtɪs]         n. [泌尿] 肾炎
+partials             ['pa:ʃəlz]           n. 分音；泛音（partial 的复数） v. 在统计相关中排除有关变量的影响（partial 的三单形式）
+partial              ['pɑrʃəl]            adj. 局部的；偏爱的；不公平的
+sticky               ['stɪki]             adj. 粘的；粘性的
+assets               ['æset]              n. 资产；宝贵的人材；有益的品质；[经] 财产；有利条件 （一项）财物；资产（asset的名词复数）；（商店、破产者等的）财产；遗产；有价值的人或物
+almighty             [ɔl'maɪti]           adj. 全能的；有无限权力的 adv. 非常 n. 全能的神
+meow                 [mɪ'aʊ]              vi. 猫叫 n. 猫叫声
+polish               ['pɑlɪʃ]             n. 磨光，擦亮；擦亮剂；优雅，精良 vi. 擦亮，变光滑 vt. 磨光，使发亮；使完美; 改进 v. 磨光；修改；润色 adj. 波兰的
+excursion            [ɪk'skɝʒn]           n. 偏移；远足；短程旅行；离题；游览，游览团
+humble               ['hʌmbl]             adj. 谦逊的；简陋的；（级别或地位）低下的；不大的 vt. 使谦恭；轻松打败（尤指强大的对手）；低声下气
+archive              ['ɑrkaɪv]            n. 档案馆；档案文件 vt. 把…存档
+achieve              [ə'tʃiv]             vt. 取得；获得；实现；成功 vi. 达到预期的目的，实现预期的结果，如愿以偿
+comma                ['kɑmə]              n. 逗号；停顿
+notation             [no'teʃən]           n. 符号；乐谱；注释；记号法
+interpreted          [ɪn'tɝrprɪtɪd]       v. 理解；解释（interpret的过去式和过去分词）；把…理解为；演绎（按自己的感觉演奏音乐或表现角色）；口译
+synchronously        ['siŋkrənəsli]       adv. 同步地；同时地
+check                [tʃɛk]               vt. 检查，核对；制止，抑制；在…上打勾 vi. 核实，查核；中止；打勾；[象棋]将一军 n. 支票；制止，抑制；检验，核对 n. （英）切克（人名）
+CONS                 [kɔns]               abbr. 面向连接的网络服务（Connection Oriented Network Service） n. (Cons)人名；(英)康斯；(法、西)孔斯
+transpose            [træn'spoz]          vt. 调换；移项；颠倒顺序 vi. 进行变换 n. 转置阵
+curated              ['kjurit]            v. 当馆长（curate的过去分词）
+exuberant            [ɪg'z(j)uːb(ə)r(ə)nt; eg-] adj. 繁茂的；生气勃勃的，充溢的
+resume                                    n. 摘要；[管理] 履历，简历 vt. 重新开始，继续；恢复，重新占用 vi. 重新开始，继续
+transmit             [trænzˈmɪt]          vt. 传输；传播；发射；传达；遗传 vi. 传输；发射信号
+suck                 [sʌk]                vt. 吸吮；吸取 vi. 吸吮；糟糕；巴结 n. 吮吸
+braze                [breɪz]              v. 用铜焊接，用铜镀；用铜制造 n. 铜焊接头；高熔点焊料 n. （Braze）（美）巴滋（人名）
+Toolings                                  n. 工具（tooling 的复数）
+embed                [ɪm'bɛd]             vt. 栽种；使嵌入，使插入；使深留脑中
+coaxial              [ko'æksɪəl]          adj. 同轴的，共轴的
+copper               ['kɑpɚ]              n. 铜；铜币；警察 adj. 铜制的 vt. 镀铜 n. (Copper)人名；(英)科珀
+optical              ['ɑptɪkl]            adj. 光学的；眼睛的，视觉的
+jargon               ['dʒɑrɡən]           n. 行话，术语；黄锆石
+reassembled          [,ri:ə'sembl]        重新组装（reassemble的过去式和过去分词）
+prominent            ['prɑmɪnənt]         adj. 突出的，显著的；杰出的；卓越的
+router               ['rʊtɚ]              n. [计] 路由器；刳刨者
+link-layer                                [计] 链路层；连结层
+cargo                ['kɑrɡo]             n. 货物，船货 n. (Cargo)人名；(英、西)卡戈
+warehouse            ['wɛrhaʊs]           n. 仓库；货栈；大商店 vt. 储入仓库；以他人名义购进（股票）
+fleet                [flit]               adj. 快速的，敏捷的 n. 舰队；港湾；小河 vi. 飞逝；疾驰；掠过 vt. 消磨 n. (Fleet)人名；(英)弗利特
+trucks               [trʌk]               n. 卡车（truck的复数） v. 驾驶卡车；用卡车运（truck的第三人称单数形式）
+shipment             ['ʃɪpmənt]           n. 装货；装载的货物
+unload               ['ʌn'lod]            vt. 卸；摆脱…之负担；倾销 vi. 卸货；退子弹
+analogous            [ə'næləɡəs]          adj. 类似的；[昆] 同功的；可比拟的
+cable                ['kebl]              n. 缆绳；电缆；海底电报 vt. 打电报 vi. 打海底电报
+celluar              [ˈsɛljəlɚ]           细胞
+broadband            ['brɔd'bænd]         n. 宽频；宽波段 adj. 宽频带的；宽波段的；宽频通讯的
+residential          [,rɛzɪ'dɛnʃl]        adj. 住宅的；与居住有关的
+modem                ['mo'dɛm]            n. 调制解调器（等于modulator-demodulator）
+tier                 [tɪr]                n. 层，排；行，列；等级 vt. 使层叠 vi. 成递升排列 n. (Tier)人名；(英)蒂尔
+collectively         [kə'lektivli]        adv. 共同地，全体地
+interoperate         [,intə'ɔpəreit]      n. 交互操作
+precursor            [pri'kɝsɚ]           n. 先驱，前导
+cursor               ['kɝsɚ]              n. 光标；（计算尺的）[计] 游标，指针
+conference           ['kɑnfərəns]         n. 会议；讨论；协商；联盟；（正式）讨论会；[工会、工党用语]（每年的）大会 vi. 举行或参加（系列）会议
+sink                 [sɪŋk]               vi. 下沉；消沉；渗透 vt. 使下沉；挖掘；使低落 n. 水槽；洗涤槽；污水坑 n. (Sink)人名；(英、瑞典)辛克
+postal               ['postl]             adj. 邮政的；邮局的 n. 明信片
+reception            [rɪ'sɛpʃən]          n. 接待；接收；招待会；感受；反应
+thermostat           ['θɝməstæt]          n. 恒温器；自动调温器 vt. 为…配备恒温器；用恒温器控制
+bolts                [bəults]             n. [机] 螺栓；[机] 螺钉（bolt的复数）；膨胀锚钉；角钢螺丝；毛边书
+nuts and bolts                            具体细节，基本要素
+buzzword             ['bʌzwɜːd]           n. 流行词
+dictate              ['dɪktet]            vt. 命令；口述；使听写 vi. 口述；听写 n. 命令；指示
+initiate             [ɪ'nɪʃɪet]           vt. 开始，创始；发起；使初步了解 n. 开始；新加入者，接受初步知识者 adj. 新加入的；接受初步知识的
+cordial              ['kɔrdʒəl]           adj. 热忱的，诚恳的；兴奋的 n. 补品；兴奋剂；甜香酒，甘露酒
+indication           [,ɪndɪ'keʃən]        n. 指示，指出；迹象；象征
+droning              [dron]               adj. 声音低沉单调的；发嗡嗡声的 v. 发嗡嗡声；单调低沉地说；闲散度日；单调无聊地进行（drone的ing形式）
+receipt              [rɪ'sit]             n. 收到；收据；收入 vt. 收到
+delve                [dɛlv]               vi. 钻研；探究；挖 vt. 钻研；探究；挖 n. 穴；洞 n. (Delve)人名；(英)德尔夫
+concreteness         ['kɑnkritnəs]        n. 具体；具体性；确实
+blade                [bled]               n. 叶片；刀片，刀锋；剑
+commodity            [kə'mɑdəti]          n. 商品，货物；日用品
+stacked              [stækt]              adj. 妖艳的；（女人）身材丰满匀称的 v. 堆放（stack的过去分词）
+rack                 [ræk]                n. [机] 齿条；架子；拷问台 vi. 变形；随风飘；小步跑 vt. 折磨；榨取 n. (Rack)人名；(法、德、意、匈)拉克
+sophisticated        [sə'fɪstɪketɪd]      adj. 复杂的；精致的；久经世故的；富有经验的 v. 使变得世故；使迷惑；篡改（sophisticate的过去分词形式）
+proactive            [,pro'æktɪv]         adj. 前摄的（前一活动中的因素对后一活动造成影响的）；有前瞻性的，先行一步的；积极主动的
+active               ['æktɪv]             adj. 积极的；活跃的；主动的；有效的；现役的 n. 主动语态；积极分子
+relational           [rɪ'leʃənl]          adj. 相关的；亲属的
+prone                [pron]               adj. 俯卧的；有…倾向的，易于…的 n. (Prone)人名；(意、法)普罗内
+redundancy           [rɪ'dʌndənsi]        n. [计][数] 冗余（等于redundance）；裁员；人浮于事
+cardinality          [ˌkɑːrdɪˈnæləti]     n. 基数；集的势

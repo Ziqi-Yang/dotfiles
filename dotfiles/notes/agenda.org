@@ -35,6 +35,9 @@ DEADLINE: <2023-01-17 Tue +1d>
 snapdrop
 https://github.com/schollz/croc
 
+*** TODO .emacs.d eyebrowse spc tab tab auto rename window to project name
+
+*** TODO https://github.com/coqui-ai/TTS
 
 ** PROJ PROJECT
 *** PROJ [#A] contribute to git
@@ -44,6 +47,7 @@ horizontal git log
 2. exteneded api, suck as keypressed
 3. game?
 经费800元
+*** PROJ lsp-ltex and lsp-grammarly in rust
 *** PROJ rewrite class 3 forever
 *** PROJ [#C] contribute to uair
 *** PROJ [#C] git secrets hide tool [[file:~/projects/git_secret_havent_named_yet/README.org][README.org]]
@@ -99,3 +103,4 @@ day and night according to
 only execute once at the time split or first run
 *** PROJ a icon font collecting anime characters
 注意申明版权信息（仅限个人，不得商用
+*** PROJ browser extension for displaying grid view bookmarks and navigating with keyboard shortcut.

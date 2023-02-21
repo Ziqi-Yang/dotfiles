@@ -1,50 +1,50 @@
-mkdir .local
-mkdir ./.local
-search .doom
-work
-rename l-general.el
-search tool
-search magit
-search git
-search vc
-search python
-cd /home/zarkli/.emacs.d/
-rename treesitter
-rename treesit-langs
-search tree
-search emacs
-search org
-search 
-search evil
-search edi
-search ui
-search woek
-search work
-
-search .emcas
-search .em
-search .emacs
-mkdir ./assets
-mkdir ./banner
-rename banners
-search lan
-search lang
-search latex
-search auc
-search late
-rename main.pd.bak
-rename main.pdf
-rename main.pdf.bak
-open_with a
-search test
-search la
-search cls
-search pdf
-rename elegantcs-mini-example.tex
-search icon
-search make
-rename 都柏林支部寒假活动一-杨子祺-21372225.pdf
-search qemu
 search build
 search riscv64
 search riscv
+search d
+rename p1.org
+mkdir about
+touch index.md
+.md_
+rename c1.org
+rename index.md
+rename _index.org
+mkdir ./reflections
+mkdir ./tests
+rename blogs
+rename _index.md
+rename archive.md
+rename _defaultasdfa
+rename fault
+rename archetypes
+rename _default
+mkdir ./posts
+rename archivesasdfasdfasdfa.md
+rename tests
+inde
+mkdir ./js
+rename about.org
+rename archives.org
+rename default.org
+search web
+rename default.md
+mkdir ./blog
+mkdir ./
+mkdir ./programme
+mkdir study
+shell hugo new study/_index.org
+rename hugo_syntax_highlighting_for_org.org
+rename blog-meow-bak
+mount
+search desk
+search 马克思
+search 共产党
+search writ
+
+mkdir communist_party
+open_with 1
+mkdir backups
+search ba
+mkdir ./arch_linux
+mkdir COMP2013J-database
+rename 发展党员工作谈话记-杨子祺-21372225.docx

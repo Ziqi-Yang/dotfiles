@@ -20,7 +20,8 @@ paru -S xdg-desktop-portal-hyprland-git
 
 paru -S hyprpaper rofi-lbonn-wayland-git waybar-hyprland-git
 
-paru -S ttf-zpix ttf-wps-fonts
+paru -S ttf-zpix
+# paru -S ttf-wps-fonts # use libreoffice instead
 
 paru -S nerd-fonts-ibm-plex-mono
 

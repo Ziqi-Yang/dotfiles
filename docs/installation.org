@@ -208,7 +208,8 @@ sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts noto-fonts-
 #+end_src
 
 #+begin_src sh :tangle post.sh
-paru -S ttf-zpix ttf-wps-fonts
+paru -S ttf-zpix
+# paru -S ttf-wps-fonts # use libreoffice instead
 #+end_src
 **** English Font
 #+begin_src sh
@@ -343,7 +344,8 @@ paru -Sa clash-verge # install aur package(self build), not archlinuxcn package(
 #+end_src
 ** Office
 #+begin_src sh :tanlge post.sh
-paru -S wps-office wps-office-mui-zh-cn ttf-wps-fonts
+paru libreoffice-fresh
+# paru -S wps-office wps-office-mui-zh-cn ttf-wps-fonts
 #+end_src
 ** Meeting
 #+begin_src sh :tangle post.sh

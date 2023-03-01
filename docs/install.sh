@@ -18,7 +18,7 @@ sudo sed -i '1iServer = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/
 sudo pacman -S paru
 mkdir -p ~/.config/paru
 
-sudo pacman -S git xdg-user-dirs ntfs-3g udisks2 udiskie fish ripgrep fd htop neofetch wget brightnessctl ncdu duf hwinfo rsync
+sudo pacman -S git xdg-user-dirs ntfs-3g udisks2 udiskie fish ripgrep fd htop neofetch wget brightnessctl ncdu duf hwinfo rsync starship
 
 sudo pacman -S pulseaudio alsa-utils pulseaudio-alsa pamixer sof-firmware alsa-ucm-conf
 
@@ -111,6 +111,8 @@ sudo pacman -S jdk8-openjdk jdk-openjdk maven
 paru -S go
 
 sudo pacman -S shellcheck bash-language-server
+
+sudo pacman -S typescript
 
 sudo pacman -S texlive-most texlive-lang texlab biber
 

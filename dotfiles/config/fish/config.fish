@@ -3,7 +3,7 @@ if status is-interactive
 # environment variables
 
 ## other
-set EDITOR "emacsclient -t"
+set EDITOR "emacsclient -n"
 set ANDROID_SDK_ROOT /opt/android-sdk
 
 ## path
@@ -23,6 +23,8 @@ export FLUTTER_STORAGE_BASE_URL="https://mirrors.tuna.tsinghua.edu.cn/flutter"
 export PUB_HOSTED_URL="https://mirrors.tuna.tsinghua.edu.cn/dart-pub"
 
 zoxide init fish | source
+
+starship init fish | source
 
 end
 

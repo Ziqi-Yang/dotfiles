@@ -14,4 +14,9 @@ categories = ["command-line-utilities"] # https://crates.io/category_slugs
 [badges]
 maintenance = { status = "none" }
 
+# cargo build --profile release-lto
+[profile.release-lto]
+inherits = "release"
+lto = true
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

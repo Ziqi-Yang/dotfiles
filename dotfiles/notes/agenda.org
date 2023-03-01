@@ -24,13 +24,14 @@ DEADLINE: <2023-01-17 Tue +1d>
 - State "DONE"       from "TODO"       [2023-01-17 Tue 22:04]
 - State "DONE"       from "PROG"       [2023-01-16 Mon 22:00]
 *** TODO [[https://rcore-os.cn/rCore-Tutorial-Book-v3/index.html][rCore-Tutorial-Book]]
-*** TODO continue cs61c
+*** CANCELLED continue cs61c
+CLOSED: [2023-02-23 Thu 15:22]
 *** TODO [#B] learn basic typescript, node and Vue3
 
-*** TODO learn btfs, qemu, docker(podman) command line
+*** CANCELLED learn btfs, qemu, docker(podman) command line
+CLOSED: [2023-03-01 Wed 10:33]
 
 *** TODO Explore pocketbase, superbase
-
 *** TODO learn p2p
 snapdrop
 https://github.com/schollz/croc
@@ -39,13 +40,19 @@ https://github.com/schollz/croc
 
 *** TODO https://github.com/coqui-ai/TTS
 
+*** TODO https://github.com/silvia-odwyer/photon
+
+*** TODO rust async programming https://course.rs/advance/async/intro.html
+
 ** PROJ PROJECT
 *** PROJ [#A] contribute to git
 horizontal git log
 *** PROJ [#A] 星火项目lightdm greeter开发
+[[/home/zarkli/projects/rust/meow_greeter/README.org][project]]
 1. possibly used technologies: gtk4, wasm, webgl, webkit
 2. exteneded api, suck as keypressed
 3. game?
+4. https://github.com/rharish101/ReGreet
 经费800元
 *** PROJ lsp-ltex and lsp-grammarly in rust
 *** PROJ rewrite class 3 forever
@@ -104,3 +111,6 @@ only execute once at the time split or first run
 *** PROJ a icon font collecting anime characters
 注意申明版权信息（仅限个人，不得商用
 *** PROJ browser extension for displaying grid view bookmarks and navigating with keyboard shortcut.
+*** PROJ chatgpt / tts / speech synthesis assistant for linux system(macos and window already have).
+*** PROJ rust crate.io categories according to tags             :rust:
+some crates doesn't have tags :|

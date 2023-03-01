@@ -1,25 +1,3 @@
-search build
-search riscv64
-search riscv
-search d
-rename p1.org
-mkdir about
-touch index.md
-.md_
-rename c1.org
-rename index.md
-rename _index.org
-mkdir ./reflections
-mkdir ./tests
-rename blogs
-rename _index.md
-rename archive.md
-rename _defaultasdfa
-rename fault
-rename archetypes
-rename _default
-mkdir ./posts
-rename archivesasdfasdfasdfa.md
 rename tests
 inde
 mkdir ./js
@@ -29,7 +7,6 @@ rename default.org
 search web
 rename default.md
 mkdir ./blog
-mkdir ./
 mkdir ./programme
 mkdir study
 shell hugo new study/_index.org
@@ -48,3 +25,26 @@ search ba
 mkdir ./arch_linux
 mkdir COMP2013J-database
 rename 发展党员工作谈话记-杨子祺-21372225.docx
+rename 12思想报告.odt
+search q
+search ucore
+rename index.org
+rename 1.png
+rename 1.svg
+rename 2013-06-04_1558_US_WOIO_19_Action_News_at_Noon.mpg
+asdf
+mkdir ./TV_samples
+mkdir ./
+mkd
+mkdir ./TV
+rename Main.java
+mkdir COMP2008J_proj
+search pic
+search rus
+rename 2-Lecture 02.pdf
+rename 1-01 Introduction and Module Details.pdf
+rename emacs.png
+rename emacs.webp
+search linux
+search linux-zen
+search yaml

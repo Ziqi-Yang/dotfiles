@@ -31,3 +31,5 @@ Note: you should add =--net host= when you run =docker run= to make the proxy wo
   docker run --net host --rm -it -v .:/mnt -w /mnt rcore-tutorial-v3 bash 
 #+end_src
 
+* Random
+1. =onefetch=: like =neofetch=, but show project information

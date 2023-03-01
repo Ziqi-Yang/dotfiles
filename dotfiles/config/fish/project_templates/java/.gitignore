@@ -1,10 +1,5 @@
-### make
-sources.txt
-Makefile_bak
 /build
-
-### maven
-target
+/target
 
 ### IntelliJ IDEA ###
 out/

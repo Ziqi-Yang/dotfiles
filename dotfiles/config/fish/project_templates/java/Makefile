@@ -1,24 +1,22 @@
-##
-# Java Makefile
+# Makefile for c/c++ program
 #
-# @author: Zarkli Leonardo
-# @version: 1.0
-#
-# This file use variables(interact with sed)
-# variable format: #{}#
+# ========================================
+# @author: Ziqi Yang<mr.ziqiyang@gmail.com>
+# @reference: https://makefiletutorial.com/#makefile-cookbook
+# ========================================
 
-all: compile run
+SRC_DIR := src
+LIBS_DIR := libs
+BUILD_DIR := target
+ENTRY_POINT := Main
+ENTRY_FILE := $(SRC_DIR)/Main.java
+LIBS := $(shell find $(LIBS_DIR) -name "*.jar" | paste -sd ":" -)
+ARGS := 
 
-compile:
-	mvn -q package
+.PHONY: build run
+build:
+	mkdir -p $(BUILD_DIR)
+	javac -d $(BUILD_DIR) -cp .:$(LIBS) -sourcepath $(SRC_DIR) $(ENTRY_FILE)
 
-run: 
-	# java -cp "target/PacMan-1.0-SNAPSHOT.jar:libs/COMP2011J.Game.Engine.jar" PacMan.GameStart
-	java -cp "target/#{packageName}#-1.0-SNAPSHOT.jar" #{packageName}#.App
-
-.PHONY: clean
-clean:
-	mvn clean
-
-
-# end
+run:
+	java -cp $(BUILD_DIR):$(LIBS) $(ENTRY_FILE) $(ARGS)

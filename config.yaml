@@ -194,6 +194,12 @@ dotfiles:
   f_config.json:
     src: docker/config.json
     dst: ~/.docker/config.json
+  f_starship.toml:
+    src: config/starship.toml
+    dst: ~/.config/starship.toml
+  f_gitignore_global:
+    src: gitignore_global
+    dst: ~/.gitignore_global
 profiles:
   myArch:
     dotfiles:
@@ -259,3 +265,5 @@ profiles:
     - f_code-flags.conf
     - d_texmf
     - f_config.json
+    - f_starship.toml
+    - f_gitignore_global

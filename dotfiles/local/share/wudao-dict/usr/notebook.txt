@@ -1173,3 +1173,137 @@ relational           [rɪ'leʃənl]          adj. 相关的；亲属的
 prone                [pron]               adj. 俯卧的；有…倾向的，易于…的 n. (Prone)人名；(意、法)普罗内
 redundancy           [rɪ'dʌndənsi]        n. [计][数] 冗余（等于redundance）；裁员；人浮于事
 cardinality          [ˌkɑːrdɪˈnæləti]     n. 基数；集的势
+chrome               [krom]               n. 铬，铬合金；铬黄；谷歌浏览器
+obesity              [o'bisəti]           n. 肥大，肥胖
+prevalent            ['prɛvələnt]         adj. 流行的；普遍的，广传的
+multiplexor          [ˈmʌltɪpleksər]      n. 多路器，多路复用器
+analog               ['ænəlɔg]            n. [自] 模拟；类似物 adj. [自] 模拟的；有长短针的
+asymmetric           [,esɪ'mɛtrɪk]        adj. 不对称的；非对称的
+aggregate            ['æɡrɪɡət; (for v.) æɡrɪˌɡet] vi. 集合；聚集；合计 vt. 集合；聚集；合计 n. 合计；集合体；总计 adj. 聚合的；集合的；合计的
+tiered               [tɪəd]               分层布置
+gauge                [gedʒ]               n. 计量器；标准尺寸；容量规格 vt. 测量；估计；给…定规格
+expressly            [ɪk'sprɛsli]         adv. 清楚地，明显地；特别地，专门地
+resort               [rɪ'zɔrt]            n. 凭借，手段；度假胜地；常去之地 vi. 求助，诉诸；常去；采取某手段或方法
+junctions            ['dʒʌŋkʃən]          n. 连接；[电] 接头（junction的复数）；交叉点
+coax                 [koks]               vt. 哄；哄诱；慢慢将…弄好 vi. 哄骗；劝诱
+impairments          [im'pεə]             损害 损伤
+AGG                  [æɡ]                 abbr. 自动增益控制；automatic gain control n. (Agg)人名；(法)阿格
+conversion           [kən'vɝʒn]           n. 转换；变换；[金融] 兑换；改变信仰
+telco                [ˈtelkoʊ]            abbr. 电话公司（telephone central office）
+replicate            ['rɛplɪket]          vt. 复制；折叠 vi. 重复；折转 adj. 复制的；折叠的 n. 复制品；八音阶间隔的反覆音
+beam                 [bim]                n. 横梁；光线；电波；船宽；[计量] 秤杆 vt. 发送；以梁支撑；用…照射；流露 vi. 照射；堆满笑容 n. (Beam)人名；(阿拉伯)贝亚姆；(英)比姆
+Ethernet             ['iθɚnɛt]            n. [计] 以太网
+twist                [twɪst]              vt. 捻；拧；扭伤；编织；使苦恼 n. 扭曲；拧；扭伤 vi. 扭动；弯曲 n. (Twist)人名；(英)特威斯特
+colloquially         [kə'lokwɪəli]        adv. 口语地；用通俗语
+spectrum             ['spɛktrəm]          n. 光谱；频谱；范围；余象
+thereafter           [,ðɛr'æftɚ]          adv. 其后；从那时以后
+propagating          ['prɔpəɡeit]         adj. 传播的；繁殖的 v. 传播（propagate的ing形式）；繁殖
+electromagnetic      [ɪ,lɛktromæɡ'nɛtɪk]  adj. 电磁的
+pulse                [pʌls]               n. [电子] 脉冲；脉搏 vt. 使跳动 vi. 跳动，脉跳
+terrestrial          [tə'rɛstrɪəl]        adj. 地球的；陆地的，[生物] 陆生的；人间的 n. 陆地生物；地球上的人
+insult               [ɪn'sʌlt]            vt. 侮辱；辱骂；损害 n. 侮辱；凌辱；无礼
+insulated            [ˈɪnsəleɪtɪd]        adj. [电] 绝缘的；隔热的 v. 使…绝缘（insulate的过去式）
+sake                 [sek]                n. 目的；利益；理由；日本米酒 n. (Sake)人名；(罗)萨克；(日)酒(姓)
+cane                 [ken]                n. 手杖；藤条；细长的茎 vt. 以杖击；以藤编制 n. (Cane)人名；(英)凯恩；(西、意)卡内；(塞)察内
+beet                 [bit]                n. 甜菜；甜菜根 vt. 生火；修理；改过
+refine               [rɪ'faɪn]            vt. 精炼，提纯；改善；使…文雅
+crisps               [krisps]             n. 薯片（crisp的复数） v. 卷曲；发脆（crisp的单三形式）
+gasoline             ['gæsəlin]           n. 汽油
+crude                [krud]               adj. 粗糙的；天然的，未加工的；粗鲁的 n. 原油；天然的物质
+spill                [spɪl]               vt. 使溢出，使流出；使摔下 vi. 溢出，流出；摔下；涌流 n. 溢出，溅出；溢出量；摔下；小塞子 n. (Spill)人名；(德)施皮尔
+synthesis            ['sɪnθəsɪs]          n. 综合，[化学] 合成；综合体
+decay                [dɪ'ke]              vi. 衰退，[核] 衰减；腐烂，腐朽 n. 衰退，[核] 衰减；腐烂，腐朽 vt. 使腐烂，使腐败；使衰退，使衰落 n. (Decay)人名；(法)德凯
+gout                 [ɡaʊt]               n. [遗][外科] 痛风；一滴；一团 n. (Gout)人名；(法)古
+ailments             ['eilmənt]           n. 疾病，小病（ailment复数形式）
+ergonomics           ['ɝgə'nɑmɪks]        n. 工效学；人类工程学
+bloat                [blot]               vt. 使膨胀；（使）肿胀；腌制 vi. 膨胀；肿起；得意 n. 膨胀的东西，肿胀的人；肿胀病人；自满的人
+amenities            [ə'minətɪz]          n. 令人愉快之事物（amenity的复数）
+comprised            [kəm'praiz]          v. 包含（comprise的过去分词）；由…组成
+albeit               [,ɔl'biɪt]           conj. 虽然；即使
+resemblance          [rɪ'zɛmbləns]        n. 相似；相似之处；相似物；肖像
+riding               ['raɪdɪŋ]            n. 骑马；骑术 v. 骑；乘坐（ride的现在分词） n. (Riding)人名；(英)赖丁
+orchestrate          ['ɔrkɪstret]         vt. 把…编成管弦乐曲；（美）精心安排；把…协调地结合起来 vi. 编管弦乐曲
+manifest             ['mænɪfɛst]          vt. 证明，表明；显示 vi. 显示，出现 n. 载货单，货单；旅客名单 adj. 显然的，明显的；明白的
+shepherd             ['ʃɛpɚd]             vt. 牧羊；带领；指导；看管 n. 牧羊人；牧师；指导者 n. (Shepherd)人名；(英)谢泼德
+peculiar             [pɪ'kjulɪɚ]          adj. 特殊的；独特的；奇怪的；罕见的 n. 特权；特有财产
+glossy               ['ɡlɑsi]             adj. 光滑的；有光泽的
+preliminary          [prɪ'lɪmɪnɛri]       n. 准备；预赛；初步措施 adj. 初步的；开始的；预备的
+probe                [prob]               n. 探针；调查 vi. 调查；探测 vt. 探查；用探针探测 n. (Probe)人名；(法)普罗布
+pity                 ['pɪti]              n. 怜悯，同情；遗憾 vt. 对……表示怜悯；对……感到同情
+knobs                [nɔb]                n. 把手（knob的复数）；凸岩
+clueless             ['kluləs]            adj. 无线索的；愚蠢的
+regulatory           [ˈrɛɡjʊˌleɪtɔri]     adj. 管理的；控制的；调整的
+perks                [pɜːks]              n. 特权；额外津贴（perk的复数）；特别待遇 v. 打扮；使振作；昂首挺胸（perk的第三人称单数） n. (Perks)人名；(英)珀克斯；(法)佩尔克
+glossary             ['ɡlɑsəri]           n. 术语（特殊用语）表；词汇表；专业词典
+attendant            [ə'tɛndənt]          adj. 伴随的；侍候的 n. 服务员，侍者；随员，陪从
+presets              [pri:'set]           v. 预先调整；预先装置（preset第三人称单数）
+naive                [naɪ'iv]             adj. 天真的,幼稚的
+precursor            [pri'kɝsɚ]           n. 先驱，前导
+conceived            [kən'sivd]           v. 构思；设想（conceive的过去式）
+monopoly             [mə'nɑpəli]          n. 垄断；垄断者；专卖权
+cohort               ['kohɔrt]            n. 一群；步兵大队；支持者；同生群
+opponents            [ə'pəunənt]          n. 对手（opponent的复数形式）
+pacific              [pə'sɪfɪk]           adj. 和平的；温和的；平静的 n. 太平洋 adj. 太平洋的
+avenue               ['ævənu]             n. 大街；林荫大道；[比喻](达到某物的)途径，手段，方法，渠道
+rent                 [rɛnt]               n. 租金 vt. 出租；租用；租借 vi. 租；出租 n. (Rent)人名；(瑞典)伦特
+sly                  [slaɪ]               adj. 狡猾的；淘气的；诡密的 n. (Sly)人名；(英)斯莱
+cutthroat            ['kʌt,θrəʊt]         adj. 残酷的；杀人的；剧烈的 n. 谋杀者；凶手
+hose                 [hoz]                n. 软管；长筒袜；男性穿的紧身裤 vt. 用软管浇水；痛打
+dismay               [dɪs'me]             n. 沮丧，灰心；惊慌 vt. 使沮丧；使惊慌
+redundant            [rɪ'dʌndənt]         adj. 多余的，过剩的；被解雇的，失业的；冗长的，累赘的
+reorganize           [rɪ'ɔrgə'naɪz]       vt. 整理；改组；重新制定 vi. 整顿；改编
+screw                [skru]               vt. 旋，拧；压榨；强迫 n. 螺旋；螺丝钉；吝啬鬼 vi. 转动，拧
+exploit              [ɛksplɔɪt; ɪkˈsplɔɪt] vt. 开发，开拓；剥削；开采 n. 勋绩；功绩
+singleton            ['sɪŋɡltən]          n. 一个；独身 n. (Singleton)人名；(英)辛格尔顿
+facade               [fə'sɑd]             n. 正面；表面；外观
+verbatim             [vɝ'betɪm]           adv. 逐字地 adj. 逐字的
+compensation         [,kɑmpɛn'seʃən]      n. 补偿；报酬；赔偿金
+yak                  [jæk]                n. 牦牛 喋喋不休
+razor                ['rezɚ]              vt. 剃，用剃刀刮 n. 剃刀
+revert               [rɪ'vɝt]             vi. 回复；重提；返祖遗传；归还 vt. 使回复原状 n. 恢复原状者 n. (Revert)人名；(西)雷韦特；(法)勒韦尔
+represents           [ˌrɛprɪˈzɛnts]       v. 代表（represent的三单形式）；表现，表示；描绘
+succeed              [sək'sid]            vi. 成功；继承；继任；兴旺 vt. 继承；接替；继…之后
+indispensable        ['ɪndɪ'spɛnsəbl]     adj. 不可缺少的；绝对必要的；责无旁贷的 n. 不可缺少之物；必不可少的人
+burst                [bɝst]               vi. 爆发，突发；爆炸 vt. 爆发，突发；爆炸 n. 爆发，突发；爆炸 n. (Burst)人名；(德、罗)布尔斯特
+transformation       [,trænsfɚ'meʃən]     n. [遗] 转化；转换；改革；变形
+transformational     [,trænzfə'meʃənəl]   adj. 转换的；改变的；转换生成的
+interation           [ɪntəˈreɪʃn]         n. 交互图标，交互影响
+alleviate            [ə'livɪ'et]          vt. 减轻，缓和
+introspection        ['ɪntrə'spɛkʃən]     n. 内省；反省
+per                  [pɚ]                 prep. 每；经；按照；每一 n. (Per)人名；(德、挪、丹、瑞典)佩尔
+fame                 [fem]                n. 名声，名望；传闻，传说 vt. 使闻名，使有名望
+inferior             [ɪn'fɪrɪɚ]           adj. 差的；自卑的；下级的，下等的 n. 下级；次品
+hut                  [hʌt]                n. 小屋；临时营房 vt. 使住在小屋中；驻扎 vi. 住在小屋中；驻扎 n. (Hut)人名；(阿拉伯、罗、塞)胡特
+versatile            ['vɝsətl]            adj. 多才多艺的；通用的，万能的；多面手的
+grumble              ['ɡrʌmbl]            vi. 抱怨；嘟囔 n. 怨言 vt. 喃喃地说出 adv. 抱怨地表示；嘟囔地说
+mutter               ['mʌtɚ]              vi. 咕哝；喃喃自语 vt. 咕哝；抱怨地说；低声含糊地说 n. 咕哝；喃喃低语 n. (Mutter)人名；(法)米泰；(德、匈、西)穆特；(英)马特
+chatter              ['tʃætɚ]             vi. 唠叨；喋喋不休；（动物等）吱吱叫 vt. 喋喋不休地说；使卡嗒卡嗒作声 n. 唠叨；饶舌；（动物的）啁啾声；潺潺流水声
+clutter              ['klʌtɚ]             n. 杂乱，混乱 vt. 使凌乱；胡乱地填满 n. (Clutter)人名；(英)克拉特
+board                [bɔrd]               n. 董事会；木板；甲板；膳食 vt. 上（飞机、车、船等）；用板盖上；给提供膳宿 vi. 寄宿 n. (Board)人名；(英、西)博德
+tuition              [tʊ'ɪʃən]            n. 学费；讲授
+vegetarianism        [,vɛdʒə'tɛrɪənɪzəm]  n. 素食主义
+precedes             [pri:'si:d; pri-]    v. 领先（precede的三单形式）；在…之先；优于
+hatch                [hætʃ]               n. 孵化；舱口 vt. 孵；策划 vi. 孵化 n. (Hatch)人名；(西)阿奇；(英)哈奇
+interior             [ɪn'tɪrɪɚ]           n. 内部；本质 adj. 内部的；国内的；本质的
+exclusive            [ɪk'sklusɪv]         adj. 独有的；排外的；专一的 n. 独家新闻；独家经营的项目；排外者
+phantom              ['fæntəm]            n. 幽灵；幻影；虚位 adj. 幽灵的；幻觉的；有名无实的
+conceptually         [kən'sɛptʃʊəli]      adv. 概念地
+pitfall              ['pɪt'fɔl]           n. 陷阱，圈套；缺陷；诱惑
+exclamation          [ˌɛkskləˈmeʃən]      n. 感叹；惊叫；惊叹词
+bandwidth            ['bændwɪdθ]          n. [电子][物] 带宽；[通信] 频带宽度
+insulated            [ˈɪnsəleɪtɪd]        adj. [电] 绝缘的；隔热的 v. 使…绝缘（insulate的过去式）
+copper               ['kɑpɚ]              n. 铜；铜币；警察 adj. 铜制的 vt. 镀铜 n. (Copper)人名；(英)科珀
+concentric           [kən'sɛntrɪk]        adj. 同轴的；同中心的
+mesh                 [mɛʃ]                n. 网眼；网丝；圈套 vi. 相啮合 vt. [机] 啮合；以网捕捉
+oblivious            [ə'blɪvɪəs]          adj. 遗忘的；健忘的；不注意的；不知道的
+crude                [krud]               adj. 粗糙的；天然的，未加工的；粗鲁的 n. 原油；天然的物质
+lease                [lis]                n. 租约；租期；租赁物；租赁权 vt. 出租；租得 vi. 出租
+flagship             ['flæɡʃɪp]           n. 旗舰；（作定语）一流；佼佼者
+deprecating          [ˈdeprəkeɪtɪŋ]       adj. 不以为然的；不赞成的 v. 对……表示不赞成；轻视（deprecate 的 ing 形式）
+tombstone            ['tumston]           n. 墓碑；墓石 n. (Tombstone)人名；(英)图姆斯通
+coercing             [kəu'ə:siŋ]          v. 强迫；支配（coerce的ing形式）
+concrete             ['kɑŋkrit]           adj. 混凝土的；实在的，具体的；有形的 vi. 凝结 vt. 使凝固；用混凝土修筑 n. 具体物；凝结物
+revival              [rɪ'vaɪvl]           n. 复兴；复活；苏醒；恢复精神；再生效
+RATA                 ['retə]              abbr. 放免法测（抗）甲状腺抗体 n. (Rata)人名；(西、塞)拉塔
+testy                ['tɛsti]             adj. 易怒的；暴躁的
+tasty                ['testi]             adj. 美味的；高雅的；有趣的 n. 可口的东西；引人入胜的东西

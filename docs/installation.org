@@ -90,8 +90,9 @@ rg '!!!' ./docs/installation.org
 - [[https://github.com/ogham/exa][exa]]: modern ls
 - =hwinfo=: hardware info
 - =rsync=: alternative for SCP
+- =starship=: prompt
 #+begin_src sh
-sudo pacman -S git xdg-user-dirs ntfs-3g udisks2 udiskie fish ripgrep fd htop neofetch wget brightnessctl ncdu duf hwinfo rsync
+sudo pacman -S git xdg-user-dirs ntfs-3g udisks2 udiskie fish ripgrep fd htop neofetch wget brightnessctl ncdu duf hwinfo rsync starship
 #+end_src
 
 ** Sound
@@ -131,20 +132,20 @@ sudo systemctl enable lightdm
 #+end_src
 ** Plymouth
 #+begin_src sh :tangle post.sh
-paru -S plymouth-git
+# paru -S plymouth-git
 
-sudo cp /etc/mkinitcpio.conf /etc/mkinitcpio.conf.bak
-sudo sed -i -E 's/^HOOKS=\((.*)\)/HOOKS=(\1 plymouth)/' /etc/mkinitcpio.conf
-sudo mkinitcpio -p linux
-sudo mkinitcpio -p linux-zen
+# sudo cp /etc/mkinitcpio.conf /etc/mkinitcpio.conf.bak
+# sudo sed -i -E 's/^HOOKS=\((.*)\)/HOOKS=(\1 plymouth)/' /etc/mkinitcpio.conf
+# sudo mkinitcpio -p linux
+# sudo mkinitcpio -p linux-zen
 
-sudo cp /etc/default/grub /etc/default/grub.bak
-sudo sed -i -E 's/GRUB_CMDLINE_LINUX_DEFAULT="(.*)"/GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 nowatchdog quiet splash"/' /etc/default/grub
-sudo grub-mkconfig -o /boot/grub/grub.cfg
+# sudo cp /etc/default/grub /etc/default/grub.bak
+# sudo sed -i -E 's/GRUB_CMDLINE_LINUX_DEFAULT="(.*)"/GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 nowatchdog quiet splash"/' /etc/default/grub
+# sudo grub-mkconfig -o /boot/grub/grub.cfg
 
-# systemctl status display-manager # show current display manager
-sudo systemctl disable lightdm
-sudo systemctl enable lightdm-plymouth
+# # systemctl status display-manager # show current display manager
+# sudo systemctl disable lightdm
+# sudo systemctl enable lightdm-plymouth
 #+end_src
 Reference:
 1. https://www.debugpoint.com/install-plymouth-arch-linux/
@@ -488,7 +489,11 @@ sudo pacman -S shellcheck bash-language-server
 #+begin_src sh :tangle post.sh
 paru -S bashdb
 #+end_src
-*** JavaScript
+*** JavaScript & typescript
+**** Typescript
+#+begin_src sh
+sudo pacman -S typescript
+#+end_src
 **** Emacs Vue Support
 #+begin_src sh :tangle post.sh
 npm install -g @volar/vue-language-server
@@ -557,8 +562,8 @@ echo 'QT_QPA_PLATFORMTHEME=qt5ct' >> >> /etc/environment
 ** Plymouth
 use theme [[https://github.com/PROxZIMA/proxzima-plymouth][Proxzima]]
 #+begin_src sh :tangle post.sh
-paru -S proxzima-plymouth-git
-sudo plymouth-set-default-theme -R proxzima
+# paru -S proxzima-plymouth-git
+# sudo plymouth-set-default-theme -R proxzima
 #+end_src
 
 ** Fcitx5

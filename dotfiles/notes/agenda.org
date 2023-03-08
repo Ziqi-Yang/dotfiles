@@ -114,3 +114,13 @@ only execute once at the time split or first run
 *** PROJ chatgpt / tts / speech synthesis assistant for linux system(macos and window already have).
 *** PROJ rust crate.io categories according to tags             :rust:
 some crates doesn't have tags :|
+*** PROJ [#A] global project manager                                   :rust:
+1. Efficient project manager for different languages
+   - can init project with templates (support shell script / for cross plarform, define custom rules and utils)
+   - support tags (use soft/hard link to make this possiable)
+   - support categories
+   - can be integrated into existing project by adding a file at project root
+   - projects information (all project, single project)
+   - quick navigation (can also choose to follow the link)
+2. references:
+   a) zoxide

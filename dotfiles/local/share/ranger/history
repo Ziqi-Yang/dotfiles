@@ -1,15 +1,3 @@
-rename tests
-inde
-mkdir ./js
-rename about.org
-rename archives.org
-rename default.org
-search web
-rename default.md
-mkdir ./blog
-mkdir ./programme
-mkdir study
-shell hugo new study/_index.org
 rename hugo_syntax_highlighting_for_org.org
 rename blog-meow-bak
 mount
@@ -17,7 +5,6 @@ search desk
 search 马克思
 search 共产党
 search writ
-
 mkdir communist_party
 open_with 1
 mkdir backups
@@ -48,3 +35,16 @@ rename emacs.webp
 search linux
 search linux-zen
 search yaml
+search wl
+open_with 
+search loc
+search lox
+search sample
+rename 3-Lecture 03.pdf
+rename 2-Network Core.pdf
+rename 3-Application Layer.pdf
+mkdir ./lab
+rename labs
+
+mkdir ./COMP2014J
+rename WS1-Trees

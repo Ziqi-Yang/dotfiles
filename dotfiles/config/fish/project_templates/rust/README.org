@@ -1,3 +1,6 @@
 #+title: #{packageName}# 
 
+* License
+The program is licensed under the *GPLv3*. It uses several Rust libraries under the MIT license, which can be found in [[./Cargo.toml][Cargo.toml]]. Special thanks to these libraries!
 
+Feel free to copy and modify the program; hacking is cool! Better yet, try to contribute to this project. It doesn't matter how much programming experience you have. A big thanks to everyone who uses or contributes to this project. Meow~

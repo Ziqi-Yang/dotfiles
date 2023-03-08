@@ -13,10 +13,13 @@ ENTRY_FILE := $(SRC_DIR)/Main.java
 LIBS := $(shell find $(LIBS_DIR) -name "*.jar" | paste -sd ":" -)
 ARGS := 
 
-.PHONY: build run
+.PHONY: build run clean
 build:
 	mkdir -p $(BUILD_DIR)
 	javac -d $(BUILD_DIR) -cp .:$(LIBS) -sourcepath $(SRC_DIR) $(ENTRY_FILE)
 
-run:
+run: build
 	java -cp $(BUILD_DIR):$(LIBS) $(ENTRY_FILE) $(ARGS)
+
+clean:
+	rm -rf $(BUILD_DIR)

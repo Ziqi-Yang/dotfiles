@@ -2,12 +2,15 @@
 
 * Requirements
 ** functions
-  | function                        | requirement | Install Command          |
-  |---------------------------------+-------------+--------------------------|
-  | =fish_prompt.fish= and =t.fish= | [[https://github.com/ChestnutHeng/Wudao-dict][wudao-dict]]  | =paru -S wudao-dict-git= |
-  | =ll=                            | exa         | =paru -S exa=            |
-  | =cht=                           | cht.sh      | [[https://github.com/chubin/cheat.sh#installation][cht.sh#installation]]      |
+  | function                    | requirement | Install Command                |
+  |-----------------------------+-------------+--------------------------------|
+  | =fish_prompt.fish= and =t.fish= | [[https://github.com/ChestnutHeng/Wudao-dict][wudao-dict]]  | =paru -S wudao-dict-git=         |
+  | =ll=                          | exa         | =paru -S exa=                    |
+  | =cht=                         | cht.sh      | [[https://github.com/chubin/cheat.sh#installation][cht.sh#installation]]            |
+  | =tt.fish=                     | [[https://github.com/TheR1D/shell_gpt][shell_gpt]]   | =pip install shell-gpt --user= |
+  |                             |             |                              |
 ** alias
-  | alias  | origin      | Install Command     |
-  |--------+-------------+---------------------|
-  | =todo= | =ultralist= | =paru -S ultralist= |
+  | alias | origin      | Install Command   |
+  |-------+-------------+-------------------|
+  | =todo=  | =ultralist= | =paru -S ultralist= |
+  |       |             |                   |

@@ -1307,3 +1307,246 @@ revival              [rɪ'vaɪvl]           n. 复兴；复活；苏醒；恢复
 RATA                 ['retə]              abbr. 放免法测（抗）甲状腺抗体 n. (Rata)人名；(西、塞)拉塔
 testy                ['tɛsti]             adj. 易怒的；暴躁的
 tasty                ['testi]             adj. 美味的；高雅的；有趣的 n. 可口的东西；引人入胜的东西
+gratis                                    adv. 免费地 adj. 免费的
+sake                 [sek]                n. 目的；利益；理由；日本米酒 n. (Sake)人名；(罗)萨克；(日)酒(姓)
+patent               ['pætnt]             vt. 授予专利；取得…的专利权 adj. 专利的；新奇的；显然的 n. 专利权；执照；专利品
+infringement         [ɪn'frɪndʒmənt]      n. 侵犯；违反
+retaliation          [rɪ,tælɪ'eɪʃn]       n. 报复；反击；回敬
+polish               ['pɑlɪʃ]             n. 磨光，擦亮；擦亮剂；优雅，精良 vi. 擦亮，变光滑 vt. 磨光，使发亮；使完美; 改进 v. 磨光；修改；润色 adj. 波兰的
+snip                 [snɪp]               n. 剪；便宜货 vt. 剪断 vi. 剪
+reactor              [rɪ'æktɚ]            n. [化工] 反应器；[核] 反应堆；起反应的人
+tokio                [ˈtokɪo]             n. （Tokio）东京（日本首都，等于Tokyo） n. （Tokio）（美、日、巴）释尾（人名）
+ergonomic            ['ɝgə'nɑmɪk]         adj. 人类环境改造学的；人类工程学的
+nowhere              ['no'wɛr]            adv. 无处；任何地方都不；毫无结果 n. 无处；任何地方；无名之地 adj. 不存在的；毫无结果的；不知名的
+convenient           [kənˈvinjənt]        adj. 方便的；[废语]适当的；[口语]近便的；实用的
+boilerplate          ['bɔɪlɚplet]         n. 样板文件；引用
+brackets             ['brækɪts]           n. 支架；括号，圆括号；舱口围板支架（bracket的复数） v. 给…装上托架；把…容纳在内（bracket的三单形式）
+establish            [ɪˈstæblɪʃ]          vt. 建立；创办；安置 vi. 植物定植
+recursively          [ri'kəsivli]         adv. 递归地；递回地
+declaration          [,dɛklə'reʃən]       n. （纳税品等的）申报；宣布；公告；申诉书
+Corfu                [kɔ:'fu:]            n. 科孚岛（位于希腊西北沿海）；科夫（科孚岛的主要港市）
+INDISPENSIBLE                             不可或缺
+summon               ['sʌmən]             vt. 召唤；召集；鼓起；振作
+vicious              ['vɪʃəs]             adj. 恶毒的；恶意的；堕落的；有错误的；品性不端的；剧烈的 n. (Vicious)人名；(英)维舍斯
+curbing              ['kɝbɪŋ]             n. 边石的材料；边石
+manuscript           ['mænjuskrɪpt]       n. [图情] 手稿；原稿 adj. 手写的
+chaotic              [ke'ɑtɪk]            adj. 混沌的；混乱的，无秩序的
+constraint           [kən'strent]         n. [数] 约束；局促，态度不自然；强制
+gauge                [gedʒ]               n. 计量器；标准尺寸；容量规格 vt. 测量；估计；给…定规格
+barring              ['bɑrɪŋ]             prep. 除非；不包括；除…以外 v. 阻拦（bar的ing形式） n. (Barring)人名；(德)巴林
+dilation             [daɪˈleɪʃn]          n. 扩张，扩大；膨胀；详述
+opaque               [o'pek]              adj. 不透明的；不传热的；迟钝的 n. 不透明物 vt. 使不透明；使不反光
+elapsed              [i'læps]             v. 时间过去；消逝（elapse的过去分词） adj. 过去的；经过的
+monotonic            [,mɑnə'tɑnɪk]        adj. 单调的；无变化的；产生单音调的
+vulnerability        [,vʌlnərə'bɪləti]    n. 易损性；弱点
+penetration          [,pɛnɪ'treʃən]       n. 渗透；突破；侵入；洞察力
+cabinet              [ˈkæbənət]           n. 内阁；橱柜；展览艺术品的小陈列室 adj. 内阁的；私下的，秘密的
+replicate            ['rɛplɪket]          vt. 复制；折叠 vi. 重复；折转 adj. 复制的；折叠的 n. 复制品；八音阶间隔的反覆音
+clause               [klɔz]               n. 条款；[计] 子句 n. (Clause)人名；(法)克洛斯
+mermaid              ['mɝmed]             n. 美人鱼（传说中的）；女子游泳健将
+pong                 [pɔŋ]                n. 乒乓球；恶臭；难闻的气味 vi. 发出难闻的气味 adj. 乒乓的 n. (Pong)人名；(东南亚国家华语)榜；(柬)邦；(泰)蓬；(中)庞(广东话·威妥玛)
+Braille              [brel]               vt. 用盲字印 n. 布莱叶（法国盲人教育家）；盲人用点字法
+grained              [ɡrend]              adj. 有木纹的；除去毛的；漆成木纹的
+monologue            ['mɑnəlɔɡ]           n. 独白
+check out                                 检验；结账离开；通过考核；盖章
+serializing          ['sɪrɪə,laɪz]        n. 序列化 v. 写成连载长篇而刊登（serialize的现在分词）
+calloused            ['kæləst]            adj. 变得无情的；变硬的；长了老茧的
+cobbled              ['kɑbld]             adj. 铺有鹅卵石的 v. 铺鹅卵石（cobbled的过去式和过去分词）
+worming              [wɝm]                n. 龟裂；虫的爬行动作 v. 蠕动；爬行（worm的ing形式）
+hobby                ['hɑbi]              n. 嗜好；业余爱好 n. (Hobby)人名；(英)霍比
+top up                                    加满；充值
+dedication           [,dɛdɪ'keʃən]        n. 奉献；献身；赠言
+prose                [proz]               n. 散文；单调 adj. 散文的；平凡的；乏味的 vi. 写散文；乏味地讲话 vt. 把…写成散文
+traversing           [trə'vɝsɪŋ]          n. 穿越，通过 v. 穿过（traverse的ing形式）；横越
+venture              ['vɛntʃɚ]            vt. 敢于 vi. 冒险；投机 n. 企业；风险；冒险 n. (Venture)人名；(法)旺蒂尔
+territory            ['tɛrətɔri]          n. 领土，领域；范围；地域；版图
+craft                [kræft]              n. 工艺；手艺；太空船 vt. 精巧地制作 n. (Craft)人名；(英、德、罗)克拉夫特
+foray                ['fɔre]              n. 涉足，初次尝试；突袭；侵略；攻击 vi. 袭击 vt. 劫掠 n. (Foray)人名；(法)福雷
+cram                 [kræm]               adj. 填鸭式学的 vi. 狼吞虎咽地吃东西；死记硬背功课 vt. 填满，塞满；死记硬背；猛吃 n. 死记硬背；极度拥挤 n. (Cram)人名；(英、德)克拉姆
+doorstop             [ˈdɔːrstɑːp]         n. （防止门关上或撞墙的）制门器，门挡；笨重的东西
+lingo                ['lɪŋgo]             n. 行话；术语；隐语 n. (Lingo)人名；(刚(金)、英)林戈
+cocktail             ['kɑktel]            n. 鸡尾酒；开胃食品 n. 混合物 adj. 鸡尾酒的
+wade                 [wed]                vi. 跋涉 vt. 涉水；费力行走 n. 跋涉；可涉水而过的地方
+absentminded         [ˈæbsəntˈmaɪndɪd]    adj. 心不在焉的；茫然的；神情恍惚的
+ornithology          [,ɔrnɪ'θɑlədʒi]      n. 鸟类学；鸟学论文
+odds                 [ɑdz]                n. 几率；胜算；不平等；差别
+Volkswagen           ['fɔ:lksvɑ:gən]      n. 大众汽车（财富500强公司之一）
+inflation            [ɪn'fleʃən]          n. 膨胀；通货膨胀；夸张；自命不凡
+jargon               ['dʒɑrɡən]           n. 行话，术语；黄锆石
+pidgins              [ˈpɪdʒɪn]            n. 洋泾滨语；混杂语言；事务
+strapped             [stræpt]             adj. 用皮绳捆住的；用皮带装饰的；身无分文的；资金短少的 v. strap的过去式和过去分词
+limbs                [lɪmz]               n. [解剖] 四肢（limb的复数）
+recursion            [rɪ'kɝʃən]           n. [数] 递归，循环；递归式
+daunting             ['dɔntɪŋ]            adj. 使人畏缩的；使人气馁的；令人怯步的
+conceive             [kən'siv]            vt. 怀孕；构思；以为；持有 vi. 怀孕；设想；考虑
+terror               ['tɛrɚ]              n. 恐怖；恐怖行动；恐怖时期；可怕的人 n. (Terror)人名；(南非)特罗尔
+breed                [brid]               vi. 繁殖；饲养；产生 vt. 繁殖；饲养；养育，教育；引起 n. [生物] 品种；种类，类型 n. (Breed)人名；(英)布里德
+arcane               [ɑr'ken]             adj. 神秘的；晦涩难解的；秘传的
+inborn               [,ɪn'bɔrn]           adj. 天生的；先天的
+cabal                [kə'bæl]             n. 阴谋（尤指政治上的）；阴谋集团 vi. 策划阴谋 n. (Cabal)人名；(西)卡瓦尔；(葡)卡巴尔
+muster               ['mʌstɚ]             vt. 召集；对…进行点名；使振作 n. 集合；检阅；点名册；集合人员 vi. 召集；聚集 n. (Muster)人名；(德、罗)穆斯特尔；(英)马斯特
+doodle               ['dudl]              vi. 涂鸦；闲混；随意弹奏 n. 涂鸦；蠢人 vt. 乱涂出；闲混；随意弹奏
+intimidated          [ɪn'tɪmɪdetɪd]       adj. 害怕的；受到恐吓的 v. 威胁，恐吓（intimidate的过去式）
+oriented             ['orɪɛntɪd]          adj. 导向的；定向的；以…为方向的 v. 调整；使朝向（orient的过去分词）；确定…的方位
+trial                ['traɪəl]            n. 试验；审讯；努力；磨炼 adj. 试验的；审讯的 n. (Trial)人名；(法)特里亚尔
+religious            [rɪ'lɪdʒəs]          adj. 宗教的；虔诚的；严谨的；修道的 n. 修道士；尼姑
+conviction           [kən'vɪkʃən]         n. 定罪；确信；证明有罪
+cavalier             [,kævə'lɪr]          n. 骑士；武士；对女人献殷勤 adj. 傲慢的；漫不经心的；无忧无虑的 n. (Cavalier)人名；(法)卡瓦利耶
+machinery            [mə'ʃinəri]          n. 机械；机器；机构；机械装置
+brandy               ['brændi]            n. 白兰地酒 n. (Brandy)人名；(法)布朗迪
+whistles             [ˈhwislz]            n. [铁路][船] 汽笛；哨子声（whistle的复数形式） v. 吹口哨；鸣汽笛（whistle的第三人称单数）
+bells                [bels]               n. 铃（bell的复数形式）；排钟；喇叭裤 v. 系铃于…；鸣钟（bell的第三人称单数形式）
+blurb                [blɝb]               n. 大肆宣传；吹捧性广告；商品信息 vt. 夸大；大肆宣传
+amateurish           ['æmətərɪʃ]          adj. 业余的；不熟练的；外行的
+bumps                [bʌmp]               碰撞（bump的第三人称单数） 碰撞（bump的复数）
+scrapes              [skrep]              n. 刮伤处（scrape的复数） v. 刮掉；擦掉（动词的第三人称单数形式）
+vanquish             ['væŋkwɪʃ]           vt. 征服；击败；克服；抑制（感情等）
+paradigm             ['pærə'daɪm]         n. 范例；词形变化表
+swept                [swɛpt]              v. 扫除（sweep的过去式和过去分词） adj. 扫频的
+muddle               ['mʌdl]              vt. 混合；使咬字不清晰；使微醉 n. 糊涂；困惑；混浊状态 vi. 胡乱思考；糊里糊涂地行事
+bugs                 [bʌɡz]               adj. 发疯的，疯狂的 n. (Bugs)人名；(德)布格斯
+ironically           [aɪ'rɑnɪkli]         adv. 讽刺地；说反话地
+hung up              [hʌŋ ʌp]             挂断，提高；挂起来；套牢
+wear                 [wɛr]                n. 衣物；磨损；耐久性 v. 穿着；用旧；耗损；面露
+enlisted             [ɪn'lɪstɪd]          adj. 应募入伍的 v. 征募；参军（enlist的过去分词）
+trails               [treil]              n. 山径；踪迹（trail的复数）；游径 vt. 拖尾（trail的第三人称单数） vi. 拖曳（trail的第三人称单数）
+reassuringly         [,ri:ə'ʃuəriŋli]     adv. 安慰地；鼓励地
+descent              [dɪ'sɛnt]            n. 下降；血统；袭击 vt. 除去…的气味；使…失去香味
+lexing                                    n. （Lexing）人名；（瑞典）莱克辛
+lexical              ['lɛksɪkl]           adj. 词汇的；[语] 词典的；词典编纂的
+marginally           ['mɑrdʒɪnəli]        adv. 少量地；最低限度地；在栏外；在页边
+supervillain         [ˈsuːpərvɪlən]       超级大反派 超级大坏蛋
+akin                 [ə'kɪn]              adj. 类似的；同类的；同族的 n. (Akin)人名；(土、瑞典、尼日利)阿金；(匈)奥金；(英)埃金
+cornucopia           ['kɔrnjʊ'kopɪə]      n. 哺乳宙斯的羊角；装满花果及谷穗表丰饶的羊角状物；丰饶的象征
+conceived            [kən'sivd]           v. 构思；设想（conceive的过去式）
+alas                 [ə'læs]              int. 唉（表悲伤、遗憾、恐惧、关切等等） n. (Alas)人名；(西、葡、捷、土)阿拉斯
+flawed               [flɔd]               adj. 有缺陷的；有瑕疵的；有裂纹的
+summit               ['sʌmɪt]             n. 顶点；最高级会议；最高阶层 adj. 最高级的；政府首脑的
+attained             [ə'tein]             vt. 取得，得到，获得（attain的过去式）
+sweeping             ['swipɪŋ]            n. 扫除；垃圾 adj. 彻底的；广泛的；扫荡的 v. 打扫；扫除（sweep的现在分词形式）
+squirrel             [ˈskwɜ:rəl; skwɝ​əl] n. 松鼠；松鼠毛皮 vt. 贮藏
+coined               [kɔin]               v. 杜撰（新词等）（coin的过去分词）；铸造（硬币）
+obsession            [əb'sɛʃ(ə)n]         n. 痴迷；困扰；[内科][心理] 强迫观念
+rathole              [ˈrætˌhoʊl]          n. 鼠穴；被鼠咬成的洞
+luggage              ['lʌɡɪdʒ]            n. 行李；皮箱
+bay                  [be]                 n. 海湾；狗吠声 vt. 向…吠叫 vi. 吠叫；大声叫嚷 n. (Bay)人名；(越)七；(英、老)贝；(德、意、罗、捷、土、丹)巴伊；(匈)鲍伊；(瑞典)巴伊
+synthetic            [sɪn'θɛtɪk]          adj. 综合的；合成的，人造的 n. 合成物
+peculiarities        [pi,kju:li'æriti]    n. 独特性；怪癖；奇特的东西（peculiarity的复数）
+chip                 [tʃɪp]               vt. 削，凿；削成碎片 vi. 剥落；碎裂 n. [电子] 芯片；筹码；碎片；(食物的) 小片; 薄片
+canonical            [kə'nɑnɪkl]          adj. 依教规的；权威的；牧师的 n. 牧师礼服
+hipster              ['hɪpstɚ]            n. 世面灵通的人；赶时髦的人；颓废派成员（等于beatnik） adj. 低及臀部的
+sobriquet            ['sobrɪkɛi]          n. 绰号
+tragic               ['trædʒɪk]           adj. 悲剧的；悲痛的，不幸的
+captain              [ˈkæptən]            n. 队长，首领；船长；上尉；海军上校 vt. 指挥；率领
+hell                 [hɛl]                n. 地狱；究竟（作加强语气词）；训斥；黑暗势力 vi. 过放荡生活；飞驰 int. 该死；见鬼（表示惊奇、烦恼、厌恶、恼怒、失望等） n. (Hell)人名；(柬)海；(西)埃利；(德、匈、捷、罗、芬、瑞典)黑尔
+scramble             ['skræmbl]           vt. 攀登；使混杂，仓促凑成；扰乱 n. 抢夺，争夺；混乱，混乱的一团；爬行，攀登 vi. 爬行，攀登；不规则地生长；仓促行动
+alpine               ['ælpaɪn]            adj. 阿尔卑斯山的，高山的
+hotspot              ['hɑtspɑt]           n. 热点；热区
+sophisticated        [sə'fɪstɪketɪd]      adj. 复杂的；精致的；久经世故的；富有经验的 v. 使变得世故；使迷惑；篡改（sophisticate的过去分词形式）
+plagued              [pleiɡ]              v. 困扰（plague的过去分词）；折磨
+immemorial           [,ɪmə'mɔrɪəl]        adj. 远古的，古老的；无法追忆的
+botanical            [bə'tænɪkl]          adj. 植物学的 n. 植物性药材
+culinary             ['kʌlɪnɛri]          adj. 厨房的；烹调用的
+negation             [nɪ'ɡeʃən]           n. 否定，否认；拒绝
+edible               ['ɛdəbl]             adj. 可食用的 n. 食品；食物
+peanuts              ['pi:nʌts]           n. [作物] 花生；小人物；小零碎；微不足道的钱（peanut的复数形式）
+cereals              ['sɪrɪəls]           n. [作物] 谷类；谷类食品
+scaly                ['skeli]             adj. 有鳞的；积垢的；劣等的
+horticultural        [,hɔrtɪ'kʌltʃərəl]   adj. 园艺的
+curiosity            [,kjʊrɪ'ɑsəti]       n. 好奇，好奇心；珍品，古董，古玩
+yearning             ['jɝnɪŋ]             adj. 向往的；渴望的；怀念的 n. 渴望；怀念；同情 v. 渴望；向往；想念（yearn的ing形式）
+bootlaces            [ˈbuːtleɪs]          n. 鞋带
+cinch                [sɪn(t)ʃ]            n. 肚带；紧握；有把握的事情 vt. 紧握住；系肚带
+pack                 [pæk]                n. 包装；一群；背包；包裹；一副 vt. 包装；压紧；捆扎；挑选；塞满 vi. 挤；包装货物；被包装；群集 n. (Pack)人名；(英、德)帕克
+poke                 [pok]                vi. 刺，捅；戳；伸出；刺探；闲荡 vt. 刺，捅；戳；拨开 n. 戳；刺；袋子；懒汉
+forgo                [fɔr'ɡo]             vi. 放弃；停止；对…断念 vt. 放弃；停止；对…断念 [ 过去式forwent 过去分词forgone 现在分词forgoing ]
+tone                 [ton]                n. 语气；色调；音调；音色 vt. 增强；用某种调子说 vi. 颜色调和；呈现悦目色调 n. (Tone)人名；(罗、塞、乍)托内；(英)托恩
+metaphor             ['mɛtəfɚ]            n. 暗喻，隐喻；比喻说法
+illuminating         [ɪ'lʊmə'netɪŋ]       adj. 照亮的，照明的；启蒙的，有启发性的 v. 照明，阐释（illuminate的现在分词形式）
+sundry               ['sʌndri]            adj. 杂的；各式各样的 n. 杂货；杂项
+cruel                [kruəl]              adj. 残酷的，残忍的；使人痛苦的，让人受难的；无情的，严酷的
+grinding             ['ɡraɪndɪŋ]          adj. 磨的；刺耳的；令人难以忍受的 n. (Grinding)人名；(瑞典)格林丁
+reams                [ri:m]               非均质材料叠层
+lawyering            ['lɔjərɪŋ]           n. 律师之业
+ESE                                       abbr. 电气支援设备（lectrical Support Equipment）；东南东（East South East） n. (Ese)人名；(塞、土)埃塞
+typos                                     n. 打字错误
+file                 [faɪl]               n. 文件；档案；文件夹；锉刀 vt. 提出；锉；琢磨；把…归档 vi. 列队行进；用锉刀锉 n. (File)人名；(匈、塞)菲莱
+inclined             [ɪn'klaɪnd]          adj. 趋向于…的 v. 使…倾向（incline的过去分词）
+prone                [pron]               adj. 俯卧的；有…倾向的，易于…的 n. (Prone)人名；(意、法)普罗内
+mammal               ['mæml]              n. [脊椎] 哺乳动物
+orchestrated         ['ɔ:kistreit; -kes-] 把…编成管弦乐曲 使…协调地结合在一起 精心安排（orchestrate的过去式和过去分词）
+mimic                ['mɪmɪk]             vt. 模仿，摹拟 n. 效颦者，模仿者；仿制品；小丑 adj. 模仿的，模拟的；假装的
+cured                [kjʊr]               adj. 治愈的；熟化的；熏制的 v. 治愈；薰，腌（鱼、肉等）；加工处理（cure的过去分词）
+egregious            [ɪ'gridʒɪəs]         adj. 惊人的；过分的；恶名昭彰的
+hew                  [hju]                vt. 砍；劈；砍倒 vi. 砍；劈；坚持 n. (Hew)人名；(英)休；(东南亚国家华语)丘
+ginormous            [dʒaɪ'nɔrməs]        adj. 极大的；甭提有多大的
+episode              ['ɛpɪsod]            n. 插曲；一段情节；插话；有趣的事件
+luxury               ['lʌɡʒəri]           n. 奢侈，奢华；奢侈品；享受 adj. 奢侈的
+outweigh             ['aʊt'we]            vt. 比…重（在重量上）；比…重要；比…有价值
+pragmatic            [præg'mætɪk]         adj. 实际的；实用主义的；国事的
+anime                ['ænɪme]             n. 日本动漫；芳香树脂
+animation            [,ænɪ'meʃən]         n. 活泼，生气；激励；卡通片绘制
+provisional          [prə'vɪʒənl]         adj. 临时的，暂时的；暂定的 n. 临时邮票
+doctor               ['dɑktɚ]             vt. 修理；篡改，伪造；为…治病；授以博士学位 n. 医生；博士 vi. 就医；行医
+leverage             ['lɛvərɪdʒ]          n. 手段，影响力；杠杆作用；杠杆效率 v. 利用；举债经营
+metamorphose         [,mɛtə'mɔrfoz]       vt. 变质；变形；使变成
+transfiguration      [,trænzfɪɡjʊ'reʃən]  n. 变形；变容；变貌
+transfigure          [trænsˈfɪɡjər]       v. （使）改观，美化
+phrase               [frez]               n. 短语, 习语, 措辞, 乐句 vt. 措词, 将(乐曲)分成乐句
+reshape              [riˈʃep]             vt. 改造；再成形
+disrupt              [dɪs'rʌpt]           vt. 破坏；使瓦解；使分裂；使中断；使陷于混乱 adj. 分裂的，中断的；分散的
+revolutionize        ['rɛvə'lʊʃə'naɪz]    vt. 发动革命；彻底改革；宣传革命 vi. 革命化；从事革命
+trajectory           [trə'dʒɛktəri]       n. [物] 轨道，轨线；[航][军] 弹道
+radically            ['rædɪkli]           adv. 根本上；彻底地；以激进的方式
+preliminary          [prɪ'lɪmɪnɛri]       n. 准备；预赛；初步措施 adj. 初步的；开始的；预备的
+facilitate           [fə'sɪlə'tet]        vt. 促进；帮助；使容易
+inquirer             [in'kwaiərə]         n. 调查者；询问者
+concentrated         ['kɑnsn'tretɪd]      adj. 集中的；浓缩的；全神贯注的 v. 集中（concentrate的过去分词）
+loess                ['loɪs]              n. [地质] 黄土 n. (Loess)人名；(德)勒斯
+unparalleled         [ʌn'pærəlɛld]        adj. 无比的；无双的；空前未有的
+technique            [tɛk'nik]            n. 技巧，技术；手法
+roughing             ['rʌfɪŋ]             n. 初步加工（粗选） v. 殴打；草拟（rough的现在分词）
+misnomer             [,mɪs'nomɚ]          n. 用词不当；误称；写错姓名
+evaporate            [ɪ'væpəret]          vt. 使……蒸发；使……脱水；使……消失 vi. 蒸发，挥发；消失，失踪
+initials             [i'niʃəls]           n. 首字母；缩写；姓名中的大写字母（initial的复数）
+paradigms            ['pærədim]           n. 范例，模范（paradigm的复数形式）
+rad                  [ræd]                n. 拉德（辐射剂量单位） n. (Rad)人名；(塞、罗、德)拉德
+groovy               ['ɡruvi]             adj. 出色的；绝妙的；时髦的
+veers                [viə]                n. 方向的改变（veer的复数） v. 转向（veer的第三人称单数）
+outright             ['aʊtraɪt]           adv. 全部地；立刻地；率直地；一直向前；痛快地 adj. 完全的，彻底的；直率的；总共的
+nihilism             ['naɪɪlɪzəm]         n. 虚无主义；无政府主义；恐怖行为
+prosaic              [prə'zeɪk]           adj. 平凡的，乏味的；散文体的
+cram                 [kræm]               adj. 填鸭式学的 vi. 狼吞虎咽地吃东西；死记硬背功课 vt. 填满，塞满；死记硬背；猛吃 n. 死记硬背；极度拥挤 n. (Cram)人名；(英、德)克拉姆
+rigor                ['rɪgɚ]              n. 严厉；精确；苛刻；僵硬 n. (Rigor)人名；(英、西、葡)里戈尔
+calculus             ['kælkjələs]         n. [病理] 结石；微积分学
+transport            ['trænspɔrt]         n. 运输；运输机；狂喜；流放犯 vt. 运输；流放；使狂喜
+grill                [ɡrɪl]               vt. 烧，烤； vi. 拷问，严加盘问 n. 烤架，铁格子；烤肉
+frill                [frɪl]               n. 装饰；褶边 vt. 折成皱边 vi. 起边皱
+datagram             [ˈdetəˌɡræm]         n. 数据电报
+gram                 [ɡræm]               n. 克；鹰嘴豆（用作饲料） n. (Gram)人名；(英、法、德、丹、挪、瑞典)格拉姆
+intervening          [,ɪntɚ'vinɪŋ]        adj. 介于中间的 v. 介入（intervene的ing形式）
+interoffice          [ˌɪntərˈɔːfɪs]       adj. （公司或其它组织的）各办公室间的；局间的
+memo                 ['mɛmo]              n. 备忘录 n. (Memo)人名；(土、意)梅莫
+memorandum           [,mɛmə'rændəm]       n. 备忘录；便笺
+wreak                [rik]                vt. 发泄；报仇；造成（巨大的破坏或伤害）
+havoc                ['hævək]             n. 大破坏；浩劫；蹂躏 vt. 严重破坏 vi. 损毁 n. (Havoc)人名；(英)哈沃克
+substantial          [səbˈstænʃəl]        adj. 大量的；实质的；内容充实的 n. 本质；重要材料
+whet                 [wɛt]                vt. 刺激；磨快；促进 n. 磨；开胃物；刺激物
+vulnerable           ['vʌlnərəbl]         adj. 易受攻击的，易受…的攻击；易受伤害的；有弱点的
+prevalent            ['prɛvələnt]         adj. 流行的；普遍的，广传的
+devious              ['divɪəs]            adj. 偏僻的；弯曲的；不光明正大的
+compromised          ['kɔmprəmaiz]        adj. 妥协的；妥协让步的，缺乏抵抗力的 vt. 妥协；连累（compromise的过去分词）
+botnet               [ˈbɑːtnet]           n. 僵尸网络
+collectively         [kə'lektivli]        adv. 共同地，全体地
+legitimate           [ləˈdʒɪtəmɪt]        adj. 合法的；正当的；合理的；正统的 vt. 使合法；认为正当（等于legitimize）
+vulnerability        [,vʌlnərə'bɪləti]    n. 易损性；弱点
+deluge               ['dɛljʊdʒ]           n. 洪水；泛滥；暴雨 vt. 使泛滥；压倒
+clogged              [klɑg]               adj. 阻塞的；堵住的 v. 阻塞；妨碍（clog的过去分词）
+bogus                ['bogəs]             adj. 假的；伪造的 n. 伪币
+blast                [blæst]              n. 爆炸；冲击波；一阵 vi. 猛攻 vt. 爆炸；损害；使枯萎 n. (Blast)人名；(德)布拉斯特
+vicinity             [və'sɪnəti]          n. 邻近，附近；近处
+masquerade           [,mæskə'red]         vi. 化装；伪装 n. 伪装；化妆舞会 vt. 化装；乔装
+dutifully            ['du:tɪfəli]         adv. 忠实地；忠贞地
+conceive             [kən'siv]            vt. 怀孕；构思；以为；持有 vi. 怀孕；设想；考虑
+conferencing         ['kɑnfərənsɪŋ]       n. 会议技术 v. 开会（conference的现在分词）
+MOE                                       abbr. 有效性量度（Measure of Effectiveness） n. (Moe)人名；(挪、瑞典)穆厄；(英)莫

@@ -44,6 +44,11 @@ https://github.com/schollz/croc
 
 *** TODO rust async programming https://course.rs/advance/async/intro.html
 
+*** DONE try citre
+CLOSED: [2023-03-08 Wed 23:02]
+
+*** TODO print ascii tree structure
+
 ** PROJ PROJECT
 *** PROJ [#A] contribute to git
 horizontal git log

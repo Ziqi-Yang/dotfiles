@@ -480,7 +480,7 @@
     "associative": 2,
     "mantissa": 2,
     "akin": 5,
-    "odd": 1,
+    "odd": 2,
     "tedious": 2,
     "daunting": 3,
     "precedent": 2,
@@ -1331,5 +1331,10 @@
     "vicinity": 1,
     "masquerade": 1,
     "dutifully": 1,
-    "conferencing": 1
+    "conferencing": 1,
+    "layer": 1,
+    "incurring": 1,
+    "disclose": 2,
+    "polymorphism": 1,
+    "flickering": 1
 }

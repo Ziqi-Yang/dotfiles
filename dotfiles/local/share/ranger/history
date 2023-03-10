@@ -8,7 +8,6 @@ search writ
 mkdir communist_party
 open_with 1
 mkdir backups
-search ba
 mkdir ./arch_linux
 mkdir COMP2013J-database
 rename 发展党员工作谈话记-杨子祺-21372225.docx
@@ -48,3 +47,4 @@ rename labs
 
 mkdir ./COMP2014J
 rename WS1-Trees
+search ba

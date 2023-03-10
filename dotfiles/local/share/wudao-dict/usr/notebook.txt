@@ -1550,3 +1550,9 @@ dutifully            ['du:tɪfəli]         adv. 忠实地；忠贞地
 conceive             [kən'siv]            vt. 怀孕；构思；以为；持有 vi. 怀孕；设想；考虑
 conferencing         ['kɑnfərənsɪŋ]       n. 会议技术 v. 开会（conference的现在分词）
 MOE                                       abbr. 有效性量度（Measure of Effectiveness） n. (Moe)人名；(挪、瑞典)穆厄；(英)莫
+layer                ['leɪr]              n. 层，层次；膜；[植]压条；放置者，计划者 vt. 把…分层堆放；借助压条法；生根繁殖；将（头发）剪成不同层次 vi. 形成或分成层次；[植]通过压条法而生根
+incurring            [in'kə:]             n. 招致（遭受）
+odd                  [ɑd]                 adj. 奇数的；古怪的；剩余的；临时的；零散的 n. 奇数；怪人；奇特的事物 n. (Odd)人名；(英、西、挪、瑞典)奥德
+disclose             [dɪs'kloz]           vt. 公开；揭露
+polymorphism         [,pɑlɪ'mɔrfɪzm]      n. 多态性；多形性；同质多晶
+flickering           ['flɪkərɪŋ]          adj. 闪烁的，忽隐忽现的；摇曳的 v. 闪烁（flicker的ing形式）

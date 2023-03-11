@@ -11,7 +11,7 @@
         "custom/pomodoro"
     ],
     "modules-center": [
-        "wlr/workspaces"
+        "sway/workspaces"
     ],
     "modules-right": [
         "cpu",
@@ -82,7 +82,7 @@
         "format-icons": ["", "", "", "", ""],
         "max-length": 25
     },
-    "wlr/workspaces": {
+    "sway/workspaces": {
         "all-outputs": true,
         "format": "{icon}",
         "on-click": "activate",

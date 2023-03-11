@@ -1336,5 +1336,7 @@
     "incurring": 1,
     "disclose": 2,
     "polymorphism": 1,
-    "flickering": 1
+    "flickering": 1,
+    "disable": 3,
+    "floating": 1
 }

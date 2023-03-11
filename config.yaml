@@ -200,6 +200,9 @@ dotfiles:
   f_gitignore_global:
     src: gitignore_global
     dst: ~/.gitignore_global
+  f_config:
+    src: config/sway/config
+    dst: ~/.config/sway/config
 profiles:
   myArch:
     dotfiles:
@@ -267,3 +270,4 @@ profiles:
     - f_config.json
     - f_starship.toml
     - f_gitignore_global
+    - f_config

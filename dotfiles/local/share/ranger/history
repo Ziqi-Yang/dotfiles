@@ -1,6 +1,3 @@
-rename hugo_syntax_highlighting_for_org.org
-rename blog-meow-bak
-mount
 search desk
 search 马克思
 search 共产党
@@ -48,3 +45,6 @@ rename labs
 mkdir ./COMP2014J
 rename WS1-Trees
 search ba
+rename ruZ6Nhg8FENcon.yaml
+rename ruZ6Nhg8.yaml
+rename config.yaml

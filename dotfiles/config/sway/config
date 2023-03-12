@@ -1,7 +1,7 @@
 # /etc/sway/config
 # requirements: swaybg, swayidle, swaylock
 set $mod Mod4
-set $mod_shift Mod4+Shift
+set $mod_shift $mod+Shift
 set $left h
 set $down j
 set $up k
@@ -16,9 +16,9 @@ exec firefox
 
 ## Idle configuration
 exec swayidle -w \
-         timeout 300 'swaylock -f -c 000000' \
+         timeout 300 'swaylock' \
          timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-         before-sleep 'swaylock -f -c 000000'
+         before-sleep 'swaylock'
 
 ## Input
 #
@@ -145,6 +145,7 @@ bindsym $mod+r mode "resize"
 # @ Utility
 #
 # application launcher (fullscreen)
+bindsym $mod+x exec alacritty --class floating
 bindsym $mod+a exec rofi -no-lazy-grab -show drun -theme ~/.local/share/rofi/themes/launchpad.rasi -show-icons 
 # emoji
 bindsym $mod+e exec ~/myBin/emoji_selector 

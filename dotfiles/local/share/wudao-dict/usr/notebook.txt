@@ -1558,3 +1558,7 @@ polymorphism         [,pɑlɪ'mɔrfɪzm]      n. 多态性；多形性；同质�
 flickering           ['flɪkərɪŋ]          adj. 闪烁的，忽隐忽现的；摇曳的 v. 闪烁（flicker的ing形式）
 disable              [dɪs'ebl]            vt. 使失去能力；使残废；使无资格
 floating             ['flotɪŋ]            adj. 流动的；漂浮的，浮动的 v. 漂浮（float的现在分词）
+overload             [,ovɚ'lod]           vt. 超载，超过负荷 n. 超载；负荷过多
+solely               ['solli]             adv. 单独地，唯一地
+emergency            [ɪ'mɝdʒənsi]         n. 紧急情况；突发事件；非常时刻 adj. 紧急的；备用的
+anyway               ['ɛnɪ'we]            adv. 无论如何，不管怎样；总之

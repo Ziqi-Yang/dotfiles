@@ -203,6 +203,12 @@ dotfiles:
   f_config:
     src: config/sway/config
     dst: ~/.config/sway/config
+  d_sway:
+    src: config/sway
+    dst: ~/.config/sway
+  d_swaylock:
+    src: config/swaylock
+    dst: ~/.config/swaylock
 profiles:
   myArch:
     dotfiles:
@@ -271,3 +277,5 @@ profiles:
     - f_starship.toml
     - f_gitignore_global
     - f_config
+    - d_sway
+    - d_swaylock

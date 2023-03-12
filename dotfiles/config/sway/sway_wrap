@@ -1,0 +1,23 @@
+#!/bin/sh
+
+cd ~ || exit
+
+# java
+export _JAVA_AWT_WM_NONREPARENTING=1
+
+# qt
+export QT_AUTO_SCREEN_SCALE_FACTOR=1
+export QT_QPA_PLATFORM="wayland;xcb"
+export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+export QT_WAYLAND_FORCE_DPI=physical
+export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+export QT_QPA_PLATFORMTHEME=qt5ct
+
+# GTK
+export GDK_BACKEND=wayland
+
+# cursor
+export XCURSOR_THEME=GoogleDot-Blue
+export XCURSOR_SIZE=24
+
+exec sway

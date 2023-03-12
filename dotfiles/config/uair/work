@@ -2,5 +2,6 @@
 
 notify-send 'Work Done!'
 uairctl toggle
-nohup mpg123 -f -16384 /home/zarkli/.config/uair/audios/reset.wav > /dev/null 2>&1 &
+# nohup mpg123 -f -16384 /home/zarkli/.config/uair/audios/reset.wav > /dev/null 2>&1 &
+nohup mpv /home/zarkli/.config/uair/audios/reset.wav > /dev/null 2>&1 &
 swaylock

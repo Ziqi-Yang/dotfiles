@@ -3,5 +3,6 @@
 notify-send 'Rest Done!'
 /home/zarkli/myBin/phone_notify 继续学习啦！> /dev/null 2>&1
 /home/zarkli/.config/uair/notify > /dev/null 2>&1 &
-nohup mpg123 -f -19660 /home/zarkli/.config/uair/audios/work.wav > /dev/null 2>&1 &
+# nohup mpg123 -f -19660 /home/zarkli/.config/uair/audios/work.wav > /dev/null 2>&1 &
+nohup mpv /home/zarkli/.config/uair/audios/work.wav > /dev/null 2>&1 &
 pkill -SIGUSR1 swaylock # unlock the swaylock

@@ -16,9 +16,9 @@ exec firefox
 
 ## Idle configuration
 exec swayidle -w \
-         timeout 300 'swaylock' \
-         timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-         before-sleep 'swaylock'
+		 timeout 300 'swaylock' \
+		 timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+		 before-sleep 'swaylock'
 
 ## Input
 #
@@ -66,7 +66,8 @@ bindsym --locked XF86AudioLowerVolume exec pamixer -d 5 && ~/myBin/volume_notify
 bindsym --locked XF86AudioRaiseVolume exec pamixer -i 5 && ~/myBin/volume_notify
 bindsym --locked XF86MonBrightnessUp exec brightnessctl s 5%+ && ~/myBin/brightness_notify
 bindsym --locked XF86MonBrightnessDown exec brightnessctl s 5%- && ~/myBin/brightness_notify
-bindsym --locked XF86PowerOff ~/myBin/toggle_screen
+# bindsym --locked XF86PowerOff exec ~/myBin/toggle_screen
+bindsym --locked XF86PowerOff exec swaymsg "output eDP-1 power toggle"
 
 #
 # @ Movement:

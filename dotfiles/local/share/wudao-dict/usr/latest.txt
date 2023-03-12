@@ -1,5 +1,3 @@
-orchestrated
-mimic
 cured
 egregious
 hew
@@ -98,3 +96,5 @@ solely
 emergency
 emergency
 anyway
+Hiragana
+Amadeus

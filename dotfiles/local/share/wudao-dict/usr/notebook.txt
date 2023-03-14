@@ -1576,3 +1576,7 @@ downhill             [,daʊn'hɪl]          adv. 下坡；向下；每况愈下 
 deserialize                               vt. 并行化；串并转换
 ergonomic            ['ɝgə'nɑmɪk]         adj. 人类环境改造学的；人类工程学的
 qualifier            ['kwɑlɪfaɪɚ]         n. [语] 修饰语 n. 资格赛，预选赛；取得资格的人
+president            ['prɛzɪdənt]         n. 总统；董事长；校长；主席
+territory            ['tɛrətɔri]          n. 领土，领域；范围；地域；版图
+hibernate            ['haɪbɚnet]          vi. 过冬；（动物）冬眠；（人等）避寒
+hibernation          [,haɪbɚ'neʃən]       n. 冬眠；过冬；避寒

@@ -67,7 +67,8 @@ bindsym --locked XF86AudioRaiseVolume exec pamixer -i 5 && ~/myBin/volume_notify
 bindsym --locked XF86MonBrightnessUp exec brightnessctl s 5%+ && ~/myBin/brightness_notify
 bindsym --locked XF86MonBrightnessDown exec brightnessctl s 5%- && ~/myBin/brightness_notify
 # bindsym --locked XF86PowerOff exec ~/myBin/toggle_screen
-bindsym --locked XF86PowerOff exec swaymsg "output eDP-1 power toggle"
+# bindsym --locked XF86PowerOff exec swaymsg "output eDP-1 power toggle"
+bindsym --locked XF86PowerOff exec systemctl suspend
 
 #
 # @ Movement:

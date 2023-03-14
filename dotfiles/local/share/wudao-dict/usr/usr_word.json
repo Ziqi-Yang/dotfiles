@@ -1174,7 +1174,7 @@
     "dedication": 1,
     "prose": 2,
     "traversing": 1,
-    "territory": 6,
+    "territory": 7,
     "craft": 1,
     "foray": 1,
     "cram": 5,
@@ -1352,5 +1352,8 @@
     "rant": 1,
     "downhill": 1,
     "deserialize": 3,
-    "qualifier": 1
+    "qualifier": 1,
+    "president": 1,
+    "hibernate": 1,
+    "hibernation": 1
 }

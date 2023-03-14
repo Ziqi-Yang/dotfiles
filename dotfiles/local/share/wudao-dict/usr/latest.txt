@@ -1,7 +1,3 @@
-transfigure
-phrase
-reshape
-disrupt
 revolutionize
 trajectory
 radically
@@ -98,3 +94,7 @@ deserialize
 deserialize
 ergonomic
 qualifier
+president
+territory
+hibernate
+hibernation

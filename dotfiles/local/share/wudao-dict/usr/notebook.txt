@@ -1564,3 +1564,15 @@ emergency            [ɪ'mɝdʒənsi]         n. 紧急情况；突发事件；�
 anyway               ['ɛnɪ'we]            adv. 无论如何，不管怎样；总之
 Hiragana             [ˌhɪrəˈɡɑːnə]        n. 平假名（日语）
 Amadeus              [a'madiəs]           n. 莫扎特（奥地利作曲家）；莫扎特传（电影名）；阿玛迪斯（唱片公司品牌）
+shove                [ʃʌv]                vt. 挤；强使；撞；猛推 n. 推；挤 n. (Shove)人名；(英)肖夫
+glitch               [ɡlɪtʃ]              n. 小故障；失灵；[电子] 短时脉冲波干扰 n. (Glitch)人名；(英)格利奇
+fluctuate            ['flʌktʃʊ'et]        vi. 波动；涨落；动摇 vt. 使波动；使动摇
+elastic              [ɪ'læstɪk]           adj. 有弹性的；灵活的；易伸缩的 n. 松紧带；橡皮圈
+propagate            ['prɑpə'get]         vt. 传播；传送；繁殖；宣传 vi. 繁殖；增殖
+idiomatic            [,ɪdɪə'mætɪk]        adj. 惯用的；符合语言习惯的；通顺的
+rant                 [rænt]               vi. 咆哮；痛骂；大声责骂 vt. 咆哮；痛骂 n. 咆哮；激昂的演说 n. (Rant)人名；(德、瑞典)兰特
+ergonomics           ['ɝgə'nɑmɪks]        n. 工效学；人类工程学
+downhill             [,daʊn'hɪl]          adv. 下坡；向下；每况愈下 adj. 下坡的；容易的 n. 下坡；滑降
+deserialize                               vt. 并行化；串并转换
+ergonomic            ['ɝgə'nɑmɪk]         adj. 人类环境改造学的；人类工程学的
+qualifier            ['kwɑlɪfaɪɚ]         n. [语] 修饰语 n. 资格赛，预选赛；取得资格的人

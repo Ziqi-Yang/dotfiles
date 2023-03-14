@@ -50,6 +50,8 @@ CLOSED: [2023-03-08 Wed 23:02]
 *** TODO print ascii tree structure
 
 *** TODO Learn the theory behind regex, how to implement it
+*** TODO https://www.fpcomplete.com/blog/rust-asref-asderef/
+
 ** PROJ PROJECT
 *** PROJ [#A] contribute to git
 horizontal git log
@@ -130,3 +132,4 @@ some crates doesn't have tags :|
    - quick navigation (can also choose to follow the link)
 2. references:
    a) zoxide
+*** PROJ chatgpt + 拍照搜题？

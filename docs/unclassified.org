@@ -31,7 +31,8 @@ Note: you should add =--net host= when you run =docker run= to make the proxy wo
   docker run --net host --rm -it -v .:/mnt -w /mnt rcore-tutorial-v3 bash 
 #+end_src
 
-* Sway
-src
 * Random
 1. =onefetch=: like =neofetch=, but show project information
+
+* Power Management/Saving
+refer to [[https://arch.icekylin.online/guide/advanced/power-ctl.html][arch.icekylin.online]]

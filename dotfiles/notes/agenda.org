@@ -14,6 +14,9 @@ CLOSED: [2023-01-18 Wed 09:25]
 *** DONE dotfile installation.org
 CLOSED: [2023-02-01 Wed 20:23]
 
+*** TODO logseq 博客导入
+
+*** TODO not use aggressive mode in python mode
 
 ** PROG PROGRAMMING
 *** TODO [#A] leetcode everyday problem [[file:algo.org][algo.org]]

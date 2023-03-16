@@ -1580,3 +1580,19 @@ president            ['prɛzɪdənt]         n. 总统；董事长；校长；�
 territory            ['tɛrətɔri]          n. 领土，领域；范围；地域；版图
 hibernate            ['haɪbɚnet]          vi. 过冬；（动物）冬眠；（人等）避寒
 hibernation          [,haɪbɚ'neʃən]       n. 冬眠；过冬；避寒
+prone                [pron]               adj. 俯卧的；有…倾向的，易于…的 n. (Prone)人名；(意、法)普罗内
+provisional          [prə'vɪʒənl]         adj. 临时的，暂时的；暂定的 n. 临时邮票
+infrastructure       ['ɪnfrə'strʌktʃɚ]    n. 基础设施；公共建设；下部构造
+consensus            [kən'sɛnsəs]         n. 一致；舆论；合意
+transaction          [træn'zækʃən]        n. 交易；事务；办理；会报，学报
+ledger               ['lɛdʒɚ]             n. 总账，分户总账；[会计] 分类账；账簿；底账；（手脚架上的）横木 n. (Ledger)人名；(英)莱杰
+nonce                [nɑns]               n. 目前；特定场合；强奸犯 adj. 临时的；特定场合的
+stake                [stek]               n. 桩，棍子；赌注；火刑；奖金 vt. 资助，支持；系…于桩上；把…押下打赌 vi. 打赌 n. (Stake)人名；(瑞典)斯塔克
+incentive            [ɪn'sɛntɪv]          n. 动机；刺激 adj. 激励的；刺激的
+staked               [steik]              桩
+prohibitively        [prəu'hibitivli]     adv. 禁止地；过高地；过分地
+forfeited            ['fɔ:fit]            v. 丧失；被迫放弃；被剥夺（forfeit的过去分词）
+fraudulent           ['frɔdʒələnt]        adj. 欺骗性的；不正的
+undermine            ['ʌndɚ'maɪn]         vt. 破坏，渐渐破坏；挖掘地基
+plummet              ['plʌmɪt]            n. [测] 铅锤，坠子 vi. 垂直落下；（价格、水平等）骤然下跌
+outpace              [,aʊt'pes]           vt. 赶过；超过…速度

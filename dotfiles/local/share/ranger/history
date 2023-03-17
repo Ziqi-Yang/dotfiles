@@ -1,34 +1,3 @@
-mkdir ./TV_samples
-mkdir ./
-mkd
-mkdir ./TV
-rename Main.java
-mkdir COMP2008J_proj
-search pic
-search rus
-rename 2-Lecture 02.pdf
-rename 1-01 Introduction and Module Details.pdf
-rename emacs.png
-rename emacs.webp
-search linux
-search linux-zen
-search yaml
-search wl
-open_with 
-search loc
-search lox
-search sample
-rename 3-Lecture 03.pdf
-rename 2-Network Core.pdf
-rename 3-Application Layer.pdf
-mkdir ./lab
-rename labs
-mkdir ./COMP2014J
-rename WS1-Trees
-search ba
-rename ruZ6Nhg8FENcon.yaml
-rename ruZ6Nhg8.yaml
-rename config.yaml
 mkdir 六级
 mkdir 
 mkdir ./audios
@@ -38,8 +7,6 @@ rename work_1.wav
 mkdir ./labs
 mkdir ./lab2
 rename lab02
-search 
-mkdir ./lab02
 mkdir ./lab01
 search re
 search blog
@@ -48,3 +15,36 @@ search
 
 quit
 search class
+search cache
+search mpm
+mkdir ./lab
+mkdir ./lab02
+rename README.md
+mkdir ./ui
+mkdir core
+search zip
+rename Ziqi-Yang-21207440-lab02-StudentsRegistration.zip
+fi
+rename junit.jar
+rename doc
+rename lib_
+rename lib__
+rename src__
+rename src
+rename testTree
+rename doc___
+rename Makefile__
+rename testJar
+search 
+search jd
+search jdt
+search .loca
+search emacs
+search jdtls
+search eglot
+rename libs
+rename lib
+search jar
+mkdir ./main
+mkdir ./test
+mkdir -p ./java/app

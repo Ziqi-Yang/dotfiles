@@ -16,7 +16,9 @@ CLOSED: [2023-02-01 Wed 20:23]
 
 *** TODO logseq 博客导入
 
-*** TODO not use aggressive mode in python mode
+*** DONE not use aggressive mode in python mode
+CLOSED: [2023-03-16 Thu 22:04]
+
 
 ** PROG PROGRAMMING
 *** TODO [#A] leetcode everyday problem [[file:algo.org][algo.org]]
@@ -50,10 +52,12 @@ https://github.com/schollz/croc
 *** DONE try citre
 CLOSED: [2023-03-08 Wed 23:02]
 
-*** TODO print ascii tree structure
+*** DONE print ascii tree structure
+CLOSED: [2023-03-16 Thu 22:04]
 
 *** TODO Learn the theory behind regex, how to implement it
 *** TODO https://www.fpcomplete.com/blog/rust-asref-asderef/
+*** TODO java project template add doc and test support
 
 ** PROJ PROJECT
 *** PROJ [#A] contribute to git

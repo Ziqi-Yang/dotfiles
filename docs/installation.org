@@ -458,7 +458,8 @@ paru -S rtags-git
 #+end_src
 *** Java
 #+begin_src sh
-sudo pacman -S jdk8-openjdk jdk-openjdk maven
+sudo pacman -S jdk8-openjdk jdk17-openjdk
+sudo pacman -S openjdk17-src openjdk17-doc
 #+end_src
 
 (optional) set jdk8 as default jdk version

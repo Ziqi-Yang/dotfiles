@@ -106,7 +106,8 @@ sudo pacman -S rustup rust-analyzer
 
 sudo pacman -S clang ccls man-pages
 
-sudo pacman -S jdk8-openjdk jdk-openjdk maven
+sudo pacman -S jdk8-openjdk jdk17-openjdk
+sudo pacman -S openjdk17-src openjdk17-doc
 
 paru -S go
 

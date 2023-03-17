@@ -1596,3 +1596,17 @@ fraudulent           ['frɔdʒələnt]        adj. 欺骗性的；不正的
 undermine            ['ʌndɚ'maɪn]         vt. 破坏，渐渐破坏；挖掘地基
 plummet              ['plʌmɪt]            n. [测] 铅锤，坠子 vi. 垂直落下；（价格、水平等）骤然下跌
 outpace              [,aʊt'pes]           vt. 赶过；超过…速度
+collateral           [kə'lætərəl]         adj. 并行的；旁系的；附属的 n. 抵押品；[法] 担保品；旁系亲属
+saturation           ['sætʃə'reʃən]       n. 饱和；色饱和度；浸透；磁化饱和
+owned                [ond]                v. 拥有；承认（own的过去分词） adj. 自身拥有的
+exploit              [ɛksplɔɪt; ɪkˈsplɔɪt] vt. 开发，开拓；剥削；开采 n. 勋绩；功绩
+coordinator          [ko'ɔrdn,etɚ]        n. 协调者；[自] 协调器；同等的人或物
+unobtrusive          ['ʌnəb'trʊsɪv]       adj. 不唐突的；谦虚的；不引人注目的
+scenario             [sə'nærɪo]           n. 方案；情节；剧本；设想
+instantiate          [ɪnsˈtænʃɪeɪt]       v. 例示，举例说明；（哲）有例为证
+refer                [rɪ'fɝ]              vi. 参考；涉及；提到；查阅 vt. 涉及；委托；归诸于；使…求助于
+flat                 [flæt]               adj. 平的；单调的；不景气的；干脆的；平坦的；扁平的；浅的 adv. （尤指贴着另一表面）平直地；断然地；水平地；直接地，完全地 n. 平地；公寓；平面 vt. 使变平；[音乐]使（音调）下降，尤指降半音 vi. 逐渐变平；[音乐]以降调唱（或奏） n. （法）弗拉特（人名）；（英）弗莱特（人名）
+superior             [sʊˈpɪrɪɚ]           adj. 上级的；优秀的，出众的；高傲的 n. 上级，长官；优胜者，高手；长者
+chores               [tʃɔrz]              n. 杂务；零工；困难的工作（chore的复数）
+correction           [kə'rɛkʃən]          n. 改正，修正
+monopoly             [mə'nɑpəli]          n. 垄断；垄断者；专卖权

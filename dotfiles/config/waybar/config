@@ -3,6 +3,7 @@
     "modules-left": [
         "image#avatar",
         "clock",
+				"sway/mode",
 				"sway/window",
         "custom/todo",
         "custom/notification",
@@ -83,11 +84,15 @@
         "format-icons": ["", "", "", "", ""],
         "max-length": 25
     },
+		"sway/mode": {
+				"format": "{}",
+				"max-length": 20
+		},
 		"sway/window": {
 				"format": "{title}",
 				"max-length": 20,
 				"rewrite": {
-						"(.*) - Mozilla Firefox": " $1",
+						"(.*) — Mozilla Firefox": " $1",
 						"(.*) - GNU Emacs at myArch": "✎ $1"
 				},
 		},

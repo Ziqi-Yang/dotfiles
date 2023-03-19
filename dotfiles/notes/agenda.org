@@ -57,7 +57,10 @@ CLOSED: [2023-03-16 Thu 22:04]
 
 *** TODO Learn the theory behind regex, how to implement it
 *** TODO https://www.fpcomplete.com/blog/rust-asref-asderef/
-*** TODO java project template add doc and test support
+*** DONE java project template add doc and test support
+CLOSED: [2023-03-18 Sat 17:57]
+*** TODO vertico multiform support list of command of name instead a symbol
+
 
 ** PROJ PROJECT
 *** PROJ [#A] contribute to git
@@ -93,7 +96,8 @@ To solve the login hard problem(not use puppetter and python selenium), for exam
 
 *** PROJ [#C] develop pastebin.com extension for firefox
 *** PROJ [#C] dict tool cli, also able to interact with rofi, wofi, dmenu
-*** PROJ 'How to' 教阿宅、老人、小孩基本的社会技能
+*** CANCELLED 'How to' 教阿宅、老人、小孩基本的社会技能
+CLOSED: [2023-03-18 Sat 17:57]
 - targets: 老人，小孩，阿宅
 - 基本社会技能：比如火车学生证，如何打车，如何坐地铁，如何坐火车(以及如何中转)，如何使用微信或者支付宝付款，如何办理银行卡，如何在b站上收益等等，不提供科学上网教程，但是提供比如在如何注册paypal以及使用paypal付款等等内容（这个应当后期考虑，甚至不考虑，这个貌似超纲了）
 - 文档一个仓库，作为submodule在app仓库下。(到底是用flutter还是html等未定，反正至少要有移动端)
@@ -114,7 +118,8 @@ don't want to use nix but still want to make rebuild and configure archlinux sys
 *** PROJ bilibili 直播弹幕游戏 - 答题
 1. 第一个答题的人获得积分
 2. 答错题有扣分(或者扣生命，扣到0就一段时间不能答题)，通过刷礼物可以减少扣分
-*** PROJ bilibili 视频自动化 搬运codepen 加上自动打代码效果
+*** CANCELLED bilibili 视频自动化 搬运codepen 加上自动打代码效果
+CLOSED: [2023-03-18 Sat 17:57]
 html转视频 https://github.com/tnfe/FFCreator
 
 *** PROJ [#C] 游戏解说ai

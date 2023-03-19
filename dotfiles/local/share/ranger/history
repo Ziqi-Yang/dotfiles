@@ -1,11 +1,3 @@
-mkdir 六级
-mkdir 
-mkdir ./audios
-rename reset.wav
-rename work.wav
-rename work_1.wav
-mkdir ./labs
-mkdir ./lab2
 rename lab02
 mkdir ./lab01
 search re
@@ -30,12 +22,10 @@ rename doc
 rename lib_
 rename lib__
 rename src__
-rename src
 rename testTree
 rename doc___
 rename Makefile__
 rename testJar
-search 
 search jd
 search jdt
 search .loca
@@ -43,8 +33,18 @@ search emacs
 search jdtls
 search eglot
 rename libs
-rename lib
 search jar
 mkdir ./main
 mkdir ./test
 mkdir -p ./java/app
+mkdir ./main/java/app
+mkdir ./test/java/app
+touch MainTest.java
+rename lib
+rename src
+rename game
+rename app
+rename Makefile
+search curr
+search 
+search mmd

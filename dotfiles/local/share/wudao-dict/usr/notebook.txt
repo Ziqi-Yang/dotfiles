@@ -1610,3 +1610,46 @@ superior             [sʊˈpɪrɪɚ]           adj. 上级的；优秀的，出�
 chores               [tʃɔrz]              n. 杂务；零工；困难的工作（chore的复数）
 correction           [kə'rɛkʃən]          n. 改正，修正
 monopoly             [mə'nɑpəli]          n. 垄断；垄断者；专卖权
+preface              [ˈpref.ɪs]           n. 前言；引语 vt. 为…加序言；以…开始 vi. 作序
+render               ['rɛndɚ]             vt. 致使；提出；实施；着色；以…回报 vi. 给予补偿 n. 打底；交纳；粉刷 n. (Render)人名；(英、德)伦德尔
+aggregation          [,ægrɪ'geʃən]        n. [地质][数] 聚合，聚集；聚集体，集合体
+exclusive            [ɪk'sklusɪv]         adj. 独有的；排外的；专一的 n. 独家新闻；独家经营的项目；排外者
+stereotype           ['stɛrɪətaɪp]        vt. 使用铅版；套用老套，使一成不变 n. 陈腔滥调，老套；铅版
+canonical            [kə'nɑnɪkl]          adj. 依教规的；权威的；牧师的 n. 牧师礼服
+elide                [ɪ'laɪd]             vt. 省略；取消；删去；不予考虑删节 n. (Elide)人名；(意)埃利德
+lollipop             ['lɑlɪ'pɑp]          n. 棒棒糖
+loli                                      n. 罗莉（指小女孩）
+pop                  [pɑp]                n. 流行音乐；汽水；砰然声；枪击 vi. 突然出现；爆开；射击；瞪大；发出爆裂声 vt. 取出；开枪打；抛出；突然伸出；突然行动 adj. 流行的；通俗的；热门的 adv. 突然；砰地 abbr. 邮局协议（post office protocol） n. (Pop)人名；(罗、捷、塞)波普
+concrete             ['kɑŋkrit]           adj. 混凝土的；实在的，具体的；有形的 vi. 凝结 vt. 使凝固；用混凝土修筑 n. 具体物；凝结物
+paradigms            ['pærədim]           n. 范例，模范（paradigm的复数形式）
+imposing             [ɪm'pozɪŋ]           adj. （建筑物等）壮观的；威风的；（仪表）堂堂的；给人深刻印象的 v. impose的ing形式
+impose               [ɪm'poz]             vi. 利用；欺骗；施加影响 vt. 强加；征税；以…欺骗
+insulating           ['ɪnsəletɪŋ]         adj. 绝缘的；隔热的 v. 使绝缘（insulate的ing形式）；隔离
+facade               [fə'sɑd]             n. 正面；表面；外观
+volatile             ['vɑlətl]            adj. [化学] 挥发性的；不稳定的；爆炸性的；反复无常的 n. 挥发物；有翅的动物 n. (Volatile)人名；(意)沃拉蒂莱
+anomalies            [ə'nɔməli]           n. 异常现象，反常现象（anomaly 复数形式）
+prior                ['praɪɚ]             adj. 优先的；在先的，在前的 adv. 在前，居先 n. (Prior)人名；(法、西、葡、捷)普里奥尔；(英)普赖尔；(意)普廖尔
+contention           [kən'tɛnʃən]         n. 争论，争辩；争夺；论点
+gracefully           ['gresfəli]          adv. 优雅地；温文地
+incurring            [in'kə:]             n. 招致（遭受）
+recurring            [rɪ'kɝɪŋ]            adj. 循环的；再发的 v. 返回（recur的现在分词）
+STATS                [stæts]              abbr. 静止坦克自动目标系统（Stationary Tank Automatic Target System）
+polymorphic          [pɑlɪ'mɔrfɪk]        adj. [生物] 多态的；[生物] 多形的；多形态的；[化学] 多晶形的（等于 polymorphous）
+morphic                                   adj. 语形学的；形态学
+poly                 ['pɑli]              n. polytechnic的缩写）工艺专科学校；科技学校；工业学校(或大学) adj. （polyester的缩写）聚酯的，涤纶的
+conform              [kən'fɔrm]           vi. 符合；遵照；适应环境 vt. 使遵守；使一致；使顺从 adj. 一致的；顺从的
+delegating           ['deliɡət; -ɡeit; 'deliɡeit] v. 授权（delegate的ing形式）；选举 n. 授权；委派；授权式 adj. 授权的
+discriminate         [dɪ'skrɪmɪnet]       vt. 歧视；区别；辨别 vi. 区别；辨别
+adhering             [əd'hiə]             adj. 附着，粘附性的；[物] 粘附的
+delegation           [,dɛlɪ'ɡeʃən]        n. 代表团；授权；委托
+commas               ['kɔmə]              n. [语] 逗号（comma的复数）
+sinks                [sɪŋk]               n. [化工] 水槽（sink的复数）；低洼地；污水池 v. 下沉；倾斜；减弱（sink的第三人称单数） n. (Sinks)人名；(英)辛克斯
+mandatory            ['mændətɔri]         adj. 强制的；托管的；命令的 n. 受托者（等于mandatary）
+lapse                [læps]               n. (一时的) 走神，判断错误
+lapsed               [læpst]              adj. 失效的；堕落的；转归他人的 v. 陷入（lapse的过去分词）；流逝；结束
+deferring            [di'fəriŋ]           推迟 服从
+screw                [skru]               vt. 旋，拧；压榨；强迫 n. 螺旋；螺丝钉；吝啬鬼 vi. 转动，拧
+flow                 [flo]                vi. 流动，涌流；川流不息；飘扬 vt. 淹没，溢过 n. 流动；流量；涨潮，泛滥 n. (Flow)人名；(英)弗洛
+concert              ['kɑnsɚt]            n. 音乐会；一致；和谐 vt. 使协调；协同安排 vi. 协调；协力 adj. 音乐会用的；在音乐会上演出的
+trade                [tred]               n. 贸易，交易；行业；职业 vi. 交易，买卖；以物易物 vt. 用…进行交换
+mortgage             ['mɔrɡɪdʒ]           vt. 抵押 n. 抵押 房屋抵押贷款

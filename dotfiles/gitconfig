@@ -23,6 +23,8 @@
     conflictstyle = diff3
 [diff]
     colorMoved = default
+[push]
+    autoSetupRemote = true
 
 [http]
 	proxy = http://127.0.0.1:7890

@@ -26,7 +26,7 @@ PKG_NAME := app
 # delete the cache directory and restart the jdtls language server.
 # the default lib directory value comes from: https://github.com/eclipse/eclipse.jdt.ls/blob/9c97b34230e7e743d26b9e0b995e1e1310c2d431/org.eclipse.jdt.ls.core/src/org/eclipse/jdt/ls/core/internal/managers/InvisibleProjectBuildSupport.java#L41
 LIBS_DIR := lib
-DOC_DIR := doc
+DOC_DIR := api_doc
 BUILD_DIR := target
 ENTRY_POINT := Main
 SOURCE_FILES := $(shell find $(SRC_DIR) -name "*.java")

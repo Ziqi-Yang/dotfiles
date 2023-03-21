@@ -1653,3 +1653,17 @@ flow                 [flo]                vi. 流动，涌流；川流不息；�
 concert              ['kɑnsɚt]            n. 音乐会；一致；和谐 vt. 使协调；协同安排 vi. 协调；协力 adj. 音乐会用的；在音乐会上演出的
 trade                [tred]               n. 贸易，交易；行业；职业 vi. 交易，买卖；以物易物 vt. 用…进行交换
 mortgage             ['mɔrɡɪdʒ]           vt. 抵押 n. 抵押 房屋抵押贷款
+frills               [frɪl]               n. 虚饰，臭架子
+odd                  [ɑd]                 adj. 奇数的；古怪的；剩余的；临时的；零散的 n. 奇数；怪人；奇特的事物 n. (Odd)人名；(英、西、挪、瑞典)奥德
+poset                                     n. 偏序集
+league               [lig]                n. 联盟；社团；范畴 vt. 使…结盟；与…联合 vi. 团结；结盟 n. (League)人名；(英)利格
+pledge               [plɛdʒ]              n. 保证，誓言；抵押；抵押品，典当物 vt. 保证，许诺；用……抵押；举杯祝……健康 n. (Pledge)人名；(英)普莱奇
+rent                 [rɛnt]               n. 租金 vt. 出租；租用；租借 vi. 租；出租 n. (Rent)人名；(瑞典)伦特
+balance              ['bæləns]            n. 平衡；余额；匀称 vt. 使平衡；结算；使相称 vi. 保持平衡；相称；抵销 n. (Balance)人名；(西)巴兰塞
+estate               [ɪ'stet]             n. 房地产；财产；身份
+embryo               ['ɛmbrɪo]            n. [胚] 胚胎；胚芽；初期 adj. 胚胎的；初期的
+censor               ['sɛnsɚ]             vt. 审查，检查；检查和删节 n. 检查员；[心理] 潜意识压抑力；信件检查员
+consortium           [kənˈsɔrʃiəm]        n. 财团；联合；合伙
+adhere               [əd'hɪr]             vi. 坚持；依附；粘着；追随 vt. 使粘附
+capacity             [kə'pæsəti]          n. 能力；容量；资格，地位；生产力
+jerk                 [dʒɝk]               n. 肌肉抽搐；性情古怪的人；蠢人；急拉 vi. 痉挛；急拉；颠簸地行进 vt. 猛拉 n. (Jerk)人名；(俄)埃尔克；(匈)耶尔克

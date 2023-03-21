@@ -32,3 +32,5 @@
 	proxy = http://127.0.0.1:7890
 [commit]
 	template = /home/zarkli/.gitmessage.txt
+[init]
+	defaultBranch = main

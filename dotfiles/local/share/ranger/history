@@ -1,3 +1,6 @@
+mkdir labs
+mkdir ./lab02
+mkdir ./新青年全球胜任力
 rename 结业证书.jpg
 rename 成绩单.jpg
 search pdf
@@ -8,7 +11,6 @@ open_with
 mkdir ./Logger
 mkdir .
 mkdir ./
-mkdir 
 rename 1.1.png
 rename 1.2-1.png
 rename 1.2-2.png
@@ -35,16 +37,14 @@ search solu
 search sql
 search 3
 mkdir ./lab03
-rename 4.2.png
-rename 4.1.png
-rename 4.1-2.png
-rename 4.1-1.png
-rename 4.3-1.png
-rename 4.3-2.png
-rename 4-4.png
-rename 4.4.png
-rename 5.1-1.png
-rename 5.1.png
-rename 5-2.png
-rename 5.2.png
+rename Makefile
 
+rename COMP2008J
+mkdir COMP2014J-data-structure-and-algs
+mkdir
+rename WS2_BSTs
+rename WS2-BSTs
+mkdir ./Util
+mkdir 
+rename resources_
+rename resources

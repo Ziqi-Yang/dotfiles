@@ -34,3 +34,5 @@
 	template = /home/zarkli/.gitmessage.txt
 [init]
 	defaultBranch = main
+[pull]
+	rebase = true

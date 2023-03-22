@@ -56,11 +56,13 @@ CLOSED: [2023-03-08 Wed 23:02]
 CLOSED: [2023-03-16 Thu 22:04]
 
 *** TODO Learn the theory behind regex, how to implement it
-*** TODO https://www.fpcomplete.com/blog/rust-asref-asderef/
+*** DONE https://www.fpcomplete.com/blog/rust-asref-asderef/
+CLOSED: [2023-03-21 Tue 21:44]
 *** DONE java project template add doc and test support
 CLOSED: [2023-03-18 Sat 17:57]
-*** TODO vertico multiform support list of command of name instead a symbol
-
+*** DONE vertico multiform support list of command of name instead a symbol
+CLOSED: [2023-03-21 Tue 23:16]
+*** TODO blog theme categories page has page limitation bug
 
 ** PROJ PROJECT
 *** PROJ [#A] contribute to git

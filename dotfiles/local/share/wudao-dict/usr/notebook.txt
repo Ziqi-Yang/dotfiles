@@ -1667,3 +1667,13 @@ consortium           [kənˈsɔrʃiəm]        n. 财团；联合；合伙
 adhere               [əd'hɪr]             vi. 坚持；依附；粘着；追随 vt. 使粘附
 capacity             [kə'pæsəti]          n. 能力；容量；资格，地位；生产力
 jerk                 [dʒɝk]               n. 肌肉抽搐；性情古怪的人；蠢人；急拉 vi. 痉挛；急拉；颠簸地行进 vt. 猛拉 n. (Jerk)人名；(俄)埃尔克；(匈)耶尔克
+bard                 [bɑrd]               n. 吟游诗人 n. (Bard)人名；(瑞典、英)巴德；(法)巴尔；(阿拉伯、德、俄)巴尔德
+notation             [no'teʃən]           n. 符号；乐谱；注释；记号法
+specification        ['spɛsəfə'keʃən]     n. 规格；说明书；详述
+utility              [ju'tɪləti]          n. 实用；效用；公共设施；功用 adj. 实用的；通用的；有多种用途的
+railroad             ['relrod]            vt. 由铁道运输；铺设铁路；以捏造不实之罪使入狱 vi. 在铁路工作；乘火车旅行；筑铁路 n. 铁路；铁路公司
+locomotive           [,lokə'motɪv]        adj. 火车头的；运动的；移动的 n. 机车；火车头
+assemble             [ə'sɛmbl]            vt. 集合，聚集；装配；收集 vi. 集合，聚集
+reconcile            ['rɛkənsaɪl]         vt. 使一致；使和解；调停，调解；使顺从
+discard              [dɪsˈkɑːrd]          vt. 抛弃；放弃；丢弃 vi. 放弃 n. 抛弃；被丢弃的东西或人
+clause               [klɔz]               n. 条款；[计] 子句 n. (Clause)人名；(法)克洛斯

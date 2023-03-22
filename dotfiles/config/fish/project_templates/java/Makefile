@@ -27,6 +27,7 @@ PKG_NAME := app
 # the default lib directory value comes from: https://github.com/eclipse/eclipse.jdt.ls/blob/9c97b34230e7e743d26b9e0b995e1e1310c2d431/org.eclipse.jdt.ls.core/src/org/eclipse/jdt/ls/core/internal/managers/InvisibleProjectBuildSupport.java#L41
 LIBS_DIR := lib
 DOC_DIR := api_doc
+RESOURCES_DIR := resources
 BUILD_DIR := target
 ENTRY_POINT := Main
 SOURCE_FILES := $(shell find $(SRC_DIR) -name "*.java")
@@ -40,10 +41,13 @@ build:
 	javac -d $(BUILD_DIR) -cp .:$(LIBS) -sourcepath $(SRC_DIR) $(SOURCE_FILES)
 
 run: build
-	java -cp $(BUILD_DIR):$(LIBS) $(ENTRY_FILE) $(ARGS)
+	java -cp $(BUILD_DIR):$(RESOURCES_DIR):$(LIBS) $(ENTRY_FILE) $(ARGS)
 
 test: build
 	java -jar $(LIBS_DIR)/junit-platform-console-standalone-1.9.2.jar --class-path $(BUILD_DIR) --scan-class-path
+
+# single test
+# java -jar $(LIBS_DIR)/junit-platform-console-standalone-1.9.2.jar --class-path $(BUILD_DIR) --select-method app.MainTest#simpleTest
 
 doc:
 	javadoc -d $(DOC_DIR) -sourcepath $(SRC_DIR)/main/java -subpackages $(PKG_NAME)

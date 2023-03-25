@@ -1,25 +1,3 @@
-mkdir labs
-mkdir ./lab02
-mkdir ./新青年全球胜任力
-rename 结业证书.jpg
-rename 成绩单.jpg
-search pdf
-mkdir ./core
-mkdir ./`
-mkdir ./card
-open_with 
-mkdir ./Logger
-mkdir .
-mkdir ./
-rename 1.1.png
-rename 1.2-1.png
-rename 1.2-2.png
-rename swappy-20230321-104213.png
-rename 1.3-1_51.png
-rename 1.3-2_69.png
-rename 1.3-3_77.png
-rename 1.3-481.png
-rename 1.3-4_81.png
 rename 2-1.png
 rename 2.2-1.png
 rename 2.1.png
@@ -36,15 +14,37 @@ rename 3.5-2.png
 search solu
 search sql
 search 3
-mkdir ./lab03
 rename Makefile
-
 rename COMP2008J
 mkdir COMP2014J-data-structure-and-algs
-mkdir
 rename WS2_BSTs
 rename WS2-BSTs
 mkdir ./Util
 mkdir 
 rename resources_
 rename resources
+search pdf
+mkdir
+mkdir ./dict
+rename dicts
+rename en_US-large.dic
+shell e
+search se
+rename 杨子祺-21372225-附件1：北京工业大学2023年国际志愿服务学生志愿者报名表.doc
+rename 杨子祺-21372225-附件3：北京工业大学2023年国际志愿服务报名汇总表.xls
+open_with 9
+search doc
+mkdir ./lab03
+search sin
+searckkkkkkkkkkk
+search signatu
+search mid
+search min
+
+mkdir ./GAme
+rename Game
+search 
+search fin
+find z
+search emacs
+search user

@@ -1677,3 +1677,15 @@ assemble             [ə'sɛmbl]            vt. 集合，聚集；装配；收�
 reconcile            ['rɛkənsaɪl]         vt. 使一致；使和解；调停，调解；使顺从
 discard              [dɪsˈkɑːrd]          vt. 抛弃；放弃；丢弃 vi. 放弃 n. 抛弃；被丢弃的东西或人
 clause               [klɔz]               n. 条款；[计] 子句 n. (Clause)人名；(法)克洛斯
+correlation          [,kɔrə'leʃən]        n. [数] 相关，关联；相互关系
+chain                [tʃen]               n. 链；束缚；枷锁 vt. 束缚；囚禁；用铁链锁住
+preliminary          [prɪ'lɪmɪnɛri]       n. 准备；预赛；初步措施 adj. 初步的；开始的；预备的
+warehouse            ['wɛrhaʊs]           n. 仓库；货栈；大商店 vt. 储入仓库；以他人名义购进（股票）
+typesetting          ['taɪp,sɛtɪŋ]        adj. 排字用的 n. 排字
+sparse               [spɑrs]              adj. 稀疏的；稀少的
+excursion            [ɪk'skɝʒn]           n. 偏移；远足；短程旅行；离题；游览，游览团
+constituent          [kən'stɪtʃuənt]      n. 成分；选民；委托人 adj. 构成的；选举的
+brace                [bres]               n. 支柱；[语] 大括号；曲柄 vt. 支撑；振作起来；激励；撑牢 vi. 支持；打起精神 adj. 曲柄的 n. (Brace)人名；(英)布雷斯；(法)布拉斯
+braces               ['bresiz]            n. 背带；吊带（brace的复数）
+scape                [skeɪp]              n. （昆）柄节（触角的长基节）；（植） 花茎；（鸟） 羽轴；（建） 柱身
+navy                 ['nevi]              n. 海军 深蓝色的

@@ -37,8 +37,9 @@ ARGS :=
 
 .PHONY: build run test doc clean jdtls_clean
 build:
-	mkdir -p $(BUILD_DIR)
-	javac -d $(BUILD_DIR) -cp .:$(LIBS) -sourcepath $(SRC_DIR) $(SOURCE_FILES)
+	@echo building...
+	@mkdir -p $(BUILD_DIR)
+	@javac -d $(BUILD_DIR) -cp .:$(LIBS) -sourcepath $(SRC_DIR) $(SOURCE_FILES)
 
 run: build
 	java -cp $(BUILD_DIR):$(RESOURCES_DIR):$(LIBS) $(ENTRY_FILE) $(ARGS)

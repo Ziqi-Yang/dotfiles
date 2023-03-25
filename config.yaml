@@ -209,6 +209,9 @@ dotfiles:
   d_swaylock:
     src: config/swaylock
     dst: ~/.config/swaylock
+  d_bat:
+    src: config/bat
+    dst: ~/.config/bat
 profiles:
   myArch:
     dotfiles:
@@ -279,3 +282,4 @@ profiles:
     - f_config
     - d_sway
     - d_swaylock
+    - d_bat

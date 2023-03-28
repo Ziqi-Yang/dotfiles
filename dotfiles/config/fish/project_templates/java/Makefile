@@ -35,7 +35,7 @@ ENTRY_FILE := $(SRC_DIR)/main/java/$(PKG_NAME)/Main.java
 LIBS := $(shell find $(LIBS_DIR) -name "*.jar" | paste -sd ":" -)
 ARGS := 
 
-.PHONY: build run test doc clean jdtls_clean
+.PHONY: build run test doc clean jdtls_clean gen_tags
 build:
 	@echo building...
 	@mkdir -p $(BUILD_DIR)
@@ -58,3 +58,6 @@ clean:
 
 jdtls_clean:
 	rm -rf /tmp/jdtls*
+
+gen_tags:
+	etags.emacs $$(find $(SRC_DIR) -type f -name "*.java")

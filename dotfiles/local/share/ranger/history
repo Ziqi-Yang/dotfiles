@@ -1,20 +1,3 @@
-rename 2-1.png
-rename 2.2-1.png
-rename 2.1.png
-rename 2.2-2.png
-rename 2.3-1.png
-rename 2.3-2.png
-rename 3.1.png
-rename 3.2.png
-rename 3.3.png
-rename 3.4.png
-rename kj.png
-rename 3.5-1.png
-rename 3.5-2.png
-search solu
-search sql
-search 3
-rename Makefile
 rename COMP2008J
 mkdir COMP2014J-data-structure-and-algs
 rename WS2_BSTs
@@ -23,7 +6,6 @@ mkdir ./Util
 mkdir 
 rename resources_
 rename resources
-search pdf
 mkdir
 mkdir ./dict
 rename dicts
@@ -40,11 +22,29 @@ searckkkkkkkkkkk
 search signatu
 search mid
 search min
-
 mkdir ./GAme
 rename Game
-search 
 search fin
 find z
 search emacs
 search user
+mkdir ./asdf
+rename tree-sitter
+search typst
+
+mkdir ./lab0
+rename typst-mode.pdf
+search java
+search lab
+search pdf
+search 
+search 6
+mkdir ./COMP2013J_database
+mkdir ./lab04
+rename lab04
+search em
+search db
+search tar
+search cma
+search zip
+rename ZiqiYang-21207440-WarehouseDemo.zip

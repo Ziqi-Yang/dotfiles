@@ -1689,3 +1689,13 @@ brace                [bres]               n. 支柱；[语] 大括号；曲柄 v
 braces               ['bresiz]            n. 背带；吊带（brace的复数）
 scape                [skeɪp]              n. （昆）柄节（触角的长基节）；（植） 花茎；（鸟） 羽轴；（建） 柱身
 navy                 ['nevi]              n. 海军 深蓝色的
+showcase             ['ʃokes]             n. 陈列橱，[家具] 陈列柜；显示优点的东西 vt. 使展现；在玻璃橱窗陈列
+underlying           [,ʌndɚ'laɪɪŋ]        adj. 潜在的；根本的；在下面的；优先的 v. 放在…的下面；为…的基础；优先于（underlie的ing形式）
+preceding            ['prisidɪŋ]          adj. 在前的；前述的 v. 在...之前（precede的ing形式）
+cosmetic             [kɑz'mɛtɪk]          adj. 美容的；化妆用的 n. 化妆品；装饰品
+brackets             ['brækɪts]           n. 支架；括号，圆括号；舱口围板支架（bracket的复数） v. 给…装上托架；把…容纳在内（bracket的三单形式）
+apostrophes          [ə'pɔstrəfi]         n. 省略符号
+ignorant             ['ɪɡnərənt]          adj. 无知的；愚昧的
+emphasis             ['ɛmfəsɪs]           n. 重点；强调；加强语气
+novice               ['nɑvɪs]             n. 初学者，新手 n. (Novice)人名；(法)诺维斯
+Rubato               [rʊˈbɑto]            n. 自由速度 adj. 自由速度的 adv. 以自由节奏演奏地

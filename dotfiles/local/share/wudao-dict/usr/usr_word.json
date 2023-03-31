@@ -734,7 +734,7 @@
     "compromised": 3,
     "tangled": 1,
     "ligature": 1,
-    "refactor": 1,
+    "refactor": 2,
     "overly": 1,
     "BUTs": 1,
     "nuts": 1,
@@ -979,7 +979,7 @@
     "comma": 1,
     "notation": 2,
     "interpreted": 1,
-    "synchronously": 1,
+    "synchronously": 2,
     "CONS": 1,
     "transpose": 1,
     "curated": 1,
@@ -1441,5 +1441,6 @@
     "ignorant": 1,
     "emphasis": 1,
     "novice": 3,
-    "Rubato": 1
+    "Rubato": 1,
+    "refractory": 1
 }

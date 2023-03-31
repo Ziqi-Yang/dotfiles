@@ -14,7 +14,7 @@
 [interactive]
 	diffFilter = delta --color-only --features=interactive
 [delta]
-	features = coracias-caudatus # mantis-shrimp woolly-mammoth tangara-chilensis
+	features = hoopoe # coracias-caudatus mantis-shrimp woolly-mammoth tangara-chilensis
 	line-numbers = true
 	side-by-side = true
     navigate = true    # use n and N to move between diff sections

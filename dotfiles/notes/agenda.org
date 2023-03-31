@@ -62,10 +62,15 @@ CLOSED: [2023-03-21 Tue 21:44]
 CLOSED: [2023-03-18 Sat 17:57]
 *** DONE vertico multiform support list of command of name instead a symbol
 CLOSED: [2023-03-21 Tue 23:16]
-*** TODO blog theme categories page has page limitation bug
+*** DONE blog theme categories page has page limitation bug
+CLOSED: [2023-03-28 Tue 21:37]
 *** TODO https://github.com/haritkapadia/ts-movement
-*** TODO try https://github.com/minad/jinx
+*** DONE try https://github.com/minad/jinx
+CLOSED: [2023-03-28 Tue 21:36]
 *** TODO add system upgrade(ing) indicator
+*** TODO https://github.com/mkirchner/linked-list-good-taste
+*** TODO learn cloudflare 反向代理 脚本编写
+
 
 ** PROJ PROJECT
 *** PROJ [#A] contribute to git

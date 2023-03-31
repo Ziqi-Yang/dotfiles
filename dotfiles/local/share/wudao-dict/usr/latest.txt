@@ -1,6 +1,3 @@
-stereotype
-canonical
-elide
 lollipop
 loli
 lollipop
@@ -98,3 +95,6 @@ novice
 novice
 Rubato
 warehouse
+synchronously
+refractory
+refactor

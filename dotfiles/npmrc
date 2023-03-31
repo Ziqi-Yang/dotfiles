@@ -2,4 +2,4 @@ prefix=/home/zarkli/.npm-global
 init-license=MIT
 init-author-anme=Meow King
 init-author-email=mr.ziqiyang@gmail.com
-registry=http://mirrors.cloud.tencent.com/npm/
+registry=https://registry.npmmirror.com/

@@ -1699,3 +1699,6 @@ ignorant             ['ɪɡnərənt]          adj. 无知的；愚昧的
 emphasis             ['ɛmfəsɪs]           n. 重点；强调；加强语气
 novice               ['nɑvɪs]             n. 初学者，新手 n. (Novice)人名；(法)诺维斯
 Rubato               [rʊˈbɑto]            n. 自由速度 adj. 自由速度的 adv. 以自由节奏演奏地
+synchronously        ['siŋkrənəsli]       adv. 同步地；同时地
+refractory           [rɪ'fræktəri]        adj. 难治的；难熔的；不听话的 n. 倔强的人；耐火物质
+refactor             [ri'fæktə]           n. 重构 vt. 重构

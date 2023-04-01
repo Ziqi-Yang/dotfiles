@@ -1,7 +1,3 @@
-search sin
-searckkkkkkkkkkk
-search signatu
-search mid
 search min
 mkdir ./GAme
 rename Game
@@ -48,3 +44,7 @@ search tem
 exclude
 mkdir ./exclude
 search java
+open_with a
+rename test
+rename general.typ
+rename syntax.typ

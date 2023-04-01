@@ -1702,3 +1702,4 @@ Rubato               [rʊˈbɑto]            n. 自由速度 adj. 自由速度�
 synchronously        ['siŋkrənəsli]       adv. 同步地；同时地
 refractory           [rɪ'fræktəri]        adj. 难治的；难熔的；不听话的 n. 倔强的人；耐火物质
 refactor             [ri'fæktə]           n. 重构 vt. 重构
+corpus               ['kɔrpəs]            n. [计] 语料库；文集；本金 n. (Corpus)人名；(西)科尔普斯

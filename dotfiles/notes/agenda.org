@@ -70,7 +70,7 @@ CLOSED: [2023-03-28 Tue 21:36]
 *** TODO add system upgrade(ing) indicator
 *** TODO https://github.com/mkirchner/linked-list-good-taste
 *** TODO learn cloudflare 反向代理 脚本编写
-
+*** TODO typst watch show/hide compilation window
 
 ** PROJ PROJECT
 *** PROJ [#A] contribute to git

@@ -44,6 +44,10 @@ default_floating_border none
 font pango:monospace 0
 titlebar_padding 1
 titlebar_border_thickness 0
+# smart gaps
+gaps inner 10
+smart_borders on
+smart_gaps on
 
 ## Window Rules
 # works for alacritty --class floating, but not for 'kitty --class floating'

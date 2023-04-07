@@ -1703,3 +1703,34 @@ synchronously        ['siŋkrənəsli]       adv. 同步地；同时地
 refractory           [rɪ'fræktəri]        adj. 难治的；难熔的；不听话的 n. 倔强的人；耐火物质
 refactor             [ri'fæktə]           n. 重构 vt. 重构
 corpus               ['kɔrpəs]            n. [计] 语料库；文集；本金 n. (Corpus)人名；(西)科尔普斯
+proofreading         [ˈpruːfriːdɪŋ]       v. 校对（proofread 的现在分词）
+messes               [mes]                弄糟 弄乱 妨碍（mess的第三人称单数） 杂乱，脏乱（mess的名词复数）
+expect               [ɪk'spɛkt]           vt. 期望；指望；认为；预料 vi. 期待；预期
+compound             ['kɑmpaʊnd]          n. [化学] 化合物；混合物；复合词 adj. 复合的；混合的 v. 合成；混合；恶化，加重；和解，妥协
+Backus                                    巴克斯
+coerced              [kəu'ə:s]            强制，强迫，胁迫，迫使（coerce的过去式和过去分词）
+de-facto             [ˌdeɪ ˈfæktoʊ]       （法）实际上的
+saturating           [sætʃəˌretɪŋ]        adj. 饱和的；浸透的 v. 使饱和；使浸透（saturate的现在分词）
+sentinel             ['sɛntɪnl]           n. 哨兵 vt. 守卫，放哨
+prohibited           [prə(ʊ)'hɪbɪtɪd]     v. 禁止（prohibit的过去分词形式） adj. 被禁止的
+rumour               ['ruːmə]             n. 谣言 vt. 传闻
+mongering            [ˈmʌŋɡərɪŋ]          adj. 贩卖的；兜售的 v. 贩卖；兜售（monger 的现在分词）
+defame               [dɪ'feɪm]            v. 诽谤；中伤
+election             [ɪ'lɛkʃən]           n. 选举；当选；选择权；上帝的选拔
+exchange             [ɪks'tʃendʒ]         n. 交换；交流；交易所；兑换 vt. 交换；交易；兑换 vi. 交换；交易；兑换
+mala                 ['meilə]             n. 磨面；叶 n. (Mala)人名；(俄、葡、芬、意、乍、塞、尼日利)马拉
+FIDE                 ['faɪd]              abbr. 世界国际象棋联合会（Fédération Internationale des Echecs，即International Chess Federation）
+repercussions        [ri:pə(:)'kʌʃəns]    n. 反响，影响（repercussion的复数形式）
+incite               [ɪn'saɪt]            vt. 煽动；激励；刺激
+curb                 [kɝb]                n. 抑制；路边；勒马绳 vt. 控制；勒住
+whereby              [wɛr'bai]            adv. 凭借；通过…；借以；与…一致
+viral                ['vaɪrəl]            adj. 病毒性的
+mobilize             ['mobəlaɪz]          vt. 动员，调动；集合，组织；使…流通；使…松动 vi. 组织；动员起来
+instigate            ['ɪnstə'get]         vt. 唆使；煽动；教唆；怂恿
+destablize                                脱稳定化
+normalcy             ['nɔrmlsi]           n. 常态
+intrinsic            [ɪn'trɪnsɪk]         adj. 本质的，固有的
+wordsmiths           [ˈwɜːrdsmɪθ]         n. 擅长文字的人，舞文弄墨者；作家
+stalwart             ['stɔlwɚt]           adj. 坚定的；健壮的 n. 坚定分子
+glean                [ɡlin]               vt. 收集（资料）；拾（落穗） vi. 收集；拾落穗
+compels              [kəm'pelz]           v. 强迫

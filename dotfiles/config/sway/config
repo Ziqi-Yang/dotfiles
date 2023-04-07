@@ -16,7 +16,7 @@ exec firefox
 
 ## Idle configuration
 exec swayidle -w \
-		 timeout 300 'swaylock' \
+		 timeout 600 'swaylock' \
 		 timeout 300 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
 		 before-sleep 'swaylock'
 
@@ -37,12 +37,17 @@ input "type:touchpad" {
 }
 
 ## UI
+# TokyoNight theme
+# Property Name             Border  BG      Text    Indicator Child-border
+client.focused              #bdc3c7 #000000 #000000 
+client.unfocused            #2c3e50aa #000000 #000000
+
 output * bg ~/Pictures/background/8.jpg fill
 # disable(hide) title bar
 default_border none
 default_floating_border none
 font pango:monospace 0
-titlebar_padding 1
+titlebar_padding 3
 titlebar_border_thickness 0
 # smart gaps
 gaps inner 10

@@ -5,4 +5,5 @@
 sudo pacman -S polkit sway swaylock swayidle swaybg
 #+end_src
 * Note
-The =./sway_wrap= is copied from =/usr/share/wayland-sessions/sway_wrap= (created manually)
+1. The =./sway_wrap= is copied from =/usr/share/wayland-sessions/sway_wrap= (created manually)
+2. The =./environment= is copied from =/usr/environment=

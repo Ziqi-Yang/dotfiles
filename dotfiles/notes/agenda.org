@@ -71,6 +71,14 @@ CLOSED: [2023-03-28 Tue 21:36]
 *** TODO https://github.com/mkirchner/linked-list-good-taste
 *** TODO learn cloudflare 反向代理 脚本编写
 *** TODO typst watch show/hide compilation window
+and comment symbol used by evil
+*** DONE typst improve indentation
+CLOSED: [2023-04-07 Fri 17:32]
+*** TODO blog import post blogs(in logseq)?
+*** DONE typst url add '-' character
+CLOSED: [2023-04-07 Fri 17:32]
+*** DONE 记录使用 rime-ice 输入法历程
+CLOSED: [2023-04-07 Fri 17:32]
 
 ** PROJ PROJECT
 *** PROJ [#A] contribute to git

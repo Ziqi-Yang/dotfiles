@@ -31,6 +31,15 @@ Note: you should add =--net host= when you run =docker run= to make the proxy wo
   docker run --net host --rm -it -v .:/mnt -w /mnt rcore-tutorial-v3 bash 
 #+end_src
 
+* Rime Input Method
+#+begin_src shell
+sudo pacman -S fcitx5-rime librime
+cd /tmp
+git clone https://github.com/iDvel/rime-ice --depth=1
+mkdir -p ~/.local/share/fcitx5/rime
+cp -r ./rime-ice/* ~/.local/share/fcitx5/rime
+#+end_src
+
 * Random
 1. =onefetch=: like =neofetch=, but show project information
 

@@ -1,50 +1,50 @@
-search min
-mkdir ./GAme
-rename Game
-search fin
-find z
-search emacs
-search user
-mkdir ./asdf
-rename tree-sitter
-search typst
-mkdir ./lab0
-rename typst-mode.pdf
-search lab
-search 6
-mkdir ./COMP2013J_database
-mkdir ./lab04
-rename lab04
-search em
-search db
-search tar
-search cma
-search zip
-rename ZiqiYang-21207440-WarehouseDemo.zip
-mkdir ./
-mkdir ./lab03
-search pdf
-search ws
-rename COMP2014J_algo
-
-mkdir ./2.typ
-touch 2.typ
-rename _mind-wave
+search dad
+search date
+mkdir ./lab05
+mkdir ./COMP2013J
+rename COMP2013J_database
+rename Week7Lab
+search inde
 open_with 
-rename mind-wave
-search jinx
-search mind
-rename openai-api-key.txt
-open_with 7
-search .emacs
+mkdir ./lib
+rename VEF_杨子祺Yang Ziqi.docx
+rename 杨子祺 Yang Ziqi.xlsx
+rename VEF_杨子祺 Yang Ziqi.docx
+search notice
+rename 国际志愿者
+mount
+search typs
+search wri
+mkdir ./环生
+search in
+search intro
+search html
+search pic
+search 电动
+search 空调
+search 脑
+search yus
+search 鱼
+open_with 1
+rename Yang_Ziqi_21207440.pdf
+search .confg
+find 
 search 
-search pol
-search tempel
-search tem
-exclude
-mkdir ./exclude
-search java
-open_with a
-rename test
-rename general.typ
-rename syntax.typ
+search .config
+search config
+search rime
+search fc
+searchhj
+mkdir ./rime.back
+touch empty.typ
+search zig
+rename Yang_Ziqi_21207440_Annotated_Bibliography.pdf
+search zip
+search rar
+search pdf
+search p
+search proj
+search c
+mkdir ./cc
+mkdir .
+

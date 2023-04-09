@@ -1,9 +1,3 @@
-search dad
-search date
-mkdir ./lab05
-mkdir ./COMP2013J
-rename COMP2013J_database
-rename Week7Lab
 search inde
 open_with 
 mkdir ./lib
@@ -41,10 +35,16 @@ search zig
 rename Yang_Ziqi_21207440_Annotated_Bibliography.pdf
 search zip
 search rar
-search pdf
 search p
 search proj
 search c
 mkdir ./cc
 mkdir .
 
+search pdf
+rename The Complete English Worksheet Library
+search ctags
+search tags
+rename file10
+rename xxxxxx
+rename xxxxxx_asdf

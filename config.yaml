@@ -212,6 +212,9 @@ dotfiles:
   d_bat:
     src: config/bat
     dst: ~/.config/bat
+  d_gitui:
+    src: config/gitui
+    dst: ~/.config/gitui
 profiles:
   myArch:
     dotfiles:
@@ -283,3 +286,4 @@ profiles:
     - d_sway
     - d_swaylock
     - d_bat
+    - d_gitui

@@ -42,7 +42,7 @@ input "type:touchpad" {
 client.focused              #bdc3c7 #000000 #000000 
 client.unfocused            #2c3e50aa #000000 #000000
 
-output * bg ~/Pictures/background/8.jpg fill
+output * bg ~/Pictures/background/16.png fill
 # disable(hide) title bar
 default_border none
 default_floating_border none
@@ -92,6 +92,8 @@ bindsym $mod+Shift+$left move left
 bindsym $mod+Shift+$down move down
 bindsym $mod+Shift+$up move up
 bindsym $mod+Shift+$right move right
+
+bindsym Alt+Tab focus prev
 
 #
 # @ Workspaces:

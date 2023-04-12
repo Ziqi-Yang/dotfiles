@@ -80,6 +80,8 @@ CLOSED: [2023-04-07 Fri 17:32]
 *** DONE 记录使用 rime-ice 输入法历程
 CLOSED: [2023-04-07 Fri 17:32]
 *** TODO class3.zps1.cn 重写
+*** TODO https://github.com/Yidadaa/ChatGPT-Next-Web
+
 
 ** PROJ PROJECT
 *** PROJ [#A] contribute to git

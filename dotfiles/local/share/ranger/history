@@ -1,18 +1,6 @@
-search inde
-open_with 
-mkdir ./lib
-rename VEF_杨子祺Yang Ziqi.docx
-rename 杨子祺 Yang Ziqi.xlsx
-rename VEF_杨子祺 Yang Ziqi.docx
-search notice
-rename 国际志愿者
-mount
-search typs
-search wri
 mkdir ./环生
 search in
 search intro
-search html
 search pic
 search 电动
 search 空调
@@ -33,7 +21,6 @@ mkdir ./rime.back
 touch empty.typ
 search zig
 rename Yang_Ziqi_21207440_Annotated_Bibliography.pdf
-search zip
 search rar
 search p
 search proj
@@ -41,10 +28,23 @@ search c
 mkdir ./cc
 mkdir .
 
-search pdf
 rename The Complete English Worksheet Library
 search ctags
 search tags
 rename file10
 rename xxxxxx
 rename xxxxxx_asdf
+search ssh-add
+search ss
+rename ExtraLargeProjects
+search web
+search html
+search projec
+mkdir ./IS
+search docs
+search doc
+search java
+search zip
+rename Assignment1-Source
+search pdf
+search avl

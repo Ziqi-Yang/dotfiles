@@ -57,6 +57,7 @@ smart_gaps on
 ## Window Rules
 # works for alacritty --class floating, but not for 'kitty --class floating'
 for_window [app_id="floating"] floating enable
+for_window [app_id="fullscreen"] fullscreen enable
 assign [app_id="^firefox$"] workspace 3
 
 ## Keybindings

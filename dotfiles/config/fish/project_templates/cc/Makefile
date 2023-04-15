@@ -68,4 +68,7 @@ run: debug # must use label, since in debug label, we update $CPPFLAGS
 runRelease: release
 	$(RELEASE_DIR)/$(TARGET_EXEC)
 
+runDebug: debug
+	 cgdb $(DEBUG_DIR)/$(TARGET_EXEC)
+
 -include $(DEPS)

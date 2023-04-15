@@ -9,6 +9,9 @@ set $right l
 set $term kitty
 set $menu rofi -show combi -show-icons
 
+# fix issue https://github.com/swaywm/sway/wiki#gtk-applications-take-20-seconds-to-start
+exec dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
+
 ## autostart
 exec ~/.config/sway/autostart.sh
 exec swaymsg "workspace 1; exec kitty;"

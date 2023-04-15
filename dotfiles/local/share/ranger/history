@@ -1,33 +1,9 @@
-mkdir ./环生
-search in
-search intro
-search pic
-search 电动
-search 空调
-search 脑
-search yus
-search 鱼
-open_with 1
-rename Yang_Ziqi_21207440.pdf
-search .confg
-find 
-search 
-search .config
-search config
-search rime
-search fc
-searchhj
-mkdir ./rime.back
-touch empty.typ
-search zig
 rename Yang_Ziqi_21207440_Annotated_Bibliography.pdf
 search rar
 search p
 search proj
 search c
 mkdir ./cc
-mkdir .
-
 rename The Complete English Worksheet Library
 search ctags
 search tags
@@ -48,3 +24,27 @@ search zip
 rename Assignment1-Source
 search pdf
 search avl
+search csv
+search ar
+mkdir ./papers
+search pap
+rename Generative Agents: Interactive Simulacra of Human Behavior.pdf
+Generative Agents: Interactive Simulacra of Human Behavior
+mkdir Generative Agents: Interactive Simulacra of Human Behavior
+search paper
+search risc
+search adven
+search adve
+mkdir ./2
+mkdir ./2022
+mkd
+mkdir .
+mkdir ./bin
+
+open_with a
+search reou
+search res
+mkdir ./ActionExceptions
+PropertyCardExceptions
+mkdir ./PropertyCardExceptions
+search 

@@ -81,7 +81,7 @@ CLOSED: [2023-04-07 Fri 17:32]
 CLOSED: [2023-04-07 Fri 17:32]
 *** TODO class3.zps1.cn 重写
 *** TODO https://github.com/Yidadaa/ChatGPT-Next-Web
-
+*** TODO compilation buffer use `project-find-file` to find error file
 
 ** PROJ PROJECT
 *** PROJ [#A] contribute to git
@@ -166,3 +166,4 @@ some crates doesn't have tags :|
 2. references:
    a) zoxide
 *** PROJ chatgpt + 拍照搜题？
+*** PROJ simulate https://arxiv.org/abs/2304.03442v1 (25 ai agents)

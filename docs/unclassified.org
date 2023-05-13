@@ -45,3 +45,6 @@ cp -r ./rime-ice/* ~/.local/share/fcitx5/rime
 
 * Power Management/Saving
 refer to [[https://arch.icekylin.online/guide/advanced/power-ctl.html][arch.icekylin.online]]
+** Debug & Test Tools
+1. https://github.com/brendangregg/FlameGraph
+2. https://github.com/sharkdp/hyperfine

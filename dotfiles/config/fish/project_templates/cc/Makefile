@@ -62,13 +62,16 @@ clean:
 	rm -r $(BUILD_DIR)
 
 # run debug target
+# make run ARGS="arg1 arg2"
 run: debug # must use label, since in debug label, we update $CPPFLAGS
-	$(DEBUG_DIR)/$(TARGET_EXEC)
+	$(DEBUG_DIR)/$(TARGET_EXEC) $(ARGS) 
 
+# make runRelease ARGS="arg1 arg2"
 runRelease: release
-	$(RELEASE_DIR)/$(TARGET_EXEC)
+	$(RELEASE_DIR)/$(TARGET_EXEC) $(ARGS)
 
+# make runDebug ARGS="arg1"
 runDebug: debug
-	 cgdb $(DEBUG_DIR)/$(TARGET_EXEC)
+	 cgdb $(DEBUG_DIR)/$(TARGET_EXEC) $(ARGS)
 
 -include $(DEPS)

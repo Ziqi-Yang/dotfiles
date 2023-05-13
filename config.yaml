@@ -191,9 +191,6 @@ dotfiles:
   d_texmf:
     src: texmf
     dst: ~/texmf
-  f_config.json:
-    src: docker/config.json
-    dst: ~/.docker/config.json
   f_starship.toml:
     src: config/starship.toml
     dst: ~/.config/starship.toml
@@ -279,7 +276,6 @@ profiles:
     - d_helix
     - f_code-flags.conf
     - d_texmf
-    - f_config.json
     - f_starship.toml
     - f_gitignore_global
     - f_config

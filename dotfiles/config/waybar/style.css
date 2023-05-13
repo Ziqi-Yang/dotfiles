@@ -31,7 +31,7 @@
 
 /* The whole bar */
 #waybar {
-    background: rgba(52, 73, 94,0.5);
+    background: rgba(52, 73, 94, 0.8);
     color: #ecf0f1;
     font-family: "Zpix", "Font Awesome 6 Free Solid", "Material Design Icons Desktop", "IcoFont";
     font-size: 10px;

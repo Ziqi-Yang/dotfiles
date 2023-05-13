@@ -143,7 +143,7 @@ sudo sed -i "s/#HandleLidSwitchExternalPower=suspend/HandleLidSwitchExternalPowe
 
 sudo sed -i 's/#MAKEFLAGS=.*/MAKEFLAGS="-j$(nproc)"/g' /etc/makepkg.conf
 
-sudo sed -i 's/# deny =.*/deny = 5/g' /etc/security/faillock.conf
+sudo sed -i 's/# deny =.*/deny = 10/g' /etc/security/faillock.conf
 
 sudo pacman -S highlight poppler mediainfo w3m catdoc docx2txt jq python-pdftotext ffmpegthumbnailer fontforge trash-cli unarchiver zoxide dragon-drop
 

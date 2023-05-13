@@ -3,6 +3,9 @@
 /api_doc
 /TAGS
 
+### Emacs ###
+'
+
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/

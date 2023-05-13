@@ -593,9 +593,9 @@ sudo sed -i "s/#HandleLidSwitchExternalPower=suspend/HandleLidSwitchExternalPowe
 #+begin_src sh
 sudo sed -i 's/#MAKEFLAGS=.*/MAKEFLAGS="-j$(nproc)"/g' /etc/makepkg.conf
 #+end_src
-** Increase sudo login time limit
+** Increase sudo login number of try limit
 #+begin_src sh
-sudo sed -i 's/# deny =.*/deny = 5/g' /etc/security/faillock.conf
+sudo sed -i 's/# deny =.*/deny = 10/g' /etc/security/faillock.conf
 #+end_src
 ** Ranger Enhance
 *** Command & Preview

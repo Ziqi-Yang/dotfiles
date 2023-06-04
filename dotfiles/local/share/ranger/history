@@ -1,50 +1,50 @@
-search pkg
-search bod
-rename rustsbi-qemu.bin
-wo
+search photo
+rename images
+mkdir ./resources
+shell 
 search zip
-mkdir ./其他
-rename 都柏林支部寒假活动一-二十大相关报告笔记-杨子祺-21372225.pdf
-search desk
-search info
-rename ICJA2.zip
-search
-search 
-search projec
-mkdir ./temp
-mkdir ./example 
-search essasy
-search essay
-search web
-search chrome
-rename 2023年5月思想报告.docx
-rename 2022年6月思想汇报.docx
-rename 2022年9月思想汇报.docx
-rename 2022年12 思想报告.odt
-open_with 
-search tmp
-rename 杨子祺.pdf
-mount
-search des
-search mach
-search machine
-search how
-search H
-search Ho
-search assignment
-
-rename Assignment2-Source
+search ppt
+search pdf
+rename 14-Control Plane-2.pptx
+search packet
+mkdir ./network-report
+rename ab
+rename template.typ
+search jp
+rename bjut.jpg
+rename bjut_map.jpg
+rename ysyx.png
+rename bjut-google-map.png
+search jpg
+mk
+mkdir ./network
+rename assignment2
+mkdir ./report
 shell
-search tw
-search 10
-search di
-rename 10-Dijkstra’s Shortest Path Example.pdf
-rename 10b-Dijkstra’s Shortest Path Example.pdf
-rename 10b-Shortest Path Example (Completed).pdf
-rename 10c-Shortest-Path-Exercises.pdf
-rename wallpaperflare.com_wallpaper.jpg
-mkdir ./bocchi_the_rock
-rename 1.jpg
-rename 14.jpg
-.jpg
-rename 15.jpg
+search con
+search class
+rename static_route_0.png
+rename static_route_BJUT MAIN ROUTER.png
+rename static_route_BJUT_MAIN_ROUTER.png
+rename static_route_0_BJUT_MAIN_ROUTER.png
+rename static_route_0_Cloud.png
+rename static_route_1_Cloud.png
+rename static_route_2_tracer.png
+rename 12b-code--Huffman.java
+rename 12b-code-Huffman-Library.jar
+mkdir ./
+open_with 
+rename lab04
+rename lab5
+rename lab05
+rename lab06
+search test
+search ex
+
+search 
+search tmp
+rename jline-3.23.1-SNAPSHOT-javadoc.jar
+open_with a
+search trave
+search travel
+search tra

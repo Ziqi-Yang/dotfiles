@@ -19,6 +19,10 @@ CLOSED: [2023-02-01 Wed 20:23]
 *** DONE not use aggressive mode in python mode
 CLOSED: [2023-03-16 Thu 22:04]
 
+*** TODO try joshuto
+DEADLINE: <2023-05-27 Sat>
+
+
 
 ** PROG PROGRAMMING
 *** TODO [#A] leetcode everyday problem [[file:algo.org][algo.org]]
@@ -168,5 +172,6 @@ some crates doesn't have tags :|
 DEADLINE: <2023-05-09 Tue>
 references:
 1. https://github.com/softprops/treeline
+
 
 

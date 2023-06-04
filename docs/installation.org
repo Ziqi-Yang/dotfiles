@@ -205,7 +205,7 @@ fc-cache -rv
 **** Chinese Font
 - =ttf-zpix=: pixel font
 #+begin_src sh
-sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra  ttf-lxgw-wenkai ttf-lxgw-wenkai-mono wqy-zenhei
+sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra  ttf-lxgw-wenkai ttf-lxgw-wenkai-mono wqy-zenhei otf-latin-modern
 #+end_src
 
 #+begin_src sh :tangle post.sh

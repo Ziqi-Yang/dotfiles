@@ -29,7 +29,6 @@ LIBS_DIR := lib
 DOC_DIR := api_doc
 RESOURCES_DIR := resources
 BUILD_DIR := target
-ENTRY_POINT := Main
 SOURCE_FILES := $(shell find $(SRC_DIR) -name "*.java")
 ENTRY_FILE := $(SRC_DIR)/main/java/$(PKG_NAME)/Main.java
 LIBS := $(shell find $(LIBS_DIR) -name "*.jar" | paste -sd ":" -)
@@ -51,7 +50,7 @@ test: build
 # java -jar $(LIBS_DIR)/junit-platform-console-standalone-1.9.2.jar --class-path $(BUILD_DIR) --select-method app.MainTest#simpleTest
 
 doc:
-	javadoc -d $(DOC_DIR) -sourcepath $(SRC_DIR)/main/java -subpackages $(PKG_NAME)
+	javadoc -d $(DOC_DIR) -cp $(LIBS) -sourcepath $(SRC_DIR)/main/java -subpackages $(PKG_NAME)
 
 clean:
 	rm -rf $(BUILD_DIR) $(DOC_DIR)

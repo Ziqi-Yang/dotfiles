@@ -54,7 +54,7 @@ mkdir -p ~/.local/share/fonts
 cp assets/fonts/* ~/.local/share/fonts/
 fc-cache -rv
 
-sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra  ttf-lxgw-wenkai ttf-lxgw-wenkai-mono wqy-zenhei
+sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra  ttf-lxgw-wenkai ttf-lxgw-wenkai-mono wqy-zenhei otf-latin-modern
 
 sudo pacman -S ttf-firacode-nerd ttf-ibm-plex
 

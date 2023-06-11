@@ -1,1 +1,0 @@
-window.setHints(new HashSet<Window.Hint>(Arrays.asList(Window.Hint.FULL_SCREEN)));

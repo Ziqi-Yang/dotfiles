@@ -57,7 +57,7 @@ output eDP-1 pos 0 0
 output HDMI-A-1 pos 0 0 
 
 # background picture for all monitors
-output * bg ~/Pictures/background/36712.jpg fill
+output * bg ~/Pictures/background/15.jpg fill
 
 ### HDMI workspace settings
 # the default target monitor of workspace 2 is HDMI-A-1 (if connected)

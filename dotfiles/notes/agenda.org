@@ -23,7 +23,6 @@ CLOSED: [2023-03-16 Thu 22:04]
 DEADLINE: <2023-05-27 Sat>
 
 
-
 ** PROG PROGRAMMING
 *** TODO [#A] leetcode everyday problem [[file:algo.org][algo.org]]
 *** TODO [[https://rcore-os.cn/rCore-Tutorial-Book-v3/index.html][rCore-Tutorial-Book]]

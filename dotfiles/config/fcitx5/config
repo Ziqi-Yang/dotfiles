@@ -5,6 +5,8 @@ EnumerateWithTriggerKeys=True
 AltTriggerKeys=
 # Skip first input method while enumerating
 EnumerateSkipFirst=False
+# Toggle embedded preedit
+TogglePreedit=
 
 [Hotkey/TriggerKeys]
 0=Control+space
@@ -40,9 +42,6 @@ EnumerateSkipFirst=False
 
 [Hotkey/NextCandidate]
 0=Tab
-
-[Hotkey/TogglePreedit]
-0=Control+Alt+P
 
 [Behavior]
 # Active By Default

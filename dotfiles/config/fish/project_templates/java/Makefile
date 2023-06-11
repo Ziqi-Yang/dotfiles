@@ -30,8 +30,10 @@ DOC_DIR := api_doc
 RESOURCES_DIR := resources
 BUILD_DIR := target
 SOURCE_FILES := $(shell find $(SRC_DIR) -name "*.java")
-ENTRY_FILE := $(SRC_DIR)/main/java/$(PKG_NAME)/Main.java
+ENTRY_POINT := app.Main
 LIBS := $(shell find $(LIBS_DIR) -name "*.jar" | paste -sd ":" -)
+JAR_TEMP_DIR := jar_temp
+JAR_NAME := app.jar
 ARGS := 
 
 .PHONY: build run test doc clean jdtls_clean gen_tags
@@ -41,10 +43,21 @@ build:
 	@javac -d $(BUILD_DIR) -cp .:$(LIBS) -sourcepath $(SRC_DIR) $(SOURCE_FILES)
 
 run: build
-	java -cp $(BUILD_DIR):$(RESOURCES_DIR):$(LIBS) $(ENTRY_FILE) $(ARGS)
+	java -cp $(BUILD_DIR):$(RESOURCES_DIR):$(LIBS) $(ENTRY_POINT) $(ARGS)
 
 test: build
 	java -jar $(LIBS_DIR)/junit-platform-console-standalone-1.9.2.jar --class-path $(BUILD_DIR) --scan-class-path
+
+jar: build
+	mkdir $(JAR_TEMP_DIR)
+# include third libraries
+	cd $(JAR_TEMP_DIR) && jar -xf ../$(LIBS_DIR)/jansi-2.4.0.jar
+	cd $(JAR_TEMP_DIR) && jar -xf ../$(LIBS_DIR)/jline-3.23.1-SNAPSHOT.jar
+# include this project
+	cp -r $(BUILD_DIR)/* $(JAR_TEMP_DIR)
+	jar -cfe output.jar $(ENTRY_POINT) -C $(JAR_TEMP_DIR) . -C resources . # include resources directory
+	rm -rf $(JAR_TEMP_DIR)
+# run jar with command 'java -jar output.jar'
 
 # single test
 # java -jar $(LIBS_DIR)/junit-platform-console-standalone-1.9.2.jar --class-path $(BUILD_DIR) --select-method app.MainTest#simpleTest

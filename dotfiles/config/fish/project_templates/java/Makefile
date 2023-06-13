@@ -36,7 +36,7 @@ JAR_TEMP_DIR := jar_temp
 JAR_NAME := app.jar
 ARGS := 
 
-.PHONY: build run test doc clean jdtls_clean gen_tags
+.PHONY: build run test doc clean jar jdtls_clean gen_tags
 build:
 	@echo building...
 	@mkdir -p $(BUILD_DIR)

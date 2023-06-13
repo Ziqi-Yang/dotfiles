@@ -8,9 +8,9 @@
 2. restrict
 3. join
 
-char varchar enum('xxxx', "emacs") blob text
-int smallint tinyint float double decimal(5, 2)
-year date time datatime timestamp
+# closure
+
+
 
 
 create domain as X default X check X
@@ -21,27 +21,17 @@ FOREIGN KEY(year) REFERENCES student_id(s_id) ON UPDATE CASCADE ON DELETE CASCAD
 PRIMARY KEY ()
 );
 
-foreign key(year) references stu(id) on update cascade on delete cascade
-
-cascade
-set null
-set default
-no action
-
-alter table <> add column <> <>;
 ALTER TABLE X ADD COLUMN asdfasdfasdf INT;
 DROP TABLE X;
 
-INSERT INTO x () VALUES ();
-insert into x <> from (select <> from <> where <>);
 
-update table <> set <>=<> where <>=<>;
+INSERT INTO x () VALUES ();
+INSERT INTO x () FROM product WHERE SELETCT xxx; 
+
+UPDATE TABLE x SET xxxx=xxx*1.3 WHERE xxx=xxx;
 DELTE FROM x WHERE ;
 
-delete from <> where <>=<>;
-delete from <> where <> not in (select <> from <> where <>);
 DELTE FROM x WHERE a NOT IN (SELECT ...);
-drop table x;
 
 
 SELECT x, y / 12 FROM ..;
@@ -65,16 +55,11 @@ COUNT/MAX/MIN/SUM/AVG
 
 COUNT(DISTINCT xxx)
 
+
 GROUP BY xxx;
 
 
 SELECT deptno FROM employee GROUP BY deptno HAVING AVG(salary) > 40000;
-select <> from <> group by <> having avg(<>) > <>;
-
-select <> from <> where x=(select max() from <>);
-where <>=any();
-where <>=all();
-create view <> as select <> from <>;
 
 
 mysql -u xxxx -h xxxx -p
@@ -94,9 +79,9 @@ derived values
 # 1st normal form
 no group of attributes
 # 2nd normal form
-non-key attributes fully functionally dependent on the whole key
+non-key attr is fully functionally dependent on the whole key
 # 3rd 
 no transitive functional dependencies
 # BCNF
-every determinant is a candidate key
+every determinant is a canidate key
 

@@ -1,23 +1,15 @@
-rename static_route_2_tracer.png
-rename 12b-code--Huffman.java
-rename 12b-code-Huffman-Library.jar
-mkdir ./
-open_with 
-rename lab04
 rename lab5
 rename lab05
 rename lab06
 search test
 search ex
 
-search 
 search tmp
 rename jline-3.23.1-SNAPSHOT-javadoc.jar
 search trave
 search travel
 search tra
 search consult
-open_with a
 shell D
 rename EssayDraft-Ziqi-Yang(Zack)-21207440.pdf.pdf
 rename EssayDraft-Ziqi-Yang(Zack)-21207440.pdf
@@ -48,3 +40,11 @@ rename 何泾沙.jpg
 rename 附件1：北京工业大学第二十四届“星火基金”中期审核报告-杨子祺-21372225.doc
 rename 附件2：“星火基金”项目学部（院）自评情况报表（表1-4）-杨子祺-21372225.xls
 open_with 9
+open_with a
+search font
+search emacs
+search icons
+search hi
+search 
+search fly
+rename Makefile

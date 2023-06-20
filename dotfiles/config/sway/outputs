@@ -1,18 +1,21 @@
 output "eDP-1" {
     mode  3200x2000@90.0Hz
-    pos 0 0
+    pos 1080 0
     transform normal
     scale 2.0
     scale_filter nearest
     adaptive_sync off
     dpms on
+		bg ~/Pictures/background/attack_on_titan/1106742.jpg fill
 }
+
 output "HDMI-A-1" {
-    mode  3840x2160@30.0Hz
+    mode  1920x1080@60.0Hz
     pos 0 0
-    transform normal
-    scale 2.100000000000001
+    transform 270
+    scale 1.0
     scale_filter nearest
     adaptive_sync off
     dpms on
+		bg ~/Pictures/Attack_on_Titan/S2-2.jpg fill
 }

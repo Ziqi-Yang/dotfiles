@@ -1,102 +1,12 @@
-# Integrity
-1. domain
-2. entity
-3. referential integrity
+layers:
+application -> message
+transport	-> segment
+network		-> datagram
+link		-> frame
+physical
 
-# Operators
-1. project
-2. restrict
-3. join
+1. easy to maintain
+2. easy to develop/add new functionality
+3. explicit structure allow better identification relationship of complex system's pieces
 
-char varchar enum('xxxx', "emacs") blob text
-int smallint tinyint float double decimal(5, 2)
-year date time datatime timestamp
-
-
-create domain as X default X check X
-create table X (
-A type NOT NULL UNIQUE REFERENCES tableName(attrName),
-B type Primary Key
-FOREIGN KEY(year) REFERENCES student_id(s_id) ON UPDATE CASCADE ON DELETE CASCADE, 
-PRIMARY KEY ()
-);
-
-foreign key(year) references stu(id) on update cascade on delete cascade
-
-cascade
-set null
-set default
-no action
-
-alter table <> add column <> <>;
-ALTER TABLE X ADD COLUMN asdfasdfasdf INT;
-DROP TABLE X;
-
-INSERT INTO x () VALUES ();
-insert into x <> from (select <> from <> where <>);
-
-update table <> set <>=<> where <>=<>;
-DELTE FROM x WHERE ;
-
-delete from <> where <>=<>;
-delete from <> where <> not in (select <> from <> where <>);
-DELTE FROM x WHERE a NOT IN (SELECT ...);
-drop table x;
-
-
-SELECT x, y / 12 FROM ..;
-LIKE _%
-
-IS NULL
-IS NOT NULL
-
-SELECT DISTINCT x
-INNER JOIN / LEFT JOIN / RIGHT JOIN / FULL JOIN
-JOIN xxx ON xxx;
-JOIN xxx USING(xxx);
-
-LIMIT offset, number;
-CREATE TABLE xxx (id primary key auto_increment)
-INSERT INTO xxx VALUES (NULL, xxxx);
-ORDER BY asdfasdfsdf (DESC)
-
-aggregate queries
-COUNT/MAX/MIN/SUM/AVG
-
-COUNT(DISTINCT xxx)
-
-GROUP BY xxx;
-
-
-SELECT deptno FROM employee GROUP BY deptno HAVING AVG(salary) > 40000;
-select <> from <> group by <> having avg(<>) > <>;
-
-select <> from <> where x=(select max() from <>);
-where <>=any();
-where <>=all();
-create view <> as select <> from <>;
-
-
-mysql -u xxxx -h xxxx -p
-
-conn -> st (createStatement) -> rs (executeQuery(" asdfasdfasdf "))
-close
-preparedStatement
-
-# redundancies
-insertion 
-update 
-deletion
-
-derived values
-
-
-# 1st normal form
-no group of attributes
-# 2nd normal form
-non-key attributes fully functionally dependent on the whole key
-# 3rd 
-no transitive functional dependencies
-# BCNF
-every determinant is a candidate key
-
+provide reliable transfer including flow control, congestion control

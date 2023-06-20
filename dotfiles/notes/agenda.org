@@ -15,13 +15,9 @@ CLOSED: [2023-01-18 Wed 09:25]
 *** DONE dotfile installation.org
 CLOSED: [2023-02-01 Wed 20:23]
 
-*** TODO logseq 博客导入
+*** TODO after some weeks send gc-statics data and change emacs-gc-stats-gc-defaults
+DEADLINE: <2023-06-20 Tue>
 
-*** DONE not use aggressive mode in python mode
-CLOSED: [2023-03-16 Thu 22:04]
-
-*** TODO configura emacs epa
-DEADLINE: <2023-06-13 Tue>
 
 ** PROG PROGRAMMING
 *** TODO [#A] leetcode everyday problem [[file:algo.org][algo.org]]
@@ -171,6 +167,7 @@ some crates doesn't have tags :|
 DEADLINE: <2023-05-09 Tue>
 references:
 1. https://github.com/softprops/treeline
-
-
+*** PROJ rust libarary read pass
+DEADLINE: <2023-06-19 Mon>
+read pass from env, file or use external command (like gpg) to help read secret.
 

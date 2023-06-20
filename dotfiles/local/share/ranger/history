@@ -1,26 +1,3 @@
-rename lab5
-rename lab05
-rename lab06
-search test
-search ex
-
-search tmp
-rename jline-3.23.1-SNAPSHOT-javadoc.jar
-search trave
-search travel
-search tra
-search consult
-shell D
-rename EssayDraft-Ziqi-Yang(Zack)-21207440.pdf.pdf
-rename EssayDraft-Ziqi-Yang(Zack)-21207440.pdf
-rename Essay-Ziqi-Yang(Zack)-21207440.pdf
-search java
-rename .idea
-rename 2018-2019.pdf
-rename PropertyCardNeedProcessException.java
-rename WildPropertyCardNeedProcessException.java
-mkdir ./temp
-[51;9u[52;9u
 search typst
 mkdir past_exams
 rename 2018_2019.pdf
@@ -45,6 +22,29 @@ search font
 search emacs
 search icons
 search hi
-search 
 search fly
 rename Makefile
+shell 
+rename jaffery.zip
+open_with 11
+rename 15-Link layer.pptx
+search pdf
+search 
+
+mkdir ./Th
+mkdir ./The+Linux+Programming+Interface.pdf
+mkdir The+Linux+Programming+Interface.pdf
+mkdir The+Linux+Programming+Interface
+open_with 
+open_with 1
+rename Attack_on_Titan
+mkdir ./attack_on_titan
+mkdir ./chinese
+mkdir ./screenshots
+rename 集合的基本运算公式.png
+rename 1-集合的基本运算公式.png
+rename 对称差的运算公式.png
+rename 2-对称差的运算公式.png
+rename note.tldr
+rename note-杂.tldr
+rename note-miscellaneous.tldr

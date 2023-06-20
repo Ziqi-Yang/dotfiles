@@ -1,7 +1,7 @@
 [include]
 	path = ~/.local/share/delta/theme/themes.gitconfig
 [user]
-	name = Zarkli Leonardo
+	name = Ziqi Yang
 	email = mr.ziqiyang@gmail.com
 	signingKey = 389582ABC15D64CCFB74D82F934AE9B6B6E9FF34
 
@@ -36,3 +36,5 @@
 	defaultBranch = main
 [pull]
 	rebase = true
+[sendemail]
+	smtpserver = /usr/bin/msmtp

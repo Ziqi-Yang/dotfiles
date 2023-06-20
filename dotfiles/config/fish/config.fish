@@ -3,7 +3,7 @@ if status is-interactive
 # environment variables
 
 ## other
-set EDITOR "emacsclient -n"
+set EDITOR "emacsclient -r -n"
 set ANDROID_SDK_ROOT /opt/android-sdk
 
 ## path

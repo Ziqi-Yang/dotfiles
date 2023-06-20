@@ -212,6 +212,13 @@ dotfiles:
   d_gitui:
     src: config/gitui
     dst: ~/.config/gitui
+  f_msmtprc:
+    src: msmtprc
+    dst: ~/.msmtprc
+    chmod: '600'
+  f_msmtp-password-gmail.gpg:
+    src: msmtp-password-gmail.gpg
+    dst: ~/.msmtp-password-gmail.gpg
 profiles:
   myArch:
     dotfiles:
@@ -283,3 +290,5 @@ profiles:
     - d_swaylock
     - d_bat
     - d_gitui
+    - f_msmtprc
+    - f_msmtp-password-gmail.gpg

@@ -216,9 +216,9 @@ dotfiles:
     src: msmtprc
     dst: ~/.msmtprc
     chmod: '600'
-  f_msmtp-password-gmail.gpg:
-    src: msmtp-password-gmail.gpg
-    dst: ~/.msmtp-password-gmail.gpg
+  d_offlineimap:
+    src: config/offlineimap
+    dst: ~/.config/offlineimap
 profiles:
   myArch:
     dotfiles:
@@ -291,4 +291,4 @@ profiles:
     - d_bat
     - d_gitui
     - f_msmtprc
-    - f_msmtp-password-gmail.gpg
+    - d_offlineimap

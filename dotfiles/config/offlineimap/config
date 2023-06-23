@@ -1,0 +1,23 @@
+[general]
+accounts = autistici
+pythonfile = ~/.config/offlineimap/pass.py
+#maxsyncaccounts = 2
+
+[Account autistici]
+localrepository = autistici-local
+remoterepository = autistici-remote
+# autorefresh = 5 
+proxy = SOCKS5:127.0.0.1:7890
+postsynchook = mu index
+
+[Repository autistici-local]
+type = Maildir
+localfolders = ~/mail/autistici
+
+[Repository autistici-remote]
+type = IMAP
+remotehost = mail.autistici.org 
+remoteport = 993
+remoteuser = mr.meowking@anche.no
+remotepasseval = get_pass("mr.meowking@anche.no")
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt

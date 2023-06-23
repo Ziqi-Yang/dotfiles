@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+mu find "flag:unread and not flag:trashed" 2> /dev/null | wc -l | tr -d "\n"

@@ -219,6 +219,9 @@ dotfiles:
   d_offlineimap:
     src: config/offlineimap
     dst: ~/.config/offlineimap
+  d_user:
+    src: config/systemd/user
+    dst: ~/.config/systemd/user
 profiles:
   myArch:
     dotfiles:
@@ -292,3 +295,4 @@ profiles:
     - d_gitui
     - f_msmtprc
     - d_offlineimap
+    - d_user

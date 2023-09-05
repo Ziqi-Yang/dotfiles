@@ -1,15 +1,20 @@
 #!/usr/bin/bash
+
 # dunst & # seems like sway auto start it
 # waybar & # sway bar 
 udiskie &
-gammastep-indicator &
 fcitx5 -d --replace &
-clash-verge &
 # xautolock -time 15 -locker 'betterlockscreen -l dimblur' &
 blueman-applet &
+clash-verge &
+gammastep-indicator &
 
 emacs --daemon &
 wl-paste -t text --watch clipman store &
+swaymsg "workspace 1; exec kitty;" &
+
+# avoid consuming to much resources at system startup
+sleep 3 && firefox-developer-edition &
 
 # not-working apps
 # nm-applet & # cannot stay within waybar tray

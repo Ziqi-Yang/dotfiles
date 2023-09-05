@@ -1,45 +1,46 @@
-function pinit -a 'language' -a 'packageName'
+function pinit -a language -a packageName
     # init a project with specific language
     if test -n "$language" -a -n "$packageName"
 
-      set function_path "$HOME/.config/fish/functions/pinit/$language.fish"
+        set function_path "$HOME/.config/fish/functions/pinit/$language.fish"
 
-      if test -e $function_path
-          source $function_path
-      else
-          echo "Language not support"
-          return -1
-      end
-
-      switch "$language"
-        case "java"
-            pinit_java $packageName
-        case "python" # TODO
-
-        case "cc"
-            pinit_cc $packageName
-        case "rust"
-            pinit_rust $packageName
-        case "latex"
-            pinit_latex $packageName
-        case "aur"
-            pinit_aur $packageName
-        case "go" # TODO
-            pinit_go $packageName
-        case "*"
+        if test -e $function_path
+            source $function_path
+        else
             echo "Language not support"
             return -1
-      end
+        end
 
-      cd "$packageName"
-      git init
-      cd ..
+        switch "$language"
+            case java
+                pinit_java $packageName
+            case elisp
+                pinit_elisp $packageName
+            case python # TODO
+
+            case cc
+                pinit_cc $packageName
+            case rust
+                pinit_rust $packageName
+            case latex
+                pinit_latex $packageName
+            case aur
+                pinit_aur $packageName
+            case go # TODO
+                pinit_go $packageName
+            case "*"
+                echo "Language not support"
+                return -1
+        end
+
+        cd "$packageName"
+        git init
+        cd ..
 
     else
 
-      echo missing arguments
-      echo pinit {filename} {packageName}
+        echo missing arguments
+        echo pinit {filename} {packageName}
 
     end
 end
-

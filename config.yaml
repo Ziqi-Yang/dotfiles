@@ -67,7 +67,7 @@ dotfiles:
   f_mimeapps.list:
     src: config/mimeapps.list
     dst: ~/.config/mimeapps.list
-    chmod: '600'
+    chmod: '644'
   f_settings.json:
     src: config/Code - OSS/User/settings.json
     dst: ~/.config/Code - OSS/User/settings.json
@@ -179,9 +179,6 @@ dotfiles:
   f_profile:
     src: profile
     dst: ~/.profile
-  f_gdbinit:
-    src: gdbinit
-    dst: ~/.gdbinit
   d_helix:
     src: config/helix
     dst: ~/.config/helix
@@ -225,6 +222,9 @@ dotfiles:
   f_gpg-agent.conf:
     src: gnupg/gpg-agent.conf
     dst: ~/.gnupg/gpg-agent.conf
+  d_xplr:
+    src: config/xplr
+    dst: ~/.config/xplr
 profiles:
   myArch:
     dotfiles:
@@ -285,7 +285,6 @@ profiles:
     - d_go
     - f_bashrc
     - f_profile
-    - f_gdbinit
     - d_helix
     - f_code-flags.conf
     - d_texmf
@@ -300,3 +299,4 @@ profiles:
     - d_offlineimap
     - d_user
     - f_gpg-agent.conf
+    - d_xplr

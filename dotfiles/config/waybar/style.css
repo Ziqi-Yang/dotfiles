@@ -43,6 +43,7 @@
 #sway-window,
 #clock,
 #custom-notification,
+#custom-email,
 #custom-pacman,
 #custom-todo,
 #custom-music,
@@ -94,6 +95,9 @@
     background: #e67e22;
 }
 
+#battery.charging {
+    color: #b9dec9;
+}
 
 /* blink */
 /* #network.disconnected,  only blink at once */

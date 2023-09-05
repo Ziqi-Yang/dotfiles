@@ -3,7 +3,7 @@
 # ========================================
 # @author: Ziqi Yang<mr.ziqiyang@gmail.com>
 # @create_date: Tue Jan 17 2023
-# @last_modified_date: Tue Jan 17 2023
+# @last_modified_date: <2023-09-05 Tue 16:27> 
 # @reference: https://makefiletutorial.com/#makefile-cookbook
 # ========================================
 TARGET_EXEC := main
@@ -23,10 +23,10 @@ INC_DIRS := $(fd --type d '.' $(SRC_DIR))
 INC_FLAGS := $(addprefix -I,$(INC_DIRS))
 
 # CPPFLAGS: c/c++ shared flags
-CPPFLAGS := $(INC_FLAGS) -Wall -pedantic -MMD -MP
+CPPFLAGS := $(INC_FLAGS) -march=native -Wall -Wextra -pedantic -MMD -MP
 CFGLAGS := -std=c11 # only for c
 # CXXFGLAGS := # only for cpp
-CPP_FLAGS_DEBUG := -O0 -g3
+CPP_FLAGS_DEBUG := -O0 -g3 -Werror -Wshadow
 CPP_FLAGS_RELEASE := -O2
 
 LDLIBS := -lm

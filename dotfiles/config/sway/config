@@ -14,8 +14,6 @@ exec dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSO
 
 ## autostart
 exec ~/.config/sway/autostart.sh
-exec swaymsg "workspace 1; exec kitty;"
-exec firefox-developer-edition
 
 ## Idle configuration
 exec swayidle -w \

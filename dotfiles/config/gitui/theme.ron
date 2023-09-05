@@ -1,30 +1,23 @@
 (
-    selected_tab         : Reset,
-    command_fg           : Rgb(198, 208, 245),
-
-    selection_bg         : Rgb(98, 104, 128),
-    selection_fg         : Rgb(198, 208, 245),
-
-    cmdbar_bg            : Rgb(41, 44, 60),
-    cmdbar_extra_lines_bg: Rgb(41, 44, 60),
-
-    disabled_fg: Rgb(127, 132, 156),
-
-    diff_line_add: Rgb(39, 174, 96),
-    diff_line_delete: Rgb(192, 57, 43),
-
-    diff_file_added: Rgb(39, 174, 96),
-    diff_file_removed: Rgb(192, 57, 43),
-    diff_file_moved: Rgb(203, 166, 247),
-    diff_file_modified: Rgb(230, 126, 34),
-
-		commit_hash          : Rgb(98, 104, 128),
-    commit_time          : Rgb(98, 104, 128),
-    commit_author        : Rgb(98, 104, 128),
-
-    danger_fg            : Rgb(231, 130, 132),
-    push_gauge_bg        : Rgb(140, 170, 238),
-    push_gauge_fg        : Rgb(48, 52, 70),
-    tag_fg               : Rgb(211, 84, 0),
-    branch_fg            : Rgb(192, 57, 43)
+    selected_tab: None,
+    command_fg: Some(Rgb(198, 208, 245)),
+    selection_bg: Some(Rgb(98, 104, 128)),
+    selection_fg: Some(Rgb(198, 208, 245)),
+    cmdbar_bg: Some(Rgb(41, 44, 60)),
+    cmdbar_extra_lines_bg: Some(Rgb(41, 44, 60)),
+    disabled_fg: Some(Rgb(127, 132, 156)),
+    diff_line_add: Some(Rgb(39, 174, 96)),
+    diff_line_delete: Some(Rgb(192, 57, 43)),
+    diff_file_added: Some(Rgb(39, 174, 96)),
+    diff_file_removed: Some(Rgb(192, 57, 43)),
+    diff_file_moved: Some(Rgb(203, 166, 247)),
+    diff_file_modified: Some(Rgb(230, 126, 34)),
+    commit_hash: Some(Rgb(98, 104, 128)),
+    commit_time: Some(Rgb(98, 104, 128)),
+    commit_author: Some(Rgb(98, 104, 128)),
+    danger_fg: Some(Rgb(231, 130, 132)),
+    push_gauge_bg: Some(Rgb(140, 170, 238)),
+    push_gauge_fg: Some(Rgb(48, 52, 70)),
+    tag_fg: Some(Rgb(211, 84, 0)),
+    branch_fg: Some(Rgb(192, 57, 43)),
 )

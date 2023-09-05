@@ -3,20 +3,20 @@ if status is-interactive
 # environment variables
 
 ## other
-set EDITOR "emacsclient -r -n"
-set ANDROID_SDK_ROOT /opt/android-sdk
+set -x EDITOR "emacsclient -r -n"
+set -x ANDROID_SDK_ROOT /opt/android-sdk
 
 ## path
-set PATH ~/myBin/ $PATH $HOME/.cargo/bin ~/.npm-global/bin ~/go/bin
-set PATH $PATH ~/.local/bin ~/fvm/default/bin ~/bin
-set PATH $PATH $ANDROID_SDK_ROOT/platform-tools/
-set PATH $PATH $ANDROID_SDK_ROOT/tools/bin/
-set PATH $PATH $ANDROID_ROOT/emulator
-set PATH $PATH $ANDROID_SDK_ROOT/tools/
+set -x PATH ~/myBin/ $PATH $HOME/.cargo/bin ~/.npm-global/bin ~/go/bin ~/.evm/bin
+set -x PATH $PATH ~/.local/bin ~/fvm/default/bin ~/bin
+set -x PATH $PATH $ANDROID_SDK_ROOT/platform-tools/
+set -x PATH $PATH $ANDROID_SDK_ROOT/tools/bin/
+set -x PATH $PATH $ANDROID_ROOT/emulator
+set -x PATH $PATH $ANDROID_SDK_ROOT/tools/
 
 ## java
-set JAVA_HOME /usr/lib/jvm/default-java
-set _JAVA_OPTIONS
+set -x JAVA_HOME /usr/lib/jvm/default-runtime
+# set -x _JAVA_OPTIONS
 
 ## flutter
 export FLUTTER_STORAGE_BASE_URL="https://mirrors.tuna.tsinghua.edu.cn/flutter"

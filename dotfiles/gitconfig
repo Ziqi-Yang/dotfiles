@@ -6,7 +6,7 @@
 	signingKey = 389582ABC15D64CCFB74D82F934AE9B6B6E9FF34
 
 [core]
-	editor = vim
+	editor = emacs -nw --init-directory=~/.emacs.d_test/
 	autocrlf = input
 	pager = delta # https://github.com/dandavison/delta/
 	excludesFile = /home/zarkli/.gitignore_global # personal gitignore only(like code liner or debuger cache)

@@ -3,10 +3,11 @@
     "modules-left": [
         "image#avatar",
         "clock",
-				"sway/mode",
-				"sway/window",
+	"sway/mode",
+	"sway/window",
         "custom/todo",
         "custom/notification",
+        "custom/email",
         "custom/pacman",
         "custom/leetcode",
         "custom/music",
@@ -30,6 +31,7 @@
         "size": 15,
         "on-click": "xdg-open https://github.com/Ziqi-Yang"
     },
+    
     "custom/pomodoro": {
         "format": "{}",
         "exec": "~/.config/waybar/scripts/pomodoro.sh",
@@ -43,8 +45,13 @@
         "on-click": "dunstctl set-paused toggle; pkill -SIGRTMIN+1 waybar",
         "signal": 1
     },
+    "custom/email": {
+    	"format": "  {}",
+    	"exec": "~/myBin/get-mu-unread-emails-num",
+        "interval": 60,                     // every minute
+    },
     "custom/pacman": {
-        "format": "<big></big>  {}",
+        "format": "  {}",
         "interval": 3600,                     // every hour
         "exec": "checkupdates | wc -l",       // of updates
         "exec-if": "exit 0",                  // always run; consider advanced run conditions
@@ -78,7 +85,7 @@
         "interval": 60,
         "states": {
             "warning": 30,
-            "critical": 15
+            "critical": 15,
         },
         "format": "{icon} {capacity}%",
         "format-icons": ["", "", "", "", ""],

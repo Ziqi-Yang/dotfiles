@@ -1,18 +1,16 @@
 [package]
 name = "#{NAME}#"
-description = ""
+description = "" # NOTE
 version = "0.1.0"
 edition = "2021"
-homepage = "https://github.com/Ziqi-Yang/#{NAME}#"
-repository = "https://github.com/Ziqi-Yang/#{NAME}#"
-readme = "README.org"
-license = "GPLv3"
-authors = ["Ziqi Yang <mr.ziqiyang@gmail.com>"]
-# keywords = []
-categories = ["command-line-utilities"] # https://crates.io/category_slugs
-
-[badges]
-maintenance = { status = "none" }
+homepage = "https://todo.sr.ht/~meow_king/#{NAME}#"
+repository = "https://todo.sr.ht/~meow_king/#{NAME}#"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+authors = ["Meow King <mr.meowking@anche.no>"] # NOTE
+keywords = [] # NOTE
+# https://crates.io/category_slugs
+categories = ["command-line-utilities"]  # NOTE
 
 # cargo build --profile release-lto
 [profile.release-lto]

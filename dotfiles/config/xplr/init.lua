@@ -50,6 +50,13 @@ require("xpm").setup({
 })
 
 
+---
+
+require("trash-cli").setup{
+  -- show latest deleted file first
+  trash_list_selector = "sort -r | fzf -m | cut -d' ' -f3-",
+}
+
 --- Custom Keybindings
 
 local key = xplr.config.modes.builtin.default.key_bindings.on_key

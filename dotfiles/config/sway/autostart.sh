@@ -9,7 +9,7 @@ blueman-applet &
 clash-verge &
 gammastep-indicator &
 
-emacs --daemon &
+# emacs --daemon &
 wl-paste -t text --watch clipman store &
 swaymsg "workspace 1; exec kitty;" &
 

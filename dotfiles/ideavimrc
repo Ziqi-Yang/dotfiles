@@ -1,16 +1,4 @@
-set which-key " 需要安装which-key插件
-set commentary
 set ideajoin
-
-
-set showmode
-" set nu
-set notimeout
-" set timeoutlen=1000
-set scrolloff=5
-set incsearch " 递进搜索-边输入，边匹配
-set ignorecase " 搜索不区分大小写
-
 let mapleader = "\<Space>"
 
 " AceJump 快捷键是C-;
@@ -18,68 +6,21 @@ let mapleader = "\<Space>"
 " Alt + insert 创建 Generator , method 等等
 " Shift-Shift 搜搜（可用于跳转文件）
 
-" =========== NORMAL ============
-" K is a buildin key that maps QuickJavaDoc
-map s :action AceAction<CR>
+" =========== Meow Edit =========================================================
+" test
+nmap t <Action>(EditorToggleInsertState)
 
-" code
-" run: <leader>zca in "other" section
-map <leader>ce <Action>(debug)
-map <leader>cc <Action>(ChooseRunConfiguration)
-map <leader>cd <Action>(GotoDeclaration)
-map <leader>cs <Action>(Stop)
-map <leader>cf <Action>(ReformatCode)
-map <leader>cx <Action>(ShowErrorDescription)
-map <leader>cr <Action>(RenameElement)
+" QuickJavaDoc
+nmap ? K
 
-" extract
-nmap <leader>em <Action>(ExtractMethod)
-if &ide =~? 'android studio'
-    nmap <leader>ee <Action>(Flutter.ExtractWidget)
-endif
+map / :action AceAction<CR>
 
-" search
-map <leader>ss <Action>(SearchEverywhere)
-map <leader>sf <Action>(Find)
-map <leader>su <Action>(FindUsages)
-map <leader>sr <Action>(Replace)
+nnoremap x :normal! 0vg_$<CR>
 
-" toggle
-map <leader>tz <Action>(ToggleZenMode)
-map <leader>tf <Action>(ToggleFullScreen)
-map <leader>tp <Action>(TogglePresentationMode)
-map <leader>tr <Action>(ToggleReadOnlyAttribute)
-map <leader>ts <Action>(ActivateStructureToolWindow)
-" 安装tranlsation插件
-map <leader>tt <Action>($ShowTranslationDialogAction)
-map <leader>tw <Action>($EditorTranslateAction)
-
-" other
-map <leader>zca <Action>(Run)
-map <leader>zbe :%d<CR>
-map <leader>zcc <Action>(CloseContent)
-map <leader>zct <Action>(CloseActiveTab)
-map <leader>zz <Action>(CollapseRegion)
-map <leader>ze <Action>(ExpandRegion)
-
-" =========== VISUAL ============
-
-" =========== INSERT ============
-imap kk <Esc>
+" =========== Emacs =============================================================
 imap <C-f> <Right>
 imap <C-b> <Left>
 
-" =========== WHICH-KEY ============
-let g:WhichKeyDesc_code = "<leader>c Code"
-let g:WhichKeyDesc_extra = "<leader>s Search"
-let g:WhichKeyDesc_toggle = "<leader>t Toggle"
-let g:WhichKeyDesc_extra = "<leader>e Extract"
-let g:WhichKeyDesc_extra = "<leader>z Extra"
 
-let g:WhichKeyDesc_code_run = "<leader>zca run"
-let g:WhichKeyDesc_code_debug = "<leader>cd GotoDeclaration"
-let g:WhichKeyDesc_code_stop = "<leader>cs stop"
-let g:WhichKeyDesc_delete_all = "<leader>zbe delte all"
-let g:WhichKeyDesc_trans_word = "<leader>tw translate word"
-let g:WhichKeyDesc_trans_window = "<leader>tt translation window"
-
+" =========== Personal ==========================================================
+nmap U <C-R>

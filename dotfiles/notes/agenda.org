@@ -6,12 +6,12 @@
 CLOSED: [2023-07-17 Mon 14:51] DEADLINE: <2023-06-20 Tue>
 *** TODO make search-online function using embark as backend
 DEADLINE: <2023-09-01 Fri>
-*** TODO 研讨室预约爬虫
-DEADLINE: <2023-09-03 Sun>
 *** TODO vue-ts-mode and mermaid-ts-mode
 DEADLINE: <2023-09-12 Tue>
 *** TODO typst-ts-mode
 DEADLINE: <2023-09-13 Wed>
+*** TODO align-regexp use rx (eval expression in minibuffer)
+DEADLINE: <2023-09-21 Thu>
 ** PROJECTS
 *** Peek
 **** DONE support for links in org mode

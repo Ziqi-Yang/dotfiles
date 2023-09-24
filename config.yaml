@@ -225,6 +225,9 @@ dotfiles:
   d_xplr:
     src: config/xplr
     dst: ~/.config/xplr
+  d_yazi:
+    src: config/yazi
+    dst: ~/.config/yazi
 profiles:
   myArch:
     dotfiles:
@@ -300,3 +303,4 @@ profiles:
     - d_user
     - f_gpg-agent.conf
     - d_xplr
+    - d_yazi

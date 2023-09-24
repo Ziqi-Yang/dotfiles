@@ -1,5 +1,6 @@
 abbr -a -g ra ranger
-abbr -a -g x xplr # also check xcd function
+# abbr -a -g x xplr 
+abbr -a -g y yazi
 abbr -a -g ea emacsclient -n
 abbr -a -g todo ultralist
 abbr -a -g rd rustup doc --std

@@ -2,8 +2,9 @@ if status is-interactive
 
 # environment variables
 
-## other
-set -x EDITOR "emacsclient -r -n"
+## otherwise
+# set -x EDITOR "emacs -nw --init-directory=~/.emacs.d_test/"
+set -x EDITOR "emacs -nw"
 set -x ANDROID_SDK_ROOT /opt/android-sdk
 
 ## path

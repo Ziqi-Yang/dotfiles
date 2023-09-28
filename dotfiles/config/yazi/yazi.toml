@@ -2,9 +2,9 @@
 
 [manager]
 layout         = [ 1, 4, 3 ]
-sort_by        = "modified"
+sort_by        = "alphabetical"
 sort_sensitive = false
-sort_reverse   = true
+sort_reverse   = false
 sort_dir_first = true
 show_hidden    = false
 show_symlink   = true
@@ -18,7 +18,10 @@ cache_dir  = ""
 [opener]
 folder = [{ exec = 'open -R "$@"', display_name = "Reveal in Finder" }, { exec = '$EDITOR "$@"' }]
 archive = [{ exec = 'unar "$1"', display_name = "Extract here" }]
-text = [{ exec = '$EDITOR "$@"', block = true }]
+text = [
+  { exec = 'bat --paging=always "$@"', block = true, display_name = "view" },
+  { exec = '$EDITOR "$@"', block = true, display_name = "edit" },
+]
 image = [
 	{ exec = 'open "$@"', display_name = "Open" },
 	{ exec = '''exiftool "$1"; echo "Press enter to exit"; read''', block = true, display_name = "Show EXIF" },

@@ -2,7 +2,7 @@
 
 function yazi
     set tempfile (mktemp -t tmp.XXXXXX)
-    command yazi --cwd-file=$tempfile
+    command yazi --cwd-file=$tempfile $argv
     if test -s $tempfile
         set yazi_pwd (cat $tempfile)
         if test -n $yazi_pwd -a -d $yazi_pwd

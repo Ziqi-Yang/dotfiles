@@ -3,8 +3,8 @@ set window-title-basename "true"
 set selection-clipboard "clipboard"
 
 ## Key Map
-map D set "first-page-column 1:1"
-map <C-d> set "first-page-column 1:2"
+# map D set "first-page-column 1:1"
+# map <C-d> set "first-page-column 1:2"
 
 ## Theme
 set default-fg                "#4C4F69"
@@ -41,9 +41,9 @@ set index-active-bg		        "#CCD0DA"
 set render-loading-bg		      "#EFF1F5"
 set render-loading-fg		      "#4C4F69"
 
-set highlight-color		        "#575268"
-set highlight-fg              "#EA76CB"
-set highlight-active-color	  "#EA76CB"
+set highlight-color		        "#ffffff"
+set highlight-fg              "#eb4d4b"
+set highlight-active-color	  "#eb4d4b"
 
 
 #

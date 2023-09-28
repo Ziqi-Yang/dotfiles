@@ -50,7 +50,7 @@ keymap = [
   { on = [ "K" ],         exec = "paste --follow --force", desc = "Paste the files (overwrite + follow)" },
   { on = [ "d" ],         exec = "remove",                 desc = "Move the files to the trash" },
   { on = [ "D" ],         exec = "remove --permanently",   desc = "Permanently delete the files" },
-  { on = [ "a" ],         exec = "create",                 desc = "Create a file or directory (ends with / for directories)" },
+  { on = [ "+" ],         exec = "create",                 desc = "Create a file or directory (ends with / for directories)" },
   { on = [ "r" ],         exec = "rename",                 desc = "Rename a file or directory" },
   { on = [ ";" ],         exec = "shell",                  desc = "Run a shell command" },
   { on = [ ":" ],         exec = "shell --block",          desc = "Run a shell command (block the UI until the command finishes)" },

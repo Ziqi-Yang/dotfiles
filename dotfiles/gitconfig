@@ -6,7 +6,8 @@
 	signingKey = 389582ABC15D64CCFB74D82F934AE9B6B6E9FF34
 
 [core]
-	editor = emacs -nw --init-directory=~/.emacs.d_test/
+	# editor = emacs -nw --init-directory=~/.emacs.d_test/
+	editor = emacs -nw
 	# editor = vim
 	autocrlf = input
 	pager = delta # https://github.com/dandavison/delta/

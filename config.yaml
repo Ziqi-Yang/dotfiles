@@ -228,6 +228,9 @@ dotfiles:
   d_yazi:
     src: config/yazi
     dst: ~/.config/yazi
+  d_swayimg:
+    src: config/swayimg
+    dst: ~/.config/swayimg
 profiles:
   myArch:
     dotfiles:
@@ -304,3 +307,4 @@ profiles:
     - f_gpg-agent.conf
     - d_xplr
     - d_yazi
+    - d_swayimg

@@ -1,0 +1,10 @@
+[Unit]
+Description=Sync Orgzly through Rclone
+
+[Service]
+ExecStart=/home/zarkli/myBin/syncOrgzly
+Restart=always
+RestartSec=300
+
+[Install]
+WantedBy=default.target

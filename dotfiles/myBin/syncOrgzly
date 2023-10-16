@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+rclone copy orgzly: ~/notes/orgzly/

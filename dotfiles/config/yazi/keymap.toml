@@ -157,7 +157,6 @@ keymap = [
 ]
 
 [input]
-
 keymap = [
   { on = [ "<C-q>" ],       exec = "close",          desc = "Cancel input" },
   { on = [ "<Enter>" ],     exec = "close --submit", desc = "Submit the input" },

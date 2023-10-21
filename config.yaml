@@ -231,6 +231,9 @@ dotfiles:
   d_swayimg:
     src: config/swayimg
     dst: ~/.config/swayimg
+  d_rclone:
+    src: config/rclone
+    dst: ~/.config/rclone
 profiles:
   myArch:
     dotfiles:
@@ -308,3 +311,4 @@ profiles:
     - d_xplr
     - d_yazi
     - d_swayimg
+    - d_rclone

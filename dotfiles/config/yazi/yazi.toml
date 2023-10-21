@@ -16,26 +16,29 @@ max_height = 900
 cache_dir  = ""
 
 [opener]
-folder = [{ exec = 'open -R "$@"', display_name = "Reveal in Finder" }, { exec = '$EDITOR "$@"' }]
-archive = [{ exec = 'unar "$1"', display_name = "Extract here" }]
+folder = [{ exec = 'open -R "$@"', desc = "Reveal in Finder" }, { exec = '$EDITOR "$@"' }]
+archive = [{ exec = 'unar "$1"', desc = "Extract here" }]
 text = [
-  { exec = 'bat --paging=always "$@"', block = true, display_name = "view" },
-  { exec = '$EDITOR "$@"', block = true, display_name = "edit" },
+  { exec = 'bat --paging=always "$@"', block = true, desc = "view" },
+  { exec = '$EDITOR "$@"', block = true, desc = "edit" },
 ]
 image = [
-	{ exec = 'open "$@"', display_name = "Open" },
+	{ exec = 'open "$@"', desc = "Open" },
+]
+image_svg = [
+  { exec = 'inkview "$@"', desc = "inkview"}
 ]
 video = [
 	{ exec = 'mpv "$@"' },
-	{ exec = '''mediainfo "$1"; echo "Press enter to exit"; read''', block = true, display_name = "Show media info" },
+	{ exec = '''mediainfo "$1"; echo "Press enter to exit"; read''', block = true, desc = "Show media info" },
 ]
 audio = [
 	{ exec = 'mpv "$@"' },
-	{ exec = '''mediainfo "$1"; echo "Press enter to exit"; read''', block = true, display_name = "Show media info" },
+	{ exec = '''mediainfo "$1"; echo "Press enter to exit"; read''', block = true, desc = "Show media info" },
 ]
 fallback = [
-	{ exec = 'open "$@"', display_name = "Open" },
-	{ exec = 'open -R "$@"', display_name = "Reveal in Finder" },
+	{ exec = 'open "$@"', desc = "Open" },
+	{ exec = 'open -R "$@"', desc = "Reveal in Finder" },
 ]
 
 [open]
@@ -44,6 +47,7 @@ rules = [
 
 	{ mime = "text/*", use = "text" },
 	{ mime = "image/*", use = "image" },
+  { mime = "image/svg", use = "image_svg"},
 	{ mime = "video/*", use = "video" },
 	{ mime = "audio/*", use = "audio" },
 	{ mime = "inode/x-empty", use = "text" },

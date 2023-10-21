@@ -22,7 +22,8 @@ Long-click the icon to unfold the entire subtree.
 If you search for notes tagged with “tag1” using “t.tag1” query, this note will be included in the search results.
 
 *** A note that has the =ARCHIVE= tag set is grayed out :ARCHIVE:
-** TODO Note can have a state
+** DONE Note can have a state
+CLOSED: [2023-10-19 Thu 15:05]
 
 You can configure any number of states to use: TODO, NEXT, DONE, etc.
 

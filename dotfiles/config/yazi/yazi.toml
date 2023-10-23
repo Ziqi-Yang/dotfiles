@@ -1,75 +1,30 @@
-# I softlink the /usr/bin/xdg-open executable to ~/myBin/open (in Path)
-
-[manager]
-layout         = [ 1, 4, 3 ]
-sort_by        = "alphabetical"
-sort_sensitive = false
-sort_reverse   = false
-sort_dir_first = true
-show_hidden    = false
-show_symlink   = true
-
-[preview]
-tab_size   = 2
-max_width  = 600
-max_height = 900
-cache_dir  = ""
+# https://github.com/sxyazi/yazi/blob/main/yazi-config/preset/yazi.toml
 
 [opener]
-folder = [{ exec = 'open -R "$@"', desc = "Reveal in Finder" }, { exec = '$EDITOR "$@"' }]
-archive = [{ exec = 'unar "$1"', desc = "Extract here" }]
-text = [
-  { exec = 'bat --paging=always "$@"', block = true, desc = "view" },
-  { exec = '$EDITOR "$@"', block = true, desc = "edit" },
-]
 image = [
-	{ exec = 'open "$@"', desc = "Open" },
-]
-image_svg = [
-  { exec = 'inkview "$@"', desc = "inkview"}
-]
-video = [
-	{ exec = 'mpv "$@"' },
-	{ exec = '''mediainfo "$1"; echo "Press enter to exit"; read''', block = true, desc = "Show media info" },
-]
-audio = [
-	{ exec = 'mpv "$@"' },
-	{ exec = '''mediainfo "$1"; echo "Press enter to exit"; read''', block = true, desc = "Show media info" },
-]
-fallback = [
-	{ exec = 'open "$@"', desc = "Open" },
-	{ exec = 'open -R "$@"', desc = "Reveal in Finder" },
+  { exec = 'inkview "$@"', desc = "inkview", for = "unix"}
 ]
 
 [open]
 rules = [
-	{ name = "*/", use = "folder" },
+	{ name = "*/", use = [ "edit", "open", "reveal" ] },
 
-	{ mime = "text/*", use = "text" },
-	{ mime = "image/*", use = "image" },
-  { mime = "image/svg", use = "image_svg"},
-	{ mime = "video/*", use = "video" },
-	{ mime = "audio/*", use = "audio" },
-	{ mime = "inode/x-empty", use = "text" },
+	{ mime = "text/*",  use = [ "edit", "reveal" ] },
+	{ mime = "image/*", use = [ "open", "image", "reveal" ] },
+	{ mime = "video/*", use = [ "play", "reveal" ] },
+	{ mime = "audio/*", use = [ "play", "reveal" ] },
+	{ mime = "inode/x-empty", use = [ "edit", "reveal" ] },
 
-	{ mime = "application/json", use = "text" },
-	{ mime = "*/javascript", use = "text" },
+	{ mime = "application/json", use = [ "edit", "reveal" ] },
+	{ mime = "*/javascript",     use = [ "edit", "reveal" ] },
 
-	{ mime = "application/zip", use = "archive" },
-	{ mime = "application/gzip", use = "archive" },
-	{ mime = "application/x-tar", use = "archive" },
-	{ mime = "application/x-bzip", use = "archive" },
-	{ mime = "application/x-bzip2", use = "archive" },
-	{ mime = "application/x-7z-compressed", use = "archive" },
-	{ mime = "application/x-rar", use = "archive" },
+	{ mime = "application/zip",             use = [ "extract", "reveal" ] },
+	{ mime = "application/gzip",            use = [ "extract", "reveal" ] },
+	{ mime = "application/x-tar",           use = [ "extract", "reveal" ] },
+	{ mime = "application/x-bzip",          use = [ "extract", "reveal" ] },
+	{ mime = "application/x-bzip2",         use = [ "extract", "reveal" ] },
+	{ mime = "application/x-7z-compressed", use = [ "extract", "reveal" ] },
+	{ mime = "application/x-rar",           use = [ "extract", "reveal" ] },
 
-	{ mime = "*", use = "fallback" },
+	{ mime = "*", use = [ "open", "reveal" ] },
 ]
-
-[tasks]
-micro_workers = 5
-macro_workers = 10
-bizarre_retry = 5
-
-[log]
-enabled = false

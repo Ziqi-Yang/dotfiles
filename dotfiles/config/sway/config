@@ -155,7 +155,7 @@ bindsym $mod_shift+f floating toggle
 #
 # @ Scratchpad:
 #
-bindsym $mod_shift+period move scratchpad
+bindsym $mod_shift+period floating enable, resize set width 1500 height 900, move scratchpad
 bindsym $mod+period scratchpad show
 
 #

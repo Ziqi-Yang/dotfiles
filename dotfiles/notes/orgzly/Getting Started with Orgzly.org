@@ -97,3 +97,9 @@ Files are in the format used by [[https://orgmode.org/][Org mode]].
 
 A repository is a location you can sync your notebooks with. A repository can be a directory on your mobile device, SD card, or Dropbox.
 
+* TODO https://bitbili.net/an-irc-usage-solution-for-individuals-and-teams.html
+* TODO typst 输出 svg，学用typat画图
+* DONE software methodology 周八ppt17,23,42有习题。下次assignment有关？
+CLOSED: [2023-10-23 Mon 20:03]
+
+* TODO web 项目python sqlite3开启 foreign key 检查

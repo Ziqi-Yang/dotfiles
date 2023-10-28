@@ -1,30 +1,37 @@
 # https://github.com/sxyazi/yazi/blob/main/yazi-config/preset/yazi.toml
 
 [opener]
+text = [
+  { exec = 'bat --paging=always "$@"', block=true, desc = "bat"},
+  { exec = 'cat "$@" | less', block=true, desc = "cat"},
+]
 image = [
-  { exec = 'inkview "$@"', desc = "inkview", for = "unix"}
+  { exec = 'inkview "$@"', desc = "inkview"},
+]
+mk_common = [
+  { exec = 'dragon-drop "$@"', desc= "dragon-drop"}
 ]
 
 [open]
 rules = [
-	{ name = "*/", use = [ "edit", "open", "reveal" ] },
+	{ name = "*/", use = [ "edit", "open", "reveal", "mk_common"] },
 
-	{ mime = "text/*",  use = [ "edit", "reveal" ] },
-	{ mime = "image/*", use = [ "open", "image", "reveal" ] },
-	{ mime = "video/*", use = [ "play", "reveal" ] },
-	{ mime = "audio/*", use = [ "play", "reveal" ] },
-	{ mime = "inode/x-empty", use = [ "edit", "reveal" ] },
+	{ mime = "text/*",  use = [ "text", "edit", "reveal"  ] },
+	{ mime = "image/*", use = [ "open", "image", "reveal", "mk_common"] },
+	{ mime = "video/*", use = [ "play", "reveal", "mk_common" ] },
+	{ mime = "audio/*", use = [ "play", "reveal", "mk_common" ] },
+	{ mime = "inode/x-empty", use = [ "edit", "reveal", "mk_common" ] },
 
-	{ mime = "application/json", use = [ "edit", "reveal" ] },
-	{ mime = "*/javascript",     use = [ "edit", "reveal" ] },
+	{ mime = "application/json", use = [ "edit", "reveal", "mk_common" ] },
+	{ mime = "*/javascript",     use = [ "edit", "reveal", "mk_common" ] },
 
-	{ mime = "application/zip",             use = [ "extract", "reveal" ] },
-	{ mime = "application/gzip",            use = [ "extract", "reveal" ] },
-	{ mime = "application/x-tar",           use = [ "extract", "reveal" ] },
-	{ mime = "application/x-bzip",          use = [ "extract", "reveal" ] },
-	{ mime = "application/x-bzip2",         use = [ "extract", "reveal" ] },
-	{ mime = "application/x-7z-compressed", use = [ "extract", "reveal" ] },
-	{ mime = "application/x-rar",           use = [ "extract", "reveal" ] },
+	{ mime = "application/zip",             use = [ "extract", "reveal", "mk_common" ] },
+	{ mime = "application/gzip",            use = [ "extract", "reveal", "mk_common" ] },
+	{ mime = "application/x-tar",           use = [ "extract", "reveal", "mk_common" ] },
+	{ mime = "application/x-bzip",          use = [ "extract", "reveal", "mk_common" ] },
+	{ mime = "application/x-bzip2",         use = [ "extract", "reveal", "mk_common" ] },
+	{ mime = "application/x-7z-compressed", use = [ "extract", "reveal", "mk_common" ] },
+	{ mime = "application/x-rar",           use = [ "extract", "reveal", "mk_common" ] },
 
-	{ mime = "*", use = [ "open", "reveal" ] },
+	{ mime = "*", use = [ "open", "reveal", "mk_common" ] },
 ]

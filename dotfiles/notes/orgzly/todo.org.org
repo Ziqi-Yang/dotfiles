@@ -1,3 +1,10 @@
 * TODO 加刘东霖学长推送的两个名片
 * TODO https://github.com/ByteByteGoHq/system-design-101
 * TODO excel 科技实践部网页
+* DONE 尝试wechat uos 或depin
+CLOSED: [2023-10-24 Tue 11:22]
+
+* TODO 抄crafted emacs配置
+* TODO try foot terminal
+* TODO 拿科技实践部工作证明
+* TODO 收藏夹 以及 github 收藏夹 ebuku emacs 插件

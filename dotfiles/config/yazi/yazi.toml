@@ -1,6 +1,14 @@
 # https://github.com/sxyazi/yazi/blob/main/yazi-config/preset/yazi.toml
 
 [opener]
+# modify built-in
+play = [
+	{ exec = 'mpv --force-window "$@"', block = true, for = "unix" },
+	{ exec = 'mpv "%1"', orphan = true, for = "windows" },
+	{ exec = '''mediainfo "$1"; echo "Press enter to exit"; read''', block = true, desc = "Show media info", for = "unix" },
+]
+
+# my-own
 text = [
   { exec = 'bat --paging=always "$@"', block=true, desc = "bat"},
   { exec = 'cat "$@" | less', block=true, desc = "cat"},
@@ -11,12 +19,21 @@ image = [
 mk_common = [
   { exec = 'dragon-drop "$@"', desc= "dragon-drop"}
 ]
+db = [
+  { exec = 'litecli "$@"', desc = "litecli", block = true}
+]
+font = [
+  # font preview: https://github.com/sdushantha/fontpreview
+  { exec = 'fontpreview "$@"', desc = "preview" }
+]
 
 [open]
 rules = [
 	{ name = "*/", use = [ "edit", "open", "reveal", "mk_common"] },
+  { name = "*.sqlite", use = ["db", "reveal", "mk_common"]},
+  
 
-	{ mime = "text/*",  use = [ "text", "edit", "reveal"  ] },
+	{ mime = "text/*",  use = [ "text", "edit", "reveal", "mk_common"  ] },
 	{ mime = "image/*", use = [ "open", "image", "reveal", "mk_common"] },
 	{ mime = "video/*", use = [ "play", "reveal", "mk_common" ] },
 	{ mime = "audio/*", use = [ "play", "reveal", "mk_common" ] },
@@ -32,6 +49,11 @@ rules = [
 	{ mime = "application/x-bzip2",         use = [ "extract", "reveal", "mk_common" ] },
 	{ mime = "application/x-7z-compressed", use = [ "extract", "reveal", "mk_common" ] },
 	{ mime = "application/x-rar",           use = [ "extract", "reveal", "mk_common" ] },
+  
+	{ name = "*.ttf",  use = [ "font", "open", "reveal", "mk_common"  ] },
+	{ name = "*.otf",  use = [ "font", "open", "reveal", "mk_common"  ] },
+	{ name = "*.woff",  use = [ "font", "open", "reveal", "mk_common"  ] },
+	{ name = "*.woff2",  use = [ "font", "open", "reveal", "mk_common"  ] },
 
 	{ mime = "*", use = [ "open", "reveal", "mk_common" ] },
 ]

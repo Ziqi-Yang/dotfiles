@@ -124,3 +124,4 @@ image/vnd.zbrush.pcx=imv.desktop
 image/x-xbitmap=imv.desktop
 image/jpeg=imv.desktop
 image/png=imv.desktop
+application/x-font-ttf=fontpreview.desktop

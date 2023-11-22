@@ -1,0 +1,1 @@
+bind <A-x> fillcmdline_notrail

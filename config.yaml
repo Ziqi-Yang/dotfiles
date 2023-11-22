@@ -234,6 +234,9 @@ dotfiles:
   d_rclone:
     src: config/rclone
     dst: ~/.config/rclone
+  d_tridactyl:
+    src: config/tridactyl
+    dst: ~/.config/tridactyl
 profiles:
   myArch:
     dotfiles:
@@ -312,3 +315,4 @@ profiles:
     - d_yazi
     - d_swayimg
     - d_rclone
+    - d_tridactyl

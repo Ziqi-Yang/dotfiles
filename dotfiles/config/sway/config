@@ -191,8 +191,8 @@ bindsym $mod+v exec clipman pick -t wofi
 # for some application doesn't support paste in wayland
 bindsym $mod_shift+v exec wtype $(wl-paste)
 # screenshot
-# bindsym $mod_shift+s exec grim -g "$(slurp)" - | swappy -f -
-bindsym $mod_shift+s exec grim -g "$(slurp -o -r -c '#ff0000ff')" - | satty --filename - --fullscreen --output-filename ~/Pictures/screenshots/satty-$(date '+%Y%m%d-%H:%M:%S').png
+bindsym $mod_shift+s exec grim -g "$(slurp)" - | swappy -f -
+# bindsym $mod_shift+s exec grim -g "$(slurp -o -r -c '#ff0000ff')" - | satty --filename - --fullscreen --output-filename ~/Pictures/screenshots/satty-$(date '+%Y%m%d-%H:%M:%S').png
 
 ## Status Bar
 # use waybar instead of standard swaybar

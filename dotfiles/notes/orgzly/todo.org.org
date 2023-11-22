@@ -8,3 +8,7 @@ CLOSED: [2023-10-24 Tue 11:22]
 * TODO try foot terminal
 * TODO 拿科技实践部工作证明
 * TODO 收藏夹 以及 github 收藏夹 ebuku emacs 插件
+* TODO 学习 image magick
+* TODO pokemmo
+* TODO 为自己 ai 心理咨询
+* TODO emacs 选区然后minibuffer，获取选区内容

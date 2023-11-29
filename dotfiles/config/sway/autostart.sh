@@ -6,7 +6,7 @@ udiskie &
 fcitx5 -d --replace &
 # xautolock -time 15 -locker 'betterlockscreen -l dimblur' &
 blueman-applet &
-clash-verge &
+hiddify-next &
 gammastep-indicator &
 
 # emacs --daemon &

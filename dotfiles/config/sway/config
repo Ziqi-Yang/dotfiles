@@ -1,13 +1,22 @@
 # /etc/sway/config
 # requirements: swaybg, swayidle, swaylock
-set $mod Mod4
-set $mod_shift $mod+Shift
-set $left h
-set $down j
-set $up k
-set $right l
-set $term kitty
-set $menu rofi -show combi -show-icons
+# use `wev` to view key name
+
+set {
+    $mod Mod4
+    $mod_shift $mod+Shift
+    $left h
+    $down j
+    $up k
+    $right l
+    $term kitty
+    $menu rofi -show combi -show-icons
+
+    # app ids
+    $telegram_id org.telegram.desktop
+
+    $t_pos border none, move position center, resize set width 90 ppt height 90 ppt
+}
 
 # fix issue https://github.com/swaywm/sway/wiki#gtk-applications-take-20-seconds-to-start
 exec dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
@@ -73,8 +82,16 @@ smart_gaps on
 
 ## Window Rules
 # works for alacritty --class floating, but not for 'kitty --class floating'
-for_window [app_id="floating"] floating enable
-for_window [app_id="fullscreen"] fullscreen enable
+for_window {
+    [app_id="floating"] floating enable
+    [app_id="fullscreen"] fullscreen enable
+    [app_id="emacs" title="floating"] floating enable
+    [app_id=$telegram_id] {
+        move to scratchpad
+        [app_id=$telegram_id] scratchpad show
+        $t_pos
+    }
+}
 # for_window [app_id="emacs"] fullscreen enable
 assign [app_id="^firefoxdeveloperedition$"] workspace 3
 
@@ -179,7 +196,7 @@ bindsym $mod+r mode "resize"
 # application launcher (fullscreen)
 bindsym $mod+x exec alacritty --class floating
 bindsym $mod+p exec hyprpicker -a
-bindsym $mod+a exec rofi -no-lazy-grab -show drun -theme ~/.local/share/rofi/themes/launchpad.rasi -show-icons 
+bindsym $mod+a exec rofi -no-lazy-grab -show drun -theme ~/.local/share/rofi/themes/launchpad.rasi -show-icons
 # emoji
 bindsym $mod+e exec ~/myBin/emoji_selector 
 # translator
@@ -193,6 +210,13 @@ bindsym $mod_shift+v exec wtype $(wl-paste)
 # screenshot
 bindsym $mod_shift+s exec grim -g "$(slurp)" - | swappy -f -
 # bindsym $mod_shift+s exec grim -g "$(slurp -o -r -c '#ff0000ff')" - | satty --filename - --fullscreen --output-filename ~/Pictures/screenshots/satty-$(date '+%Y%m%d-%H:%M:%S').png
+
+# Scratchpad bindsym
+bindsym --to-code {
+  ## Main terminal
+  # open telegram
+  $mod+comma exec swaymsg [app_id=$telegram_id] scratchpad show || exec telegram-desktop, $t_pos
+}
 
 ## Status Bar
 # use waybar instead of standard swaybar

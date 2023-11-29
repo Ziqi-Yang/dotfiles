@@ -1,0 +1,4 @@
+[Bookmarks]
+/home/zarkli/Documents/class/
+[Recent]
+/home/zarkli/Documents/class/senior/COMP3033J-Computer_Graphics/

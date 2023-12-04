@@ -13,7 +13,9 @@ set {
     $menu rofi -show combi -show-icons
 
     # app ids
+    $firefoxdeveloperedition firefoxdeveloperedition
     $telegram_id org.telegram.desktop
+    $pocket_terminal pocket_terminal
 
     $t_pos border none, move position center, resize set width 90 ppt height 90 ppt
 }
@@ -23,6 +25,10 @@ exec dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSO
 
 ## autostart
 exec ~/.config/sway/autostart.sh
+
+# sov
+# https://github.com/milgra/sov
+exec rm -f /tmp/sovpipe && mkfifo /tmp/sovpipe && tail -f /tmp/sovpipe | sov -txl 50
 
 ## Idle configuration
 exec swayidle -w \
@@ -91,6 +97,12 @@ for_window {
         [app_id=$telegram_id] scratchpad show
         $t_pos
     }
+    [app_id=$pocket_terminal] {
+        move to scratchpad
+        [app_id=$pocket_terminal] scratchpad show
+        $t_pos
+    }
+
 }
 # for_window [app_id="emacs"] fullscreen enable
 assign [app_id="^firefoxdeveloperedition$"] workspace 3
@@ -135,17 +147,42 @@ bindsym Alt+Tab focus prev
 # @ Workspaces:
 #
 # Switch to workspace
-bindsym $mod+1 workspace number 1
-bindsym $mod+2 workspace number 2
-bindsym $mod+3 workspace number 3
-bindsym $mod+4 workspace number 4
-bindsym $mod+5 workspace number 5
-bindsym $mod+6 workspace number 6
-bindsym $mod+7 workspace number 7
-bindsym $mod+8 workspace number 8
-bindsym $mod+9 workspace number 9
-bindsym $mod+0 workspace number 10
+# integration with sov, while holding $mod+number, there will be a workspace preview
+bindsym --no-repeat $mod+1 workspace number 1; exec "echo 1 > /tmp/sovpipe"
+bindsym --no-repeat $mod+2 workspace number 2; exec "echo 1 > /tmp/sovpipe"
+bindsym --no-repeat $mod+3 workspace number 3; exec "echo 1 > /tmp/sovpipe"
+bindsym --no-repeat $mod+4 workspace number 4; exec "echo 1 > /tmp/sovpipe"
+bindsym --no-repeat $mod+5 workspace number 5; exec "echo 1 > /tmp/sovpipe"
+bindsym --no-repeat $mod+6 workspace number 6; exec "echo 1 > /tmp/sovpipe"
+bindsym --no-repeat $mod+7 workspace number 7; exec "echo 1 > /tmp/sovpipe"
+bindsym --no-repeat $mod+8 workspace number 8; exec "echo 1 > /tmp/sovpipe"
+bindsym --no-repeat $mod+9 workspace number 9; exec "echo 1 > /tmp/sovpipe"
+bindsym --no-repeat $mod+0 workspace number 10; exec "echo 1 > /tmp/sovpipe"
+
+bindsym --release $mod+1 exec "echo 0 > /tmp/sovpipe"
+bindsym --release $mod+2 exec "echo 0 > /tmp/sovpipe"
+bindsym --release $mod+3 exec "echo 0 > /tmp/sovpipe"
+bindsym --release $mod+4 exec "echo 0 > /tmp/sovpipe"
+bindsym --release $mod+5 exec "echo 0 > /tmp/sovpipe"
+bindsym --release $mod+6 exec "echo 0 > /tmp/sovpipe"
+bindsym --release $mod+7 exec "echo 0 > /tmp/sovpipe"
+bindsym --release $mod+8 exec "echo 0 > /tmp/sovpipe"
+bindsym --release $mod+9 exec "echo 0 > /tmp/sovpipe"
+bindsym --release $mod+0 exec "echo 0 > /tmp/sovpipe"
+
+# bindsym $mod+1 workspace number 1
+# bindsym $mod+2 workspace number 2
+# bindsym $mod+3 workspace number 3
+# bindsym $mod+4 workspace number 4
+# bindsym $mod+5 workspace number 5
+# bindsym $mod+6 workspace number 6
+# bindsym $mod+7 workspace number 7
+# bindsym $mod+8 workspace number 8
+# bindsym $mod+9 workspace number 9
+# bindsym $mod+0 workspace number 10
+
 bindsym $mod+tab workspace back_and_forth
+
 # Move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number 1
 bindsym $mod+Shift+2 move container to workspace number 2
@@ -168,13 +205,6 @@ bindsym $mod+s layout toggle split
 bindsym $mod+f fullscreen
 bindsym $mod_shift+f floating toggle
 # bindsym $mod+a focus parent # TODO don't really know its function
-
-#
-# @ Scratchpad:
-#
-bindsym $mod_shift+period floating enable, resize set width 1500 height 900, move scratchpad
-bindsym $mod+period scratchpad show
-
 #
 # @ Resizing containers:
 #
@@ -213,9 +243,12 @@ bindsym $mod_shift+s exec grim -g "$(slurp)" - | swappy -f -
 
 # Scratchpad bindsym
 bindsym --to-code {
-  ## Main terminal
-  # open telegram
+  $mod_shift+period floating enable, resize set width 1500 height 900, move scratchpad
+  $mod+period scratchpad show
+
   $mod+comma exec swaymsg [app_id=$telegram_id] scratchpad show || exec telegram-desktop, $t_pos
+  $mod+semicolon exec swaymsg [app_id=$firefoxdeveloperedition] scratchpad show
+  $mod+slash exec swaymsg [app_id=$pocket_terminal] scratchpad show || exec foot --app-id=pocket_terminal, $t_pos
 }
 
 ## Status Bar

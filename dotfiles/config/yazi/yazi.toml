@@ -10,8 +10,8 @@ play = [
 
 # my-own
 text = [
-  { exec = 'bat --paging=always "$@"', block=true, desc = "bat"},
-  { exec = 'cat "$@" | less', block=true, desc = "cat"},
+  { exec = 'bat --paging=always -p --pager="less -Ri" "$@"', block=true, desc = "bat"},
+  { exec = 'less -i "$@" ', block=true, desc = "cat"},
 ]
 image = [
   { exec = 'inkview "$@"', desc = "inkview"},

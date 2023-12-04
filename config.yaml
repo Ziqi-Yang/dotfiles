@@ -237,6 +237,12 @@ dotfiles:
   d_tridactyl:
     src: config/tridactyl
     dst: ~/.config/tridactyl
+  d_scriptisto:
+    src: config/scriptisto
+    dst: ~/.config/scriptisto
+  d_foot:
+    src: config/foot
+    dst: ~/.config/foot
 profiles:
   myArch:
     dotfiles:
@@ -316,3 +322,5 @@ profiles:
     - d_swayimg
     - d_rclone
     - d_tridactyl
+    - d_scriptisto
+    - d_foot

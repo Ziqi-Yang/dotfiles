@@ -13,8 +13,8 @@ gammastep-indicator &
 wl-paste -t text --watch clipman store &
 swaymsg "workspace 1; exec kitty;" &
 
-# avoid consuming to much resources at system startup
-sleep 1 && firefox-developer-edition &
+telegram-desktop &
+firefox-developer-edition &
 
 # not-working apps
 # nm-applet & # cannot stay within waybar tray

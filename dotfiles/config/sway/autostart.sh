@@ -13,6 +13,8 @@ gammastep-indicator &
 wl-paste -t text --watch clipman store &
 swaymsg "workspace 1; exec kitty;" &
 
+foot --app-id="pocket_terminal" &
+
 telegram-desktop &
 firefox-developer-edition &
 

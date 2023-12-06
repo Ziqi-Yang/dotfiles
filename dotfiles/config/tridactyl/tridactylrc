@@ -1,4 +1,6 @@
 " <C-i> in insert mode is also editor
 bind e editor
 bind <A-x> fillcmdline_notrail
+unbind <C-f>
+unbind <C-a>
 set editorcmd emacsclient -a "" -c --frame-parameters='(quote (name . "floating"))'

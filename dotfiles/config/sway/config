@@ -243,7 +243,7 @@ bindsym $mod_shift+s exec grim -g "$(slurp)" - | swappy -f -
 
 # Scratchpad bindsym
 bindsym --to-code {
-  $mod_shift+period floating enable, resize set width 1500 height 900, move scratchpad
+  $mod_shift+period floating enable, $t_pos, move scratchpad
   $mod+period scratchpad show
 
   $mod+comma exec swaymsg [app_id=$telegram_id] scratchpad show || exec telegram-desktop, $t_pos

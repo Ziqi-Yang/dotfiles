@@ -2,6 +2,12 @@ config:
   backup: true
   create: true
   dotpath: dotfiles
+variables:
+  keyid: 8D5DEC9AB3C940FC989F9298F074DBE130C7FE9F
+trans_install:
+  _decrypt: gpg -q --for-your-eyes-only -d {0} > {1}
+trans_update:
+  _encrypt: gpg -q -r {{@@ keyid @@}} --armor -o {1} -e {0}
 dotfiles:
   d_alacritty:
     src: config/alacritty
@@ -243,6 +249,12 @@ dotfiles:
   d_foot:
     src: config/foot
     dst: ~/.config/foot
+  f_config.yaml:
+    src: config/aichat/config.yaml
+    dst: ~/.config/aichat/config.yaml
+    chmod: '600'
+    trans_install: _decrypt
+    trans_update: _encrypt
 profiles:
   myArch:
     dotfiles:
@@ -324,3 +336,4 @@ profiles:
     - d_tridactyl
     - d_scriptisto
     - d_foot
+    - f_config.yaml

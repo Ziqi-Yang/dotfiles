@@ -255,6 +255,11 @@ dotfiles:
     chmod: '600'
     trans_install: _decrypt
     trans_update: _encrypt
+  f_roles.yaml:
+    src: config/aichat/roles.yaml
+    dst: ~/.config/aichat/roles.yaml
+    trans_install: _decrypt
+    trans_update: _encrypt
 profiles:
   myArch:
     dotfiles:
@@ -337,3 +342,4 @@ profiles:
     - d_scriptisto
     - d_foot
     - f_config.yaml
+    - f_roles.yaml

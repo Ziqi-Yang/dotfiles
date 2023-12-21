@@ -1,0 +1,24 @@
+display-name = "Meow King"
+downloads-dir = "~/Downloads"
+
+[autistici]
+default = true
+email = "mr.meowking@anche.no"
+display-name = "Meow King"
+backend = "imap"
+
+sync = true
+
+imap-host = "mail.autistici.org"
+imap-port = 993
+imap-login = "mr.meowking@anche.no"
+imap-auth = "passwd"
+imap-passwd.cmd = "pass mr.meowking@anche.no"
+
+sender = "smtp"
+smtp-host = "smtp.autistici.org"
+smtp-port = 587
+smtp-starttls = true
+smtp-login = "mr.meowking@anche.no"
+smtp-auth = "passwd"
+smtp-passwd.cmd = "pass mr.meowking@anche.no"

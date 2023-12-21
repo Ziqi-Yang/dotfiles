@@ -260,6 +260,9 @@ dotfiles:
     dst: ~/.config/aichat/roles.yaml
     trans_install: _decrypt
     trans_update: _encrypt
+  d_himalaya:
+    src: config/himalaya
+    dst: ~/.config/himalaya
 profiles:
   myArch:
     dotfiles:
@@ -343,3 +346,4 @@ profiles:
     - d_foot
     - f_config.yaml
     - f_roles.yaml
+    - d_himalaya

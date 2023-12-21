@@ -5,7 +5,7 @@ if status is-interactive
 ## otherwise
 # set -x EDITOR "emacs -nw --init-directory=~/.emacs.d_test/"
 # set -x EDITOR "emacs -nw"
-set -x EDITOR "nemacs"
+set -x EDITOR "env EMACS-MIN=1 nemacs"
 set -x ANDROID_SDK_ROOT /opt/android-sdk
 
 ## path

@@ -28,7 +28,7 @@ exec ~/.config/sway/autostart.sh
 
 # sov
 # https://github.com/milgra/sov
-exec rm -f /tmp/sovpipe && mkfifo /tmp/sovpipe && tail -f /tmp/sovpipe | sov -txl 50
+exec rm -f /tmp/sovpipe && mkfifo /tmp/sovpipe && tail -f /tmp/sovpipe | sov -txl 80
 
 ## Idle configuration
 exec swayidle -w \

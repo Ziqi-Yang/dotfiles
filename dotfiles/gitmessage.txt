@@ -1,5 +1,9 @@
 
-
 # HEADERS: feat, fix, build, chore, ci, docs, style, refactor, pref, test
 # FOOTER: BREAKING CHANGE, Acked-by(an example, use '-' for whitespace, 'BREAKING CHANGE' is an exception)
 # Tips: 1) feat(scope)!:
+
+# Source Hut:
+# How to referencing tickets:
+#   Fixes/Implements/References/Closes: <ticket url>
+#   Signed-off-by: Meow King <mr.meowking@anche.no>

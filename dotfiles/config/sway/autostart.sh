@@ -10,10 +10,10 @@ hiddify-next &
 gammastep-indicator &
 
 # emacs --daemon &
-wl-paste -t text --watch clipman store &
+wl-paste --watch cliphist store &
 swaymsg "workspace 1; exec kitty;" &
 
-foot --app-id="pocket_terminal" &
+foot --server &
 
 telegram-desktop &
 firefox-developer-edition &

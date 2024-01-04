@@ -10,6 +10,7 @@ play = [
 
 # my-own
 text = [
+  { exec = 'env EMACS-MIN=1 nemacs --eval "(mk/global-read-only-mode)" "$@"', block=true, desc = "emacs viewer"},
   { exec = 'bat --paging=always -p --pager="less -Ri" "$@"', block=true, desc = "bat"},
   { exec = 'less -i "$@" ', block=true, desc = "cat"},
 ]

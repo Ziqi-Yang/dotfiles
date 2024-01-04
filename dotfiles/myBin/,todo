@@ -1,0 +1,15 @@
+#!/usr/bin/bash
+
+hut todo ticket list -t todo
+
+echo 
+echo -------------------
+echo
+
+hut todo ticket list -t Project_Plans
+
+echo 
+echo ----------------
+echo command example:
+echo [close a ticket] hut todo ticket update-status 2 -r closed -t Project_Plans
+echo '[create a ticket] echo "[code review] isolate" | hut todo ticket create --stdin -t todo'

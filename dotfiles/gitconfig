@@ -1,8 +1,8 @@
 [include]
 	path = ~/.local/share/delta/theme/themes.gitconfig
 [user]
-	name = Ziqi Yang
-	email = mr.ziqiyang@gmail.com
+	name = Meow King
+	email = mr.meowking@anche.no
 	signingKey = 389582ABC15D64CCFB74D82F934AE9B6B6E9FF34
 
 [core]
@@ -27,6 +27,7 @@
     colorMoved = default
 [push]
     autoSetupRemote = true
+	followTags = true
 
 [http]
 	proxy = http://127.0.0.1:7890

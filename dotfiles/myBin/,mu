@@ -1,0 +1,35 @@
+#!/usr/bin/cyber
+-- Get recent 10 mails with their file path
+-- You can use `mu view <filePath> to view the mail, or pass it to `git am`
+--------------------------------------------
+import os
+
+
+func printMails(mails List, mailPathes List, commonLen int):
+  for 0..commonLen -> i:
+    print(mails[i])
+    print("\t" + mailPathes[i])
+
+func main():
+  var MAIL_NUM int = 10
+  var getMailsCommand List = ['mu', 'find', '\"\"', '-z', '-n', '$(MAIL_NUM)']
+  var getMailPathesCommand List = ['mu', 'find', '\"\"', '-z', '-n', '$(MAIL_NUM)', '--exec', 'echo']
+  
+  var mailsResMap Map = os.execCmd(getMailsCommand)
+  var mailPathesResMap Map = os.execCmd(getMailPathesCommand)
+
+  if mailsResMap['exited'] != 0 or mailPathesResMap['exited'] != 0:
+    print(getMailsCommand)
+    print(mailsResMap['err'])
+    print('-----------------')
+    print(getMailPathesCommand)
+    print(mailPathesResMap['err'])
+    os.exit(1)
+  else:
+    var mails List = mailsResMap['out'].split('\n')
+    var mailPathes List = mailPathesResMap['out'].split('\n')
+    printMails(mails, mailPathes, MAIL_NUM)
+
+main()
+
+

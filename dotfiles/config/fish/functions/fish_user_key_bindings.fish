@@ -3,7 +3,7 @@
 # use `fish_key_reader` to show key input character code
 function fish_user_key_bindings
   # vim
-  ## insert modee
+  ## insert mode
   bind -M insert \cA 'beginning-of-line'
   bind -M insert \cE 'end-of-line'
   bind -M insert \b 'backward-kill-word'
@@ -12,4 +12,6 @@ function fish_user_key_bindings
   bind -M insert \cB 'backward-char'
   bind -M insert \ef 'forward-word'
   bind -M insert \eb 'backward-word'
+
+  bind -M insert \cz '_zoxide-select'
 end

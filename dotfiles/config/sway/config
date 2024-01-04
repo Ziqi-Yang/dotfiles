@@ -82,14 +82,17 @@ font pango:monospace 0
 titlebar_padding 3
 titlebar_border_thickness 0
 # smart gaps
-gaps inner 10
+gaps inner 4
 smart_borders on
 smart_gaps on
 
 ## Window Rules
 # works for alacritty --class floating, but not for 'kitty --class floating'
 for_window {
-    [app_id="floating"] floating enable
+    [app_id="floating"] {
+        floating enable
+        $t_pos
+    }
     [app_id="fullscreen"] fullscreen enable
     [app_id="emacs" title="floating"] floating enable
     [app_id=$telegram_id] {
@@ -234,7 +237,8 @@ bindsym $mod+t exec kitty --class floating -e '/bin/fish' -c 'source ~/.config/f
 # calc
 bindsym $mod+c exec rofi -show calc -modi calc -theme spotlight -no-show-match -no-sort -calc-command "echo -n '\{result\}' | xclip -sel clip; xdotool type --clearmodifiers '\{result\}'"
 # clipboard, currently rofi wayland fork have demnu issues
-bindsym $mod+v exec clipman pick -t wofi 
+bindsym $mod+v exec footclient -a floating fish -c "cliphist list | fzf | cliphist decode | wl-copy"
+
 # for some application doesn't support paste in wayland
 bindsym $mod_shift+v exec wtype $(wl-paste)
 # screenshot
@@ -248,7 +252,7 @@ bindsym --to-code {
 
   $mod+comma exec swaymsg [app_id=$telegram_id] scratchpad show || exec telegram-desktop, $t_pos
   $mod+semicolon exec swaymsg [app_id=$firefoxdeveloperedition] scratchpad show
-  $mod+slash exec swaymsg [app_id=$pocket_terminal] scratchpad show || exec foot --app-id=pocket_terminal, $t_pos
+  $mod+slash exec swaymsg [app_id=$pocket_terminal] scratchpad show || exec footclient --app-id=pocket_terminal, $t_pos
 }
 
 ## Status Bar

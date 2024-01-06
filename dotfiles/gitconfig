@@ -1,34 +1,29 @@
-[include]
-	path = ~/.local/share/delta/theme/themes.gitconfig
 [user]
 	name = Meow King
 	email = mr.meowking@anche.no
 	signingKey = 389582ABC15D64CCFB74D82F934AE9B6B6E9FF34
 
 [core]
-	# editor = emacs -nw --init-directory=~/.emacs.d_test/
 	editor = env EMACS-MIN=1 nemacs $argv
-	# editor = vim
 	autocrlf = input
-	pager = delta # https://github.com/dandavison/delta/
 	excludesFile = /home/zarkli/.gitignore_global # personal gitignore only(like code liner or debuger cache)
 
-[interactive]
-	diffFilter = delta --color-only --features=interactive
-[delta]
-	features = mantis-shrimp # coracias-caudatus mantis-shrimp woolly-mammoth tangara-chilensis hoopole
-	line-numbers = true
-	side-by-side = true
-    navigate = true    # use n and N to move between diff sections
-	hyperlinks = true
+# difftastic setting
+[diff]
+  tool = difftastic
+  external = difft
+[difftool]
+  prompt = false
+[difftool "difftastic"]
+  cmd = difft "$LOCAL" "$REMOTE"  
+[pager]
+  difftool = true
+
 [merge]
     conflictstyle = diff3
-[diff]
-    colorMoved = default
 [push]
     autoSetupRemote = true
-	followTags = true
-
+	  followTags = true
 [http]
 	proxy = http://127.0.0.1:7890
 [https]
@@ -46,3 +41,4 @@
 lg1 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all
 lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
 lg = lg1
+dft = difftool

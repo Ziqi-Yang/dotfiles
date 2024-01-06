@@ -251,7 +251,7 @@ bindsym --to-code {
   $mod+period scratchpad show
 
   $mod+comma exec swaymsg [app_id=$telegram_id] scratchpad show || exec telegram-desktop, $t_pos
-  $mod+semicolon exec swaymsg [app_id=$firefoxdeveloperedition] scratchpad show
+  $mod+semicolon exec swaymsg [app_id=$firefoxdeveloperedition] scratchpad show, $t_pos
   $mod+slash exec swaymsg [app_id=$pocket_terminal] scratchpad show || exec footclient --app-id=pocket_terminal, $t_pos
 }
 

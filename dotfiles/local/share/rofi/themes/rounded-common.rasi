@@ -5,7 +5,7 @@
  *******************************************************************************/
 
 * {
-    font:   "zpix 12";
+    font:   "zpix 6";
 
     background-color:   transparent;
     text-color:         @fg0;

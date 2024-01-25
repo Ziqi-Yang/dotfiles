@@ -5,8 +5,7 @@
 play = [
 	{ exec = 'mpv --force-window "$@"', block = true, for = "unix" },
 	{ exec = 'mpv "%1"', orphan = true, for = "windows" },
-	{ exec = '''mediainfo "$1"; echo "Press enter to exit"; read''', block = true, desc = "Show media info", for = "unix" },
-]
+	{ exec = '''mediainfo "$1"; echo "Press enter to exit"; read''', block = true, desc = "Show media info", for = "unix" }]
 
 # my-own
 text = [

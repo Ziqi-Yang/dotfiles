@@ -263,6 +263,9 @@ dotfiles:
   d_himalaya:
     src: config/himalaya
     dst: ~/.config/himalaya
+  f_default.custom.yaml:
+    src: local/share/fcitx5/rime/default.custom.yaml
+    dst: ~/.local/share/fcitx5/rime/default.custom.yaml
 profiles:
   myArch:
     dotfiles:
@@ -347,3 +350,4 @@ profiles:
     - f_config.yaml
     - f_roles.yaml
     - d_himalaya
+    - f_default.custom.yaml

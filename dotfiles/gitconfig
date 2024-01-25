@@ -20,10 +20,11 @@
   difftool = true
 
 [merge]
-    conflictstyle = diff3
+  ff = only # ensure no merge policy
+  conflictstyle = diff3
 [push]
-    autoSetupRemote = true
-	  followTags = true
+  autoSetupRemote = true
+	followTags = true
 [http]
 	proxy = http://127.0.0.1:7890
 [https]
@@ -33,12 +34,35 @@
 [init]
 	defaultBranch = main
 [pull]
-	rebase = true
+  rebase = interactive
 [sendemail]
 	smtpserver = /usr/bin/msmtp
 
+[rebase]
+  autosquash = true
+
+# note: in fish shell, git ali(as)<tab> can trigger alias completion
 [alias]
+a = add
+aa = add --all
+co = checkout
+c = commit
+# ca = commit -a
+cp = commit -p
+caf = commit -a --fixup
+caa = commit --amend
+bv = branch -vv
+d = diff
+dw = diff -w # ignore white spaces
+p = push
+pf = push --force-with-lease
+s = show --ext-diff
+st = status
+rao = remote add origin
+rr = remote -vv
+rb = rebase
+rbi = rebase -i
 lg1 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all
 lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
+l = log -p --ext-diff
 lg = lg1
-dft = difftool

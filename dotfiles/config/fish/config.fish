@@ -28,6 +28,8 @@ zoxide init fish | source
 
 starship init fish | source
 
+jj util completion --fish | source
+
 end
 
 ## for both interactive and non-interactive environment (like alacritty -e "/usr/bin/fish" ...)

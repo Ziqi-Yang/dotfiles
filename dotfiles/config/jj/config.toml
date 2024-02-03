@@ -1,0 +1,6 @@
+[user]
+name = "Meow King"
+email = "mr.meowking@anche.no"
+
+[ui]
+diff-editor = "meld"

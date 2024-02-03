@@ -1,17 +1,17 @@
 {
     "layer": "top",
     "modules-left": [
-        "image#avatar",
+        // "image#avatar",
         "clock",
-	"sway/mode",
-	"sway/window",
+	      "sway/mode",
+	      "sway/window",
         "custom/todo",
         "custom/notification",
         "custom/email",
-        "custom/pacman",
-        "custom/leetcode",
-        "custom/music",
-        "custom/pomodoro"
+        "custom/pacman"
+        // "custom/leetcode",
+        // "custom/music",
+        // "custom/pomodoro"
     ],
     "modules-center": [
         "sway/workspaces"
@@ -175,7 +175,7 @@
         "interval": 30,
         "format": "  {used}",
         "path": "/",
-        "on-click": "alacritty --class floating --hold -e '/bin/bash' -c 'duf && ncdu'",
+        "on-click": "footclient -a floating -H -L bash -c 'duf && read -p '[ENTER]' && ncdu'",
     },
     "custom/trash": {
         "format": " {}",

@@ -266,6 +266,10 @@ dotfiles:
   f_default.custom.yaml:
     src: local/share/fcitx5/rime/default.custom.yaml
     dst: ~/.local/share/fcitx5/rime/default.custom.yaml
+  d_jj:
+    src: config/jj
+    dst: ~/.config/jj
+    chmod: '700'
 profiles:
   myArch:
     dotfiles:
@@ -351,3 +355,4 @@ profiles:
     - f_roles.yaml
     - d_himalaya
     - f_default.custom.yaml
+    - d_jj

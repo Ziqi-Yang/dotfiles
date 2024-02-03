@@ -8,7 +8,7 @@
 	autocrlf = input
 	excludesFile = /home/zarkli/.gitignore_global # personal gitignore only(like code liner or debuger cache)
 
-# difftastic setting
+# difftasticsetting
 [diff]
   tool = difftastic
   external = difft

@@ -15,7 +15,7 @@ swaymsg "workspace 1; exec kitty;" &
 
 foot --server &
 
-telegram-desktop &
+# telegram-desktop &
 firefox-developer-edition &
 
 # enter gpg password (used for gpg agent), so offlineimap sync in crontab can

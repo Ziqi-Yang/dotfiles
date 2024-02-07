@@ -1,6 +1,15 @@
+[core]
+# install watchman
+fsmonitor = "watchman"
+
 [user]
 name = "Meow King"
 email = "mr.meowking@anche.no"
 
 [ui]
-diff-editor = "meld"
+default-command = "log"
+diff-editor = "meld-3"
+
+[template-aliases]
+'format_short_signature(signature)' = 'signature'
+

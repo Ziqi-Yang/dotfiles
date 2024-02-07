@@ -55,7 +55,7 @@
         "interval": 3600,                     // every hour
         "exec": "checkupdates | wc -l",       // of updates
         "exec-if": "exit 0",                  // always run; consider advanced run conditions
-        "on-click": "footclient -a floating -H -L bash -c 'sudo pacman -Syu && env all_proxy=http://127.0.0.1:7890 paru -Syu -a && echo done'; pkill -SIGRTMIN+2 waybar", // update system
+        "on-click": "footclient -a floating -H -L fish -c '~/myBin/,update_all'; pkill -SIGRTMIN+2 waybar", // update system
         "signal": 2,
     },
     "custom/leetcode": {
@@ -164,12 +164,12 @@
     "cpu": {
         "interval": 3,
         "format": "  {avg_frequency}GHz <span color=\"darkgray\">| {usage}%</span>",
-        "on-click": "alacritty --class floating -e htop --sort-key PERCENT_CPU",
+        "on-click": "footclient -a floating -H -L bash -c 'htop -t --sort-key PERCENT_CPU'",
     },
     "memory": {
         "interval": 6,
         "format": " {used:0.2f}G <span color=\"darkgray\">| {percentage}%</span>",
-        "on-click": "alacritty --class floating -e htop --sort-key PERCENT_MEM"
+        "on-click": "footclient -a floating -H -L bash -c 'htop -t --sort-key PERCENT_MEM'"
     },
     "disk": {
         "interval": 30,

@@ -1,5 +1,5 @@
-# /etc/sway/config
-# requirements: swaybg, swayidle, swaylock
+
+# requirements: swaybg# /etc/sway/config, swayidle, swaylock
 # use `wev` to view key name
 
 set {

@@ -1,0 +1,7 @@
+#!/usr/bin/env fish
+
+sudo pacman -Syyu
+and env all_proxy=http://127.0.0.1:7890 paru -Syyua
+and env all_proxy=http://127.0.0.1:7890 paru -S zig-dev-bin
+and echo done
+

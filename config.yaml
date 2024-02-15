@@ -270,6 +270,9 @@ dotfiles:
     src: config/jj
     dst: ~/.config/jj
     chmod: '700'
+  d_swaync:
+    src: config/swaync
+    dst: ~/.config/swaync
 profiles:
   myArch:
     dotfiles:
@@ -356,3 +359,4 @@ profiles:
     - d_himalaya
     - f_default.custom.yaml
     - d_jj
+    - d_swaync

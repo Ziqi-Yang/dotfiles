@@ -2,7 +2,7 @@
 
 * Requirements
 #+begin_src shell
-sudo pacman -S polkit sway swaylock swayidle swaybg
+sudo pacman -S polkit sway swaylock swayidle swaybg swaync
 #+end_src
 * Note
 1. The =./sway_wrap= is copied from =/usr/share/wayland-sessions/sway_wrap= (created manually)

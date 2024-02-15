@@ -1,12 +1,10 @@
 #!/usr/bin/bash
 
-# dunst & # seems like sway auto start it
 # waybar & # sway bar 
 udiskie &
 fcitx5 -d --replace &
 # xautolock -time 15 -locker 'betterlockscreen -l dimblur' &
 blueman-applet &
-hiddify-next &
 gammastep-indicator &
 
 # emacs --daemon &

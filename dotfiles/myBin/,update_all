@@ -1,7 +1,8 @@
 #!/usr/bin/env fish
 
 sudo pacman -Syyu
-and env all_proxy=http://127.0.0.1:7890 paru -Syyua
-and env all_proxy=http://127.0.0.1:7890 paru -S zig-dev-bin
+and paru -Syyua
+and paru -S zig-dev-bin
+and cd ~/package-local and just update and cd -
 and echo done
 

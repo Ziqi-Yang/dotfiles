@@ -25,10 +25,10 @@
 [push]
   autoSetupRemote = true
 	followTags = true
-[http]
-	proxy = http://127.0.0.1:7890
-[https]
-	proxy = http://127.0.0.1:7890
+# [http]
+# 	proxy = http://127.0.0.1:7890
+# [https]
+# 	proxy = http://127.0.0.1:7890
 [commit]
 	template = /home/zarkli/.gitmessage.txt
 [init]

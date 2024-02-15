@@ -28,7 +28,7 @@ zoxide init fish | source
 
 starship init fish | source
 
-jj util completion --fish | source
+jj util completion fish | source
 
 end
 

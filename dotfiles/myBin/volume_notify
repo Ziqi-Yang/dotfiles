@@ -13,7 +13,7 @@ msgTag="myvolume"
 amixer -c 0 set master "$@" > /dev/null
 
 # Query amixer for the current volume and whether or not the speaker is muted
-volume="$(amixer get Master | tail -1 | sed -e 's/.*\[\(.*\)%\] \[\(.*\)\]/\1/g')"
+volume="$(am
 mute="$(amixer get Master | tail -1 | sed -e 's/.*\[\(.*\)%\] \[\(.*\)\]/\2/g')"
 if [[ $volume == 0 || "$mute" == "off" ]]; then
     # Show the sound muted notification

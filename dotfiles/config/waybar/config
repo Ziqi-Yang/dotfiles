@@ -39,11 +39,24 @@
         "on-click-right": "uairctl next && uairctl toggle && uairctl ztoggle"
     },
     "custom/notification": {
-        "format": "{}",
-        "interval": "once",
-        "exec": "if [[ \"$(dunstctl is-paused)\" == \"false\" ]]; then echo ''; else echo ''; fi",
-        "on-click": "dunstctl set-paused toggle; pkill -SIGRTMIN+1 waybar",
-        "signal": 1
+        "tooltip": false,
+        "format": "{icon}",
+        "format-icons": {
+            "notification": "<span foreground='red'><sup></sup></span>",
+            "none": "",
+            "dnd-notification": "<span foreground='red'><sup></sup></span>",
+            "dnd-none": "",
+            "inhibited-notification": "<span foreground='red'><sup></sup></span>",
+            "inhibited-none": "",
+            "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
+            "dnd-inhibited-none": ""
+        },
+        "return-type": "json",
+        "exec-if": "which swaync-client",
+        "exec": "swaync-client -swb",
+        "on-click": "swaync-client -t -sw",
+        "on-click-right": "swaync-client -d -sw",
+        "escape": true
     },
     "custom/email": {
     	"format": "  {}",
@@ -128,7 +141,7 @@
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "",
         // "format-alt": "{ifname}: {ipaddr}/{cidr}",
-        "on-click": "alacritty --class floating -e '/bin/bash' -c 'nmtui'",
+        "on-click": "footclient -a floating -H -L bash -c 'nmtui'",
         "family": "ipv4",
         "tooltip-format-wifi": "  {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\n {bandwidthUpBits}  {bandwidthDownBits}",
         "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n {bandwidthUpBits}  {bandwidthDownBits}"

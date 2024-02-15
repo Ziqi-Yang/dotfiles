@@ -9,7 +9,21 @@ email = "mr.meowking@anche.no"
 [ui]
 default-command = "log"
 diff-editor = "meld-3"
+default-description = """
+
+
+JJ: HEADERS: feat, fix, build, chore, ci, docs, style, refactor, pref, test
+JJ: FOOTER: BREAKING CHANGE, Acked-by(an example, use '-' for whitespace, 'BREAKING CHANGE' is an exception)
+JJ: Tips: 1) feat(scope)!:
+JJ:
+JJ: Source Hut:
+JJ: How to referencing tickets:
+JJ:   Fixes/Implements/References/Closes: <ticket url>
+JJ:   Signed-off-by: Meow King <mr.meowking@anche.no>
+"""
+
 
 [template-aliases]
 'format_short_signature(signature)' = 'signature'
+
 

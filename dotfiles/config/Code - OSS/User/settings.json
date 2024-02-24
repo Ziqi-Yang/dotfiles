@@ -1,8 +1,6 @@
 {
-    "workbench.colorTheme": "GitHub Light Default",
     "editor.fontLigatures": true,
-    "editor.fontFamily": "'FiraCode Nerd Font',Consolas,'Courier New', monospace",
-    "editor.fontSize": 16,
+    "editor.fontFamily": "'Cascadia Code', monospace",
 
     // tips: (more to see at the offical github repo)
     // gd - go to definitin
@@ -249,6 +247,8 @@
     "go.toolsManagement.autoUpdate": true,
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
-    "editor.guides.bracketPairs": true
+    "editor.guides.bracketPairs": true,
+    "workbench.colorTheme": "Default Light Modern",
+    "editor.fontSize": 15
 
 }

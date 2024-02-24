@@ -3,6 +3,8 @@
 sudo pacman -Syyu
 and paru -Syyua
 and paru -S zig-dev-bin
-and cd ~/package-local and just update and cd -
+and cd ~/package-local
+and just update
+and cd -
 and echo done
 

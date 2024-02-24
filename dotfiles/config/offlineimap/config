@@ -7,7 +7,7 @@ pythonfile = ~/.config/offlineimap/pass.py
 localrepository = autistici-local
 remoterepository = autistici-remote
 # autorefresh = 5 
-proxy = SOCKS5:127.0.0.1:7890
+# proxy = SOCKS5:127.0.0.1:7890
 postsynchook = mu index
 
 [Repository autistici-local]

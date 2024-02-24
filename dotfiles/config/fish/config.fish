@@ -9,12 +9,11 @@ set -x EDITOR "env EMACS-MIN=1 nemacs"
 set -x ANDROID_SDK_ROOT /opt/android-sdk
 
 ## path
-set -x PATH ~/myBin/ $PATH $HOME/.cargo/bin ~/.npm-global/bin ~/go/bin ~/.evm/bin
-set -x PATH $PATH ~/.local/bin ~/fvm/default/bin ~/bin
-set -x PATH $PATH $ANDROID_SDK_ROOT/platform-tools/
-set -x PATH $PATH $ANDROID_SDK_ROOT/tools/bin/
-set -x PATH $PATH $ANDROID_ROOT/emulator
-set -x PATH $PATH $ANDROID_SDK_ROOT/tools/
+fish_add_path ~/myBin/ $HOME/.cargo/bin ~/.npm-global/bin ~/go/bin ~/.evm/bin
+fish_add_path ~/.local/bin ~/fvm/default/bin ~/bin
+fish_add_path $ANDROID_SDK_ROOT/platform-tools/ $ANDROID_SDK_ROOT/tools/bin/ $ANDROID_ROOT/emulator $ANDROID_SDK_ROOT/tools/
+# make sure rye python path has higher priority
+fish_add_path "$HOME/.rye/shims"
 
 ## java
 set -x JAVA_HOME /usr/lib/jvm/default-runtime
@@ -27,6 +26,8 @@ export PUB_HOSTED_URL="https://mirrors.tuna.tsinghua.edu.cn/dart-pub"
 zoxide init fish | source
 
 starship init fish | source
+
+rye self completion -s fish | source
 
 jj util completion fish | source
 

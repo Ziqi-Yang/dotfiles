@@ -273,6 +273,12 @@ dotfiles:
   d_swaync:
     src: config/swaync
     dst: ~/.config/swaync
+  f_chromium-flags.conf:
+    src: config/chromium-flags.conf
+    dst: ~/.config/chromium-flags.conf
+  d_satty:
+    src: config/satty
+    dst: ~/.config/satty
 profiles:
   myArch:
     dotfiles:
@@ -360,3 +366,5 @@ profiles:
     - f_default.custom.yaml
     - d_jj
     - d_swaync
+    - f_chromium-flags.conf
+    - d_satty

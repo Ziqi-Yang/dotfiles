@@ -3,28 +3,28 @@
 [opener]
 # modify built-in
 play = [
-	{ exec = 'mpv --force-window "$@"', block = true, for = "unix" },
-	{ exec = 'mpv "%1"', orphan = true, for = "windows" },
-	{ exec = '''mediainfo "$1"; echo "Press enter to exit"; read''', block = true, desc = "Show media info", for = "unix" }]
+	{ run = 'mpv --force-window "$@"', block = true, for = "unix" },
+	{ run = 'mpv "%1"', orphan = true, for = "windows" },
+	{ run = '''mediainfo "$1"; echo "Press enter to exit"; read''', block = true, desc = "Show media info", for = "unix" }]
 
 # my-own
 text = [
-  { exec = 'env EMACS-MIN=1 nemacs --eval "(mk/global-read-only-mode)" "$@"', block=true, desc = "emacs viewer"},
-  { exec = 'bat --paging=always -p --pager="less -Ri" "$@"', block=true, desc = "bat"},
-  { exec = 'less -i "$@" ', block=true, desc = "cat"},
+  { run = 'env EMACS-MIN=1 nemacs --eval "(mk/global-read-only-mode)" "$@"', block=true, desc = "emacs viewer"},
+  { run = 'bat --paging=always -p --pager="less -Ri" "$@"', block=true, desc = "bat"},
+  { run = 'less -i "$@" ', block=true, desc = "cat"},
 ]
 image = [
-  { exec = 'inkview "$@"', desc = "inkview"},
+  { run = 'inkview "$@"', desc = "inkview"},
 ]
 mk_common = [
-  { exec = 'dragon-drop "$@"', desc= "dragon-drop"}
+  { run = 'dragon-drop "$@"', desc= "dragon-drop"}
 ]
 db = [
-  { exec = 'litecli "$@"', desc = "litecli", block = true}
+  { run = 'litecli "$@"', desc = "litecli", block = true}
 ]
 font = [
   # font preview: https://github.com/sdushantha/fontpreview
-  { exec = 'fontpreview "$@"', desc = "preview" }
+  { run = 'fontpreview "$@"', desc = "preview" }
 ]
 
 [open]

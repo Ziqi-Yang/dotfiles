@@ -8,7 +8,7 @@ email = "mr.meowking@anche.no"
 
 [ui]
 default-command = "log"
-diff-editor = "meld-3"
+diff-editor = "meld"
 default-description = """
 
 

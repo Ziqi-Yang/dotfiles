@@ -1,4 +1,7 @@
 * Hacking to the Arch
+
+*This README is outdated*
+
 *Wayland*:
 
 #+caption: wayland_screenshot_0

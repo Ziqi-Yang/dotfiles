@@ -1,5 +1,7 @@
 * Hacking to the Arch
 
+I'm using NixOS now, and my configuration file is at [[https://git.sr.ht/~meow_king/nixos-config][sourcehut:~meow_king/nixos-config]]
+
 *This README is outdated*
 
 *Wayland*:
